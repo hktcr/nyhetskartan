@@ -1,0 +1,581 @@
+{
+    "generated_at": "2026-01-13T09:58:00+01:00",
+    "workflow_version": "1.0",
+    "source_info": {
+        "swedish_rss": [
+            "SVT Nyheter"
+        ],
+        "api": "GNews",
+        "api_categories": [
+            "top-headlines",
+            "world EN",
+            "world SV",
+            "nation SE"
+        ],
+        "total_raw_articles": 45,
+        "deduplicated_count": 18
+    },
+    "news": [
+        {
+            "id": "iran-protests-2026-01-13",
+            "title": "Iran: Minst 500 döda i protesterna – USA överväger militära alternativ",
+            "location": {
+                "city": "Teheran",
+                "country": "Iran",
+                "lat": 35.6892,
+                "lon": 51.3890
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/senaste-nytt-om-protesterna-i-iran"
+                },
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/amnesty-om-protesterna-i-iran-anvander-jaktammunition"
+                },
+                {
+                    "name": "Dagens Nyheter",
+                    "type": "commercial",
+                    "url": "https://www.dn.se/direkt/2026-01-13/"
+                },
+                {
+                    "name": "Göteborgs-Posten",
+                    "type": "commercial",
+                    "url": "https://www.gp.se"
+                }
+            ],
+            "source_count": 4,
+            "score": 9.5,
+            "tier": 1,
+            "category": "konflikt",
+            "summary": "Protesterna i Iran, som startade 28 december, har enligt HRANA krävt ~500 liv. Trump varnar för 'kraftfulla alternativ', Vita huset håller möte idag. Irans utrikesminister: 'Vi är redo om det behövs'. 1500 svenskar uppges vara i landet, UD skärper avrådan.",
+            "gaia_synthesis": "KRITISK UTVECKLING: Multipolär eskalation med risk för USA-intervention. Protesternas ekonomiska ursprung skiljer sig från 2022-rörelsen. Trump inför 25% tullar på länder som handlar med Iran. Regimens överlevnad alltmer osäker. Observera: Svenska UD har skärpt avrådan — signalerar att läget bedöms extremt allvarligt.",
+            "published_at": "2026-01-13T08:00:00+01:00",
+            "multi_source_verified": true
+        },
+        {
+            "id": "greenland-trump-2026-01-13",
+            "title": "Grönlandskrisen: Bildt varnar, Grönland vädjar till NATO",
+            "location": {
+                "city": "Nuuk",
+                "country": "Grönland",
+                "lat": 64.1814,
+                "lon": -51.6941
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/bildt-om-trumps-planer-for-gronland-da-blir-det-farligt"
+                },
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-folk-och-forsvar-2026"
+                },
+                {
+                    "name": "Dagens Nyheter",
+                    "type": "commercial",
+                    "url": "https://www.dn.se"
+                }
+            ],
+            "source_count": 3,
+            "score": 9.2,
+            "tier": 1,
+            "category": "geopolitik",
+            "summary": "Carl Bildt varnar: 'Då blir det farligt' om Trump inte får det han vill. Grönlands regering vädjar till NATO att ta ansvar för öns försvar. Sex europeiska länder har ställt sig bakom Danmark. Svenska utrikesministern: 'Man beter sig inte så mot en allierad.'",
+            "gaia_synthesis": "ALLVARLIG ALLIANSSPRICKA: USA:s aggressiv retorik mot en NATO-allierad är historiskt unik. Grönlands position att söka skydd inom NATO-ramverket är strategiskt klokt — det tvingar USA att välja mellan unilateralism och allianstrohet. Ebba Busch kopplar Grönland till svenska naturtillgångar. Betydelse: MYCKET HÖG för nordisk säkerhetspolitik.",
+            "published_at": "2026-01-12T21:00:46+01:00",
+            "multi_source_verified": true
+        },
+        {
+            "id": "finland-cable-sabotage-2026-01-13",
+            "title": "Rysslandslänkat fartyg släpps efter kabelsabotage-utredning",
+            "location": {
+                "city": "Helsingfors",
+                "country": "Finland",
+                "lat": 60.1699,
+                "lon": 24.9384
+            },
+            "sources": [
+                {
+                    "name": "Marine Technology News",
+                    "type": "commercial",
+                    "url": "https://www.marinetechnologynews.com/news/russia-linked-cable-sabotage-657380"
+                },
+                {
+                    "name": "Marine Link",
+                    "type": "commercial",
+                    "url": "https://www.marinelink.com/news/russialinked-ship-held-cable-sabotage-534316"
+                },
+                {
+                    "name": "Reuters",
+                    "type": "agency",
+                    "url": "https://www.reuters.com"
+                }
+            ],
+            "source_count": 3,
+            "score": 8.8,
+            "tier": 1,
+            "category": "säkerhet",
+            "summary": "Finsk polis har släppt fartyget Fitburg som misstänktes för att ha saboterat en undervattenskabel mellan Helsingfors och Estland. Fartyget beslagtogs 31 dec på väg från Ryssland till Israel. Utredningen fortsätter, besättningsmedlemmar har reseförbud.",
+            "gaia_synthesis": "HYBRIDKRIGFÖRING: Del av mönster med skador på kritisk infrastruktur i Östersjön sedan 2022. NATO har ökat närvaron med fregatter och drönare. Att släppa fartyget betyder inte frikännande — tyder på att bevis säkrats. Betydelse: HÖG för Baltikums säkerhet och svensk infrastruktur.",
+            "published_at": "2026-01-13T08:41:55Z",
+            "multi_source_verified": true
+        },
+        {
+            "id": "staffanstorp-trial-2026-01-13",
+            "title": "Staffanstorp-rättegång: Sex politiker riskerar fängelse för flyktingvägran",
+            "location": {
+                "city": "Staffanstorp",
+                "country": "Sverige",
+                "lat": 55.6333,
+                "lon": 13.2000
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/lokalt/skane/staffanstorp-vagrade-ta-emot-kvotflyktingar-kommunpolitiker-riskerar-fangelse"
+                },
+                {
+                    "name": "GNews/SVT",
+                    "type": "public_service",
+                    "url": "https://www.svt.se"
+                }
+            ],
+            "source_count": 2,
+            "score": 8.6,
+            "tier": 1,
+            "category": "politik",
+            "summary": "Sex kommunpolitiker (M, SD, C) åtalas för grovt tjänstefel efter att 2022 ha vägrat ta emot en anvisad syrisk flyktingfamilj. 'Vägra ta emot dem!' skrev KSO 14 minuter efter anvisningen. Rättegång pågår i fyra dagar. Alla nekar till brott.",
+            "gaia_synthesis": "PREJUDICERANDE: Första åtalet av kommunpolitiker för flyktingvägran. Hovrätten har redan slagit fast att beslutet var diskriminerande. Oavsett utfall sätter fallet gränser för kommunalt självstyre vs statliga anvisningar. Betydelse: MYCKET HÖG för svensk kommunal praxis.",
+            "published_at": "2026-01-13T07:42:12+01:00",
+            "multi_source_verified": true
+        },
+        {
+            "id": "ukraine-energy-kiev-2026-01-13",
+            "title": "Kievs energisystem 'maximalt pressade' efter ryska attacker",
+            "location": {
+                "city": "Kiev",
+                "country": "Ukraina",
+                "lat": 50.4501,
+                "lon": 30.5234
+            },
+            "sources": [
+                {
+                    "name": "Dagens Nyheter",
+                    "type": "commercial",
+                    "url": "https://www.dn.se/varlden/kievs-energisystem-maximalt-pressade-nar-ryssland-attackerar/"
+                }
+            ],
+            "source_count": 1,
+            "score": 8.4,
+            "tier": 1,
+            "category": "konflikt",
+            "summary": "Kievs infrastruktur är 'aldrig så ansträngt som nu' enligt borgmästaren. 800 bostadshus står kalla sedan flera dygn. Schemalagda strömavbrott på 15+ timmar/dygn. Temperaturen: -17°C. Premiärministern lovar förbättring efter 15 januari.",
+            "gaia_synthesis": "HUMANITÄR KRIS: Rysslands systemattacker mot civil infrastruktur mitt i vinter är krigsbrott. Ukraina samlar ved och ber invånare lämna staden tillfälligt. Parallell: Samma mönster som vintern 2022-23 men värre. Zelenskyj säger att säkerhetsgarantiförhandlingar med USA nått långt.",
+            "published_at": "2026-01-13T06:41:02+01:00",
+            "multi_source_verified": false
+        },
+        {
+            "id": "stress-sickleave-sweden-2026-01-13",
+            "title": "Stressrelaterade sjukskrivningar på rekordnivå – kvinnor värst drabbade",
+            "location": {
+                "city": "Stockholm",
+                "country": "Sverige",
+                "lat": 59.3293,
+                "lon": 18.0686
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/inrikes/stress-bakom-tusentals-sjukskrivna-i-vard-skola-och-omsorg-kan-inte-fortsatta-sa-har"
+                },
+                {
+                    "name": "Dagens Nyheter",
+                    "type": "commercial",
+                    "url": "https://www.dn.se"
+                }
+            ],
+            "source_count": 2,
+            "score": 8.2,
+            "tier": 1,
+            "category": "hälsa",
+            "summary": "Försäkringskassans årsrapport: Historiskt höga stressrelaterade sjukskrivningar. 3 av 4 drabbade är kvinnor. Värst i vård, skola, omsorg. 9 av 10 långtidssjukskrivna pekar på arbetsbelastning. GD manar till 'stora satsningar'.",
+            "gaia_synthesis": "SYSTEMKRIS: Rapporten bekräftar strukturella problem i välfärdssektorn, inte individuella brister. Kvinnors överrepresentation speglar könssegregerad arbetsmarknad. Oroande: Försäkringskassan saknar kunskap om vilka insatser som faktiskt fungerar för återgång. Betydelse: HÖG för arbetsmarknadspolitik.",
+            "published_at": "2026-01-13T06:01:32+01:00",
+            "multi_source_verified": true
+        },
+        {
+            "id": "folk-forsvar-drones-2026-01-13",
+            "title": "Regeringen satsar 4 miljarder på drönare till försvaret",
+            "location": {
+                "city": "Sälen",
+                "country": "Sverige",
+                "lat": 61.1569,
+                "lon": 13.2631
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/inrikes/senaste-nytt-om-folk-och-forsvar-2026"
+                },
+                {
+                    "name": "Dagens Nyheter",
+                    "type": "commercial",
+                    "url": "https://www.dn.se"
+                }
+            ],
+            "source_count": 2,
+            "score": 7.8,
+            "tier": 1,
+            "category": "försvar",
+            "summary": "Försvarsminister Pål Jonson på Folk och försvar: 4 miljarder för patrullrobotar (kamikazedrönare), spaningsdrönare, sjödrönare för minröjning. Leverans inom 2 år. Plus 1,3 miljarder för satelliter. Lärdomarna från Ukraina citeras.",
+            "gaia_synthesis": "KAPACITETSLYFT: Sverige har legat efter på drönarområdet. Att köpa in 'hundratals patrullrobotar' är en dramatisk förändring. Tidshorisonten (2 år) är ambitiös. Parallellt: Regeringen satsade 600 miljoner på eldrivna drönare 2025. Betydelse: HÖG för svensk försvarsförmåga.",
+            "published_at": "2026-01-13T08:07:56+01:00",
+            "multi_source_verified": true
+        },
+        {
+            "id": "passport-index-2026",
+            "title": "Passindex 2026: Singapore starkast, USA och UK tappar",
+            "location": {
+                "city": "London",
+                "country": "Storbritannien",
+                "lat": 51.5074,
+                "lon": -0.1278
+            },
+            "sources": [
+                {
+                    "name": "CNN",
+                    "type": "commercial",
+                    "url": "https://www.cnn.com/2026/01/13/travel/the-worlds-most-powerful-passports-for-2026"
+                },
+                {
+                    "name": "PR Newswire",
+                    "type": "commercial",
+                    "url": "https://www.prnewswire.com"
+                }
+            ],
+            "source_count": 2,
+            "score": 6.5,
+            "tier": 2,
+            "category": "samhälle",
+            "summary": "Singapore #1 med 192 visa-fria destinationer. Japan/Sydkorea #2. Sverige delar #3 med Danmark, Spanien m.fl. (186). USA tillbaka i topp 10 men tappat 7 destinationer på ett år. Afghanistan sist med 24.",
+            "gaia_synthesis": "MOBILITETSKLYFTA: Gapet mellan topp (192) och botten (24) är 168 destinationer — bredare än 2006 (118). UAE är största klättraren (+149 destinationer sedan 2006). USA:s fall reflekterar 'geopolitisk omkalibrering' enligt analytiker. Sverige ligger stabilt.",
+            "published_at": "2026-01-13T08:16:41Z",
+            "multi_source_verified": true
+        },
+        {
+            "id": "le-pen-trial-2026-01-13",
+            "title": "Marine Le Pens överklagande inleds – presidentkandidatur på spel",
+            "location": {
+                "city": "Paris",
+                "country": "Frankrike",
+                "lat": 48.8566,
+                "lon": 2.3522
+            },
+            "sources": [
+                {
+                    "name": "BBC",
+                    "type": "public_service",
+                    "url": "https://www.bbc.co.uk/news/articles/c62vnvx2x2po"
+                }
+            ],
+            "source_count": 1,
+            "score": 7.5,
+            "tier": 2,
+            "category": "politik",
+            "summary": "Marine Le Pens överklagande mot 5-årig politikerförbud startar idag i Paris. Dömdes 2025 för förskingring av EU-medel. Om förbudet står fast kan hon ej ställa upp i presidentvalet 2027. Bardella: 'Djupt oroväckande för demokratin.'",
+            "gaia_synthesis": "VÄGVAL FÖR FRANKRIKE: Le Pen beskrivs som 'odiskutabel favorit' till 2027. Fyra möjliga utfall i överklagandet, varav tre öppnar vägen för kandidatur. Betydelse: HÖG för europeisk politik — avgör om ytterhögern kan nå Élyséepalatset.",
+            "published_at": "2026-01-13T07:57:04Z",
+            "multi_source_verified": false
+        },
+        {
+            "id": "trump-visas-revoked-2026-01-13",
+            "title": "USA har återkallat 100 000 visum sedan Trump tillträdde",
+            "location": {
+                "city": "Washington D.C.",
+                "country": "USA",
+                "lat": 38.9072,
+                "lon": -77.0369
+            },
+            "sources": [
+                {
+                    "name": "NHK World",
+                    "type": "public_service",
+                    "url": "https://www3.nhk.or.jp/nhkworld/en/news/20260113_15/"
+                },
+                {
+                    "name": "US State Department",
+                    "type": "government",
+                    "url": "https://www.state.gov"
+                }
+            ],
+            "source_count": 2,
+            "score": 7.2,
+            "tier": 2,
+            "category": "politik",
+            "summary": "State Department: Rekordantal visumåterkallanden. Inkluderar 8000 studentvisum och 2500 yrkesvisum. Brott som 'assault, stöld, rattfylla' anges som skäl. De flesta gällde turister som stannat för länge.",
+            "gaia_synthesis": "MIGRATIONSVÅG: Trumpadministrationens 'America First'-linje intensifieras. 39 länder har nu reserestriktioner. Konsekvenseffekter för svenska studenter och arbetare i USA ännu oklara. Koppla till: ICE-skjutningen i Minneapolis har lett till protester och stämningsansökan mot regeringen.",
+            "published_at": "2026-01-13T07:53:37Z",
+            "multi_source_verified": true
+        },
+        {
+            "id": "obuiklad-nato-2026-01-13",
+            "title": "ÖB Claesson: 'Är inte orolig över Nato'",
+            "location": {
+                "city": "Stockholm",
+                "country": "Sverige",
+                "lat": 59.3293,
+                "lon": 18.0686
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/ob-michael-claesson-ar-inte-orolig-over-nato"
+                }
+            ],
+            "source_count": 1,
+            "score": 7.0,
+            "tier": 2,
+            "category": "försvar",
+            "summary": "Överbefälhavare Michael Claesson i Aktuellt: 'Jag får inte sådana signaler' om att NATO skulle försvagas. Uttalar tillit till USA som allierad trots Trumps Grönlandsretorik.",
+            "gaia_synthesis": "LUGNANDE SIGNAL: ÖB:s roll inkluderar att stabilisera allmänhetens förtroende. Samtidigt: Uttalandet kontrasterar mot Bildts och utrikesministerns varningar samma dag. Tolkningarna av USA-relationen skiljer sig mellan militär och diplomati.",
+            "published_at": "2026-01-12T23:21:52+01:00",
+            "multi_source_verified": false
+        },
+        {
+            "id": "minneapolis-ice-protest-2026-01-13",
+            "title": "Minnesota stämmer Trumpregeringen efter ICE-skjutning",
+            "location": {
+                "city": "Minneapolis",
+                "country": "USA",
+                "lat": 44.9778,
+                "lon": -93.2650
+            },
+            "sources": [
+                {
+                    "name": "Göteborgs-Posten",
+                    "type": "commercial",
+                    "url": "https://www.gp.se/nyheter/varlden/upprort-i-minneapolis-efter-ice-skjutning"
+                },
+                {
+                    "name": "Dagens Nyheter",
+                    "type": "commercial",
+                    "url": "https://www.dn.se"
+                }
+            ],
+            "source_count": 2,
+            "score": 7.5,
+            "tier": 2,
+            "category": "konflikt",
+            "summary": "Delstaten Minnesota stämmer USA:s regering efter att migrationspolisen ICE sköt ihjäl 37-åriga trebarnsmamman Renee Good. Kristi Noem lovar skicka 'hundratals' fler agenter. Zara Larsson kritiserade ICE på Instagram, Vita huset svarade på TikTok.",
+            "gaia_synthesis": "ESKALERANDE KONFLIKT: Stämningen hävdar att ICE bryter mot federal lag genom att agera 'godtyckligt och egenmäktigt'. Parallell till George Floyd-resningen i samma stad. Svenska artister (Zara Larsson) dras in i debatten. Betydelse: HÖG för USA:s migrationspolitik och federalism.",
+            "published_at": "2026-01-13T04:55:12Z",
+            "multi_source_verified": true
+        },
+        {
+            "id": "victoria-lake-fishing-2026-01-13",
+            "title": "Tanzania stoppar industriellt fiske i Victoriasjön",
+            "location": {
+                "city": "Muleba",
+                "country": "Tanzania",
+                "lat": -1.7500,
+                "lon": 31.6667
+            },
+            "sources": [
+                {
+                    "name": "Daily News Tanzania",
+                    "type": "commercial",
+                    "url": "https://dailynews.co.tz/tanzania-moves-to-rein-in-industrial-fishing-on-lake-victoria/"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.8,
+            "tier": 2,
+            "category": "miljö",
+            "summary": "Tanzanias minister förbjuder industrier att fiska direkt i Victoriasjön — ska nu köpa via reglerade leveranskedjor. Sjön försörjer 47 miljoner människor och producerar 1,5 miljoner ton fisk/år ($1,1 miljarder). Överfiske, föroreningar och klimat hotar.",
+            "gaia_synthesis": "RESURSFÖRVALTNING: Viktigt precedent för Östafrika. Tanzania äger 51% av sjöns yta. Beslut gynnar småskaliga fiskare på bekostnad av industrin. Koppla till: Biodiversitetskris i afrikanska sötvattenekosystem.",
+            "published_at": "2026-01-13T08:09:53Z",
+            "multi_source_verified": false
+        },
+        {
+            "id": "uganda-nigeria-dairy-2026-01-13",
+            "title": "Uganda och Nigeria sluter $1 miljard mejeriavtal",
+            "location": {
+                "city": "Kampala",
+                "country": "Uganda",
+                "lat": 0.3476,
+                "lon": 32.5825
+            },
+            "sources": [
+                {
+                    "name": "Ecofin Agency",
+                    "type": "commercial",
+                    "url": "https://www.ecofinagency.com/news-industry/1301-51872-uganda-moves-to-position-dairy-exports-in-west-africa"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.5,
+            "tier": 2,
+            "category": "ekonomi",
+            "summary": "Uganda levererar 200 000 ton mjölkpulver till Nigeria, värt ~$1 miljard. Uganda har mer än fördubblat mjölkproduktionen på 10 år och åttafaldigat mjölkexport-intäkterna. Västafrika importerar mejeriprodukter för ~$934M/år.",
+            "gaia_synthesis": "AFRIKANSK HANDEL: Exempel på syd-syd-handelsavtal utan västerländsk mellanhand. Uganda expanderar aktivt i Västafrika (även Senegal diskuteras). Potential för regional livsmedelssuveränitet.",
+            "published_at": "2026-01-13T08:29:07Z",
+            "multi_source_verified": false
+        },
+        {
+            "id": "cocaine-record-helsingborg-2026-01-13",
+            "title": "Rekordbeslag: Över ett ton kokain i Helsingborg",
+            "location": {
+                "city": "Helsingborg",
+                "country": "Sverige",
+                "lat": 56.0465,
+                "lon": 12.6945
+            },
+            "sources": [
+                {
+                    "name": "Sydsvenskan",
+                    "type": "commercial",
+                    "url": "https://www.sydsvenskan.se"
+                },
+                {
+                    "name": "Dagens Nyheter",
+                    "type": "commercial",
+                    "url": "https://www.dn.se"
+                }
+            ],
+            "source_count": 2,
+            "score": 7.0,
+            "tier": 2,
+            "category": "brott",
+            "summary": "Tullen i Helsingborg har gjort sitt största beslag — troligen Sveriges hittills största. Över ett ton kokain i en container från Latinamerika. Ett företag upptäckte lasten och larmade. Förundersökning inledd.",
+            "gaia_synthesis": "NARKOTIKAHANDEL: Bekräftar Sverige som transitland. Grossistfirmans anmälan visar att legala företag ovetande används som kurirer. Koppla till: Gängkriminalitet och Foxtrot-gripandet i Irak (separat nyhet).",
+            "published_at": "2026-01-13T13:20:00+01:00",
+            "multi_source_verified": true
+        },
+        {
+            "id": "foxtrot-arrest-iraq-2026-01-13",
+            "title": "Foxtrot-topp gripen i Irak",
+            "location": {
+                "city": "Bagdad",
+                "country": "Irak",
+                "lat": 33.3152,
+                "lon": 44.3661
+            },
+            "sources": [
+                {
+                    "name": "Dagens Nyheter",
+                    "type": "commercial",
+                    "url": "https://www.dn.se"
+                },
+                {
+                    "name": "TT",
+                    "type": "agency",
+                    "url": "https://tt.se"
+                }
+            ],
+            "source_count": 2,
+            "score": 7.8,
+            "tier": 1,
+            "category": "brott",
+            "summary": "21-årig 'central aktör och nyckelperson' i nätverket Foxtrot gripen i Irak i december. Fanns på Europols Most Wanted-lista. Rikspolischefen kallar det 'strategiskt genombrott'.",
+            "gaia_synthesis": "GÄNGBEKÄMPNING: Internationellt samarbete fungerar. Foxtrot är ett av Sveriges mest våldsamma kriminella nätverk. Koppla till: Helsingborg-koksbeslag och regeringens kampanj mot rekrytering (samma dag).",
+            "published_at": "2026-01-12T14:13:00+01:00",
+            "multi_source_verified": true
+        },
+        {
+            "id": "ai-song-spotify-2026-01-13",
+            "title": "AI-genererad låt toppar svenska Spotify",
+            "location": {
+                "city": "Stockholm",
+                "country": "Sverige",
+                "lat": 59.3293,
+                "lon": 18.0686
+            },
+            "sources": [
+                {
+                    "name": "Dagens Nyheter",
+                    "type": "commercial",
+                    "url": "https://www.dn.se"
+                },
+                {
+                    "name": "Emanuel Karlsten",
+                    "type": "journalist",
+                    "url": "https://emanuelkarlsten.se"
+                }
+            ],
+            "source_count": 2,
+            "score": 6.2,
+            "tier": 2,
+            "category": "kultur",
+            "summary": "'Jag vet, du är inte min' av 'Jacub' — som inte existerar — är Sveriges mest spelade låt på Spotify (4,5M lyssningar). Skapad med AI men Stim-registrerad som mänskligt verk. Team Jacub hävdar 'AI som hjälpmedel'.",
+            "gaia_synthesis": "UPPHOVSRÄTTSFRÅGA: AI-genererad musik ska enligt reglerna inte vara upphovsrättsskyddad. Fallet testar gränsen för 'människostyrd kreativ process'. Koppla till: AI-ekologi och frågan om kreativ offloading.",
+            "published_at": "2026-01-12T13:47:00+01:00",
+            "multi_source_verified": true
+        },
+        {
+            "id": "do-school-harassment-2026-01-13",
+            "title": "DO: Skola gjorde inte tillräckligt mot ålderstrakasserier",
+            "location": {
+                "city": "Norrland",
+                "country": "Sverige",
+                "lat": 63.0,
+                "lon": 16.0
+            },
+            "sources": [
+                {
+                    "name": "Diskrimineringsombudsmannen",
+                    "type": "government",
+                    "url": "https://www.do.se"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.8,
+            "tier": 2,
+            "category": "rättigheter",
+            "summary": "DO kräver 45 000 kr i ersättning för elev som trakasserades i över ett år efter att ha hoppat över en årskurs. Trakasserierna var kopplade till ålder. Kommunen utredde inte, åtgärdade inte tillräckligt.",
+            "gaia_synthesis": "SKOLJURIDIK: Sällsynt fall där ålder, inte kön/etnicitet, är diskrimineringsgrunden. Relevant för begåvade elever som flyttas upp. Kommunen har till 30 januari att svara.",
+            "published_at": "2026-01-13T08:01:51Z",
+            "multi_source_verified": false
+        }
+    ],
+    "meta_analysis": {
+        "top_themes": [
+            {
+                "theme": "Iran-protester",
+                "sources": 4,
+                "significance": "kritisk"
+            },
+            {
+                "theme": "Trump/Grönland",
+                "sources": 3,
+                "significance": "hög"
+            },
+            {
+                "theme": "Östersjöns säkerhet (kabel, Finland)",
+                "sources": 3,
+                "significance": "hög"
+            },
+            {
+                "theme": "Svensk försvarsupprustning",
+                "sources": 2,
+                "significance": "hög"
+            }
+        ],
+        "geographic_distribution": {
+            "Sverige": 8,
+            "USA": 3,
+            "Europa (övrigt)": 3,
+            "Mellanöstern": 2,
+            "Afrika": 2
+        }
+    }
+}
