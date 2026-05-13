@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-05-13T08:05:22.297326+02:00",
+    "generated_at": "2026-05-13T08:19:15.454718+02:00",
     "workflow_version": "2.1",
     "source_info": {
         "swedish_rss": [
@@ -16,10 +16,10 @@
             "id": "samhälle-a4f28597-2026-05-13",
             "title": "Trumps 48 timmar i Kina: ”Beans, beef and Boeing”",
             "location": {
-                "city": "Stockholm",
-                "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
+                "city": "Kina",
+                "country": "Kina",
+                "lat": 39.9,
+                "lon": 116.4
             },
             "sources": [
                 {
@@ -78,10 +78,10 @@
             "id": "energi-5ba8c648-2026-05-13",
             "title": "Hantavirusets ”ground zero” i Argentinas Eldslandet ifrågasätts",
             "location": {
-                "city": "Stockholm",
-                "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
+                "city": "Argentina",
+                "country": "Argentina",
+                "lat": -34.6,
+                "lon": -58.38
             },
             "sources": [
                 {
@@ -109,10 +109,10 @@
             "id": "politik-f34af016-2026-05-13",
             "title": "Gunnar Strömmer om gripandet av Mohamed ”Moewgli” Mohdhi i Tunisien",
             "location": {
-                "city": "Stockholm",
-                "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
+                "city": "Tunisien",
+                "country": "Tunisien",
+                "lat": 36.8,
+                "lon": 10.18
             },
             "sources": [
                 {
@@ -140,10 +140,10 @@
             "id": "energi-0c532a55-2026-05-13",
             "title": "Gunilla von Platen bryter tystnaden om Lundsberg",
             "location": {
-                "city": "Lund",
+                "city": "Stockholm",
                 "country": "Sverige",
-                "lat": 55.7047,
-                "lon": 13.191
+                "lat": 59.3293,
+                "lon": 18.0686
             },
             "sources": [
                 {
@@ -166,10 +166,10 @@
             "id": "energi-52d90c35-2026-05-13",
             "title": "Ali Namdar, 21, från Katrineholm – en av Europas mest eftersökta",
             "location": {
-                "city": "Stockholm",
+                "city": "Sverige",
                 "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
+                "lat": 59.33,
+                "lon": 18.07
             },
             "sources": [
                 {
@@ -244,10 +244,10 @@
             "id": "energi-fc95a9a2-2026-05-13",
             "title": "Bäddat för konflikt – men i år finns en tydlig favorit",
             "location": {
-                "city": "Stockholm",
-                "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
+                "city": "Finland",
+                "country": "Finland",
+                "lat": 60.17,
+                "lon": 24.94
             },
             "sources": [
                 {
@@ -556,10 +556,10 @@
             "id": "samhälle-e69908c7-2026-05-13",
             "title": "Eurovisionexperten kritisk mot Sverige: ”Stör mig på masken”",
             "location": {
-                "city": "Stockholm",
+                "city": "Sverige",
                 "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
+                "lat": 59.33,
+                "lon": 18.07
             },
             "sources": [
                 {
@@ -582,10 +582,10 @@
             "id": "konflikt-8c6a1035-2026-05-13",
             "title": "Trump: ”Ska få ut alla politiska fångar i Venezuela”",
             "location": {
-                "city": "Stockholm",
-                "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
+                "city": "Venezuela",
+                "country": "Venezuela",
+                "lat": 10.48,
+                "lon": -66.9
             },
             "sources": [
                 {
@@ -608,10 +608,10 @@
             "id": "energi-12127ddc-2026-05-13",
             "title": "”Borde handla om musiken – och inte politiken”",
             "location": {
-                "city": "Stockholm",
-                "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
+                "city": "Israel",
+                "country": "Israel",
+                "lat": 31.77,
+                "lon": 35.24
             },
             "sources": [
                 {
@@ -712,10 +712,10 @@
             "id": "konflikt-474d1a14-2026-05-13",
             "title": "Möt de ryska desertörerna – nu strider de för Ukraina",
             "location": {
-                "city": "Stockholm",
-                "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
+                "city": "Ukraina",
+                "country": "Ukraina",
+                "lat": 50.45,
+                "lon": 30.52
             },
             "sources": [
                 {
@@ -738,10 +738,10 @@
             "id": "samhälle-431fb98b-2026-05-13",
             "title": "Virusfartyget evakuerat – återvänder till Nederländerna",
             "location": {
-                "city": "Stockholm",
-                "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
+                "city": "Nederländerna",
+                "country": "Nederländerna",
+                "lat": 52.37,
+                "lon": 4.9
             },
             "sources": [
                 {
@@ -790,10 +790,10 @@
             "id": "konflikt-1b2db2d6-2026-05-13",
             "title": "Uppgifter: Tiotals döda i flygattack i Nigeria",
             "location": {
-                "city": "Stockholm",
-                "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
+                "city": "Nigeria",
+                "country": "Nigeria",
+                "lat": 9.07,
+                "lon": 7.39
             },
             "sources": [
                 {
@@ -816,10 +816,10 @@
             "id": "energi-93f83530-2026-05-13",
             "title": "Två döda i skjutning i Frankrike",
             "location": {
-                "city": "Stockholm",
-                "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
+                "city": "Frankrike",
+                "country": "Frankrike",
+                "lat": 48.86,
+                "lon": 2.35
             },
             "sources": [
                 {
@@ -920,10 +920,10 @@
             "id": "brott-a5d898ad-2026-05-13",
             "title": "Båtolycka i Norge – tre turister döda",
             "location": {
-                "city": "Stockholm",
-                "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
+                "city": "Norge",
+                "country": "Norge",
+                "lat": 59.91,
+                "lon": 10.75
             },
             "sources": [
                 {
@@ -972,10 +972,10 @@
             "id": "politik-cfc84d18-2026-05-13",
             "title": "Uppgifter: Efterlyst polsk ex-minister har flytt från Ungern till USA",
             "location": {
-                "city": "Stockholm",
-                "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
+                "city": "Usa",
+                "country": "Usa",
+                "lat": 38.91,
+                "lon": -77.04
             },
             "sources": [
                 {
@@ -995,8 +995,8 @@
             "multi_source_verified": false
         },
         {
-            "id": "ekonomi-2d758aed-2026-05-13",
-            "title": "Inflationen var -0,1 procent i april",
+            "id": "ekonomi-814a5da9-2026-05-13",
+            "title": "Inflationstakten var -0,1 procent i april",
             "location": {
                 "city": "Stockholm",
                 "country": "Sverige",
@@ -1017,7 +1017,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-05-13T08:05:22.297326+02:00",
+            "published_at": "2026-05-13T08:19:15.454718+02:00",
             "multi_source_verified": false
         },
         {
@@ -1043,7 +1043,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-05-13T08:05:22.297326+02:00",
+            "published_at": "2026-05-13T08:19:15.454718+02:00",
             "multi_source_verified": false
         },
         {
@@ -1069,7 +1069,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-05-13T08:05:22.297326+02:00",
+            "published_at": "2026-05-13T08:19:15.454718+02:00",
             "multi_source_verified": false
         },
         {
@@ -1095,7 +1095,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-05-13T08:05:22.297326+02:00",
+            "published_at": "2026-05-13T08:19:15.454718+02:00",
             "multi_source_verified": false
         },
         {
@@ -1121,7 +1121,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-05-13T08:05:22.297326+02:00",
+            "published_at": "2026-05-13T08:19:15.454718+02:00",
             "multi_source_verified": false
         },
         {
@@ -1147,7 +1147,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-05-13T08:05:22.297326+02:00",
+            "published_at": "2026-05-13T08:19:15.454718+02:00",
             "multi_source_verified": false
         },
         {
@@ -1173,7 +1173,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-05-13T08:05:22.297326+02:00",
+            "published_at": "2026-05-13T08:19:15.454718+02:00",
             "multi_source_verified": false
         },
         {
@@ -1199,7 +1199,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-05-13T08:05:22.297326+02:00",
+            "published_at": "2026-05-13T08:19:15.454718+02:00",
             "multi_source_verified": false
         },
         {
@@ -1225,17 +1225,17 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-05-13T08:05:22.297326+02:00",
+            "published_at": "2026-05-13T08:19:15.454718+02:00",
             "multi_source_verified": false
         },
         {
             "id": "energi-563921c9-2026-05-13",
             "title": "Ny ellastbil från Volvo kan ge nya jobb i Sverige",
             "location": {
-                "city": "Stockholm",
+                "city": "Sverige",
                 "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
+                "lat": 59.33,
+                "lon": 18.07
             },
             "sources": [
                 {
@@ -1251,7 +1251,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-05-13T08:05:22.297326+02:00",
+            "published_at": "2026-05-13T08:19:15.454718+02:00",
             "multi_source_verified": false
         },
         {
@@ -1277,7 +1277,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-05-13T08:05:22.297326+02:00",
+            "published_at": "2026-05-13T08:19:15.454718+02:00",
             "multi_source_verified": false
         },
         {
@@ -1303,7 +1303,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-05-13T08:05:22.297326+02:00",
+            "published_at": "2026-05-13T08:19:15.454718+02:00",
             "multi_source_verified": false
         },
         {
@@ -1329,7 +1329,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-05-13T08:05:22.297326+02:00",
+            "published_at": "2026-05-13T08:19:15.454718+02:00",
             "multi_source_verified": false
         },
         {
@@ -1355,7 +1355,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-05-13T08:05:22.297326+02:00",
+            "published_at": "2026-05-13T08:19:15.454718+02:00",
             "multi_source_verified": false
         },
         {
@@ -1381,7 +1381,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-05-13T08:05:22.297326+02:00",
+            "published_at": "2026-05-13T08:19:15.454718+02:00",
             "multi_source_verified": false
         },
         {
@@ -1407,17 +1407,17 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-05-13T08:05:22.297326+02:00",
+            "published_at": "2026-05-13T08:19:15.454718+02:00",
             "multi_source_verified": false
         },
         {
             "id": "samhälle-a2a948ec-2026-05-13",
             "title": "Analytiker: Viktigt för Kina att Trump vänder om Taiwan",
             "location": {
-                "city": "Stockholm",
-                "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
+                "city": "Kina",
+                "country": "Kina",
+                "lat": 39.9,
+                "lon": 116.4
             },
             "sources": [
                 {
@@ -1433,7 +1433,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-05-13T08:05:22.297326+02:00",
+            "published_at": "2026-05-13T08:19:15.454718+02:00",
             "multi_source_verified": false
         },
         {
@@ -1459,7 +1459,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-05-13T08:05:22.297326+02:00",
+            "published_at": "2026-05-13T08:19:15.454718+02:00",
             "multi_source_verified": false
         },
         {
@@ -1485,194 +1485,12 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-05-13T08:05:22.297326+02:00",
+            "published_at": "2026-05-13T08:19:15.454718+02:00",
             "multi_source_verified": false
         },
         {
-            "id": "konflikt-66c04296-2026-05-13",
-            "title": "Self-study my success mantra, says Class XII topper",
-            "location": {
-                "city": "Stockholm",
-                "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
-            },
-            "sources": [
-                {
-                    "name": "The Times Of India",
-                    "type": "commercial",
-                    "url": "https://timesofindia.indiatimes.com/city/chandigarh/self-study-my-success-mantra-says-class-xii-topper/articleshow/131047327.cms"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "konflikt",
-            "sentiment": "neutral",
-            "summary": "Rohtak: Deepika of Vivekanand Vidya Mandir Senior Secondary School, Chillar in Rewari district, scored 99.8% marks to top the Class XII examinations. .",
-            "gaia_synthesis": "",
-            "published_at": "2026-05-12 18:05:00",
-            "multi_source_verified": false
-        },
-        {
-            "id": "energi-41add33d-2026-05-13",
-            "title": "Musk mulled handing OpenAI to his children, Altman testifies | TechCrunch",
-            "location": {
-                "city": "Stockholm",
-                "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
-            },
-            "sources": [
-                {
-                    "name": "Nyt News Today",
-                    "type": "commercial",
-                    "url": "https://www.nytimesnewstoday.com/musk-mulled-handing-openai-to-his-children-altman-testifies-techcrunch/"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "energi",
-            "sentiment": "neutral",
-            "summary": "OpenAI CEO Sam Altman finally took the stand this morning to defend himself against his former cofounder Elon Musk’s lawsuit challenging OpenAI’s corporate structure. Altman was asked out of the gate what he thought of Musk’s allegation that OpenAI’s other founders “stole a charity” when they launched a for-profit subsidiary to market products based on [...] The post Musk mulled handing OpenAI to his children, Altman testifies | TechCrunch appeared first on NYT News Today .",
-            "gaia_synthesis": "",
-            "published_at": "2026-05-12 18:05:00",
-            "multi_source_verified": false
-        },
-        {
-            "id": "energi-5ed6a32d-2026-05-13",
-            "title": "Crestfallen Commie Mamdani Abandons Planned Property Tax Hike On New Yorkers",
-            "location": {
-                "city": "New York",
-                "country": "",
-                "lat": 40.7128,
-                "lon": -74.006
-            },
-            "sources": [
-                {
-                    "name": "Zerohedge",
-                    "type": "commercial",
-                    "url": "https://www.zerohedge.com/political/crestfallen-commie-mamdani-withdraws-planned-property-tax-hike-new-yorkers"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "energi",
-            "sentiment": "neutral",
-            "summary": "Crestfallen Commie Mamdani Abandons Planned Property Tax Hike On New Yorkers Looks like NYC's communist mayor has had second thoughts about extracting more taxes by raising New Yorkers' property taxes - something he vowed to do to help close a two-year deficit. According to Bloomberg , the decision to drop the tax hike will be included in Mamdani's executive budget released today, which will mark the latest version of his spending plan for the fiscal year beginning July 1. This is separate from ",
-            "gaia_synthesis": "",
-            "published_at": "2026-05-12 18:05:00",
-            "multi_source_verified": false
-        },
-        {
-            "id": "politik-5a633f9d-2026-05-13",
-            "title": "SAG-AFTRA reveals details of new four-year deal with producers",
-            "location": {
-                "city": "Stockholm",
-                "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
-            },
-            "sources": [
-                {
-                    "name": "Screen Daily",
-                    "type": "commercial",
-                    "url": "https://www.screendaily.com/news/sag-aftra-reveals-details-of-new-four-year-deal-with-producers/5216594.article"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "politik",
-            "sentiment": "neutral",
-            "summary": "The agreement now goes to a full membership vote with the backing of the union’s board.",
-            "gaia_synthesis": "",
-            "published_at": "2026-05-12 18:05:00",
-            "multi_source_verified": false
-        },
-        {
-            "id": "samhälle-60c7f357-2026-05-13",
-            "title": "The Fast Food Tater Tots You Can Casually Pick Up In Your Grocery Store's Frozen Section",
-            "location": {
-                "city": "Stockholm",
-                "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
-            },
-            "sources": [
-                {
-                    "name": "Chowhound",
-                    "type": "commercial",
-                    "url": "https://www.chowhound.com/2170047/sonic-frozen-tater-tots-grocery-store/"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "Do you love this fast food chain's tater tots? Good news: You can find them frozen at a range of retailers, including Walmart, Kroger, and even Dollar Tree.",
-            "gaia_synthesis": "",
-            "published_at": "2026-05-12 18:05:00",
-            "multi_source_verified": false
-        },
-        {
-            "id": "energi-8754f185-2026-05-13",
-            "title": "Middle East Unrest: What Travelers Must Know",
-            "location": {
-                "city": "Stockholm",
-                "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
-            },
-            "sources": [
-                {
-                    "name": "Mirage News",
-                    "type": "commercial",
-                    "url": "https://www.miragenews.com/middle-east-unrest-what-travelers-must-know-1672120/"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "energi",
-            "sentiment": "neutral",
-            "summary": "Summer is fast approaching, and many Canadians are planning to travel abroad. The situation in the Middle East is presenting challenges that",
-            "gaia_synthesis": "",
-            "published_at": "2026-05-12 18:05:00",
-            "multi_source_verified": false
-        },
-        {
-            "id": "samhälle-5af2453c-2026-05-13",
-            "title": "Local dancers set program record at nationals",
-            "location": {
-                "city": "Stockholm",
-                "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
-            },
-            "sources": [
-                {
-                    "name": "Winona Post",
-                    "type": "commercial",
-                    "url": "https://www.winonapost.com/sports/local-dancers-set-program-record-at-nationals/article_5a64b291-39aa-4133-885e-749f08343a61.html"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "The Winona Just for Kix dance teams closed out their competition season in record-breaking fashion, earning season-high scores and achieving the highest placements in program history at the annual Together",
-            "gaia_synthesis": "",
-            "published_at": "2026-05-12 18:05:00",
-            "multi_source_verified": false
-        },
-        {
-            "id": "samhälle-ee49769c-2026-05-13",
-            "title": "Argosy Private Equity Exits InTech Aerospace",
+            "id": "diplomati-c7a778aa-2026-05-13",
+            "title": "Binaytara's 2026 National Summit on Hematologic Cancers Reinvents the Medical Conference -- and Invests $250,000 Behind the Next Generation of Researchers",
             "location": {
                 "city": "Stockholm",
                 "country": "Sverige",
@@ -1683,22 +1501,22 @@
                 {
                     "name": "Pr Newswire",
                     "type": "commercial",
-                    "url": "https://www.prnewswire.com/news-releases/argosy-private-equity-exits-intech-aerospace-302769951.html"
+                    "url": "https://www.prnewswire.com/news-releases/binaytaras-2026-national-summit-on-hematologic-cancers-reinvents-the-medical-conference--and-invests-250-000-behind-the-next-generation-of-researchers-302769965.html"
                 }
             ],
             "source_count": 1,
             "score": 6.5,
             "tier": 2,
-            "category": "samhälle",
+            "category": "diplomati",
             "sentiment": "neutral",
-            "summary": "WAYNE, Pa., May 12, 2026 /PRNewswire/ -- Argosy Private Equity (\"Argosy\"), a lower middle market private equity firm, today announced it has exited its investment in InTech Aerospace (\"InTech\" or the \"Company\"). Founded over 35 years ago and headquartered in Houston, Texas, InTech is an...",
+            "summary": "Binaytara's 2026 National Summit on Hematologic Cancers returns to Nashville with the \"Gray Zone\" — faculty-facilitated, case-based sessions centered on the clinically contested scenarios where evidence is limited, expert opinion is divided, and standard management falls short....",
             "gaia_synthesis": "",
-            "published_at": "2026-05-12 18:05:00",
+            "published_at": "2026-05-12 18:19:00",
             "multi_source_verified": false
         },
         {
-            "id": "samhälle-11e37625-2026-05-13",
-            "title": "TransConnect Services (TCS) Named #2 Best Place to Work in Tennessee 2026 by Best Companies Group",
+            "id": "konflikt-aa590b4c-2026-05-13",
+            "title": "'Gray zone' on some parts of front stretches for up to 10 kilometers – Trehubov",
             "location": {
                 "city": "Stockholm",
                 "country": "Sverige",
@@ -1707,24 +1525,206 @@
             },
             "sources": [
                 {
-                    "name": "Financialcontent",
+                    "name": "Ukrinform",
                     "type": "commercial",
-                    "url": "https://www.financialcontent.com/article/accwirecq-2026-5-12-transconnect-services-tcs-named-2-best-place-to-work-in-tennessee-2026-by-best-companies-group"
+                    "url": "https://www.ukrinform.net/rubric-ato/4122584-gray-zone-on-some-parts-of-front-stretches-to-10-kilometers-trehubov.html"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "konflikt",
+            "sentiment": "neutral",
+            "summary": "Due to the active use of drones, the strike zone on the front line has expanded significantly, and the so-called \"gray zone\" in some sectors can now reach up to 10 kilometers. In particular, this complicates the advance of Russian troops and helps Ukrainian forces hold a number of settlements.",
+            "gaia_synthesis": "",
+            "published_at": "2026-05-12 18:19:00",
+            "multi_source_verified": false
+        },
+        {
+            "id": "energi-e0588836-2026-05-13",
+            "title": "Mum runs London Marathon in memory of son and hospital who tried to save him",
+            "location": {
+                "city": "London",
+                "country": "",
+                "lat": 51.5074,
+                "lon": -0.1278
+            },
+            "sources": [
+                {
+                    "name": "St Helens Star",
+                    "type": "commercial",
+                    "url": "https://www.sthelensstar.co.uk/news/26100231.mum-runs-london-marathon-memory-son/"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "energi",
+            "sentiment": "neutral",
+            "summary": "THE mum of a 10-year-old boy who died after being taken ill while on holiday says she ‘felt so proud’ after taking part in the London Marathon to thank the hospital who tried to save him.",
+            "gaia_synthesis": "",
+            "published_at": "2026-05-12 18:19:00",
+            "multi_source_verified": false
+        },
+        {
+            "id": "energi-b0948a0a-2026-05-13",
+            "title": "Heer Sara Aur Pondicherry Trailer Out: Patralekhaa And Maanvi Gagroo Hit The Road To Escape Society",
+            "location": {
+                "city": "Stockholm",
+                "country": "Sverige",
+                "lat": 59.3293,
+                "lon": 18.0686
+            },
+            "sources": [
+                {
+                    "name": "Times Now News",
+                    "type": "commercial",
+                    "url": "https://www.timesnownews.com/entertainment-news/bollywood/heer-sara-aur-pondicherry-trailer-out-patralekhaa-and-maanvi-gagroo-hit-the-road-to-escape-society-article-154300255"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "energi",
+            "sentiment": "neutral",
+            "summary": "Heer Sara Aur Pondicherry stars Patralekhaa and Maanvi Gagroo in a heartfelt slice-of-life drama. The trailer reveals how the girls liberate themselves from constant pressure from society and head on to a soulful journey to Pondicherry.",
+            "gaia_synthesis": "",
+            "published_at": "2026-05-12 18:19:00",
+            "multi_source_verified": false
+        },
+        {
+            "id": "hälsa-ada0e2df-2026-05-13",
+            "title": "Food and Drug Administration Commissioner Marty Makary is leaving his role, President Trump told reporters Tuesday, after Makary had battled officials in the health department and the White House on a range of policy issues",
+            "location": {
+                "city": "Stockholm",
+                "country": "Sverige",
+                "lat": 59.3293,
+                "lon": 18.0686
+            },
+            "sources": [
+                {
+                    "name": "Wsj",
+                    "type": "commercial",
+                    "url": "https://www.wsj.com/politics/policy/fda-commissioner-marty-makary-under-pressure-from-trump-to-leave-administration-5c096dd6"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "hälsa",
+            "sentiment": "neutral",
+            "summary": "President says the doctor, a MAHA advocate, “was having some difficulty.”",
+            "gaia_synthesis": "",
+            "published_at": "2026-05-12 18:19:00",
+            "multi_source_verified": false
+        },
+        {
+            "id": "konflikt-dd741cdf-2026-05-13",
+            "title": "Memphis Grizzlies forward Brandon Clarke dead at age 29",
+            "location": {
+                "city": "Stockholm",
+                "country": "Sverige",
+                "lat": 59.3293,
+                "lon": 18.0686
+            },
+            "sources": [
+                {
+                    "name": "Wcpo",
+                    "type": "commercial",
+                    "url": "https://www.wcpo.com/sports/memphis-grizzlies-forward-brandon-clarke-dead-at-age-29"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "konflikt",
+            "sentiment": "negative",
+            "summary": "Grizzlies guard Brandon Clarke, 29, has died, the team and his agency said. A 7-year NBA vet, Clarke was battling a calf injury; no cause given.",
+            "gaia_synthesis": "",
+            "published_at": "2026-05-12 18:19:00",
+            "multi_source_verified": false
+        },
+        {
+            "id": "samhälle-11e99aaa-2026-05-13",
+            "title": "Hazmat situation under investigation at Guilford residence",
+            "location": {
+                "city": "Stockholm",
+                "country": "Sverige",
+                "lat": 59.3293,
+                "lon": 18.0686
+            },
+            "sources": [
+                {
+                    "name": "Yahoo! News",
+                    "type": "commercial",
+                    "url": "https://www.yahoo.com/news/articles/hazmat-situation-under-investigation-guilford-181900209.html"
                 }
             ],
             "source_count": 1,
             "score": 6.5,
             "tier": 2,
             "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Multiple agencies were at a residence in Guilford on Tuesday in connection with a hazmat incident. Several state, local and federal agencies are involved in ...",
+            "gaia_synthesis": "",
+            "published_at": "2026-05-12 18:19:00",
+            "multi_source_verified": false
+        },
+        {
+            "id": "konflikt-2f88743f-2026-05-13",
+            "title": "Powering PA Forward",
+            "location": {
+                "city": "Stockholm",
+                "country": "Sverige",
+                "lat": 59.3293,
+                "lon": 18.0686
+            },
+            "sources": [
+                {
+                    "name": "Daily Courier",
+                    "type": "commercial",
+                    "url": "https://www.dailycourier.com/opinion/powering-pa-forward/article_019b33f8-8cab-4863-a769-58da7ef7ecd1.html"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "konflikt",
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-05-12 18:05:00",
+            "published_at": "2026-05-12 18:19:00",
             "multi_source_verified": false
         },
         {
-            "id": "brott-b02058dc-2026-05-13",
-            "title": "IPL 2026 Points Table: Gujarat Titans Dethrone Royal Challengers Bengaluru From Top Spot After Dominating Sunrisers Hyderabad at Narendra Modi Stadium | Check Updated Standings After GT vs SRH",
+            "id": "konflikt-364260f6-2026-05-13",
+            "title": "PSG forward Dembele voted player of the year in France",
+            "location": {
+                "city": "France",
+                "country": "France",
+                "lat": 48.86,
+                "lon": 2.35
+            },
+            "sources": [
+                {
+                    "name": "Kuwait Times",
+                    "type": "commercial",
+                    "url": "https://kuwaittimes.com/article/43557/sports/football/psg-forward-dembele-voted-player-of-the-year-in-france/"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "konflikt",
+            "sentiment": "neutral",
+            "summary": "PARIS: Paris Saint-Germain forward Ousmane Dembele was on Monday named the Ligue 1 player of the year for the second year running, after leading the club to the brink of a 14th Fre...",
+            "gaia_synthesis": "",
+            "published_at": "2026-05-12 18:19:00",
+            "multi_source_verified": false
+        },
+        {
+            "id": "ekonomi-277061f4-2026-05-13",
+            "title": "Consumer Discretionary Stocks’ Long Winter Isn’t Over",
             "location": {
                 "city": "Stockholm",
                 "country": "Sverige",
@@ -1733,19 +1733,19 @@
             },
             "sources": [
                 {
-                    "name": "The Sunday Guardian",
+                    "name": "Barron",
                     "type": "commercial",
-                    "url": "https://sundayguardianlive.com/sports/ipl-2026-points-table-gujarat-titans-dethrone-royal-challengers-bengaluru-from-top-spot-after-dominating-sunrisers-hyderabad-at-narendra-modi-stadium-check-updated-standings-after-gt-vs-srh-191597/"
+                    "url": "https://www.barrons.com/articles/consumer-discretionary-stocks-home-depot-07dfbd29"
                 }
             ],
             "source_count": 1,
             "score": 6.5,
             "tier": 2,
-            "category": "brott",
+            "category": "ekonomi",
             "sentiment": "neutral",
-            "summary": "Gujarat Titans have bowled the SunRisers Hyderabad for their lowest total in history as they registered a 82-run win in the IPL 2026 game on Tuesday at the Narendra Modi Stadium in Ahmedabad. The post IPL 2026 Points Table: Gujarat Titans Dethrone Royal Challengers Bengaluru From Top Spot After Dominating Sunrisers Hyderabad at Narendra Modi Stadium | Check Updated Standings After GT vs SRH appeared first on The Sunday Guardian .",
-            "gaia_synthesis": "Gujarat Titans visar dominans i IPL 2026 och tar över förstaplatsen genom en historiskt överlägsen seger.",
-            "published_at": "2026-05-12 18:05:00",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-05-12 18:19:00",
             "multi_source_verified": false
         }
     ],
