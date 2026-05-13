@@ -1,0 +1,333 @@
+// =============================================
+// Nyhetskartan v2.0 — Application Logic
+// GAIA News Intelligence Dashboard
+// =============================================
+
+const CONFIG = {
+    mapStyle: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json',
+    defaultCenter: [18, 40],
+    defaultZoom: 2.2,
+    dataPath: 'nyheter.json',
+    flyDuration: 1800,
+    flyZoom: 5
+};
+
+let map, newsData = null, markers = [], activeNewsId = null;
+
+// ── Category Colors ──
+const CATEGORY_COLORS = {
+    konflikt: '#ff4757', energi: '#ff9f43', försvar: '#3742fa',
+    politik: '#a55eea', diplomati: '#70a1ff', monarki: '#feca57',
+    samhälle: '#2ed573', demokrati: '#1e90ff', infrastruktur: '#ff6348',
+    rymd: '#7c4dff', sport: '#26de81', hälsa: '#fc5c65',
+    miljö: '#20bf6b', brott: '#eb3b5a', kultur: '#f7b731',
+    ekonomi: '#45aaf2', geopolitik: '#d63031', säkerhet: '#e17055',
+    rättigheter: '#6c5ce7'
+};
+
+// ── Initialize ──
+function init() {
+    map = new maplibregl.Map({
+        container: 'map',
+        style: CONFIG.mapStyle,
+        center: CONFIG.defaultCenter,
+        zoom: CONFIG.defaultZoom,
+        attributionControl: false
+    });
+    map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'bottom-right');
+    map.on('load', loadNewsData);
+    document.getElementById('detail-close').addEventListener('click', closeDetail);
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDetail(); });
+}
+
+// ── Load Data ──
+async function loadNewsData() {
+    try {
+        const resp = await fetch(CONFIG.dataPath);
+        if (!resp.ok) throw new Error('Fetch failed');
+        newsData = await resp.json();
+        renderSidebar();
+        renderMarkers();
+        updateHeader();
+        renderDailyBrief();
+        setTimeout(() => {
+            document.getElementById('loading').classList.add('hidden');
+        }, 400);
+    } catch (err) {
+        console.error('Load error:', err);
+        document.getElementById('loading').innerHTML =
+            '<p style="color:var(--accent-red)">⚠️ Kunde inte ladda nyheter</p>' +
+            '<p style="color:var(--text-muted);margin-top:0.5rem;font-size:0.85rem">Kör <code>/nyheter</code> för att generera data</p>';
+    }
+}
+
+// ── Render Sidebar ──
+function renderSidebar() {
+    const list = document.getElementById('news-list');
+    list.innerHTML = '';
+
+    const sorted = [...newsData.news].sort((a, b) => b.score - a.score);
+    sorted.forEach(news => {
+        const card = document.createElement('div');
+        card.className = 'news-card';
+        card.dataset.id = news.id;
+
+        const color = CATEGORY_COLORS[news.category] || '#8ba3c1';
+        const scorePercent = (news.score / 10) * 100;
+        const scoreColor = news.score >= 8 ? 'var(--accent-red)' : news.score >= 6 ? 'var(--accent-orange)' : 'var(--accent-cyan)';
+        const timeStr = formatTime(news.published_at);
+
+        const sentimentIcon = {'negative': '🔴', 'positive': '🟢', 'neutral': '⚪'}[news.sentiment] || '⚪';
+
+        card.innerHTML = `
+            <div class="news-card-top">
+                <span class="tier-badge tier-${news.tier}">Tier ${news.tier}</span>
+                <span class="category-tag" style="color:${color}">${news.category}</span>
+                <span class="sentiment-dot" title="Sentiment: ${news.sentiment || 'neutral'}">${sentimentIcon}</span>
+                ${news.multi_source_verified ? '<span class="verified-badge">✓ Verifierad</span>' : ''}
+            </div>
+            <h3>${news.title}</h3>
+            <div class="news-card-meta">
+                <span>📍 ${news.location?.city || 'Global'}</span>
+                <span>${timeStr}</span>
+                <span>${news.source_count} källor</span>
+                <div class="score-bar"><div class="score-bar-fill" style="width:${scorePercent}%;background:${scoreColor}"></div></div>
+            </div>
+        `;
+
+        card.addEventListener('click', () => selectNews(news));
+        list.appendChild(card);
+    });
+
+    // Filter pills
+    document.querySelectorAll('.filter-pill').forEach(pill => {
+        pill.addEventListener('click', () => {
+            document.querySelectorAll('.filter-pill').forEach(p => p.classList.remove('active'));
+            pill.classList.add('active');
+            filterNews(pill.dataset.filter);
+        });
+    });
+}
+
+// ── Filter ──
+function filterNews(filter) {
+    document.querySelectorAll('.news-card').forEach(card => {
+        const news = newsData.news.find(n => n.id === card.dataset.id);
+        if (!news) return;
+        if (filter === 'all') card.style.display = '';
+        else if (filter === 'tier1') card.style.display = news.tier === 1 ? '' : 'none';
+        else if (filter === 'tier2') card.style.display = news.tier === 2 ? '' : 'none';
+        else if (filter === 'sv') card.style.display = news.location?.country === 'Sverige' ? '' : 'none';
+    });
+}
+
+// ── Render Map Markers (with jitter for overlapping locations) ──
+function renderMarkers() {
+    const coordCounts = {};
+
+    newsData.news.forEach(news => {
+        if (!news.location?.lat || !news.location?.lon) return;
+
+        // Jitter overlapping coordinates
+        const key = `${news.location.lat.toFixed(2)}_${news.location.lon.toFixed(2)}`;
+        coordCounts[key] = (coordCounts[key] || 0);
+        const jitterAngle = coordCounts[key] * (2 * Math.PI / 5);
+        const jitterRadius = coordCounts[key] > 0 ? 0.3 : 0;
+        const lat = news.location.lat + Math.sin(jitterAngle) * jitterRadius;
+        const lon = news.location.lon + Math.cos(jitterAngle) * jitterRadius;
+        coordCounts[key]++;
+
+        const el = document.createElement('div');
+        const color = CATEGORY_COLORS[news.category] || '#ff4757';
+        el.className = `news-marker ${news.tier === 1 ? 'tier-1' : ''}`;
+        el.dataset.id = news.id;
+        el.style.background = color;
+        el.style.boxShadow = `0 0 12px ${color}55`;
+        el.setAttribute('role', 'button');
+        el.setAttribute('tabindex', '0');
+        el.setAttribute('aria-label', `Nyhet: ${news.title}`);
+
+        el.addEventListener('click', () => selectNews(news));
+        el.addEventListener('keydown', e => {
+            if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); selectNews(news); }
+        });
+
+        const marker = new maplibregl.Marker({ element: el })
+            .setLngLat([lon, lat])
+            .addTo(map);
+        markers.push({ marker, id: news.id });
+    });
+}
+
+// ── Select News ──
+function selectNews(news) {
+    // Deselect previous
+    document.querySelectorAll('.news-card.active').forEach(c => c.classList.remove('active'));
+    document.querySelectorAll('.news-marker.active-marker').forEach(m => m.classList.remove('active-marker'));
+
+    activeNewsId = news.id;
+
+    // Highlight card
+    const card = document.querySelector(`.news-card[data-id="${news.id}"]`);
+    if (card) {
+        card.classList.add('active');
+        card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+
+    // Highlight marker
+    const markerEl = document.querySelector(`.news-marker[data-id="${news.id}"]`);
+    if (markerEl) markerEl.classList.add('active-marker');
+
+    // Fly to location
+    if (news.location?.lat && news.location?.lon) {
+        map.flyTo({
+            center: [news.location.lon, news.location.lat],
+            zoom: CONFIG.flyZoom,
+            duration: CONFIG.flyDuration,
+            essential: true
+        });
+    }
+
+    // Populate detail panel
+    populateDetail(news);
+}
+
+// ── Populate Detail Panel ──
+function populateDetail(news) {
+    const panel = document.getElementById('detail-panel');
+    const color = CATEGORY_COLORS[news.category] || '#8ba3c1';
+
+    document.getElementById('detail-tier').textContent = `Tier ${news.tier}`;
+    document.getElementById('detail-tier').className = `tier-badge tier-${news.tier}`;
+    document.getElementById('detail-category').textContent = news.category;
+    document.getElementById('detail-category').style.color = color;
+    document.getElementById('detail-title').textContent = news.title;
+    document.getElementById('detail-location').innerHTML = `📍 ${news.location?.city || 'Global'}, ${news.location?.country || ''}`;
+    document.getElementById('detail-summary').textContent = news.summary || '';
+    document.getElementById('detail-gaia').textContent = news.gaia_synthesis || '';
+
+    // Score
+    const scoreEl = document.getElementById('detail-score');
+    scoreEl.textContent = news.score.toFixed(1);
+    scoreEl.style.color = news.score >= 8 ? 'var(--accent-red)' : news.score >= 6 ? 'var(--accent-orange)' : 'var(--accent-cyan)';
+
+    // Scoring breakdown (W4: transparent criteria)
+    const scoringEl = document.getElementById('detail-scoring');
+    const srcScore = Math.min(news.source_count * 2, 5);
+    const verScore = news.multi_source_verified ? 2 : 0;
+    const tierScore = news.tier === 1 ? 3 : 1;
+    const totalMax = 10;
+    const barColor = news.score >= 8 ? 'var(--accent-red)' : news.score >= 6 ? 'var(--accent-orange)' : 'var(--accent-cyan)';
+
+    const sentimentLabel = {'negative': '🔴 Negativ', 'positive': '🟢 Positiv', 'neutral': '⚪ Neutral'}[news.sentiment] || '⚪ Neutral';
+    const sentimentColor = {'negative': 'var(--accent-red)', 'positive': 'var(--accent-green)', 'neutral': 'var(--text-muted)'}[news.sentiment] || 'var(--text-muted)';
+
+    scoringEl.innerHTML = `
+        <div class="scoring-row">
+            <span class="scoring-label">Källor</span>
+            <span class="scoring-value">${news.source_count}</span>
+        </div>
+        <div class="scoring-row">
+            <span class="scoring-label">Verifierad</span>
+            <span class="scoring-value" style="color:${news.multi_source_verified ? 'var(--accent-green)' : 'var(--text-muted)'}">${news.multi_source_verified ? '✓ Ja' : '✗ Nej'}</span>
+        </div>
+        <div class="scoring-row">
+            <span class="scoring-label">Tier</span>
+            <span class="scoring-value">${news.tier}</span>
+        </div>
+        <div class="scoring-row">
+            <span class="scoring-label">Sentiment</span>
+            <span class="scoring-value" style="color:${sentimentColor}">${sentimentLabel}</span>
+        </div>
+        <div class="scoring-bar-container">
+            <span class="scoring-bar-label">Total: ${news.score.toFixed(1)}/${totalMax}</span>
+            <div class="scoring-bar-track">
+                <div class="scoring-bar-value" style="width:${(news.score/totalMax)*100}%;background:${barColor}"></div>
+            </div>
+        </div>
+    `;
+
+    // Sources
+    const sourcesList = document.getElementById('detail-sources');
+    sourcesList.innerHTML = '';
+    (news.sources || []).forEach(src => {
+        const li = document.createElement('li');
+        li.className = 'source-item';
+        li.innerHTML = `
+            <span class="source-badge ${src.type}">${getSourceLabel(src.type)}</span>
+            <span class="source-name">${src.name}</span>
+            <a href="${src.url}" target="_blank" rel="noopener" class="source-link">→</a>
+        `;
+        sourcesList.appendChild(li);
+    });
+
+    panel.classList.add('visible');
+
+    // On mobile, close sidebar when detail opens
+    closeMobileSidebar();
+}
+
+function closeDetail() {
+    document.getElementById('detail-panel').classList.remove('visible');
+    document.querySelectorAll('.news-card.active').forEach(c => c.classList.remove('active'));
+    document.querySelectorAll('.news-marker.active-marker').forEach(m => m.classList.remove('active-marker'));
+    activeNewsId = null;
+
+    map.flyTo({ center: CONFIG.defaultCenter, zoom: CONFIG.defaultZoom, duration: 1200 });
+}
+
+// ── Update Header ──
+function updateHeader() {
+    const tier1 = newsData.news.filter(n => n.tier === 1).length;
+    const total = newsData.news.length;
+    document.getElementById('news-count').textContent = `${total} nyheter`;
+    document.getElementById('tier1-count').textContent = `${tier1} Tier 1`;
+
+    if (newsData.generated_at) {
+        const d = new Date(newsData.generated_at);
+        document.getElementById('update-time').textContent =
+            d.toLocaleDateString('sv-SE', { day: 'numeric', month: 'short' }) + ' ' +
+            d.toLocaleTimeString('sv-SE', { hour: '2-digit', minute: '2-digit' });
+    }
+}
+
+// ── Daily Brief ──
+function renderDailyBrief() {
+    const el = document.getElementById('daily-brief-text');
+    if (newsData.meta_analysis?.gaia_daily_brief) {
+        el.textContent = newsData.meta_analysis.gaia_daily_brief;
+    }
+}
+
+// ── Helpers ──
+function formatTime(iso) {
+    if (!iso) return '';
+    const d = new Date(iso);
+    return d.toLocaleTimeString('sv-SE', { hour: '2-digit', minute: '2-digit' });
+}
+
+function getSourceLabel(type) {
+    return { agency: 'Byrå', public_service: 'PS', commercial: 'Komm.', government: 'Myn.', ngo: 'NGO', journalist: 'Jour.' }[type] || type;
+}
+
+// ── Mobile Sidebar Toggle (W5) ──
+function setupMobileToggle() {
+    const toggle = document.getElementById('mobile-toggle');
+    const sidebar = document.querySelector('.sidebar');
+    if (!toggle || !sidebar) return;
+
+    toggle.addEventListener('click', () => {
+        sidebar.classList.toggle('mobile-open');
+    });
+
+    // Close sidebar when clicking on map area (on mobile)
+    document.getElementById('map')?.addEventListener('click', closeMobileSidebar);
+}
+
+function closeMobileSidebar() {
+    document.querySelector('.sidebar')?.classList.remove('mobile-open');
+}
+
+// ── Boot ──
+setupMobileToggle();
+init();
