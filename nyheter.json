@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-05-23T07:50:03.648877+02:00",
+    "generated_at": "2026-05-28T07:22:51.099033+02:00",
     "workflow_version": "2.1",
     "source_info": {
         "swedish_rss": [
@@ -9,177 +9,193 @@
         "international": [],
         "api_plan": "NewsData.io (planerad)",
         "total_raw_articles": 70,
-        "deduplicated_count": 63
+        "deduplicated_count": 65
     },
     "news": [
         {
-            "id": "miljö-99440d6d-2026-05-23",
-            "title": "40 000 uppmanas till evakuering i Kalifornien",
+            "id": "hälsa-24a49f0f-2026-05-28",
+            "title": "Norges drottning Sonja inlagd på sjukhus",
             "location": {
-                "city": "Kalifornien",
-                "country": "USA",
-                "lat": 36.7783,
-                "lon": -119.4179
+                "city": "Norge",
+                "country": "Norge",
+                "lat": 59.91,
+                "lon": 10.75
             },
             "sources": [
                 {
                     "name": "SVT Nyheter",
                     "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/40-000-uppmanas-till-evakuering-i-kalifornien"
+                    "url": "https://www.svt.se/nyheter/utrikes/norges-drottning-sonja-inlagd-pa-sjukhus-pca8b9"
                 },
                 {
                     "name": "SVT Utrikes",
                     "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/40-000-uppmanas-till-evakuering-i-kalifornien"
+                    "url": "https://www.svt.se/nyheter/utrikes/norges-drottning-sonja-inlagd-pa-sjukhus-pca8b9"
+                },
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/drottning-margrethe-inlagd-pa-sjukhus-igen"
                 },
                 {
                     "name": "SR Ekot",
                     "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9223225"
+                    "url": "https://www.sverigesradio.se/artikel/9225977"
+                }
+            ],
+            "source_count": 4,
+            "score": 10.0,
+            "tier": 1,
+            "category": "hälsa",
+            "sentiment": "neutral",
+            "summary": "Drottning Sonja av Norge har blivit inlagd på sjukhus på grund av hjärtproblem, uppger norska kungahuset i ett pressmeddelande.",
+            "gaia_synthesis": "Denna händelse berör Norges statschefsfamilj och belyser den inneboende sårbarheten hos åldrande monarker, vilket kan påverka den nationella stabiliteten och väcka offentligt engagemang i hela Skandinavien.",
+            "published_at": "Wed, 27 May 2026 20:36:34 +0200",
+            "multi_source_verified": true
+        },
+        {
+            "id": "samhälle-fa2d1a28-2026-05-28",
+            "title": "28 maj: Nattens nyheter",
+            "location": {
+                "city": "Stockholm",
+                "country": "Sverige",
+                "lat": 59.3293,
+                "lon": 18.0686
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/28-maj-nattens-nyheter-if1tde"
+                },
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/27-maj-nattens-nyheter-2xq3da"
+                },
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/26-maj-nattens-nyheter-xibsw3"
                 }
             ],
             "source_count": 3,
             "score": 9.5,
             "tier": 1,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Kort nyhetssammanfattning från nattens viktigaste händelser rapporterade av SVT och SR.",
+            "gaia_synthesis": "En traditionell aggregering av nattens händelser fungerar som en kritisk baseline för dagens nyhetscykel. Att snabbt etablera fakta kring nattliga incidenter minskar risken för ryktesspridning under de tidiga morgontimmarna.",
+            "published_at": "Thu, 28 May 2026 05:14:22 +0200",
+            "multi_source_verified": true
+        },
+        {
+            "id": "samhälle-ef25bf66-2026-05-28",
+            "title": "Montreals Cole Caufield fick puck i ansiktet – då han satt på bänken",
+            "location": {
+                "city": "Stockholm",
+                "country": "Sverige",
+                "lat": 59.3293,
+                "lon": 18.0686
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/sport/ishockey/laskiga-bilderna-montreals-cole-caufield-fick-puck-i-ansiktet"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Läskiga bilder kablades ut mellan Carolina och Montreal. Montreals skyttekung Cole Caufield fick lämna spelarbåset efter att ha fått en puck i ansiktet.",
+            "gaia_synthesis": "",
+            "published_at": "Thu, 28 May 2026 07:04:40 +0200",
+            "multi_source_verified": false
+        },
+        {
+            "id": "politik-abfd5d4f-2026-05-28",
+            "title": "Valfrågan: Vilka är bäst på att bekämpa arbetslösheten?",
+            "location": {
+                "city": "Stockholm",
+                "country": "Sverige",
+                "lat": 59.3293,
+                "lon": 18.0686
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/inrikes/valfragan-vilka-ar-bast-pa-att-bekampa-arbetslosheten"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "politik",
+            "sentiment": "neutral",
+            "summary": "Elisabeth Svantesson (M) och Mikael Damberg (S) är överens om att arbetslösheten är hög, samtidigt säger finansminister Svantesson att mycket fungerar bra på arbetsmarknaden. Vad stämmer egentligen om arbetslösheten? Se vår genomgång i klippet.",
+            "gaia_synthesis": "",
+            "published_at": "Thu, 28 May 2026 05:42:03 +0200",
+            "multi_source_verified": false
+        },
+        {
+            "id": "samhälle-4b51bd5d-2026-05-28",
+            "title": "Han skapar VM-fest i Ljungby – men inte bara för Sveriges matcher",
+            "location": {
+                "city": "Stockholm",
+                "country": "Sverige",
+                "lat": 59.3293,
+                "lon": 18.0686
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/lokalt/smaland/han-skapar-vm-fest-i-ljungby-men-inte-bara-for-sveriges-matcher"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "VM-fest mitt i natten – ja, det kommer det bli på Stora Torget i Ljungby när fotbolls-VM drar igång. Men krögaren Arthur kommer inte bara fokusera på Sveriges matcher. – Det kommer bli balkan-nights, säger krögaren Arthur Albert.",
+            "gaia_synthesis": "",
+            "published_at": "Thu, 28 May 2026 05:30:01 +0200",
+            "multi_source_verified": false
+        },
+        {
+            "id": "miljö-b4722d43-2026-05-28",
+            "title": "Hyllad och hatad – 20 år sedan Al Gores ”En obekväm sanning”",
+            "location": {
+                "city": "Stockholm",
+                "country": "Sverige",
+                "lat": 59.3293,
+                "lon": 18.0686
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/kultur/hyllad-och-hatad-20-ar-sedan-al-gores-en-obekvam-sanning"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
             "category": "miljö",
             "sentiment": "neutral",
-            "summary": "Myndigheter i Kalifornien har utfärdat en evakueringsorder för cirka 40 000 människor till följd av ett farligt utsläpp av ångor från en fabrik.",
-            "gaia_synthesis": "Evakueringsordern i Kalifornien aktualiserar återkommande sårbarheter i den amerikanska industriinfrastrukturen. Kalifornien, som kombinerar tät befolkning med omfattande kemisk industri och jordbruk, står inför en unik riskprofil där naturkatastrofer (skogsbränder, jordbävningar) och industriolyckor kan samverka och förstärka varandra. Händelsen understryker behovet av uppdaterade riskbedömningar som inkluderar kaskadeffekter – när ett utsläpp sammanfaller med väderförhållanden som hindrar ventilation kan konsekvenserna bli oproportionerligt stora. Ur ett regulatoriskt perspektiv blottlägger sådana incidenter den pågående dragkampen mellan federala miljökrav (EPA) och delstatlig tillsyn, särskilt i ljuset av den nuvarande administrationens ambition att avreglera. För de 40 000 evakuerade handlar det i förlängningen om tilliten till samhällets förmåga att skydda dem – en tillit som eroderas vid varje ny incident utan tydligt ansvarsutkrävande.",
-            "published_at": "Sat, 23 May 2026 04:35:16 +0200",
-            "multi_source_verified": true
+            "summary": "I år är det 20 år sedan klimatfilmen ”En obekväm sanning” kom. En dokumentär som skakade om världen och ledde till ett klimatuppvaknande för många. Men hur står den sig i dag?",
+            "gaia_synthesis": "",
+            "published_at": "Thu, 28 May 2026 05:30:01 +0200",
+            "multi_source_verified": false
         },
         {
-            "id": "samhälle-f4ac135d-2026-05-23",
-            "title": "Över 80 döda efter olycka i kolgruva i norra Kina",
-            "location": {
-                "city": "Kina",
-                "country": "Kina",
-                "lat": 39.9,
-                "lon": 116.4
-            },
-            "sources": [
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/fyra-doda-och-90-fast-i-kolgruva-i-norra-kina"
-                },
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/fyra-doda-och-90-fast-i-kolgruva-i-norra-kina"
-                },
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/over-170-doda-efter-ebolautbrottet-who-skickar-mer-personal"
-                }
-            ],
-            "source_count": 3,
-            "score": 9.5,
-            "tier": 1,
-            "category": "samhälle",
-            "sentiment": "negative",
-            "summary": "Mins 82 personer har dött efter en olycka i en kolgruva i norra Kina, uppger nyhetsbyrån Xinhua enligt BBC .",
-            "gaia_synthesis": "Gruvolyckan i norra Kina, med minst 82 döda, är en av de dödligaste industriolyckorna i landet på flera år och belyser strukturella problem i Kinas gruvsektor som kvarstår trots årtionden av säkerhetsreformer. Kina är världens största kolproducent och står för cirka 50% av den globala produktionen, men betalar ett högt mänskligt pris. Trots att dödstalen i kinesiska gruvor minskat kraftigt sedan 2000-talets början – från flera tusen årligen till några hundra – visar händelsen att grundläggande säkerhetsbrister kvarstår, särskilt i mindre och medelstora gruvor i inre Kina. Den geopolitiska dimensionen är tydlig: Kinas beroende av kol för energisäkerhet krockar med både klimatmål och arbetarskydd. Olyckan inträffar dessutom i en period då global energipolitik omförhandlas, och understryker att energiomställningen inte bara handlar om koldioxid utan också om mänsklig säkerhet i de fossila leveranskedjorna.",
-            "published_at": "Fri, 22 May 2026 23:08:06 +0200",
-            "multi_source_verified": true
-        },
-        {
-            "id": "politik-d9a08798-2026-05-23",
-            "title": "Senegals president upplöser regeringen",
-            "location": {
-                "city": "Dakar",
-                "country": "Senegal",
-                "lat": 14.6928,
-                "lon": -17.4467
-            },
-            "sources": [
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/senegals-president-upploser-regeringen"
-                },
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/senegals-president-upploser-regeringen"
-                }
-            ],
-            "source_count": 2,
-            "score": 8.0,
-            "tier": 1,
-            "category": "politik",
-            "sentiment": "neutral",
-            "summary": "Senegals president Bassirou Diomaye Faye har på fredagen entledigat landets premiärminister Ousmane Sonko och upplöst regeringen.",
-            "gaia_synthesis": "President Bassirou Diomaye Fayes beslut att entlediga premiärminister Ousmane Sonko och upplösa regeringen markerar en dramatisk vändning i senegalesisk politik, knappt ett år efter deras gemensamma valtriumf. Senegal har länge framhållits som ett demokratiskt föredöme i Västafrika, med fredliga maktskiften sedan 1960-talet. Konflikten mellan president och premiärminister speglar en bredare tendens i det fransktalande Afrika, där semi-presidentiella system skapar inbyggda spänningar mellan de två verkställande posterna. Händelsen kan också tolkas mot bakgrund av Senegals strategiska position: landet har nyligen blivit en potentiell olje- och gasproducent i Atlantkusten, vilket höjer de ekonomiska och geopolitiska insatserna avsevärt. För den västafrikanska regionen, som präglas av militärkupper i Mali, Burkina Faso och Niger, är Senegals konstitutionella kris oroande – även om den sker inom demokratins ramar snarare än genom vapenkultur.",
-            "published_at": "Sat, 23 May 2026 01:41:06 +0200",
-            "multi_source_verified": true
-        },
-        {
-            "id": "samhälle-567ff619-2026-05-23",
-            "title": "Musks jätteraket uppskjuten",
-            "location": {
-                "city": "Boca Chica",
-                "country": "USA",
-                "lat": 25.9973,
-                "lon": -97.1557
-            },
-            "sources": [
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/musks-jatteraket-uppskjuten"
-                },
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/musks-jatteraket-uppskjuten"
-                }
-            ],
-            "source_count": 2,
-            "score": 8.0,
-            "tier": 1,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "Rymdbolaget Space X har efter tidigare problem lyckats skjuta upp sin största raket hittills.",
-            "gaia_synthesis": "SpaceX:s framgångsrika uppskjutning av sin hittills största raket – sannolikt Starship Super Heavy – representerar ett teknologiskt paradigmskifte inom rymdfart. Med full återanvändbarhet och en lastkapacitet som överträffar alla befintliga system öppnar detta för en ny era av kostnadseffektiv tillgång till rymden. Den strategiska betydelsen sträcker sig bortom kommersiell rymdfart: NASA:s Artemis-program för återkomst till månen är direkt beroende av Starship som månlandare, och det amerikanska försvarets intresse för snabb global lastleverans (Point-to-Point) ger projektet en dual-use-dimension. Ur ett monopolperspektiv väcker SpaceX:s dominerande position frågor om marknadskoncentration i en sektor som historiskt drivits av statliga aktörer. Framgången kontrasterar också mot Elon Musks kontroversiella politiska engagemang genom DOGE, vilket skapar en komplex symbios mellan statlig beställare och privat leverantör som saknar historiska paralleller i den amerikanska rymdpolitiken.",
-            "published_at": "Sat, 23 May 2026 01:32:45 +0200",
-            "multi_source_verified": true
-        },
-        {
-            "id": "samhälle-7fc1d958-2026-05-23",
-            "title": "Sexdockor lockar nya kunder i Tyskland – bordell satsar på AI och VR",
-            "location": {
-                "city": "Tyskland",
-                "country": "Tyskland",
-                "lat": 52.52,
-                "lon": 13.4
-            },
-            "sources": [
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/sexdockor-lockar-nya-kunder-i-tyskland-bordell-satsar-pa-ai-och-vr"
-                },
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/sexdockor-lockar-nya-kunder-i-tyskland-bordell-satsar-pa-ai-och-vr"
-                }
-            ],
-            "source_count": 2,
-            "score": 8.0,
-            "tier": 1,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "I Tyskland växer debatten om sexhandel med dockor i takt med att dockorna blir allt mer verklighetstrogna. Prostitution är lagligt och regleras av tyska myndigheter. SVT har besökt en bordell i Berlin där kunderna kan köpa en natt med en docka.",
-            "gaia_synthesis": "Framväxten av AI-drivna sexdockor i Tysklands legala sexindustri belyser skärningspunkten mellan teknologisk innovation, etik och reglering på ett sätt som få andra fenomen gör. Tysklands legaliserade prostitution, reglerad sedan 2002, skapar en unik juridisk miljö där gränsdragningen mellan människa och maskin utmanas. Ur ett filosofiskt perspektiv väcker utvecklingen frågor om objektifiering: om dockor med AI-simulerad personlighet minskar eller förstärker destruktiva beteendemönster hos konsumenter är en empiriskt öppen fråga. Forskare inom human-robot-interaktion har identifierat en 'uncanny valley'-effekt som kan förstärkas av VR-teknologi, med psykologiska konsekvenser som ännu inte är fullständigt kartlagda. Ur ett arbetsrättsligt perspektiv kan teknologin leda till en omstrukturering av sexindustrin, med möjliga konsekvenser för både trafficking och sexarbetares ekonomiska villkor. Debatten i Tyskland fungerar som ett europeiskt laboratorium för frågor som andra länder oundvikligen kommer att konfrontera i takt med AI-teknikens mognad.",
-            "published_at": "Fri, 22 May 2026 20:41:48 +0200",
-            "multi_source_verified": true
-        },
-        {
-            "id": "samhälle-12697367-2026-05-23",
-            "title": "Ny 3D-karta över universum: ”Einstein kan ha haft fel”",
+            "id": "samhälle-25e69693-2026-05-28",
+            "title": "SVT-cheferna bakom Madame Luna-stödet – i dag chefer på Svenska filminstitutet",
             "location": {
                 "city": "Stockholm",
                 "country": "Sverige",
@@ -190,7 +206,7 @@
                 {
                     "name": "SVT Nyheter",
                     "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/vetenskap/ny-3d-karta-over-universum-einstein-kan-ha-haft-fel"
+                    "url": "https://www.svt.se/kultur/svt-cheferna-bakom-madame-luna-stodet-i-dag-chefer-pa-svenska-filminstitutet"
                 }
             ],
             "source_count": 1,
@@ -198,14 +214,14 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "En ny 3D-karta över universum visar över 47 miljoner galaxer. Kartan är den mest detaljerade som någonsin gjorts – och kan tvinga forskare att tänka om kring Einstens teorier. – Hans teori har testats extremt väl, men kanske händer något annat när vi ser på hela kosmos, säger forskaren Klaus Honscheid, som varit involverad i projektet.",
+            "summary": "Daniel Espinosas storfilm ”Madame Luna” har fått nära 17 miljoner kronor i stöd från Svenska filminstitutet. En långdragen upphovsrättstvist har gjort att filmen fortfarande inte nått en svensk publik. Nu kan Kulturnyheterna berätta att även SVT medverkat ekonomiskt – med omkring en halv miljon kronor för visningsrätt.",
             "gaia_synthesis": "",
-            "published_at": "Sat, 23 May 2026 06:41:41 +0200",
+            "published_at": "Thu, 28 May 2026 05:30:01 +0200",
             "multi_source_verified": false
         },
         {
-            "id": "samhälle-efc9ea8c-2026-05-23",
-            "title": "Månadens bild maj: Utsikt från kryssningsfartyget",
+            "id": "hälsa-b5b7f7c2-2026-05-28",
+            "title": "Mindre tid för patienter med Cosmic: ”Ser ett produktionsbortfall”",
             "location": {
                 "city": "Stockholm",
                 "country": "Sverige",
@@ -216,7 +232,33 @@
                 {
                     "name": "SVT Nyheter",
                     "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/nyhetstecken/manadens-bild-maj-utsikt-fran-kryssningsfartyget"
+                    "url": "https://www.svt.se/nyheter/lokalt/vasternorrland/mindre-tid-for-patienter-med-cosmic-ser-ett-produktionsbortfall"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "hälsa",
+            "sentiment": "neutral",
+            "summary": "Bytet till journalsystemet Cosmic i region Västernorrland tycks ha minskat patienternas tillgång till vård. Det medger den politiska ledningen i regionen. Det stärks av den statistik SVT begärt ut och som visar att det nu är svårare att nå fram och boka en tid på hälsocentralerna i regionen.",
+            "gaia_synthesis": "",
+            "published_at": "Thu, 28 May 2026 05:30:01 +0200",
+            "multi_source_verified": false
+        },
+        {
+            "id": "samhälle-ffb564df-2026-05-28",
+            "title": "Kiruna kommun förhandlade bort förseningsviten – efter press från Peab",
+            "location": {
+                "city": "Kiruna",
+                "country": "Sverige",
+                "lat": 67.8558,
+                "lon": 20.2253
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/lokalt/norrbotten/kiruna-kommun-forhandlade-bort-forseningsviten-efter-press-fran-peab"
                 }
             ],
             "source_count": 1,
@@ -224,14 +266,14 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "Härlig utsikt över vattnet och Kaknästornet en kväll i maj. Månadens bild för maj månad är taget av Mihaly Bede.",
+            "summary": "Badhusbygget i Kiruna har kantats av förseningar och kostnaden har hittills mer än fördubblats. Nu kan SVT avslöja att kommunen förhandlade bort rätten att kräva viten vid förseningar – efter press från Peab. – Det är väldigt besvärande för kommunen och skattebetalarna, säger kommunalrådet Mats Taaveniku (S).",
             "gaia_synthesis": "",
-            "published_at": "Sat, 23 May 2026 06:30:02 +0200",
+            "published_at": "Thu, 28 May 2026 05:30:01 +0200",
             "multi_source_verified": false
         },
         {
-            "id": "politik-7d5a23de-2026-05-23",
-            "title": "V i regering skrämmer oppositionens väljare",
+            "id": "samhälle-e9d17256-2026-05-28",
+            "title": "Hård kritik mot Svenska filminstitutet: ”Strider mot god branschsed”",
             "location": {
                 "city": "Stockholm",
                 "country": "Sverige",
@@ -242,22 +284,22 @@
                 {
                     "name": "SVT Nyheter",
                     "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/inrikes/v-i-regering-skrammer-oppositionens-valjare"
+                    "url": "https://www.svt.se/kultur/hard-kritik-mot-svenska-filminstitutet-strider-mot-god-branschsed"
                 }
             ],
             "source_count": 1,
             "score": 6.5,
             "tier": 2,
-            "category": "politik",
+            "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "En femtedel av de väljare som tänkt lägga sin röst på något av oppositionspartierna tvekar kring att rösta rödgrönt – om V släpps in i en regering. Tidöväljarna är mindre skeptiskt inställda till SD i regering. – Det är överraskande att ”stöta bort-effekten” är så mycket starkare hos V än SD, säger Mats Knutson, inrikespolitisk kommentator.",
+            "summary": "Daniel Espinosas storfilm Madame Luna fick nära 17 miljoner kronor i stöd från Svenska filminstitutet – men eftersom filmen har fastnat i en långdragen upphovsrättstvist har den inte nått någon svensk publik. Nu riktas skarp kritik mot Svenska filminstitutet – som anklagas av filmare och producenter för att agera partiskt.",
             "gaia_synthesis": "",
-            "published_at": "Sat, 23 May 2026 05:45:48 +0200",
+            "published_at": "Thu, 28 May 2026 05:30:01 +0200",
             "multi_source_verified": false
         },
         {
-            "id": "samhälle-e830f77e-2026-05-23",
-            "title": "Transportstyrelsen förklarar – därför får 16-åringar köra lastbil",
+            "id": "samhälle-55bc7cea-2026-05-28",
+            "title": "Mini-monstret ekoxen behöver din hjälp i sommar",
             "location": {
                 "city": "Stockholm",
                 "country": "Sverige",
@@ -268,7 +310,7 @@
                 {
                     "name": "SVT Nyheter",
                     "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/lokalt/jonkoping/transportstyrelsen-forklarar-darfor-far-16-aringar-kora-lastbil"
+                    "url": "https://www.svt.se/nyheter/lokalt/ost/mini-monstret-ekoxen-behover-din-hjalp-i-sommar"
                 }
             ],
             "source_count": 1,
@@ -276,14 +318,40 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "I början av veckan träffade vi 16-åringarna Hjalmar och Sixten som har varsin lastbil som A-traktor. Hur lämpligt det är att ha en lastbil som A-traktor ifrågasattes på sociala medier. Här reder Transportstyrelsens presschef Mikael Andersson ut vad som gäller.",
+            "summary": "Nu kan du hjälpa Sveriges största skalbagge. 13 länsstyrelser och SLU Artdatabanken efterlyser nu allmänhetens observationer av ekoxen.",
             "gaia_synthesis": "",
-            "published_at": "Sat, 23 May 2026 05:30:05 +0200",
+            "published_at": "Thu, 28 May 2026 05:30:01 +0200",
             "multi_source_verified": false
         },
         {
-            "id": "samhälle-acf3cd7a-2026-05-23",
-            "title": "Båtlivsexperten: Så håller du dig säker på sjön",
+            "id": "samhälle-89c3f037-2026-05-28",
+            "title": "Polisen om Hallonbergen: En positiv utveckling",
+            "location": {
+                "city": "Stockholm",
+                "country": "Sverige",
+                "lat": 59.3293,
+                "lon": 18.0686
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/lokalt/stockholm/polisen-om-hallonbergen-en-positiv-utveckling"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Den grova brottsligheten minskar i Hallonbergen i Sundbyberg. Men trots kommunens storsatsningar på Hallonbergslyftet är problemen inte helt borta. Samtidigt som stadsdelen blir tryggare vittnar boende om att de öppna drogscenerna i stället har flyttat på sig.",
+            "gaia_synthesis": "",
+            "published_at": "Thu, 28 May 2026 05:30:01 +0200",
+            "multi_source_verified": false
+        },
+        {
+            "id": "brott-a8f00ad8-2026-05-28",
+            "title": "Stina och Lukas blev inlåsta i cell för 13-åringar på Kumlaanstalten",
             "location": {
                 "city": "Sverige",
                 "country": "Sverige",
@@ -294,85 +362,7 @@
                 {
                     "name": "SVT Nyheter",
                     "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/lokalt/ost/batlivsexperten-sa-haller-du-dig-saker-pa-sjon"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "Intresset för båtliv ökar i Sverige. Enligt Transportstyrelsens båtlivsundersökning har 75 000 personer varit med om en incident med sin båt. Under förra året dog 25 personer på sjön, vilket är den högsta siffran på fem år.",
-            "gaia_synthesis": "",
-            "published_at": "Sat, 23 May 2026 05:30:05 +0200",
-            "multi_source_verified": false
-        },
-        {
-            "id": "samhälle-3ed5959a-2026-05-23",
-            "title": "Mattesnillet Arvid, 8, från Luleå ger sina bästa tips: ”Tänk att du är bra”",
-            "location": {
-                "city": "Luleå",
-                "country": "Sverige",
-                "lat": 65.5848,
-                "lon": 22.1547
-            },
-            "sources": [
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/lokalt/norrbotten/mattesnillet-arvid-8-fran-lulea-ger-sina-basta-tips-var-fokuserad"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "Andraklassaren Arvid Hemvall kammade hem full pott i en internationell matematiktävling där över sex miljoner elever deltar. Och han har en hel del knep för att fler ska kunna klara sig lika bra. – Det är värt att sitta ganska länge, säger han.",
-            "gaia_synthesis": "",
-            "published_at": "Sat, 23 May 2026 05:30:05 +0200",
-            "multi_source_verified": false
-        },
-        {
-            "id": "samhälle-0e7b2057-2026-05-23",
-            "title": "Liv Strömquists första konstutställning visas i Kalmar – om hjärnan i det digitala kaoset",
-            "location": {
-                "city": "Stockholm",
-                "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
-            },
-            "sources": [
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/lokalt/smaland/liv-stromquists-forsta-konstutstallning-visas-i-kalmar-om-hjarnan-i-det-digitala-kaoset"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "Liv Strömquist är hyllad serietecknare, konstnär, dramatiker och poddare. Nu tar hon steget in i konsthallen med ”Where is my mind?” där hon undersöker hur det ständiga informationsflödet, och ett samhälle som snurrar allt snabbare, påverkar vårt sätt att tänka, känna och uppleva världen.",
-            "gaia_synthesis": "",
-            "published_at": "Sat, 23 May 2026 05:30:05 +0200",
-            "multi_source_verified": false
-        },
-        {
-            "id": "brott-c90fc682-2026-05-23",
-            "title": "Skott mot dörr i Borås – en gripen",
-            "location": {
-                "city": "Stockholm",
-                "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
-            },
-            "sources": [
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/lokalt/vast/skott-mot-dorr-i-boras-en-gripen"
+                    "url": "https://www.svt.se/nyheter/lokalt/orebro/stina-och-lukas-blev-inlasta-i-cell-for-13-aringar-pa-kumlaanstalten"
                 }
             ],
             "source_count": 1,
@@ -380,25 +370,25 @@
             "tier": 2,
             "category": "brott",
             "sentiment": "neutral",
-            "summary": "Skott har avlossats i Borås under natten mot lördagen. – Vi kan konstatera att man har krossat en ruta inne i trappuppgången och att det sedan har skjutits mot en dörr i trappuppgången, säger Johan Josarp, polisens vakthavande befäl, till tidningen.",
+            "summary": "I sommar väntas beslut tas om att sänka straffåldern i Sverige till 13 år. SVT följde med två sjundeklassare in på Kumlaanstalten. Där fick de ställa sina egna frågor och bli inlåsta på prov i en av cellerna där barn ska kunna avtjäna sina fängelsestraff.",
             "gaia_synthesis": "",
-            "published_at": "Sat, 23 May 2026 03:44:54 +0200",
+            "published_at": "Thu, 28 May 2026 05:30:01 +0200",
             "multi_source_verified": false
         },
         {
-            "id": "samhälle-eb0471ae-2026-05-23",
-            "title": "Man död i mc-olycka i Gällivare",
+            "id": "samhälle-9991e6e4-2026-05-28",
+            "title": "Kritiken: SVT-dokumentären om Lundsberg är för ensidig",
             "location": {
-                "city": "Stockholm",
+                "city": "Lundsberg",
                 "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
+                "lat": 59.5036,
+                "lon": 14.1565
             },
             "sources": [
                 {
                     "name": "SVT Nyheter",
                     "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/lokalt/norrbotten/allvarlig-olycka-i-gallivare-person-till-sjukhus"
+                    "url": "https://www.svt.se/nyheter/inrikes/kritiken-svt-dokumentaren-om-lundsberg-ar-for-ensidig"
                 }
             ],
             "source_count": 1,
@@ -406,103 +396,25 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "En mc-förare i 20-årsåldern har omkommit efter att ha krockat med en personbil i Gällivare.",
+            "summary": "Den uppmärksammade SVT-granskningen ”Arvtagarna” är för ensidig, menar Jens Liljestrand, kulturskribent på Expressen. – Hade det inte varit värdefullt att lyfta luren en gång, för att få kontakt med föräldrarna till offren? säger han i Aktuellt. Producenten Johannes Hallbom menar dock att offrens perspektiv är med i serien.",
             "gaia_synthesis": "",
-            "published_at": "Sat, 23 May 2026 01:36:46 +0200",
+            "published_at": "Wed, 27 May 2026 23:53:02 +0200",
             "multi_source_verified": false
         },
         {
-            "id": "samhälle-b96fac32-2026-05-23",
-            "title": "Uppgift: Rekordbud på Felicia Schröder",
+            "id": "hälsa-29e547df-2026-05-28",
+            "title": "Skadad man förd till sjukhus – grov misshandel i Växjö",
             "location": {
-                "city": "Stockholm",
+                "city": "Växjö",
                 "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
+                "lat": 56.8777,
+                "lon": 14.8091
             },
             "sources": [
                 {
                     "name": "SVT Nyheter",
                     "type": "public_service",
-                    "url": "https://www.svt.se/sport/fotboll/uppgift-rekordbud-pa-felicia-schroder"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "Den engelska fotbollsklubben Chelsea uppges ha lagt ett bud på Felicia Schröder värt 1,6 miljoner dollar, ungefär 15 miljoner kronor, rapporterar The athletic.",
-            "gaia_synthesis": "",
-            "published_at": "Sat, 23 May 2026 01:30:16 +0200",
-            "multi_source_verified": false
-        },
-        {
-            "id": "samhälle-401583d0-2026-05-23",
-            "title": "Tonåring allvarligt skadad i trafikolycka i Västervik",
-            "location": {
-                "city": "Stockholm",
-                "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
-            },
-            "sources": [
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/lokalt/smaland/tonaring-allvarligt-skadad-i-trafikolycka-i-vastervik"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "En tonåring har skadats allvarligt i en trafikolycka i Västervik, rapporterar VT . Han uppges ha varit inblandad i en singelolycka med en personbil.",
-            "gaia_synthesis": "",
-            "published_at": "Sat, 23 May 2026 01:25:26 +0200",
-            "multi_source_verified": false
-        },
-        {
-            "id": "samhälle-cf2ad7a5-2026-05-23",
-            "title": "Ivar Stenberg med sitt första VM-mål i Sveriges seger mot Italien",
-            "location": {
-                "city": "Italien",
-                "country": "Italien",
-                "lat": 41.9,
-                "lon": 12.5
-            },
-            "sources": [
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/sport/ishockey/ivar-stenberg-med-sitt-forsta-vm-mal-i-sveriges-seger-mot-italien"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "Nu har även Ivar Stenberg gjort mål i VM. Mot Italien kom två fullträffar från supertalangens klubba. – Såklart jättekul att få göra mål i ett världsmästerskap, säger Stenberg till SVT Sport.",
-            "gaia_synthesis": "",
-            "published_at": "Fri, 22 May 2026 22:34:23 +0200",
-            "multi_source_verified": false
-        },
-        {
-            "id": "hälsa-5859d8a1-2026-05-23",
-            "title": "En person död efter olycka utanför Landskrona",
-            "location": {
-                "city": "Stockholm",
-                "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
-            },
-            "sources": [
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/lokalt/helsingborg/buss-och-personbil-i-olycka-utanfor-landskrona"
+                    "url": "https://www.svt.se/nyheter/lokalt/smaland/skadad-man-ford-till-sjukhus-grov-misshandel-i-vaxjo"
                 }
             ],
             "source_count": 1,
@@ -510,14 +422,66 @@
             "tier": 2,
             "category": "hälsa",
             "sentiment": "neutral",
-            "summary": "En man är död efter en frontalkrock mellan en personbil och en buss i linjetrafik utanför Landskrona på fredagskvällen. Sju personer som åkte i bussen fick föras till sjukhus, av dem är en man i 60-årsåldern allvarligt skadad.",
+            "summary": "Allmänheten påträffade en blodig man med skador i stadsdelen Araby i Växjö. Mannen fördes till sjukhus med oklara skador.",
             "gaia_synthesis": "",
-            "published_at": "Fri, 22 May 2026 21:29:34 +0200",
+            "published_at": "Wed, 27 May 2026 20:46:47 +0200",
             "multi_source_verified": false
         },
         {
-            "id": "samhälle-165a2351-2026-05-23",
-            "title": "Misstänkt mordförsök i Borlänge – man i 45-årsåldern stickskadad",
+            "id": "försvar-718f227d-2026-05-28",
+            "title": "Svenska EU-politiker hade minst 30 möten med snuslobbyister",
+            "location": {
+                "city": "Frankrike",
+                "country": "Frankrike",
+                "lat": 48.86,
+                "lon": 2.35
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/inrikes/svenska-eu-politiker-hade-minst-30-moten-med-snuslobbyister"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "försvar",
+            "sentiment": "neutral",
+            "summary": "I år ska EU-kommissionen fatta nya beslut om hur det vita snuset ska regleras, efter att fler EU-länder än Frankrike vill förbjuda snuset helt. Men svenska politiker försvarar snuset och SVT:s kartläggning visar att svenska EU-politiker har haft minst 30 möten med tobakslobbyister sedan 2024. – Det är en svensk produkt som vi tycker det är viktigt att skydda och försvara, säger EU-parlamentarikern Jessica Polfjärd (M).",
+            "gaia_synthesis": "",
+            "published_at": "Wed, 27 May 2026 19:03:41 +0200",
+            "multi_source_verified": false
+        },
+        {
+            "id": "samhälle-d933cff6-2026-05-28",
+            "title": "Efter virala klippet – Viggo Björck har fått Sidney Crosbys klubba",
+            "location": {
+                "city": "Kanada",
+                "country": "Kanada",
+                "lat": 45.42,
+                "lon": -75.7
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/sport/ishockey/efter-virala-klippet-viggo-bjorck-har-fatt-sidney-crosbys-klubba"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Efter Sveriges VM-premiärmatch mot Kanada passade supertalangen Viggo Björck på att be om en av tidernas bästa spelare Sidney Crosbys klubba. Nu har han fått den. – Den stod utanför omklädningsrummet, säger han till TT.",
+            "gaia_synthesis": "",
+            "published_at": "Wed, 27 May 2026 18:20:05 +0200",
+            "multi_source_verified": false
+        },
+        {
+            "id": "politik-d14701b0-2026-05-28",
+            "title": "Tidöpartier kritiska till klimatutredarens förslag",
             "location": {
                 "city": "Stockholm",
                 "country": "Sverige",
@@ -528,85 +492,7 @@
                 {
                     "name": "SVT Nyheter",
                     "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/lokalt/dalarna/misstankt-mordforsok-i-borlange-ouzpiu"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "En man i 60-årsåldern har gripits, misstänkt för mordförsök på en man i 45-årsåldern i stadsdelen Jakobsgårdarna i Borlänge.",
-            "gaia_synthesis": "",
-            "published_at": "Fri, 22 May 2026 21:22:41 +0200",
-            "multi_source_verified": false
-        },
-        {
-            "id": "samhälle-71622be4-2026-05-23",
-            "title": "Lärare i Skellefteå klämde 12-årig elev på rumpan – döms",
-            "location": {
-                "city": "Skellefteå",
-                "country": "Sverige",
-                "lat": 64.7507,
-                "lon": 20.9528
-            },
-            "sources": [
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/lokalt/vasterbotten/larare-i-skelleftea-klamde-12-arig-elev-pa-rumpan-doms"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "En lärare på en grundskola i Skellefteå kommun klämde en 12-årig flicka som gick på skolan på rumpan. Händelsen fick eleven att byta klass. Mannen tilläts jobba kvar som lärare. Nu döms han för sexuellt ofredande mot barn.",
-            "gaia_synthesis": "",
-            "published_at": "Fri, 22 May 2026 19:37:10 +0200",
-            "multi_source_verified": false
-        },
-        {
-            "id": "samhälle-2ae37354-2026-05-23",
-            "title": "Nordkoreanskt damlag korsar gränsen – spelar fotboll i iskallt politiskt läge",
-            "location": {
-                "city": "Sydkorea",
-                "country": "Sydkorea",
-                "lat": 37.55,
-                "lon": 126.99
-            },
-            "sources": [
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/nordkoreanskt-damlag-korsar-gransen-spelar-fotboll-i-iskallt-politiskt-lage"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "Nordkoreas damlag har korsat gränsen till Sydkorea för första gången på länge. Besöket väcker hopp om nya idrottsutbyten.",
-            "gaia_synthesis": "",
-            "published_at": "Sat, 23 May 2026 05:42:48 +0200",
-            "multi_source_verified": false
-        },
-        {
-            "id": "politik-308dc2ae-2026-05-23",
-            "title": "Nato-ministrarna: Mötet visade på enighet",
-            "location": {
-                "city": "Helsingborg",
-                "country": "Sverige",
-                "lat": 56.0465,
-                "lon": 12.6945
-            },
-            "sources": [
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/nato-ministrarna-motet-visade-pa-enighet"
+                    "url": "https://www.svt.se/nyheter/inrikes/tidopartier-kritiska-till-klimatutredarens-forslag"
                 }
             ],
             "source_count": 1,
@@ -614,92 +500,92 @@
             "tier": 2,
             "category": "politik",
             "sentiment": "neutral",
-            "summary": "Natomötet i Helsingborg bjöd på en välkommen sammanhållning, menar utrikesministrar SVT talat med. Vi frågade vad man tar med sig från mötet, och svaret blev enighet. – Annars hade vi bara roat Putin och Irans ledare som hade tittat på splittringen och ätit popcorn, säger Belgiens utrikesminister Maxime Prévot.",
+            "summary": "En klimatutredning föreslår högre skatt på drivmedel och ökad reduktionsplikt. Regeringen kritiserar nu utredningen som de själva tillsatte 2024. – Det skulle drabba hushållen på ett oskäligt sätt, säger Johan Britz (L), vikarierande klimat- och miljöminister.",
             "gaia_synthesis": "",
-            "published_at": "Fri, 22 May 2026 22:14:03 +0200",
+            "published_at": "Wed, 27 May 2026 18:18:31 +0200",
             "multi_source_verified": false
         },
         {
-            "id": "hälsa-2bcbc8b2-2026-05-23",
-            "title": "Dödssiffran stiger i Kongo: ”Hela befolkningen lever i skräck”",
+            "id": "samhälle-bcc8e671-2026-05-28",
+            "title": "Tre Kronor ser fram emot att tysta den schweiziska publiken",
             "location": {
-                "city": "Kongo-Kinshasa",
-                "country": "Kongo-Kinshasa",
-                "lat": -4.0383,
-                "lon": 21.7587
-            },
-            "sources": [
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/dodssiffran-stiger-i-kongo-hela-befolkningen-lever-i-skrack"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "hälsa",
-            "sentiment": "neutral",
-            "summary": "Dödsiffran stiger i ebolautbrottets Kongo – nu tros 177 personer ha avlidit, och 750 ha smittats, uppger Världshälsoorganisationen. Samtidigt stiger rädslan bland befolkningen. – Unga dör, gamla dör – det gör att hela befolkningen lever i skräck, säger journalisten Freddy Upar till SVT.",
-            "gaia_synthesis": "",
-            "published_at": "Fri, 22 May 2026 21:34:37 +0200",
-            "multi_source_verified": false
-        },
-        {
-            "id": "brott-80cf099b-2026-05-23",
-            "title": "Misstänkt spion häktas för stämpling till mord",
-            "location": {
-                "city": "Moskva",
-                "country": "",
-                "lat": 55.7558,
-                "lon": 37.6173
-            },
-            "sources": [
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/misstankt-spion-haktas-for-stampling-till-mord"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "brott",
-            "sentiment": "neutral",
-            "summary": "En 34-årig man greps i början av året anklagad för spioneri. Tidigare i veckan misstänktes han även för stämpling till mord i Moskva, något han under fredagen häktas för.",
-            "gaia_synthesis": "",
-            "published_at": "Fri, 22 May 2026 20:17:41 +0200",
-            "multi_source_verified": false
-        },
-        {
-            "id": "samhälle-0368f304-2026-05-23",
-            "title": "Løkke Rasmussen kommer inte stödja blå minoritetsregering",
-            "location": {
-                "city": "Lund",
+                "city": "Stockholm",
                 "country": "Sverige",
-                "lat": 55.7047,
-                "lon": 13.191
+                "lat": 59.3293,
+                "lon": 18.0686
             },
             "sources": [
                 {
-                    "name": "SVT Utrikes",
+                    "name": "SVT Nyheter",
                     "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/lokke-kommer-inte-stodja-bla-minoritetsregering"
+                    "url": "https://www.svt.se/sport/ishockey/tre-kronor-ser-fram-emot-att-tysta-den-schweiziska-publiken"
                 }
             ],
             "source_count": 1,
             "score": 6.5,
             "tier": 2,
             "category": "samhälle",
-            "sentiment": "positive",
-            "summary": "Det rekordlånga regeringskaoset i Danmark fortsätter. Moderaternes partiledare Lars Løkke Rasmussen kommer inte stödja Venstres partiledare Troels Lund Poulsens blå minoritetsregering. Danska Ekstra Bladet erfar att Mette Frederiksen (S) kommer att erbjudas att göra ett nytt försök på lördag.",
+            "sentiment": "neutral",
+            "summary": "Efter många om och men tog sig Tre Kronor till kvartsfinal i VM. Där väntar värdnationen Schweiz, som gått felfritt genom gruppspelet. – Jag hoppas det blir enormt tryck, säger Lucas Raymond till SVT Sport.",
             "gaia_synthesis": "",
-            "published_at": "Fri, 22 May 2026 17:58:16 +0200",
+            "published_at": "Wed, 27 May 2026 17:47:15 +0200",
             "multi_source_verified": false
         },
         {
-            "id": "hälsa-7ba5b29d-2026-05-23",
-            "title": "Ytterligare en smittad med hantaviruset",
+            "id": "samhälle-7f738f18-2026-05-28",
+            "title": "Nio månader kvar till skid-VM i Falun – så är statusen",
+            "location": {
+                "city": "Stockholm",
+                "country": "Sverige",
+                "lat": 59.3293,
+                "lon": 18.0686
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/lokalt/dalarna/nio-manader-kvar-till-skid-vm-i-falun-sa-ar-statusen"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Nästa år är det dags för skid-VM i Falun. Hittills har planeringen av evenemanget präglats av vd-avhopp och utmaningar att hitta sponsorer. Så vad är då statusen idag, nio månader innan de första tävlingsloppen genomförs?",
+            "gaia_synthesis": "",
+            "published_at": "Wed, 27 May 2026 17:23:11 +0200",
+            "multi_source_verified": false
+        },
+        {
+            "id": "samhälle-4f60c8fa-2026-05-28",
+            "title": "Piteåbo åtalas för grovt narkotikabrott – trots brist på knark",
+            "location": {
+                "city": "Norrbotten",
+                "country": "Sverige",
+                "lat": 66.5,
+                "lon": 20.5
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/lokalt/norrbotten/piteabo-atalas-for-grovt-narkotikabrott-trots-brist-pa-knark"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "En man från Piteå ska under drygt tre års tid bedrivit en omfattande narkotikaverksamhet i Norrbotten. I dag avslutades den ovanliga rättegången där han åtalas för grovt narkotikabrott – trots brist på knark. – Den här brottsligheten har varit särskilt svår att utreda, säger åklagare Rickard Finnberg.",
+            "gaia_synthesis": "",
+            "published_at": "Wed, 27 May 2026 17:12:16 +0200",
+            "multi_source_verified": false
+        },
+        {
+            "id": "samhälle-1a0bfdae-2026-05-28",
+            "title": "Minst tio döda i brand på flickskola i Kenya",
             "location": {
                 "city": "Stockholm",
                 "country": "Sverige",
@@ -710,7 +596,345 @@
                 {
                     "name": "SVT Utrikes",
                     "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/ytterligare-en-smittad-med-hantaviruset"
+                    "url": "https://www.svt.se/nyheter/utrikes/minst-tio-omkomna-i-skolbrand-i-kenya"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "negative",
+            "summary": "Minst tio studenter ska ha omkommit i en brand på en flickskola i centrala Kenya, rapporterar Reuters.",
+            "gaia_synthesis": "",
+            "published_at": "Thu, 28 May 2026 07:00:16 +0200",
+            "multi_source_verified": false
+        },
+        {
+            "id": "samhälle-e21debfc-2026-05-28",
+            "title": "13 döda i trafikolycka i Kina",
+            "location": {
+                "city": "Kina",
+                "country": "Kina",
+                "lat": 39.9,
+                "lon": 116.4
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/13-doda-i-trafikolycka-i-kina"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "negative",
+            "summary": "13 personer har omkommit och tre skadats i en trafikolycka i Kina där en överfull minibuss krockade med en lastbil, rapporterar det statliga kinesiska mediebolaget CCTV.",
+            "gaia_synthesis": "",
+            "published_at": "Thu, 28 May 2026 04:12:33 +0200",
+            "multi_source_verified": false
+        },
+        {
+            "id": "politik-6ffbced6-2026-05-28",
+            "title": "Anklagelser om korruption hopar sig över Trumpkritikern Pedro Sánchez",
+            "location": {
+                "city": "Stockholm",
+                "country": "Sverige",
+                "lat": 59.3293,
+                "lon": 18.0686
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/anklagelser-om-korruption-hopar-sig-over-trumpkritikern-pedro-sanchez"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "politik",
+            "sentiment": "neutral",
+            "summary": "Spaniens premiärminister Pedro Sánchez har fått internationell uppmärksamhet för att han öppet kritiserar Vita husets politik. Men på hemmaplan växer högen av korruptionsanklagelser mot Sánchez innersta krets. På onsdagen inledde polisen en ny räd mot regeringspartiets högkvarter.",
+            "gaia_synthesis": "",
+            "published_at": "Thu, 28 May 2026 03:15:26 +0200",
+            "multi_source_verified": false
+        },
+        {
+            "id": "politik-107f5d91-2026-05-28",
+            "title": "Misstanken: Ryska stridsplan kränkte finskt luftrum – för att undvika åska",
+            "location": {
+                "city": "Stockholm",
+                "country": "Sverige",
+                "lat": 59.3293,
+                "lon": 18.0686
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/misstanken-ryska-stridsplan-krankte-finskt-luftrum-for-att-undvika-aska"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "politik",
+            "sentiment": "neutral",
+            "summary": "Finlands försvarsdepartement misstänker att ryska stridsplan kränkt finskt luftrum, skriver tidningen Ilta-Sanomat på onsdagen. Man tror att planen försökte undvika åskoväder, enligt departementet. – En utredning av det misstänkta luftrumsintrånget har omedelbart inletts, säger försvarsminister Antti Häkkänen enligt tidningen.",
+            "gaia_synthesis": "",
+            "published_at": "Wed, 27 May 2026 15:09:06 +0200",
+            "multi_source_verified": false
+        },
+        {
+            "id": "samhälle-b8fa29d8-2026-05-28",
+            "title": "Fem av sju funna vid liv i grotta i Laos – fast i en vecka",
+            "location": {
+                "city": "Stockholm",
+                "country": "Sverige",
+                "lat": 59.3293,
+                "lon": 18.0686
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/fem-av-sju-funna-vid-liv-i-grotta-var-fast-i-en-vecka"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "I över en vecka satt de fast i en översvämmad grotta i Laos, fem personer har nu räddats efter en omfattande insats. Men arbetet fortgår – hela sällskapet är inte hittat.",
+            "gaia_synthesis": "",
+            "published_at": "Wed, 27 May 2026 14:07:02 +0200",
+            "multi_source_verified": false
+        },
+        {
+            "id": "samhälle-4a1cc19f-2026-05-28",
+            "title": "Ytterligare ett fall av hantavirus konstaterat i Spanien",
+            "location": {
+                "city": "Spanien",
+                "country": "Spanien",
+                "lat": 40.42,
+                "lon": -3.7
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/ytterligare-ett-fall-av-hantavirus-konstaterat-i-spanien"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Antalet fall av hantavirus stiger efter att ytterligare ett fall konstaterats i Spanien, skriver Världshälsoorganisationens chef Tedros Adhanom Ghebreyesus på X.",
+            "gaia_synthesis": "",
+            "published_at": "Wed, 27 May 2026 09:19:26 +0200",
+            "multi_source_verified": false
+        },
+        {
+            "id": "samhälle-3929f207-2026-05-28",
+            "title": "Fortsatt extremhetta i Europa – kan stiga ännu mer",
+            "location": {
+                "city": "London",
+                "country": "",
+                "lat": 51.5074,
+                "lon": -0.1278
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/fortsatt-extremhetta-i-europa-kan-stiga-annu-mer"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Över 350 nya värmerekord i Frankrike och den högsta majtemperaturen någonsin i London. Hettan har stora delar av Europa i ett järngrepp – och de kommande dagarna kan temperaturen bli över 40 grader. – Det blir som en kokande gryta, säger SVT:s meterolog Marcus Sjöstedt.",
+            "gaia_synthesis": "",
+            "published_at": "Wed, 27 May 2026 08:07:52 +0200",
+            "multi_source_verified": false
+        },
+        {
+            "id": "samhälle-b7fd48e2-2026-05-28",
+            "title": "Britter hoppas på rökfri generation – tobaksförsäljning fasas ut",
+            "location": {
+                "city": "Storbritannien",
+                "country": "Storbritannien",
+                "lat": 51.51,
+                "lon": -0.13
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/britter-hoppas-pa-rokfri-generation-tobaksforsaljning-fasas-ut"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Storbritannien förbjuder cigarettförsäljning för gott till personer födda 2009 eller senare. En gradvis höjning av åldersgränsen ska skapa en helt rökfri generation.",
+            "gaia_synthesis": "",
+            "published_at": "Wed, 27 May 2026 03:30:15 +0200",
+            "multi_source_verified": false
+        },
+        {
+            "id": "samhälle-d2ccc7df-2026-05-28",
+            "title": "Sju döda i fransk värmebölja – varningar i stora delar av landet",
+            "location": {
+                "city": "Frankrike",
+                "country": "Frankrike",
+                "lat": 48.86,
+                "lon": 2.35
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/sju-doda-i-fransk-varmebolja-varningar-i-stora-delar-av-landet"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "negative",
+            "summary": "Sju personer har dött i Frankrike i samband med den extrema värmebölja som nu drabbar stora delar av landet. Fem av dödsfallen uppges vara kopplade till drunkning.",
+            "gaia_synthesis": "",
+            "published_at": "Wed, 27 May 2026 03:15:14 +0200",
+            "multi_source_verified": false
+        },
+        {
+            "id": "politik-4d1d59c8-2026-05-28",
+            "title": "Efter stormningen: ”Marionettopposition” i Turkiet enligt CHP-anhängare",
+            "location": {
+                "city": "Turkiet",
+                "country": "Turkiet",
+                "lat": 39.93,
+                "lon": 32.86
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/efter-stormningen-marionettopposition-i-turkiet-enligt-chp-anhangare"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "politik",
+            "sentiment": "neutral",
+            "summary": "Turkiska rättsväsendet har avsatt partiledaren för oppositionspartiet CHP som ses som en av Erdogans utmanare – och ersättaren pekas ut som en marionett. – Många i oppositionen menar att han är i maskopi med makten, säger Europakorrespondent Tomas Thorén.",
+            "gaia_synthesis": "",
+            "published_at": "Tue, 26 May 2026 10:26:19 +0200",
+            "multi_source_verified": false
+        },
+        {
+            "id": "politik-53c5b365-2026-05-28",
+            "title": "Skolbuss påkörd av tåg – fyra dödades",
+            "location": {
+                "city": "Stockholm",
+                "country": "Sverige",
+                "lat": 59.3293,
+                "lon": 18.0686
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/skolbuss-pakord-av-tag-flera-skadade"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "politik",
+            "sentiment": "negative",
+            "summary": "En skolbuss kolliderade på tisdagsmorgonen med ett tåg i Flandern i Belgien. Två barn och två vuxna har omkommit, säger Belgiens transportminister Jean-Luc Crucke till RTL. – Mina första tankar går till offren, men också till dem som skadades och deras familjer, säger han.",
+            "gaia_synthesis": "",
+            "published_at": "Tue, 26 May 2026 09:20:27 +0200",
+            "multi_source_verified": false
+        },
+        {
+            "id": "samhälle-aaf867c4-2026-05-28",
+            "title": "USA: Oro för ”spökstäder” när jordbrukare tvingas bort",
+            "location": {
+                "city": "Usa",
+                "country": "Usa",
+                "lat": 38.91,
+                "lon": -77.04
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/usa-oro-for-spokstader-nar-jordbrukare-tvingas-bort"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Trumpadministrationen har stoppat bisonhjordar från att beta på federal mark för att gynna lokala samhällen framför naturvårdsprojekt. Ändå oroas ranchägare för att markköp driver upp priserna och skapar spökstäder. – Du kan redan se en hel del här i Montana, säger Vicky Olsen som är boskapsuppfödare och ranchägare.",
+            "gaia_synthesis": "",
+            "published_at": "Tue, 26 May 2026 03:06:22 +0200",
+            "multi_source_verified": false
+        },
+        {
+            "id": "samhälle-3860118a-2026-05-28",
+            "title": "Nytt fall av hantaviruset i Spanien",
+            "location": {
+                "city": "Spanien",
+                "country": "Spanien",
+                "lat": 40.42,
+                "lon": -3.7
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/nytt-fall-av-hantaviruset-i-spanien"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Nu har ytterligare en person som var ombord på kryssningsfartyget Hondius testat positivt för hantaviruset. Detta två veckor efter att de sista passagerarna evakuerades från fartyget.",
+            "gaia_synthesis": "",
+            "published_at": "Mon, 25 May 2026 21:01:05 +0200",
+            "multi_source_verified": false
+        },
+        {
+            "id": "hälsa-94408f14-2026-05-28",
+            "title": "Därför uppstår dödliga virusutbrott i östra Kongo",
+            "location": {
+                "city": "Stockholm",
+                "country": "Sverige",
+                "lat": 59.3293,
+                "lon": 18.0686
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/darfor-uppstar-dodliga-virusutbrott-i-ostra-kongo"
                 }
             ],
             "source_count": 1,
@@ -718,40 +942,196 @@
             "tier": 2,
             "category": "hälsa",
             "sentiment": "neutral",
-            "summary": "Ytterligare en person som var ombord på kryssningsfartyget Hondius har bekräftats smittad med hantaviruset. Det uppger WHO-chefen Tedros ⁠Adhanom Ghebreyesus på fredagen. Det rör sig om en nederländsk medborgare som var en del av besättningen.",
+            "summary": "Varför dyker så många dödliga virusutbrott upp just i östra Kongo‑Kinshasa? Det är inte slump utan en laddad mix som gör regionen till en av världens mest känsliga zoner för nya sjukdomar.",
             "gaia_synthesis": "",
-            "published_at": "Fri, 22 May 2026 14:39:57 +0200",
+            "published_at": "Mon, 25 May 2026 19:03:03 +0200",
             "multi_source_verified": false
         },
         {
-            "id": "konflikt-5c1a2b25-2026-05-23",
-            "title": "USA: Taiwanvapen pausas på grund av Iran",
+            "id": "brott-bd5fbda8-2026-05-28",
+            "title": "Fångar har tagit över fängelse i Venezuela",
             "location": {
-                "city": "Iran",
-                "country": "Iran",
-                "lat": 35.69,
-                "lon": 51.39
+                "city": "Venezuela",
+                "country": "Venezuela",
+                "lat": 10.48,
+                "lon": -66.9
             },
             "sources": [
                 {
                     "name": "SVT Utrikes",
                     "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/usa-taiwanvapen-pausas-pa-grund-av-iran"
+                    "url": "https://www.svt.se/nyheter/utrikes/fangar-har-tagit-over-fangelse-i-venezuela"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "brott",
+            "sentiment": "neutral",
+            "summary": "Hundratals fångar tog på söndagen kontroll över ett fängelse i Venezuela, och har inlett en protestaktion på taket efter anklagelser om tortyr.",
+            "gaia_synthesis": "",
+            "published_at": "Mon, 25 May 2026 02:40:30 +0200",
+            "multi_source_verified": false
+        },
+        {
+            "id": "samhälle-4f12282e-2026-05-28",
+            "title": "Delstaten Alberta ska rösta om att lämna Kanada",
+            "location": {
+                "city": "Kanada",
+                "country": "Kanada",
+                "lat": 45.42,
+                "lon": -75.7
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9225856"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-05-28T07:22:51.099033+02:00",
+            "multi_source_verified": false
+        },
+        {
+            "id": "samhälle-25e9c236-2026-05-28",
+            "title": "Skattebetalarna kan få stå för rekordnota i Lundinmålet",
+            "location": {
+                "city": "Stockholm",
+                "country": "Sverige",
+                "lat": 59.3293,
+                "lon": 18.0686
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9225838"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-05-28T07:22:51.099033+02:00",
+            "multi_source_verified": false
+        },
+        {
+            "id": "samhälle-aff4bcee-2026-05-28",
+            "title": "Efter rekordlång väntan – Danmark kan snart få ny regering",
+            "location": {
+                "city": "Danmark",
+                "country": "Danmark",
+                "lat": 55.68,
+                "lon": 12.57
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9225459"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-05-28T07:22:51.099033+02:00",
+            "multi_source_verified": false
+        },
+        {
+            "id": "samhälle-f58eecd0-2026-05-28",
+            "title": "Privat bolag bakom svenskt snusevent: ”Väldigt oroande”",
+            "location": {
+                "city": "Stockholm",
+                "country": "Sverige",
+                "lat": 59.3293,
+                "lon": 18.0686
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9225763"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-05-28T07:22:51.099033+02:00",
+            "multi_source_verified": false
+        },
+        {
+            "id": "samhälle-def203a8-2026-05-28",
+            "title": "Jehovas vittnen vann i rätten – nu vill staten att lagen prövas",
+            "location": {
+                "city": "Stockholm",
+                "country": "Sverige",
+                "lat": 59.3293,
+                "lon": 18.0686
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9225180"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-05-28T07:22:51.099033+02:00",
+            "multi_source_verified": false
+        },
+        {
+            "id": "konflikt-31b83b7e-2026-05-28",
+            "title": "Två dödade i amerikansk båtattack i östra Stilla havet",
+            "location": {
+                "city": "Stockholm",
+                "country": "Sverige",
+                "lat": 59.3293,
+                "lon": 18.0686
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9226037"
                 }
             ],
             "source_count": 1,
             "score": 6.5,
             "tier": 2,
             "category": "konflikt",
-            "sentiment": "neutral",
-            "summary": "USA har pausat vapenaffärer med Taiwan värda drygt 130 miljarder kronor. Det är för att säkerställa att USA:s militär har tillräckligt med vapen för Irankriget, enligt USA:s tillförordnade marinminister Hung Cao.",
+            "sentiment": "negative",
+            "summary": "",
             "gaia_synthesis": "",
-            "published_at": "Fri, 22 May 2026 10:29:40 +0200",
+            "published_at": "2026-05-28T07:22:51.099033+02:00",
             "multi_source_verified": false
         },
         {
-            "id": "brott-359ec621-2026-05-23",
-            "title": "Brittisk polis: Utredningen mot Andrew blir ”lång och komplex”",
+            "id": "samhälle-5e7c3e1b-2026-05-28",
+            "title": "En av sex väljare utlandsfödd – men valdeltagandet är lågt",
             "location": {
                 "city": "Stockholm",
                 "country": "Sverige",
@@ -760,9 +1140,61 @@
             },
             "sources": [
                 {
-                    "name": "SVT Utrikes",
+                    "name": "SR Ekot",
                     "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/brittisk-polis-utredningen-mot-andrew-blir-lang-och-komplex"
+                    "url": "https://www.sverigesradio.se/artikel/9224135"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-05-28T07:22:51.099033+02:00",
+            "multi_source_verified": false
+        },
+        {
+            "id": "samhälle-11c62173-2026-05-28",
+            "title": "Sverige träffar talibanerna – ska diskutera utvisningar",
+            "location": {
+                "city": "Sverige",
+                "country": "Sverige",
+                "lat": 59.33,
+                "lon": 18.07
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9226020"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-05-28T07:22:51.099033+02:00",
+            "multi_source_verified": false
+        },
+        {
+            "id": "brott-176edfb0-2026-05-28",
+            "title": "Uppgifter: Sverige ska ge Ukraina Gripenplan",
+            "location": {
+                "city": "Sverige",
+                "country": "Sverige",
+                "lat": 59.33,
+                "lon": 18.07
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9226026"
                 }
             ],
             "source_count": 1,
@@ -770,51 +1202,25 @@
             "tier": 2,
             "category": "brott",
             "sentiment": "neutral",
-            "summary": "Utredningen mot den brittiske ex-prinsen Andrew, som misstänks för sexbrott och tjänstefel i offentligt ämbete, kommer att bli ”lång och komplex”. Det meddelar utredarna på fredagsmorgonen. – Det kommer inte att bli en snabb utredning på något sätt, säger Oliver Wright vid polisen.",
+            "summary": "",
             "gaia_synthesis": "",
-            "published_at": "Fri, 22 May 2026 07:46:17 +0200",
+            "published_at": "2026-05-28T07:22:51.099033+02:00",
             "multi_source_verified": false
         },
         {
-            "id": "försvar-c5d7ca09-2026-05-23",
-            "title": "Därför stannar USA i Nato trots Trumps hot att lämna",
+            "id": "samhälle-b29727d2-2026-05-28",
+            "title": "Storaffär på gång mellan Saab och Kanada",
             "location": {
-                "city": "Usa",
-                "country": "Usa",
-                "lat": 38.91,
-                "lon": -77.04
+                "city": "Kanada",
+                "country": "Kanada",
+                "lat": 45.42,
+                "lon": -75.7
             },
             "sources": [
                 {
-                    "name": "SVT Utrikes",
+                    "name": "SR Ekot",
                     "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/darfor-stannar-usa-i-nato-trots-trumps-hot-att-lamna"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "försvar",
-            "sentiment": "neutral",
-            "summary": "Även om Trump flera gånger hotat med att lämna försvarsalliansen helt så finns flera tunga skäl för USA att stanna kvar. Både säkerhetsmässiga och affärsmässiga skäl. Trumps tuffa tonläge till trots är USA också beroende av alliansens medlemmar.",
-            "gaia_synthesis": "",
-            "published_at": "Fri, 22 May 2026 05:41:45 +0200",
-            "multi_source_verified": false
-        },
-        {
-            "id": "samhälle-3a47bb5c-2026-05-23",
-            "title": "22 maj: Nattens nyheter",
-            "location": {
-                "city": "Stockholm",
-                "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
-            },
-            "sources": [
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/22-maj-nattens-nyheter-ubhz08"
+                    "url": "https://www.sverigesradio.se/artikel/9226011"
                 }
             ],
             "source_count": 1,
@@ -824,12 +1230,64 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "Fri, 22 May 2026 05:00:38 +0200",
+            "published_at": "2026-05-28T07:22:51.099033+02:00",
             "multi_source_verified": false
         },
         {
-            "id": "samhälle-cd7dc49c-2026-05-23",
-            "title": "Thailand halverar tiden för visumfria resor",
+            "id": "samhälle-26051a1f-2026-05-28",
+            "title": "Norge ingår kärnvapenavtal med Frankrike",
+            "location": {
+                "city": "Norge",
+                "country": "Norge",
+                "lat": 59.91,
+                "lon": 10.75
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9226005"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-05-28T07:22:51.099033+02:00",
+            "multi_source_verified": false
+        },
+        {
+            "id": "samhälle-8a896365-2026-05-28",
+            "title": "Stockholmare lever längst – Norrbotten i botten",
+            "location": {
+                "city": "Norrbotten",
+                "country": "Sverige",
+                "lat": 66.5,
+                "lon": 20.5
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9225859"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-05-28T07:22:51.099033+02:00",
+            "multi_source_verified": false
+        },
+        {
+            "id": "hälsa-9f0421fd-2026-05-28",
+            "title": "SSAB återupptar bygget av stålverket – efter 34 sjukdomsfall",
             "location": {
                 "city": "Stockholm",
                 "country": "Sverige",
@@ -838,35 +1296,9 @@
             },
             "sources": [
                 {
-                    "name": "SVT Utrikes",
+                    "name": "SR Ekot",
                     "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/thailand-halverar-tiden-for-visumfria-resor"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "Framöver kommer svenskar på resa i Thailand inte att kunna stanna i landet mer än högst 30 dagar utan visum.",
-            "gaia_synthesis": "",
-            "published_at": "Fri, 22 May 2026 04:51:35 +0200",
-            "multi_source_verified": false
-        },
-        {
-            "id": "hälsa-369be600-2026-05-23",
-            "title": "På plats: ”De tänder eld på sjukhustälten för ebolasmittade”",
-            "location": {
-                "city": "Kongo-Kinshasa",
-                "country": "Kongo-Kinshasa",
-                "lat": -4.0383,
-                "lon": 21.7587
-            },
-            "sources": [
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/pa-plats-de-tander-eld-pa-sjukhustalten-for-ebolasmittade"
+                    "url": "https://www.sverigesradio.se/artikel/9225783"
                 }
             ],
             "source_count": 1,
@@ -874,92 +1306,14 @@
             "tier": 2,
             "category": "hälsa",
             "sentiment": "neutral",
-            "summary": "Tumult har brutit ut vid Rwampara-sjukhuset i epicentrum av ebolautbrottet i Kongo-Kinshasa. En arg folkmassa tände under eftermiddagen eld på sjukhustälten för ebolasmittade – för att få tillbaka sina anhörigas kroppar. – Polisen klarar inte av att hantera situationen, säger lokalpolitikern Luc Malembe på plats.",
-            "gaia_synthesis": "",
-            "published_at": "Thu, 21 May 2026 19:53:35 +0200",
-            "multi_source_verified": false
-        },
-        {
-            "id": "samhälle-111b6ca4-2026-05-23",
-            "title": "USA expanderar på Grönland -Trumps sändebud på besök",
-            "location": {
-                "city": "Usa",
-                "country": "Usa",
-                "lat": 38.91,
-                "lon": -77.04
-            },
-            "sources": [
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/usa-expanderar-pa-gronland-trumps-sandebud-pa-besok"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "USA:s intresse för Grönland har inte svalnat. I samband med en investeringskonferens och öppnandet av det nya större amerikanska konsulatet, besöker Trumps sändebud ön. Uppgiften är ”to make as many great friends as possible”.",
-            "gaia_synthesis": "",
-            "published_at": "Thu, 21 May 2026 19:16:42 +0200",
-            "multi_source_verified": false
-        },
-        {
-            "id": "försvar-a86839d9-2026-05-23",
-            "title": "Grönland fortsatt svag punkt för Nato: ”USA har överhanden”",
-            "location": {
-                "city": "Usa",
-                "country": "Usa",
-                "lat": 38.91,
-                "lon": -77.04
-            },
-            "sources": [
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/gronland-fortsatt-svag-punkt-for-nato-usa-har-overhanden"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "försvar",
-            "sentiment": "neutral",
-            "summary": "Redan innan det historiska Natomötet i Helsingborg hopar sig mörka moln – från norr. Nu avslutas Grönlandskonferensen. – Vi lär få bekräftat hur nära amerikanerna är att etablera baser, säger SVT:s utrikesreporter Regina Svedberg Ågren.",
-            "gaia_synthesis": "",
-            "published_at": "Thu, 21 May 2026 16:38:36 +0200",
-            "multi_source_verified": false
-        },
-        {
-            "id": "samhälle-5c9e3182-2026-05-23",
-            "title": "Protester mot USA i Havanna: ”Åtala inte Castro!”",
-            "location": {
-                "city": "Usa",
-                "country": "Usa",
-                "lat": 38.91,
-                "lon": -77.04
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9223240"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-05-23T07:50:03.648877+02:00",
+            "published_at": "2026-05-28T07:22:51.099033+02:00",
             "multi_source_verified": false
         },
         {
-            "id": "samhälle-d98eb9ad-2026-05-23",
-            "title": "Lyckat testuppdrag för SpaceX:s största raket hittills",
+            "id": "samhälle-15933065-2026-05-28",
+            "title": "SKR: Så ska vården för patienter med obesitas förbättras",
             "location": {
                 "city": "Stockholm",
                 "country": "Sverige",
@@ -970,7 +1324,7 @@
                 {
                     "name": "SR Ekot",
                     "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9223256"
+                    "url": "https://www.sverigesradio.se/artikel/9225880"
                 }
             ],
             "source_count": 1,
@@ -980,116 +1334,12 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-05-23T07:50:03.648877+02:00",
+            "published_at": "2026-05-28T07:22:51.099033+02:00",
             "multi_source_verified": false
         },
         {
-            "id": "samhälle-985ef0a8-2026-05-23",
-            "title": "Pakistan vill få liv i fredsförhandlingar – i samtal med Iran",
-            "location": {
-                "city": "Iran",
-                "country": "Iran",
-                "lat": 35.69,
-                "lon": 51.39
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9223260"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-05-23T07:50:03.648877+02:00",
-            "multi_source_verified": false
-        },
-        {
-            "id": "politik-0a67fd94-2026-05-23",
-            "title": "Furtenbach: ”Åkesson håller hög profil om ministerposter”",
-            "location": {
-                "city": "Stockholm",
-                "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9223116"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "politik",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-05-23T07:50:03.648877+02:00",
-            "multi_source_verified": false
-        },
-        {
-            "id": "samhälle-9f62a8a9-2026-05-23",
-            "title": "Värmebölja i Europa – 100 år gammalt rekord kan slås i England",
-            "location": {
-                "city": "Stockholm",
-                "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9223245"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-05-23T07:50:03.648877+02:00",
-            "multi_source_verified": false
-        },
-        {
-            "id": "politik-0da8ece2-2026-05-23",
-            "title": "Åkesson: SD bör ha tre av de fyra tyngsta ministerposterna",
-            "location": {
-                "city": "Stockholm",
-                "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9222961"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "politik",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-05-23T07:50:03.648877+02:00",
-            "multi_source_verified": false
-        },
-        {
-            "id": "samhälle-f1b66ac1-2026-05-23",
-            "title": "Tiotalet döda i gruvolycka i Kina – 40 arbetare kvar under jord",
+            "id": "samhälle-44c31f8d-2026-05-28",
+            "title": "Tysklands beroende av Kina växer kraftigt",
             "location": {
                 "city": "Kina",
                 "country": "Kina",
@@ -1100,22 +1350,74 @@
                 {
                     "name": "SR Ekot",
                     "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9223239"
+                    "url": "https://www.sverigesradio.se/artikel/9225676"
                 }
             ],
             "source_count": 1,
             "score": 6.5,
             "tier": 2,
             "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-05-28T07:22:51.099033+02:00",
+            "multi_source_verified": false
+        },
+        {
+            "id": "samhälle-f8949c84-2026-05-28",
+            "title": "Efter svaga siffrorna – M satsar på att mobilisera de osäkra",
+            "location": {
+                "city": "Stockholm",
+                "country": "Sverige",
+                "lat": 59.3293,
+                "lon": 18.0686
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9225800"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-05-28T07:22:51.099033+02:00",
+            "multi_source_verified": false
+        },
+        {
+            "id": "konflikt-489720c1-2026-05-28",
+            "title": "Ukrainska attacker slår hårt mot rysk oljeexport",
+            "location": {
+                "city": "Stockholm",
+                "country": "Sverige",
+                "lat": 59.3293,
+                "lon": 18.0686
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9225913"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "konflikt",
             "sentiment": "negative",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-05-23T07:50:03.648877+02:00",
+            "published_at": "2026-05-28T07:22:51.099033+02:00",
             "multi_source_verified": false
         },
         {
-            "id": "samhälle-d655651b-2026-05-23",
-            "title": "Viktminskningsläkemedel toppar försäljningslista: ”En gamechanger”",
+            "id": "politik-ec4eddf2-2026-05-28",
+            "title": "Tidigare ministern Mats Hellström har avlidit",
             "location": {
                 "city": "Stockholm",
                 "country": "Sverige",
@@ -1126,74 +1428,22 @@
                 {
                     "name": "SR Ekot",
                     "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9222958"
+                    "url": "https://www.sverigesradio.se/artikel/9225915"
                 }
             ],
             "source_count": 1,
             "score": 6.5,
             "tier": 2,
-            "category": "samhälle",
+            "category": "politik",
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-05-23T07:50:03.648877+02:00",
+            "published_at": "2026-05-28T07:22:51.099033+02:00",
             "multi_source_verified": false
         },
         {
-            "id": "försvar-76a4f2c7-2026-05-23",
-            "title": "Marco Rubio: Nato måste även ha ett värde för USA",
-            "location": {
-                "city": "Usa",
-                "country": "Usa",
-                "lat": 38.91,
-                "lon": -77.04
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9223205"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "försvar",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-05-23T07:50:03.648877+02:00",
-            "multi_source_verified": false
-        },
-        {
-            "id": "samhälle-5988a022-2026-05-23",
-            "title": "Ginna Lindberg: ”USA har tröttnat på att vara världspolis”",
-            "location": {
-                "city": "Usa",
-                "country": "Usa",
-                "lat": 38.91,
-                "lon": -77.04
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9223188"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-05-23T07:50:03.648877+02:00",
-            "multi_source_verified": false
-        },
-        {
-            "id": "samhälle-a14f029e-2026-05-23",
-            "title": "Borgerliga vigslar ökar: ”Speglar vårt sekulära samhälle”",
+            "id": "samhälle-5e7592da-2026-05-28",
+            "title": "Beskedet: Agnes Wold blir kvar på Sveriges Radio – trots kritiken",
             "location": {
                 "city": "Stockholm",
                 "country": "Sverige",
@@ -1204,7 +1454,7 @@
                 {
                     "name": "SR Ekot",
                     "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9223139"
+                    "url": "https://www.sverigesradio.se/artikel/9225894"
                 }
             ],
             "source_count": 1,
@@ -1214,246 +1464,38 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-05-23T07:50:03.648877+02:00",
+            "published_at": "2026-05-28T07:22:51.099033+02:00",
             "multi_source_verified": false
         },
         {
-            "id": "samhälle-a6ad7803-2026-05-23",
-            "title": "SpaceX och AI-jättar intar Wall Street – handelsvåg väntas",
+            "id": "samhälle-5f3746eb-2026-05-28",
+            "title": "Timeline emerges for opening of first EU negotiating cluster with Ukraine and Moldova",
             "location": {
-                "city": "Stockholm",
-                "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
+                "city": "Ukraine",
+                "country": "Ukraine",
+                "lat": 50.45,
+                "lon": 30.52
             },
             "sources": [
                 {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9223087"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-05-23T07:50:03.648877+02:00",
-            "multi_source_verified": false
-        },
-        {
-            "id": "samhälle-b7508aca-2026-05-23",
-            "title": "Ännu ett danskt försök att bilda regering misslyckas",
-            "location": {
-                "city": "Stockholm",
-                "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9223161"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-05-23T07:50:03.648877+02:00",
-            "multi_source_verified": false
-        },
-        {
-            "id": "diplomati-0529e75e-2026-05-23",
-            "title": "Efter hånvideon: EU-sanktioner diskuteras mot Israel",
-            "location": {
-                "city": "Israel",
-                "country": "Israel",
-                "lat": 31.77,
-                "lon": 35.24
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9223142"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "diplomati",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-05-23T07:50:03.648877+02:00",
-            "multi_source_verified": false
-        },
-        {
-            "id": "samhälle-1030996f-2026-05-23",
-            "title": "S: Arbetskraftsinvandringens nya regler kommer rivas upp",
-            "location": {
-                "city": "Stockholm",
-                "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9223068"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-05-23T07:50:03.648877+02:00",
-            "multi_source_verified": false
-        },
-        {
-            "id": "samhälle-517dfcb5-2026-05-23",
-            "title": "Barnrättsbyrån: Sis skyller brister på medarbetare",
-            "location": {
-                "city": "Stockholm",
-                "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9222605"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-05-23T07:50:03.648877+02:00",
-            "multi_source_verified": false
-        },
-        {
-            "id": "samhälle-6cf6f338-2026-05-23",
-            "title": "Rubio: Sverige är en föredömlig Natoallierad",
-            "location": {
-                "city": "Sverige",
-                "country": "Sverige",
-                "lat": 59.33,
-                "lon": 18.07
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9223037"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-05-23T07:50:03.648877+02:00",
-            "multi_source_verified": false
-        },
-        {
-            "id": "hälsa-814e6663-2026-05-23",
-            "title": "Forskaren: Det här är ebola",
-            "location": {
-                "city": "Kongo-Kinshasa",
-                "country": "Kongo-Kinshasa",
-                "lat": -4.0383,
-                "lon": 21.7587
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9222884"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "hälsa",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-05-23T07:50:03.648877+02:00",
-            "multi_source_verified": false
-        },
-        {
-            "id": "samhälle-fde0d27d-2026-05-23",
-            "title": "Sverige och USA ingår ett teknikavtal",
-            "location": {
-                "city": "Sverige",
-                "country": "Sverige",
-                "lat": 59.33,
-                "lon": 18.07
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9222854"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-05-23T07:50:03.648877+02:00",
-            "multi_source_verified": false
-        },
-        {
-            "id": "hälsa-d5f0e8ac-2026-05-23",
-            "title": "Watch: Nebraska quarantine unit available to help with Ebola response after hantavirus stay ends",
-            "location": {
-                "city": "Kongo-Kinshasa",
-                "country": "Kongo-Kinshasa",
-                "lat": -4.0383,
-                "lon": 21.7587
-            },
-            "sources": [
-                {
-                    "name": "Kcra",
+                    "name": "Українська Правда",
                     "type": "commercial",
-                    "url": "https://www.kcra.com/article/nebraska-quarantine-unit-ebola-response-hantavirus/71387827"
+                    "url": "https://www.pravda.com.ua/eng/news/2026/05/27/8036672/"
                 }
             ],
             "source_count": 1,
             "score": 6.5,
             "tier": 2,
-            "category": "hälsa",
+            "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "Nebraska Medicine says its experts are already helping with the Ebola response worldwide and Omaha's quarantine unit stands ready if more help is needed.",
+            "summary": "The European Commission is set to propose on 16 June that the first negotiating cluster be opened in the EU accession talks with Ukraine and Moldova.",
             "gaia_synthesis": "",
-            "published_at": "2026-05-22 17:50:00",
+            "published_at": "2026-05-27 17:22:00",
             "multi_source_verified": false
         },
         {
-            "id": "samhälle-8f27b314-2026-05-23",
-            "title": "Salesforce, Other Software Stocks Are Scraping Themselves Off the Floor",
+            "id": "samhälle-19d5b7b7-2026-05-28",
+            "title": "New Book Reveals How AI Answer Engines Are Reshaping Accounting Client Acquisition — and What Practice Owners Must Do Now",
             "location": {
                 "city": "Stockholm",
                 "country": "Sverige",
@@ -1462,9 +1504,9 @@
             },
             "sources": [
                 {
-                    "name": "Barron",
+                    "name": "Benzinga",
                     "type": "commercial",
-                    "url": "https://www.barrons.com/articles/salesforce-workday-software-chip-stocks-288eb85b"
+                    "url": "https://www.benzinga.com/pressreleases/26/05/g52818467/new-book-reveals-how-ai-answer-engines-are-reshaping-accounting-client-acquisition-and-what-practi"
                 }
             ],
             "source_count": 1,
@@ -1472,14 +1514,14 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "",
+            "summary": "Brisbane, QLD, May 27, 2026 (GLOBE NEWSWIRE) -- accountants.marketing today announced the release of Sun Tzu & The Art of Accounting: Winning clients before your competitors know there's a battle , a comprehensive guide addressing the seismic shift in how accounting practices attract and acquire clients in the age of AI answer engines. Sun Tzu and the Art of Accounting Cover The book arrives as Google's Gemini, OpenAI's ChatGPT, Anthropic's Claude, and Perplexity fundamentally change how prospec",
             "gaia_synthesis": "",
-            "published_at": "2026-05-22 17:50:00",
+            "published_at": "2026-05-27 17:22:00",
             "multi_source_verified": false
         },
         {
-            "id": "samhälle-3892a782-2026-05-23",
-            "title": "2026 F1 Canadian Grand Prix - Free Practice results - racingnews365.com",
+            "id": "samhälle-7185326b-2026-05-28",
+            "title": "The Beauty Bar to hold grand opening",
             "location": {
                 "city": "Stockholm",
                 "country": "Sverige",
@@ -1488,9 +1530,9 @@
             },
             "sources": [
                 {
-                    "name": "Google News",
+                    "name": "Recorderonline",
                     "type": "commercial",
-                    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPaS1EQjRTOE1CYUxtbGttaTdSR2Z1b0xWaE5td3lNRFp4bEVSM3NHdkFUbS1EUnZ4bXFrZlFhWW8ybzB5QlRMRFRaOHRoX3g0NEhyMFdycmRmSmJGVG44ZzBNV3BKWTBEa0RuZVpnbmpLNTNfUTRTZlotTUZ1MVBDMg?oc=5"
+                    "url": "https://www.recorderonline.com/news/the-beauty-bar-to-hold-grand-opening/article_2f021a47-35a4-4e71-a4e9-3f8f9e125183.html"
                 }
             ],
             "source_count": 1,
@@ -1498,14 +1540,14 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "2026 F1 Canadian Grand Prix - Free Practice results racingnews365.com Canadian Grand Prix 2026: Kimi Antonelli quickest in practice BBC Canadian GP: Kimi Antonelli tops Mercedes team-mate George Russell in chaotic practice featuring three red flags Sky Sports F1 Canadian GP: Kimi Antonelli dominates practice session amid three red flags Motorsport.com Three red flags and Mercedes 1-2 in messy Canadian GP practice The Race",
+            "summary": "Join the celebration as The Beauty Bar opens its doors to the community with a Grand Opening and Ribbon Cutting Ceremony on Tuesday, June 2 from noon to 1 p.m. at 367 N. Main Street in Porterville.",
             "gaia_synthesis": "",
-            "published_at": "2026-05-22 17:50:00",
+            "published_at": "2026-05-27 17:22:00",
             "multi_source_verified": false
         },
         {
-            "id": "samhälle-ee1c2bf4-2026-05-23",
-            "title": "Powell out, Warsh in as new chair of Federal Reserve",
+            "id": "samhälle-f280fb83-2026-05-28",
+            "title": "Lady Vols draw Texas in WCWS, face off against Russellville native coach Pattie Ruth Taylor",
             "location": {
                 "city": "Stockholm",
                 "country": "Sverige",
@@ -1514,9 +1556,9 @@
             },
             "sources": [
                 {
-                    "name": "Communitynewspapergroup",
+                    "name": "Citizentribune",
                     "type": "commercial",
-                    "url": "https://www.communitynewspapergroup.com/news/nation/powell-out-warsh-in-as-new-chair-of-federal-reserve/article_1588372c-9746-5309-82ed-c2d7577b2841.html"
+                    "url": "https://www.citizentribune.com/sports/lady-vols-draw-texas-in-wcws-face-off-against-russellville-native-coach-pattie-ruth-taylor/article_52b9be43-41f9-4cd7-826a-5cb27de9a2d2.html"
                 }
             ],
             "source_count": 1,
@@ -1524,14 +1566,14 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "(The Center Square) – Kevin Warsh, an economist and former member of the Federal Reserve Board of Governors, is now chair of the central bank, replacing longtime chair, Jerome Powell.",
+            "summary": "The Lady Vols drew reigning national champion Texas to open the Women’s College World Series in Oklahoma City.",
             "gaia_synthesis": "",
-            "published_at": "2026-05-22 17:50:00",
+            "published_at": "2026-05-27 17:22:00",
             "multi_source_verified": false
         },
         {
-            "id": "samhälle-48346a76-2026-05-23",
-            "title": "Police File First Chargesheet In TCS Nashik Conversion Case",
+            "id": "samhälle-35b4ce4e-2026-05-28",
+            "title": "Kentucky Women In Aviation exhibit opens at The Aviation Museum of Kentucky",
             "location": {
                 "city": "Stockholm",
                 "country": "Sverige",
@@ -1540,9 +1582,9 @@
             },
             "sources": [
                 {
-                    "name": "Ndtv",
+                    "name": "Winchester Sun",
                     "type": "commercial",
-                    "url": "https://www.ndtv.com/india-news/police-file-first-chargesheet-in-tcs-nashik-conversion-case-11534957"
+                    "url": "https://winchestersun.com/2026/05/27/kentucky-women-in-aviation-exhibit-opens-at-the-aviation-museum-of-kentucky/"
                 }
             ],
             "source_count": 1,
@@ -1550,66 +1592,40 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "The Special Investigation Team of the police filed the 1,500-page charge sheet before the sessions court in a case registered at Deolali Camp police station against Danish Ejaz Sheikh, Tausif Bilal...",
+            "summary": "LEXINGTON — The Kentucky Aerospace Education Center (KAEC), home of The Aviation Museum of Kentucky (AMK), this week unveiled Kentucky Women in Aviation, a new featured exhibit sponsored by Signature [...]",
             "gaia_synthesis": "",
-            "published_at": "2026-05-22 17:50:00",
+            "published_at": "2026-05-27 17:22:00",
             "multi_source_verified": false
         },
         {
-            "id": "samhälle-0fba4f68-2026-05-23",
-            "title": "Ladakh Inches Closer to Article 371-Like Protection After Delhi Talks",
+            "id": "konflikt-cb05efd2-2026-05-28",
+            "title": "‘May have to go back and finish the job’: Trump warns of fresh attacks on Iran if deal is not reached",
             "location": {
-                "city": "Srinagar",
-                "country": "",
-                "lat": 34.0837,
-                "lon": 74.7973
+                "city": "Iran",
+                "country": "Iran",
+                "lat": 35.69,
+                "lon": 51.39
             },
             "sources": [
                 {
-                    "name": "Kashmir Observer",
+                    "name": "Zee News",
                     "type": "commercial",
-                    "url": "https://kashmirobserver.net/2026/05/22/ladakh-inches-closer-to-article-371-like-protection-after-delhi-talks/"
+                    "url": "https://zeenews.india.com/world/may-have-to-go-back-and-finish-the-job-trump-warns-of-fresh-attacks-on-iran-if-deal-is-not-reached-3050968.html"
                 }
             ],
             "source_count": 1,
             "score": 6.5,
             "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "Kashmir, Observer, Jammu, Srinagar, Latest Kashmir News, Kashmir News, Kashmir Latest News The prolonged standoff between Ladakh and the Union Government over safeguards and the form of elected governance has almost come to an end, with both sides reaching an understanding on key issues on Friday. The post Ladakh Inches Closer to Article 371-Like Protection After Delhi Talks appeared first on Kashmir Observer .",
+            "category": "konflikt",
+            "sentiment": "negative",
+            "summary": "The US President’s remarks came hours after the White House rejected Iran’s claim of a proposed peace deal draft under which it promised to open the Strait of Hormuz within a month if the US forces pulls back from the region.",
             "gaia_synthesis": "",
-            "published_at": "2026-05-22 17:50:00",
+            "published_at": "2026-05-27 17:22:00",
             "multi_source_verified": false
         },
         {
-            "id": "samhälle-914d3c29-2026-05-23",
-            "title": "Aerospace Suppliers May Beat SpaceX in the IPO Craze",
-            "location": {
-                "city": "Stockholm",
-                "country": "Sverige",
-                "lat": 59.3293,
-                "lon": 18.0686
-            },
-            "sources": [
-                {
-                    "name": "Investing Australia",
-                    "type": "commercial",
-                    "url": "https://au.investing.com/analysis/aerospace-suppliers-may-beat-spacex-in-the-ipo-craze-200614085"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.5,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "Market Analysis by covering: Carpenter Technology Corporation, Howmet Aerospace Inc, D Wave Quantum Inc, Rigetti Computing Inc. Read 's Market Analysis on Investing.com AU.",
-            "gaia_synthesis": "",
-            "published_at": "2026-05-22 17:50:00",
-            "multi_source_verified": false
-        },
-        {
-            "id": "samhälle-d437178b-2026-05-23",
-            "title": "Video: Some shower chances over holiday weekend",
+            "id": "samhälle-ea3d2527-2026-05-28",
+            "title": "Arkansas softball vs. Nebraska at the Women's College World Series: How to watch, game time, forecast, team comparisons",
             "location": {
                 "city": "Stockholm",
                 "country": "Sverige",
@@ -1618,9 +1634,9 @@
             },
             "sources": [
                 {
-                    "name": "Wmur",
+                    "name": "Nwaonline",
                     "type": "commercial",
-                    "url": "https://www.wmur.com/article/new-hampshire-weather-video-afternoon-52226/71388161"
+                    "url": "https://www.nwaonline.com/news/2026/may/27/arkansas-softball-nebraska-womens-college-world-series-tv-channel-watch-game-time-razorbacks-cornhuskers-team-stats/"
                 }
             ],
             "source_count": 1,
@@ -1628,14 +1644,14 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "Meteorologist Kevin Skarupa says it will be a comfortable day with some shower chances for the holiday weekend.",
+            "summary": "What to know ahead of a WCWS Opening Day game between the Razorbacks and Cornhuskers.",
             "gaia_synthesis": "",
-            "published_at": "2026-05-22 17:50:00",
+            "published_at": "2026-05-27 17:22:00",
             "multi_source_verified": false
         },
         {
-            "id": "samhälle-307b1b0a-2026-05-23",
-            "title": "Plentisoft: Spiritual Method Announces Awakening Guide",
+            "id": "samhälle-5bdf13da-2026-05-28",
+            "title": "Conservationists celebrate birth of rare Mongolian wild horse: 'This foal is wildlife conservation in action'",
             "location": {
                 "city": "Stockholm",
                 "country": "Sverige",
@@ -1644,9 +1660,9 @@
             },
             "sources": [
                 {
-                    "name": "Finanznachrichten.de",
+                    "name": "Good Good Good",
                     "type": "commercial",
-                    "url": "https://www.finanznachrichten.de/nachrichten-2026-05/68576994-plentisoft-spiritual-method-announces-awakening-guide-296.htm"
+                    "url": "https://www.goodgoodgood.co/articles/przewalskis-wild-horse-born-bronx-zoo"
                 }
             ],
             "source_count": 1,
@@ -1654,14 +1670,14 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "West Melbourne, Florida--(Newsfile Corp. - May 22, 2026) - Spiritual Method has announced the release of its Spiritual Awakening Guide, a digital program centered on practical holistic healing met...",
+            "summary": "In 1969, the Przewalski's horse was officially declared extinct in the wild.",
             "gaia_synthesis": "",
-            "published_at": "2026-05-22 17:50:00",
+            "published_at": "2026-05-27 17:22:00",
             "multi_source_verified": false
         },
         {
-            "id": "samhälle-9229a2d7-2026-05-23",
-            "title": "NationWide Self Storage Expands Affordable Storage Solutions Across Metro Vancouver With Mini Storage & Student-Friendly Options",
+            "id": "samhälle-84a9698e-2026-05-28",
+            "title": "DigitalBridge is acquiring power infrastructure investor ArcLight for up to $1.05 billion",
             "location": {
                 "city": "Stockholm",
                 "country": "Sverige",
@@ -1670,9 +1686,9 @@
             },
             "sources": [
                 {
-                    "name": "Finanznachrichten.de",
+                    "name": "Quartz",
                     "type": "commercial",
-                    "url": "https://www.finanznachrichten.de/nachrichten-2026-05/68576993-nationwide-self-storage-expands-affordable-storage-solutions-across-metro-vancouver-with-mini-storage-student-friendly-options-200.htm"
+                    "url": "https://qz.com/digitalbridge-arclight-capital-partners-acquisition-052726"
                 }
             ],
             "source_count": 1,
@@ -1680,32 +1696,41 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "Flexible storage solutions, affordable Sky Lockers from $39/m, and convenient locations help students, condo residents, and families create more space without overspending. VANCOUVER, BC / ACCESS N...",
+            "summary": "The deal includes a $650 million base price plus up to $400 million in contingent consideration, and is contingent on SoftBank's pending acquisition of DigitalBridge",
             "gaia_synthesis": "",
-            "published_at": "2026-05-22 17:50:00",
+            "published_at": "2026-05-27 17:21:59",
+            "multi_source_verified": false
+        },
+        {
+            "id": "samhälle-f93cf5a1-2026-05-28",
+            "title": "GAIL BULLISH TARGET 250",
+            "location": {
+                "city": "Stockholm",
+                "country": "Sverige",
+                "lat": 59.3293,
+                "lon": 18.0686
+            },
+            "sources": [
+                {
+                    "name": "Tradingview",
+                    "type": "commercial",
+                    "url": "https://in.tradingview.com/chart/GAIL/Fy78GGDz-GAIL-BULLISH-TARGET-250/"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.5,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "\"Don't miss the final leg! Wave 4 is checked, Wave 5 is ready to explode. 📈🔥\" \" MAJOR Wave 3 isn't done yet! MINOR Wave 4 pullback complete—time to ride Wave 5 to the target!\"",
+            "gaia_synthesis": "",
+            "published_at": "2026-05-27 17:21:59",
             "multi_source_verified": false
         }
     ],
     "meta_analysis": {
-        "top_themes": [
-            "samhälle",
-            "hälsa",
-            "politik",
-            "brott",
-            "försvar"
-        ],
-        "geographic_distribution": {
-            "Sverige": 41,
-            "Usa": 6,
-            "Kongo-Kinshasa": 4,
-            "Kina": 2,
-            "Iran": 2,
-            "Senegal": 1,
-            "USA": 1,
-            "Tyskland": 1,
-            "Italien": 1,
-            "Sydkorea": 1
-        },
-        "gaia_daily_brief": "Fredagen den 23 maj 2026 domineras nyhetsflödet av fem stora händelser: En massevakuering i Kalifornien efter industriellt kemikalieutsläpp, en dödlig gruvolycka i Kina med över 80 döda, en politisk kris i Senegal där presidenten upplöst regeringen, SpaceX:s lyckade uppskjutning av sin hittills största raket, samt en AI- och VR-driven utveckling i Tysklands sexindustri som väcker etiska frågor. Totalt bevakas 63 händelser från 11 länder/regioner, varav 5 är verifierade av flera oberoende källor. De dominerande kategorierna är samhälle, hälsa, politik. Cykeln präglas av en kombination av industriolyckor, geopolitisk instabilitet och teknikframsteg."
+        "top_themes": [],
+        "geographic_distribution": {},
+        "gaia_daily_brief": ""
     }
 }
