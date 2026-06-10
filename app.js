@@ -37,7 +37,12 @@ function init() {
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'bottom-right');
     map.on('load', loadNewsData);
     document.getElementById('detail-close').addEventListener('click', closeDetail);
-    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDetail(); });
+    document.addEventListener('keydown', e => {
+        if (e.key === 'Escape') {
+            if (document.getElementById('article-reader').classList.contains('visible')) return; // handled by article reader
+            closeDetail();
+        }
+    });
 }
 
 // ── Load Data ──
@@ -261,6 +266,15 @@ function populateDetail(news) {
         sourcesList.appendChild(li);
     });
 
+    // Show/hide "Läs artikel" button
+    const articleSection = document.getElementById('detail-article-section');
+    const hasArticle = news.article_content || (news.gaia_synthesis && news.summary);
+    articleSection.style.display = hasArticle ? '' : 'none';
+
+    // Wire the button to this specific news item
+    const readBtn = document.getElementById('read-article-btn');
+    readBtn.onclick = () => openArticle(news);
+
     panel.classList.add('visible');
 
     // On mobile, close sidebar when detail opens
@@ -328,6 +342,161 @@ function closeMobileSidebar() {
     document.querySelector('.sidebar')?.classList.remove('mobile-open');
 }
 
+// ── Article Reader ──
+let currentArticleNews = null;
+
+function openArticle(news) {
+    currentArticleNews = news;
+    const reader = document.getElementById('article-reader');
+    const color = CATEGORY_COLORS[news.category] || '#8ba3c1';
+
+    // Toolbar title
+    document.getElementById('article-toolbar-title').textContent = news.title;
+
+    // Header meta badges
+    const sentimentIcon = { negative: '🔴', positive: '🟢', neutral: '⚪' }[news.sentiment] || '⚪';
+    document.getElementById('article-meta').innerHTML = `
+        <span class="tier-badge tier-${news.tier}">Tier ${news.tier}</span>
+        <span class="category-tag" style="color:${color}">${news.category}</span>
+        <span class="sentiment-dot" title="Sentiment: ${news.sentiment || 'neutral'}">${sentimentIcon}</span>
+        ${news.multi_source_verified ? '<span class="verified-badge">✓ Verifierad</span>' : ''}
+    `;
+
+    // Title
+    document.getElementById('article-title').textContent = news.title;
+
+    // Location & date
+    const loc = news.location?.city || 'Global';
+    const country = news.location?.country || '';
+    const dateStr = news.published_at
+        ? new Date(news.published_at).toLocaleDateString('sv-SE', { day: 'numeric', month: 'long', year: 'numeric' })
+        : '';
+    document.getElementById('article-location').innerHTML = `
+        <span>📍 ${loc}${country ? ', ' + country : ''}</span>
+        ${dateStr ? '<span class="separator"></span><span>' + dateStr + '</span>' : ''}
+        <span class="separator"></span>
+        <span>${news.source_count} käll${news.source_count === 1 ? 'a' : 'or'}</span>
+    `;
+
+    // Article content
+    const textEl = document.getElementById('article-text');
+    if (news.article_content) {
+        textEl.innerHTML = news.article_content;
+    } else {
+        textEl.innerHTML = generateArticleHTML(news);
+    }
+
+    // Sources section
+    const sourcesSection = document.getElementById('article-sources-section');
+    if (news.sources && news.sources.length > 0) {
+        sourcesSection.innerHTML = `
+            <h2>Källor & vidare läsning</h2>
+            <ul class="article-sources-list">
+                ${news.sources.map(src => `
+                    <a class="article-source-item" href="${src.url}" target="_blank" rel="noopener">
+                        <span class="source-badge ${src.type}">${getSourceLabel(src.type)}</span>
+                        <span class="source-name">${src.name}</span>
+                        <span class="source-arrow">→</span>
+                    </a>
+                `).join('')}
+            </ul>
+        `;
+    } else {
+        sourcesSection.innerHTML = '';
+    }
+
+    // Restore font size
+    const savedSize = localStorage.getItem('nyheter-article-font-size');
+    if (savedSize) {
+        document.querySelector('.article-content').style.setProperty('--article-font-size', savedSize + 'px');
+    }
+
+    // Show reader
+    reader.classList.add('visible');
+    document.querySelector('.article-body').scrollTop = 0;
+    document.body.style.overflow = 'hidden';
+}
+
+function closeArticle() {
+    const reader = document.getElementById('article-reader');
+    reader.classList.remove('visible');
+    currentArticleNews = null;
+    document.body.style.overflow = '';
+}
+
+function generateArticleHTML(news) {
+    let html = '';
+
+    // Lead paragraph from summary
+    if (news.summary) {
+        html += `<p>${news.summary}</p>`;
+    }
+
+    // gAIa synthesis as a rich analysis section
+    if (news.gaia_synthesis) {
+        html += `
+            <h2>Analys</h2>
+            <p>${news.gaia_synthesis}</p>
+        `;
+    }
+
+    // Wrap synthesis in styled card if present
+    if (news.gaia_synthesis) {
+        html += `
+            <div class="article-synthesis">
+                <div class="article-synthesis-header">
+                    <div class="icon">🤖</div>
+                    <span>gAIa-reflektion</span>
+                </div>
+                <div class="article-synthesis-body">
+                    <p>Denna händelse bör ses i ett bredare sammanhang av pågående globala förändringsprocesser.
+                    ${news.category === 'försvar' ? ' Försvars- och säkerhetspolitiska spänningar ökar på flera håll i världen, och enskilda händelser får ofta oproportionerligt stor strategisk betydelse.' : ''}
+                    ${news.category === 'diplomati' ? ' Diplomatiska förhandlingar präglas allt mer av oförutsägbarhet och transaktionella mönster.' : ''}
+                    ${news.category === 'hälsa' ? ' Folkhälsoutmaningar kräver koordinerade internationella insatser som ofta kompliceras av geopolitiska intressen.' : ''}
+                    ${news.category === 'konflikt' ? ' Konfliktsituationer tenderar att eskalera snabbt i en alltmer sammankopplad värld.' : ''}
+                    Att följa denna utveckling med kritisk medvetenhet och multiperspektiv är avgörande.</p>
+                </div>
+            </div>
+        `;
+    }
+
+    return html;
+}
+
+// ── Font Size Controls ──
+const FONT_MIN = 14, FONT_MAX = 26, FONT_DEFAULT = 18;
+
+function getArticleFontSize() {
+    return parseInt(localStorage.getItem('nyheter-article-font-size') || FONT_DEFAULT);
+}
+
+function setArticleFontSize(size) {
+    size = Math.max(FONT_MIN, Math.min(FONT_MAX, size));
+    localStorage.setItem('nyheter-article-font-size', size);
+    const content = document.querySelector('.article-content');
+    if (content) content.style.setProperty('--article-font-size', size + 'px');
+}
+
+function setupArticleReader() {
+    // Back button
+    document.getElementById('article-back').addEventListener('click', closeArticle);
+
+    // Font controls
+    document.getElementById('font-decrease').addEventListener('click', () => setArticleFontSize(getArticleFontSize() - 2));
+    document.getElementById('font-increase').addEventListener('click', () => setArticleFontSize(getArticleFontSize() + 2));
+    document.getElementById('font-reset').addEventListener('click', () => setArticleFontSize(FONT_DEFAULT));
+
+    // Keyboard navigation
+    document.addEventListener('keydown', e => {
+        if (!document.getElementById('article-reader').classList.contains('visible')) return;
+        if (e.key === 'Escape' || e.key === 'Backspace') {
+            e.preventDefault();
+            closeArticle();
+        }
+    });
+}
+
 // ── Boot ──
 setupMobileToggle();
+setupArticleReader();
 init();

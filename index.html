@@ -88,6 +88,11 @@
                         <div class="synthesis-footer">⚠️ AI-genererad analys — verifiera mot primärkällor</div>
                     </div>
                 </div>
+                <div class="detail-section" id="detail-article-section" style="display:none">
+                    <button class="read-article-btn" id="read-article-btn" aria-label="Öppna fullständig artikel">
+                        📖 Läs artikel
+                    </button>
+                </div>
             </div>
         </div>
 
@@ -97,6 +102,33 @@
             <div class="legend-item"><div class="legend-dot t2"></div> Tier 2</div>
         </div>
     </main>
+
+    <!-- Article Reader (full-screen overlay) -->
+    <div class="article-reader" id="article-reader">
+        <div class="article-toolbar">
+            <div class="article-toolbar-left">
+                <button class="article-back" id="article-back" aria-label="Tillbaka till kartan">← Kartan</button>
+                <span class="article-toolbar-title" id="article-toolbar-title"></span>
+            </div>
+            <div class="article-toolbar-right">
+                <button class="font-control" id="font-decrease" aria-label="Minska textstorlek">A−</button>
+                <button class="font-control" id="font-increase" aria-label="Öka textstorlek">A+</button>
+                <button class="font-control reset" id="font-reset" aria-label="Återställ textstorlek">Återställ</button>
+            </div>
+        </div>
+        <div class="article-body">
+            <article class="article-content">
+                <header class="article-header">
+                    <div class="article-header-meta" id="article-meta"></div>
+                    <h1 id="article-title"></h1>
+                    <div class="article-header-location" id="article-location"></div>
+                </header>
+                <div class="article-text" id="article-text"></div>
+                <div class="article-sources" id="article-sources-section"></div>
+                <div class="article-disclaimer">⚠️ AI-genererad nyhetsanalys — verifiera alltid mot primärkällor innan du agerar på informationen</div>
+            </article>
+        </div>
+    </div>
 
     <!-- Loading -->
     <div class="loading-overlay" id="loading">
