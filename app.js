@@ -72,37 +72,30 @@ function renderSidebar() {
     list.innerHTML = '';
 
     const sorted = [...newsData.news].sort((a, b) => b.score - a.score);
-    sorted.forEach(news => {
-        const card = document.createElement('div');
-        card.className = 'news-card';
-        card.dataset.id = news.id;
+    
+    // Group news
+    const localNews = sorted.filter(news => news.location && news.location.precision !== 'global' && news.location.lat && news.location.lon);
+    const globalNews = sorted.filter(news => !news.location || news.location.precision === 'global' || !news.location.lat || !news.location.lon);
 
-        const color = CATEGORY_COLORS[news.category] || '#8ba3c1';
-        const scorePercent = (news.score / 10) * 100;
-        const scoreColor = news.score >= 8 ? 'var(--accent-red)' : news.score >= 6 ? 'var(--accent-orange)' : 'var(--accent-cyan)';
-        const timeStr = formatTime(news.published_at);
+    // Render Local News Section
+    if (localNews.length > 0) {
+        const header = document.createElement('div');
+        header.className = 'list-section-header';
+        header.textContent = '📍 Geospatiala händelser';
+        list.appendChild(header);
 
-        const sentimentIcon = {'negative': '🔴', 'positive': '🟢', 'neutral': '⚪'}[news.sentiment] || '⚪';
+        localNews.forEach(news => list.appendChild(createNewsCard(news)));
+    }
 
-        card.innerHTML = `
-            <div class="news-card-top">
-                <span class="tier-badge tier-${news.tier}">Tier ${news.tier}</span>
-                <span class="category-tag" style="color:${color}">${news.category}</span>
-                <span class="sentiment-dot" title="Sentiment: ${news.sentiment || 'neutral'}">${sentimentIcon}</span>
-                ${news.multi_source_verified ? '<span class="verified-badge">✓ Verifierad</span>' : ''}
-            </div>
-            <h3>${news.title}</h3>
-            <div class="news-card-meta">
-                <span>📍 ${news.location?.city || 'Global'}</span>
-                <span>${timeStr}</span>
-                <span>${news.source_count} källor</span>
-                <div class="score-bar"><div class="score-bar-fill" style="width:${scorePercent}%;background:${scoreColor}"></div></div>
-            </div>
-        `;
+    // Render Global News Section
+    if (globalNews.length > 0) {
+        const header = document.createElement('div');
+        header.className = 'list-section-header';
+        header.textContent = '🌎 Globala & olokaliserade händelser';
+        list.appendChild(header);
 
-        card.addEventListener('click', () => selectNews(news));
-        list.appendChild(card);
-    });
+        globalNews.forEach(news => list.appendChild(createNewsCard(news)));
+    }
 
     // Filter pills
     document.querySelectorAll('.filter-pill').forEach(pill => {
@@ -112,6 +105,38 @@ function renderSidebar() {
             filterNews(pill.dataset.filter);
         });
     });
+}
+
+function createNewsCard(news) {
+    const card = document.createElement('div');
+    card.className = 'news-card';
+    card.dataset.id = news.id;
+
+    const color = CATEGORY_COLORS[news.category] || '#8ba3c1';
+    const scorePercent = (news.score / 10) * 100;
+    const scoreColor = news.score >= 8 ? 'var(--accent-red)' : news.score >= 6 ? 'var(--accent-orange)' : 'var(--accent-cyan)';
+    const timeStr = formatTime(news.published_at);
+
+    const sentimentIcon = {'negative': '🔴', 'positive': '🟢', 'neutral': '⚪'}[news.sentiment] || '⚪';
+
+    card.innerHTML = `
+        <div class="news-card-top">
+            <span class="tier-badge tier-${news.tier}">Tier ${news.tier}</span>
+            <span class="category-tag" style="color:${color}">${news.category}</span>
+            <span class="sentiment-dot" title="Sentiment: ${news.sentiment || 'neutral'}">${sentimentIcon}</span>
+            ${news.multi_source_verified ? '<span class="verified-badge">✓ Verifierad</span>' : ''}
+        </div>
+        <h3>${news.title}</h3>
+        <div class="news-card-meta">
+            <span>📍 ${news.location?.city || 'Global'}</span>
+            <span>${timeStr}</span>
+            <span>${news.source_count} källor</span>
+            <div class="score-bar"><div class="score-bar-fill" style="width:${scorePercent}%;background:${scoreColor}"></div></div>
+        </div>
+    `;
+
+    card.addEventListener('click', () => selectNews(news));
+    return card;
 }
 
 // ── Filter ──
@@ -164,6 +189,61 @@ function renderMarkers() {
     });
 }
 
+// ── Bounding Box Highlight (WebGL layer) ──
+function drawBBoxHighlight(bbox) {
+    if (map.getLayer('bbox-highlight')) map.removeLayer('bbox-highlight');
+    if (map.getLayer('bbox-outline')) map.removeLayer('bbox-outline');
+    if (map.getSource('bbox')) map.getSource('bbox');
+
+    if (!bbox || bbox.length !== 4) return;
+
+    const [min_lon, min_lat, max_lon, max_lat] = bbox;
+
+    map.addSource('bbox', {
+        type: 'geojson',
+        data: {
+            type: 'Feature',
+            geometry: {
+                type: 'Polygon',
+                coordinates: [[
+                    [min_lon, min_lat],
+                    [max_lon, min_lat],
+                    [max_lon, max_lat],
+                    [min_lon, max_lat],
+                    [min_lon, min_lat]
+                ]]
+            }
+        }
+    });
+
+    map.addLayer({
+        id: 'bbox-highlight',
+        type: 'fill',
+        source: 'bbox',
+        paint: {
+            'fill-color': '#ff4757',
+            'fill-opacity': 0.08
+        }
+    });
+
+    map.addLayer({
+        id: 'bbox-outline',
+        type: 'line',
+        source: 'bbox',
+        paint: {
+            'line-color': '#ff4757',
+            'line-width': 1.5,
+            'line-dasharray': [2, 2]
+        }
+    });
+}
+
+function clearBBoxHighlight() {
+    if (map.getLayer('bbox-highlight')) map.removeLayer('bbox-highlight');
+    if (map.getLayer('bbox-outline')) map.removeLayer('bbox-outline');
+    if (map.getSource('bbox')) map.removeSource('bbox');
+}
+
 // ── Select News ──
 function selectNews(news) {
     // Deselect previous
@@ -183,8 +263,17 @@ function selectNews(news) {
     const markerEl = document.querySelector(`.news-marker[data-id="${news.id}"]`);
     if (markerEl) markerEl.classList.add('active-marker');
 
-    // Fly to location
-    if (news.location?.lat && news.location?.lon) {
+    // Fly/Fit to location
+    clearBBoxHighlight();
+    if (news.location?.bbox && news.location.bbox.length === 4) {
+        const [min_lon, min_lat, max_lon, max_lat] = news.location.bbox;
+        map.fitBounds([[min_lon, min_lat], [max_lon, max_lat]], {
+            padding: 80,
+            maxZoom: 7,
+            duration: CONFIG.flyDuration
+        });
+        drawBBoxHighlight(news.location.bbox);
+    } else if (news.location?.lat && news.location?.lon) {
         map.flyTo({
             center: [news.location.lon, news.location.lat],
             zoom: CONFIG.flyZoom,
@@ -268,7 +357,7 @@ function populateDetail(news) {
 
     // Show/hide "Läs artikel" button
     const articleSection = document.getElementById('detail-article-section');
-    const hasArticle = news.article_content || (news.gaia_synthesis && news.summary);
+    const hasArticle = news.has_article || news.article_content || (news.gaia_synthesis && news.summary);
     articleSection.style.display = hasArticle ? '' : 'none';
 
     // Wire the button to this specific news item
@@ -287,6 +376,7 @@ function closeDetail() {
     document.querySelectorAll('.news-marker.active-marker').forEach(m => m.classList.remove('active-marker'));
     activeNewsId = null;
 
+    clearBBoxHighlight();
     map.flyTo({ center: CONFIG.defaultCenter, zoom: CONFIG.defaultZoom, duration: 1200 });
 }
 
@@ -345,13 +435,20 @@ function closeMobileSidebar() {
 // ── Article Reader ──
 let currentArticleNews = null;
 
-function openArticle(news) {
+async function openArticle(news) {
     currentArticleNews = news;
     const reader = document.getElementById('article-reader');
     const color = CATEGORY_COLORS[news.category] || '#8ba3c1';
 
-    // Toolbar title
-    document.getElementById('article-toolbar-title').textContent = news.title;
+    // Toolbar title loading state
+    document.getElementById('article-toolbar-title').textContent = "Laddar artikel...";
+    document.getElementById('article-title').textContent = "Laddar...";
+    document.getElementById('article-text').innerHTML = `
+        <div style="display:flex;flex-direction:column;align-items:center;padding:4rem 0;">
+            <div class="loading-spinner"></div>
+            <p style="font-family:'Inter',sans-serif;font-size:0.9rem;color:var(--text-muted);margin-top:1rem;">Hämtar fördjupad nyhetsanalys från gAIa...</p>
+        </div>
+    `;
 
     // Header meta badges
     const sentimentIcon = { negative: '🔴', positive: '🟢', neutral: '⚪' }[news.sentiment] || '⚪';
@@ -378,12 +475,27 @@ function openArticle(news) {
         <span>${news.source_count} käll${news.source_count === 1 ? 'a' : 'or'}</span>
     `;
 
-    // Article content
-    const textEl = document.getElementById('article-text');
-    if (news.article_content) {
-        textEl.innerHTML = news.article_content;
-    } else {
-        textEl.innerHTML = generateArticleHTML(news);
+    // Show reader to begin transition smoothly
+    reader.classList.add('visible');
+    document.querySelector('.article-body').scrollTop = 0;
+    document.body.style.overflow = 'hidden';
+
+    // Fetch full article from partitioned json
+    try {
+        const articleUrl = `artiklar/${news.id}.json`;
+        const resp = await fetch(articleUrl);
+        if (!resp.ok) throw new Error(`Status ${resp.status}`);
+        const fullArticle = await resp.json();
+
+        document.getElementById('article-toolbar-title').textContent = fullArticle.title;
+        document.getElementById('article-title').textContent = fullArticle.title;
+        document.getElementById('article-text').innerHTML = fullArticle.article_content;
+    } catch (err) {
+        console.warn('Asynkron hämtning misslyckades, faller tillbaka på lokal generering:', err);
+        // Fallback to dynamic local generation if needed
+        document.getElementById('article-toolbar-title').textContent = news.title;
+        document.getElementById('article-title').textContent = news.title;
+        document.getElementById('article-text').innerHTML = generateArticleHTML(news);
     }
 
     // Sources section
@@ -410,11 +522,6 @@ function openArticle(news) {
     if (savedSize) {
         document.querySelector('.article-content').style.setProperty('--article-font-size', savedSize + 'px');
     }
-
-    // Show reader
-    reader.classList.add('visible');
-    document.querySelector('.article-body').scrollTop = 0;
-    document.body.style.overflow = 'hidden';
 }
 
 function closeArticle() {
