@@ -12,7 +12,7 @@ const CONFIG = {
     flyZoom: 5
 };
 
-let map, newsData = null, markers = [], activeNewsId = null;
+let map, newsData = null, markers = [], activeNewsId = null, actualCoordinates = {}, activePulseFrame = null;
 
 // ── Category Colors ──
 const CATEGORY_COLORS = {
@@ -43,6 +43,22 @@ function init() {
             closeDetail();
         }
     });
+
+    // Battery status tracking for power-save mode (from consensus)
+    if (navigator.getBattery) {
+        navigator.getBattery().then(battery => {
+            window.batteryStatus = {
+                level: battery.level,
+                charging: battery.charging
+            };
+            battery.addEventListener('levelchange', () => {
+                window.batteryStatus.level = battery.level;
+            });
+            battery.addEventListener('chargingchange', () => {
+                window.batteryStatus.charging = battery.charging;
+            });
+        }).catch(() => {});
+    }
 }
 
 // ── Load Data ──
@@ -166,6 +182,7 @@ function renderMarkers() {
         const lat = news.location.lat + Math.sin(jitterAngle) * jitterRadius;
         const lon = news.location.lon + Math.cos(jitterAngle) * jitterRadius;
         coordCounts[key]++;
+        actualCoordinates[news.id] = [lon, lat];
 
         const el = document.createElement('div');
         const color = CATEGORY_COLORS[news.category] || '#ff4757';
@@ -246,6 +263,8 @@ function clearBBoxHighlight() {
 
 // ── Select News ──
 function selectNews(news) {
+    map.stop();
+
     // Deselect previous
     document.querySelectorAll('.news-card.active').forEach(c => c.classList.remove('active'));
     document.querySelectorAll('.news-marker.active-marker').forEach(m => m.classList.remove('active-marker'));
@@ -284,6 +303,9 @@ function selectNews(news) {
 
     // Populate detail panel
     populateDetail(news);
+    
+    // Update relations threads
+    updateRelationsLayer(news.id);
 }
 
 // ── Populate Detail Panel ──
@@ -377,6 +399,7 @@ function closeDetail() {
     activeNewsId = null;
 
     clearBBoxHighlight();
+    updateRelationsLayer(null);
     map.flyTo({ center: CONFIG.defaultCenter, zoom: CONFIG.defaultZoom, duration: 1200 });
 }
 
@@ -600,6 +623,397 @@ function setupArticleReader() {
             e.preventDefault();
             closeArticle();
         }
+    });
+}
+
+// =============================================
+// Relation Threads Visualization Logic
+// =============================================
+
+function initRelationsLayers() {
+    if (map.getSource('relations-source')) return;
+
+    map.addSource('relations-source', {
+        type: 'geojson',
+        data: {
+            type: 'FeatureCollection',
+            features: []
+        }
+    });
+
+    map.addLayer({
+        id: 'relations-layer',
+        type: 'line',
+        source: 'relations-source',
+        paint: {
+            'line-color': ['get', 'color'],
+            'line-width': ['get', 'width'],
+            'line-opacity': 0.85
+        },
+        layout: {
+            'line-cap': 'round',
+            'line-join': 'round'
+        }
+    });
+
+    map.addSource('relations-particles-source', {
+        type: 'geojson',
+        data: {
+            type: 'FeatureCollection',
+            features: []
+        }
+    });
+
+    map.addLayer({
+        id: 'relations-particles-layer',
+        type: 'circle',
+        source: 'relations-particles-source',
+        paint: {
+            'circle-color': ['get', 'color'],
+            'circle-radius': 3.5,
+            'circle-blur': 0.5,
+            'circle-opacity': 0.9
+        }
+    });
+
+    // Wire hover popup interaction
+    initRelationsPopup();
+}
+
+function calculateBezierCurve(coordA, coordB, segments = 40) {
+    const lonA = coordA[0];
+    const latA = coordA[1];
+    const lonB = coordB[0];
+    const latB = coordB[1];
+
+    const midLon = (lonA + lonB) / 2;
+    const midLat = (latA + latB) / 2;
+
+    const dLon = lonB - lonA;
+    const dLat = latB - latA;
+    
+    const pLon = -dLat;
+    const pLat = dLon;
+
+    const len = Math.sqrt(pLon * pLon + pLat * pLat);
+    let offsetLon = 0;
+    let offsetLat = 0;
+    
+    if (len > 0) {
+        const offsetDist = len * 0.15;
+        offsetLon = (pLon / len) * offsetDist;
+        offsetLat = (pLat / len) * offsetDist;
+    }
+
+    const ctrlLon = midLon + offsetLon;
+    const ctrlLat = midLat + offsetLat;
+
+    const points = [];
+    for (let i = 0; i <= segments; i++) {
+        const t = i / segments;
+        const termA = (1 - t) * (1 - t);
+        const termC = 2 * (1 - t) * t;
+        const termB = t * t;
+
+        const x = termA * lonA + termC * ctrlLon + termB * lonB;
+        const y = termA * latA + termC * ctrlLat + termB * latB;
+        points.push([x, y]);
+    }
+    return points;
+}
+
+function updateRelationsLayer(activeId) {
+    initRelationsLayers();
+
+    if (!activeId || !newsData.relations) {
+        if (map.getSource('relations-source')) {
+            map.getSource('relations-source').setData({
+                type: 'FeatureCollection',
+                features: []
+            });
+        }
+        if (map.getSource('relations-particles-source')) {
+            map.getSource('relations-particles-source').setData({
+                type: 'FeatureCollection',
+                features: []
+            });
+        }
+        if (activePulseFrame) {
+            cancelAnimationFrame(activePulseFrame);
+            activePulseFrame = null;
+        }
+        document.querySelectorAll('.news-marker').forEach(el => el.style.opacity = '1');
+        
+        const relSection = document.getElementById('detail-relations-section');
+        if (relSection) relSection.style.display = 'none';
+        return;
+    }
+
+    const activeNews = newsData.news.find(n => n.id === activeId);
+    if (!activeNews) return;
+
+    const activeRels = newsData.relations.filter(r => r.source === activeId || r.target === activeId);
+
+    const relatedIds = new Set([activeId]);
+    activeRels.forEach(r => {
+        relatedIds.add(r.source);
+        relatedIds.add(r.target);
+    });
+
+    document.querySelectorAll('.news-marker').forEach(el => {
+        const mId = el.dataset.id;
+        if (relatedIds.has(mId)) {
+            el.style.opacity = '1';
+        } else {
+            el.style.opacity = '0.25';
+        }
+    });
+
+    const lineFeatures = [];
+    const curves = [];
+
+    activeRels.forEach(rel => {
+        const sourceCoord = actualCoordinates[rel.source];
+        const targetCoord = actualCoordinates[rel.target];
+
+        if (sourceCoord && targetCoord) {
+            const curvePoints = calculateBezierCurve(sourceCoord, targetCoord);
+            const rColor = getRelationColor(rel.type);
+            
+            curves.push({
+                points: curvePoints,
+                color: rColor,
+                source: rel.source,
+                target: rel.target
+            });
+
+            lineFeatures.push({
+                type: 'Feature',
+                properties: {
+                    color: rColor,
+                    width: rel.weight === 1.0 ? 2.5 : 1.5
+                },
+                geometry: {
+                    type: 'LineString',
+                    coordinates: curvePoints
+                }
+            });
+        }
+    });
+
+    if (map.getSource('relations-source')) {
+        map.getSource('relations-source').setData({
+            type: 'FeatureCollection',
+            features: lineFeatures
+        });
+    }
+
+    animateParticles(curves);
+    renderRelationsInDetail(activeId, activeRels);
+}
+
+function getRelationColor(type) {
+    const relationColors = {
+        geopolitical_link: '#3742fa',
+        cause_and_effect: '#ff4757',
+        follow_up: '#a55eea',
+        thematic_link: '#fc5c65'
+    };
+    return relationColors[type] || '#8ba3c1';
+}
+
+function shouldAnimate() {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        return false;
+    }
+    if (window.batteryStatus && window.batteryStatus.level < 0.20 && !window.batteryStatus.charging) {
+        return false;
+    }
+    return true;
+}
+
+function sinusEasing(t) {
+    return (1 - Math.cos(t * Math.PI)) / 2;
+}
+
+function animateParticles(curves) {
+    if (activePulseFrame) {
+        cancelAnimationFrame(activePulseFrame);
+        activePulseFrame = null;
+    }
+
+    if (curves.length === 0 || !shouldAnimate()) {
+        if (map.getSource('relations-particles-source')) {
+            map.getSource('relations-particles-source').setData({
+                type: 'FeatureCollection',
+                features: []
+            });
+        }
+        return;
+    }
+
+    const duration = 2500;
+    const startTime = performance.now();
+
+    function loop(now) {
+        const elapsed = now - startTime;
+        const progress = (elapsed % duration) / duration;
+
+        const particleFeatures = [];
+
+        curves.forEach(curve => {
+            const numParticles = 3;
+            for (let p = 0; p < numParticles; p++) {
+                const offsetProgress = (progress + p / numParticles) % 1.0;
+                const easedT = sinusEasing(offsetProgress);
+                const index = Math.min(
+                    Math.floor(easedT * (curve.points.length - 1)),
+                    curve.points.length - 1
+                );
+                const coord = curve.points[index];
+
+                if (coord) {
+                    particleFeatures.push({
+                        type: 'Feature',
+                        properties: {
+                            color: curve.color
+                        },
+                        geometry: {
+                            type: 'Point',
+                            coordinates: coord
+                        }
+                    });
+                }
+            }
+        });
+
+        if (map.getSource('relations-particles-source')) {
+            map.getSource('relations-particles-source').setData({
+                type: 'FeatureCollection',
+                features: particleFeatures
+            });
+        }
+
+        activePulseFrame = requestAnimationFrame(loop);
+    }
+
+    activePulseFrame = requestAnimationFrame(loop);
+}
+
+let relationsPopup = null;
+
+function initRelationsPopup() {
+    if (relationsPopup) return;
+
+    map.on('mouseenter', 'relations-layer', e => {
+        if (!activeNewsId) return;
+        map.getCanvas().style.cursor = 'pointer';
+
+        const cursorCoord = [e.lngLat.lng, e.lngLat.lat];
+        const activeRels = newsData.relations.filter(r => r.source === activeNewsId || r.target === activeNewsId);
+        
+        let closestRel = null;
+        let minDist = Infinity;
+        let midpoint = null;
+
+        activeRels.forEach(rel => {
+            const coordA = actualCoordinates[rel.source];
+            const coordB = actualCoordinates[rel.target];
+            if (coordA && coordB) {
+                const curve = calculateBezierCurve(coordA, coordB);
+                const mid = curve[Math.floor(curve.length / 2)];
+                
+                const dLng = mid[0] - cursorCoord[0];
+                const dLat = mid[1] - cursorCoord[1];
+                const dist = Math.sqrt(dLng * dLng + dLat * dLat);
+                if (dist < minDist) {
+                    minDist = dist;
+                    closestRel = rel;
+                    midpoint = mid;
+                }
+            }
+        });
+
+        if (closestRel && midpoint) {
+            const relatedNewsId = closestRel.source === activeNewsId ? closestRel.target : closestRel.source;
+            const relatedNews = newsData.news.find(n => n.id === relatedNewsId);
+            const relatedTitle = relatedNews ? relatedNews.title : 'Relaterad nyhet';
+
+            const popupContent = `
+                <div class="relations-tooltip">
+                    <div class="tooltip-header">🔗 Koppling</div>
+                    <div class="tooltip-body">${closestRel.description}</div>
+                    <div class="tooltip-footer">Relaterad: <em>${relatedTitle}</em></div>
+                </div>
+            `;
+
+            relationsPopup = new maplibregl.Popup({
+                closeButton: false,
+                closeOnClick: false,
+                className: 'glassmorphic-popup'
+            })
+                .setLngLat(midpoint)
+                .setHTML(popupContent)
+                .addTo(map);
+        }
+    });
+
+    map.on('mouseleave', 'relations-layer', () => {
+        map.getCanvas().style.cursor = '';
+        if (relationsPopup) {
+            relationsPopup.remove();
+            relationsPopup = null;
+        }
+    });
+}
+
+function renderRelationsInDetail(activeId, activeRels) {
+    let relsSection = document.getElementById('detail-relations-section');
+    if (!relsSection) {
+        relsSection = document.createElement('div');
+        relsSection.id = 'detail-relations-section';
+        relsSection.className = 'detail-section';
+        
+        const sourcesSection = document.getElementById('detail-sources').parentElement;
+        sourcesSection.parentElement.insertBefore(relsSection, sourcesSection);
+    }
+
+    if (activeRels.length === 0) {
+        relsSection.style.display = 'none';
+        return;
+    }
+
+    relsSection.style.display = '';
+    relsSection.innerHTML = `
+        <h3>🔗 Relaterade händelser</h3>
+        <ul class="detail-relations-list" id="detail-relations"></ul>
+    `;
+
+    const relsList = document.getElementById('detail-relations');
+    activeRels.forEach(rel => {
+        const relatedId = rel.source === activeId ? rel.target : rel.source;
+        const relatedNews = newsData.news.find(n => n.id === relatedId);
+        if (!relatedNews) return;
+
+        const isGlobal = !relatedNews.location?.lat || !relatedNews.location?.lon || relatedNews.location.precision === 'global';
+        const locLabel = isGlobal ? '🌎 Global' : `📍 ${relatedNews.location.city}`;
+
+        const li = document.createElement('li');
+        li.className = 'relation-item';
+        li.innerHTML = `
+            <div class="relation-item-top">
+                <span class="relation-badge" style="background:${getRelationColor(rel.type)}18;color:${getRelationColor(rel.type)}">${locLabel}</span>
+                <span class="relation-title-link" data-id="${relatedId}">${relatedNews.title}</span>
+            </div>
+            <p class="relation-desc">${rel.description}</p>
+        `;
+
+        li.querySelector('.relation-title-link').addEventListener('click', () => {
+            map.stop();
+            selectNews(relatedNews);
+        });
+
+        relsList.appendChild(li);
     });
 }
 

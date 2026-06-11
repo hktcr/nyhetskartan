@@ -1028,4 +1028,111 @@ body {
     margin-top: 0;
 }
 
+/* ============================================
+   Relation Threads Styles
+   ============================================ */
+
+.glassmorphic-popup .maplibregl-popup-content {
+    background: var(--bg-glass);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid var(--border-glass);
+    border-radius: var(--radius-md);
+    padding: 0.8rem 1rem;
+    box-shadow: var(--shadow-deep);
+    color: var(--text-primary);
+    max-width: 280px;
+}
+
+.glassmorphic-popup .maplibregl-popup-tip {
+    border-top-color: var(--bg-glass) !important;
+}
+
+.relations-tooltip {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+.relations-tooltip .tooltip-header {
+    font-size: 0.65rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--accent-cyan);
+}
+
+.relations-tooltip .tooltip-body {
+    font-size: 0.8rem;
+    line-height: 1.4;
+    color: var(--text-primary);
+}
+
+.relations-tooltip .tooltip-footer {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    padding-top: 0.3rem;
+    margin-top: 0.2rem;
+}
+
+/* Detail panel relations list */
+.detail-relations-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.relation-item {
+    padding: 0.6rem 0.75rem;
+    background: var(--bg-card);
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border-glass);
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+}
+
+.relation-item-top {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.relation-badge {
+    font-size: 0.6rem;
+    font-weight: 600;
+    padding: 0.15rem 0.4rem;
+    border-radius: 4px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.relation-title-link {
+    font-size: 0.82rem;
+    font-weight: 500;
+    color: var(--text-primary);
+    cursor: pointer;
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex: 1;
+    transition: color var(--transition);
+}
+
+.relation-title-link:hover {
+    color: var(--accent-cyan);
+    text-decoration: underline;
+}
+
+.relation-desc {
+    font-size: 0.78rem !important;
+    line-height: 1.5 !important;
+    color: var(--text-secondary) !important;
+    margin: 0 !important;
+}
+
 

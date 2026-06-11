@@ -1,6 +1,6 @@
 {
-    "generated_at": "2026-06-11T07:18:47.036118+00:00",
-    "workflow_version": "2.2",
+    "generated_at": "2026-06-11T08:48:15.991062+00:00",
+    "workflow_version": "2.3",
     "source_info": {
         "swedish_rss": [
             "SVT Nyheter",
@@ -10,54 +10,10 @@
             "NewsData.io"
         ],
         "api_plan": "NewsData.io Active",
-        "total_raw_articles": 55,
-        "deduplicated_count": 44
+        "total_raw_articles": 42,
+        "deduplicated_count": 42
     },
     "news": [
-        {
-            "id": "försvar-ryssland-nato-2026-06-11",
-            "title": "Rysslands militära upprustning vid Natos gräns och hotet mot Östersjöregionen",
-            "location": {
-                "city": "Finska gränsen",
-                "country": "Ryssland",
-                "lat": 60.9,
-                "lon": 30.2,
-                "precision": "region",
-                "bbox": [
-                    28.0,
-                    60.0,
-                    32.0,
-                    62.0
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/avslojandet-om-rysslands-upprustning-folj-senaste-nytt"
-                },
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/svts-reporter-om-rysslands-upprustning-ett-hot-som-nato-maste-hantera"
-                },
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/inrikes/kallor-har-ar-natos-mest-utsatta-plats"
-                }
-            ],
-            "source_count": 3,
-            "score": 9.5,
-            "tier": 1,
-            "category": "försvar",
-            "sentiment": "negative",
-            "summary": "Satellitbilder visar en omfattande rysk militär upprustning nära gränsen till Finland och Baltikum, där uppemot 80 000 soldater kan mobiliseras. Europeiska underrättelsetjänster varnar för ett potentiellt anfall mot Nato inom några år, med särskilt fokus på Suwalki-korridoren och en ökad hotbild mot Gotland.",
-            "published_at": "Wed, 10 Jun 2026 10:02:47 +0200",
-            "multi_source_verified": true,
-            "article_generated": true,
-            "has_article": true
-        },
         {
             "id": "konflikt-omanviken-2026-06-11",
             "title": "Geopolitisk eskalering i Omanviken: USA slår ut iranskt tankfartyg",
@@ -90,7 +46,7 @@
             "published_at": "2026-06-11T07:18:47.036118+00:00",
             "multi_source_verified": true,
             "article_generated": true,
-            "has_article": true
+            "has_article": false
         },
         {
             "id": "samhälle-hoiby-2026-06-11",
@@ -127,40 +83,6 @@
             "sentiment": "negative",
             "summary": "Norges kronprinsessa Mette-Marits son, Marius Borg Høiby, förblir häktad efter att Oslo tingsrätt avslagit hans begäran om frigivning. Skandalen har skakat det norska kungahuset och väckt en intensiv debatt om kungafamiljens status och lagbundenhet.",
             "published_at": "Wed, 10 Jun 2026 11:37:26 +0200",
-            "multi_source_verified": true,
-            "article_generated": true,
-            "has_article": true
-        },
-        {
-            "id": "sport-vm2026-2026-06-11",
-            "title": "Fotbolls-VM 2026 invigs under geopolitiska kontroverser",
-            "location": {
-                "city": "Washington",
-                "country": "USA",
-                "lat": 38.9072,
-                "lon": -77.0369,
-                "precision": "city",
-                "bbox": [
-                    -77.15,
-                    38.8,
-                    -76.9,
-                    39.0
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9234913"
-                }
-            ],
-            "source_count": 1,
-            "score": 9.0,
-            "tier": 1,
-            "category": "sport",
-            "sentiment": "neutral",
-            "summary": "Fotbolls-VM 2026 i USA, Kanada och Mexiko har inletts. Samtidigt växer de politiska spänningarna mellan värdnationerna rörande migrationspolitik, och FIFA-presidenten Gianni Infantinos öppna hyllningar av Donald Trump väcker kritik.",
-            "published_at": "2026-06-11T07:29:58.391036+02:00",
             "multi_source_verified": true,
             "article_generated": true,
             "has_article": true
@@ -365,6 +287,40 @@
             "has_article": false
         },
         {
+            "id": "sport-vm-trump-infantino-2026-06-11",
+            "title": "FIFA-chefens hyllning till Donald Trump väcker debatt",
+            "location": {
+                "city": "Washington",
+                "country": "USA",
+                "lat": 38.9072,
+                "lon": -77.0369,
+                "precision": "city",
+                "bbox": [
+                    -77.15,
+                    38.8,
+                    -76.9,
+                    39.0
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/sport/fotboll/gianni-infantino-hyllar-donald-trump-hade-varit-omojligt-utan-honom"
+                }
+            ],
+            "source_count": 1,
+            "score": 7.0,
+            "tier": 2,
+            "category": "politik",
+            "sentiment": "neutral",
+            "summary": "FIFA-presidenten Gianni Infantinos öppna hyllningar av Donald Trump under invigningen av Fotbolls-VM 2026 har utlöst skarp kritik från flera håll.",
+            "published_at": "Wed, 10 Jun 2026 23:11:35 +0200",
+            "multi_source_verified": false,
+            "has_article": true,
+            "article_generated": true
+        },
+        {
             "id": "samhälle-6e43b4e8-2026-06-11",
             "title": "11 juni: Nattens nyheter",
             "location": {
@@ -468,40 +424,6 @@
             "summary": "BYD ökar trycket på den svenska elbilsmarknaden – Europachefen Alfredo Altavilla säger att bolaget ska satsa det som krävs i Sverige.",
             "gaia_synthesis": "",
             "published_at": "Wed, 10 Jun 2026 18:52:14 +0200",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-ecaa9626-2026-06-11",
-            "title": "Flera åtalas efter dödliga storbranden i Hongkong",
-            "location": {
-                "city": "Hongkong",
-                "country": "Kina",
-                "lat": 22.3193,
-                "lon": 114.1694,
-                "precision": "city",
-                "bbox": [
-                    113.8,
-                    22.1,
-                    114.5,
-                    22.6
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/flera-atalas-efter-dodliga-storbranden-i-hongkong"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "Sju personer och två bolag åtalas för jättebranden i ett lägenhetskomplex i Hongkong i november. 168 människor dog i samband med den dramatiska eldsvådan.",
-            "gaia_synthesis": "",
-            "published_at": "Wed, 10 Jun 2026 10:18:22 +0200",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1050,40 +972,6 @@
             "has_article": false
         },
         {
-            "id": "samhälle-554e8ecc-2026-06-11",
-            "title": "Gianni Infantino hyllar Donald Trump: ”Hade varit omöjligt utan honom”",
-            "location": {
-                "city": "Usa",
-                "country": "Usa",
-                "lat": 38.91,
-                "lon": -77.04,
-                "precision": "country",
-                "bbox": [
-                    -78.04,
-                    37.91,
-                    -76.04,
-                    39.91
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/sport/fotboll/gianni-infantino-hyllar-donald-trump-hade-varit-omojligt-utan-honom"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "På en presskonferens inför VM-premiären fick Fifa-presidenten Gianni Infantino frågan om sin relation till USA:s president Donald Trump. Då bjöd han på en hyllning. – Utan honom hade det varit omöjligt, säger han.",
-            "gaia_synthesis": "",
-            "published_at": "Wed, 10 Jun 2026 23:11:35 +0200",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
             "id": "samhälle-07e36b9e-2026-06-11",
             "title": "Stort slagsmål i Linköping – tio unga män började bråka",
             "location": {
@@ -1150,6 +1038,40 @@
             "published_at": "Wed, 10 Jun 2026 16:28:59 +0200",
             "multi_source_verified": false,
             "has_article": false
+        },
+        {
+            "id": "sport-vm-invigning-2026-06-11",
+            "title": "Fotbolls-VM 2026 invigs under geopolitiska kontroverser",
+            "location": {
+                "city": "Mexico City",
+                "country": "Mexiko",
+                "lat": 19.4326,
+                "lon": -99.1332,
+                "precision": "city",
+                "bbox": [
+                    -99.3,
+                    19.2,
+                    -98.9,
+                    19.6
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9234913"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.5,
+            "tier": 2,
+            "category": "sport",
+            "sentiment": "neutral",
+            "summary": "Fotbolls-VM 2026 i USA, Kanada och Mexiko har inletts under stor folkfest, men samtidigt växer de politiska spänningarna mellan värdnationerna rörande gränskontroller och migrationspolitik.",
+            "published_at": "2026-06-11T07:29:58.391036+02:00",
+            "multi_source_verified": true,
+            "article_generated": true,
+            "has_article": true
         },
         {
             "id": "ekonomi-ac56639a-2026-06-11",
@@ -1471,27 +1393,123 @@
             "has_article": false
         }
     ],
+    "relations": [
+        {
+            "id": "rel-vm-trump-2026-06-11",
+            "source": "sport-vm-invigning-2026-06-11",
+            "target": "sport-vm-trump-infantino-2026-06-11",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Invigningen av fotbolls-VM överskuggas delvis av debatten kring FIFA-ledningens politiska kopplingar."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-hoiby-2026-06-11-samhälle-64b99b0c-2026-06-11",
+            "source": "samhälle-hoiby-2026-06-11",
+            "target": "samhälle-64b99b0c-2026-06-11",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-2778e2c5-2026-06-11-samhälle-0f504ec0-2026-06-11",
+            "source": "samhälle-2778e2c5-2026-06-11",
+            "target": "samhälle-0f504ec0-2026-06-11",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-2778e2c5-2026-06-11-samhälle-69deb0c6-2026-06-11",
+            "source": "samhälle-2778e2c5-2026-06-11",
+            "target": "samhälle-69deb0c6-2026-06-11",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-0f504ec0-2026-06-11-samhälle-69deb0c6-2026-06-11",
+            "source": "samhälle-0f504ec0-2026-06-11",
+            "target": "samhälle-69deb0c6-2026-06-11",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-ca8f9c78-2026-06-11-samhälle-70912d59-2026-06-11",
+            "source": "samhälle-ca8f9c78-2026-06-11",
+            "target": "samhälle-70912d59-2026-06-11",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-ca8f9c78-2026-06-11-samhälle-c2722719-2026-06-11",
+            "source": "samhälle-ca8f9c78-2026-06-11",
+            "target": "samhälle-c2722719-2026-06-11",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-ca8f9c78-2026-06-11-samhälle-8bdf4b76-2026-06-11",
+            "source": "samhälle-ca8f9c78-2026-06-11",
+            "target": "samhälle-8bdf4b76-2026-06-11",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-40c35f68-2026-06-11-samhälle-7b12fad1-2026-06-11",
+            "source": "samhälle-40c35f68-2026-06-11",
+            "target": "samhälle-7b12fad1-2026-06-11",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-70912d59-2026-06-11-samhälle-c2722719-2026-06-11",
+            "source": "samhälle-70912d59-2026-06-11",
+            "target": "samhälle-c2722719-2026-06-11",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-70912d59-2026-06-11-samhälle-8bdf4b76-2026-06-11",
+            "source": "samhälle-70912d59-2026-06-11",
+            "target": "samhälle-8bdf4b76-2026-06-11",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-c2722719-2026-06-11-samhälle-8bdf4b76-2026-06-11",
+            "source": "samhälle-c2722719-2026-06-11",
+            "target": "samhälle-8bdf4b76-2026-06-11",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        }
+    ],
     "meta_analysis": {
         "top_themes": [
-            "Rysslands militära upprustning vid Natos gräns och hotet mot Östersjöregionen",
             "Geopolitisk eskalering i Omanviken: USA slår ut iranskt tankfartyg",
             "Den norska kungliga skandalen djupnar: Marius Borg Høiby kvar i häkte",
-            "Fotbolls-VM 2026 invigs under geopolitiska kontroverser"
+            "Man misstänkt för att ha tagit bild på skyddsobjekt vid Luleå flygplats",
+            "Stark tro på affärsklimatet – trots geopolitisk oro"
         ],
         "geographic_distribution": {
-            "Ryssland": 1,
             "Internationellt vatten": 1,
             "Norge": 1,
-            "USA": 1,
             "Sverige": 9,
             "Okänt": 9,
             "Global": 13,
-            "Kina": 4,
+            "USA": 1,
+            "Kina": 3,
             "Libanon": 1,
-            "Mexiko": 1,
-            "Storbritannien": 2,
-            "Usa": 1
+            "Mexiko": 2,
+            "Storbritannien": 2
         },
-        "gaia_daily_brief": "Säkerhetsläget domineras av rysslands militära upprustning vid natos gräns och hotet mot östersjöregionen, medan den geopolitiska kartan spänner över 12 länder/regioner. För en djupgående bild, klicka på markörerna och läs gAIas sammanfattningar."
+        "gaia_daily_brief": "Säkerhetsläget domineras av geopolitisk eskalering i omanviken: usa slår ut iranskt tankfartyg, medan den geopolitiska kartan spänner över 10 länder/regioner. För en djupgående bild, klicka på markörerna och läs gAIas sammanfattningar."
     }
 }
