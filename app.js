@@ -941,7 +941,7 @@ function initRelationsPopup() {
 
             const popupContent = `
                 <div class="relations-tooltip">
-                    <div class="tooltip-header">🔗 Koppling</div>
+                    <div class="tooltip-header">🤖 gAIa-analys</div>
                     <div class="tooltip-body">${closestRel.description}</div>
                     <div class="tooltip-footer">Relaterad: <em>${relatedTitle}</em></div>
                 </div>
@@ -985,7 +985,7 @@ function renderRelationsInDetail(activeId, activeRels) {
 
     relsSection.style.display = '';
     relsSection.innerHTML = `
-        <h3>🔗 Relaterade händelser</h3>
+        <h3>🤖 gAIa-relationsanalys</h3>
         <ul class="detail-relations-list" id="detail-relations"></ul>
     `;
 
