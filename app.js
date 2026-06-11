@@ -379,7 +379,7 @@ function populateDetail(news) {
 
     // Show/hide "Läs artikel" button
     const articleSection = document.getElementById('detail-article-section');
-    const hasArticle = news.has_article || news.article_content || (news.gaia_synthesis && news.summary);
+    const hasArticle = news.has_article || news.article_content || news.summary;
     articleSection.style.display = hasArticle ? '' : 'none';
 
     // Wire the button to this specific news item
