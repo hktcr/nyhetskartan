@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-06-15T05:09:39.913911+00:00",
+    "generated_at": "2026-06-15T06:40:27.234567+00:00",
     "workflow_version": "2.3",
     "source_info": {
         "swedish_rss": [
@@ -69,14 +69,14 @@
             "location": {
                 "city": "Scania",
                 "country": "",
-                "lat": 38.8761545,
-                "lon": -9.0675312,
+                "lat": 46.6687106,
+                "lon": 5.410228,
                 "precision": "city",
                 "bbox": [
-                    -9.0675812,
-                    38.8761045,
-                    -9.0674812,
-                    38.8762045
+                    5.4100002,
+                    46.6685221,
+                    5.4104766,
+                    46.6689676
                 ]
             },
             "sources": [
@@ -92,7 +92,7 @@
             "category": "försvar",
             "sentiment": "neutral",
             "summary": "Leveranser av tunga militära fordon till det svenska försvaret och andra Nato-länder har blivit en allt viktigare affär för lastbilstillverkaren Scania, i takt med att försvarsbudgetarna växer kraftigt i Europa.",
-            "published_at": "2026-06-15T07:09:12.354739+02:00",
+            "published_at": "2026-06-15T08:39:54.127928+02:00",
             "multi_source_verified": false,
             "article_generated": true,
             "has_article": true
@@ -126,7 +126,7 @@
             "category": "konflikt",
             "sentiment": "neutral",
             "summary": "Frankrike har mobiliserat en massiv säkerhetsinsats med 16 000 poliser och militärer i franska Evian-les-Bains inför det stundande G7-toppmötet, där världsledare samlas under strikt bevakning.",
-            "published_at": "2026-06-15T07:09:12.354739+02:00",
+            "published_at": "2026-06-15T08:39:54.127928+02:00",
             "multi_source_verified": false,
             "article_generated": true,
             "has_article": true
@@ -244,45 +244,6 @@
             "has_article": true
         },
         {
-            "id": "samhälle-1d13a31c-2026-06-15",
-            "title": "Svenska fans laddar inför VM-premiär: ”Staden verkligen andas fotboll”",
-            "location": {
-                "city": "Sverige",
-                "country": "Sverige",
-                "lat": 59.33,
-                "lon": 18.07,
-                "precision": "country",
-                "bbox": [
-                    17.07,
-                    58.33,
-                    19.07,
-                    60.33
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9239007"
-                },
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9238938"
-                }
-            ],
-            "source_count": 2,
-            "score": 7.5,
-            "tier": 1,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "Den svenska supporternärvaron växer snabbt i värdstaden inför Sveriges premiärmatch i fotbolls-VM. Fansen på plats beskriver en elektrisk stämning där hela staden andas fotboll.",
-            "published_at": "2026-06-15T07:09:12.354739+02:00",
-            "multi_source_verified": true,
-            "article_generated": true,
-            "has_article": true
-        },
-        {
             "id": "hälsa-9a78bb26-2026-06-15",
             "title": "Amerikanske senatorn Mitch McConnell inlagd på sjukhus",
             "location": {
@@ -380,7 +341,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-15T07:09:12.354739+02:00",
+            "published_at": "2026-06-15T08:39:54.127928+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -419,42 +380,42 @@
             "has_article": false
         },
         {
-            "id": "konflikt-45c0440f-2026-06-15",
-            "title": "Russian forces shell Dnipropetrovsk region over 30 times in a day; one killed, three wounded",
+            "id": "försvar-6b6657fb-2026-06-15",
+            "title": "New defence secretary to ‘reprioritise’ UK plan for military spending, say sources - The Guardian",
             "location": {
-                "city": "Ryssland",
-                "country": "Ryssland",
-                "lat": 55.76,
-                "lon": 37.62,
+                "city": "Storbritannien",
+                "country": "Storbritannien",
+                "lat": 51.51,
+                "lon": -0.13,
                 "precision": "country",
                 "bbox": [
-                    36.62,
-                    54.76,
-                    38.62,
-                    56.76
+                    -1.13,
+                    50.51,
+                    0.87,
+                    52.51
                 ]
             },
             "sources": [
                 {
-                    "name": "Ukrinform",
+                    "name": "Google News",
                     "type": "commercial",
-                    "url": "https://www.ukrinform.net/rubric-ato/4133757-russian-forces-shell-dnipropetrovsk-region-over-30-times-in-a-day-one-killed-three-wounded.html"
+                    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORGRoVURQd3plSi1UUnZFVW9qVGpFY05Zb0x4VEFBZ0tJOVNVeDBpOGRQbzh2X2hta0VUTzltNm16b0VVOGRGVUFCZEQ5X014S1RNeGNMWmVZSDA4Z2hTOUdEN0RDc1JiQ3Y0c2pZdzBXMnU4MEtUa0NHTWxwa21CeFg2Y3ZacGdoWnVZWXpJTjVoZm52UThZNnNkY1FaM21QOGFlUDJDdHI3Rjg?oc=5"
                 }
             ],
             "source_count": 1,
             "score": 7.0,
             "tier": 2,
-            "category": "konflikt",
-            "sentiment": "negative",
-            "summary": "Russian forces shelled communities in the Dnipropetrovsk region more than 30 times in a single day. One man was killed in the enemy attacks, and three others, including a teenage girl, were wounded.",
+            "category": "försvar",
+            "sentiment": "neutral",
+            "summary": "New defence secretary to ‘reprioritise’ UK plan for military spending, say sources The Guardian Starmer refusing to provide more money for defence The Telegraph Defence spending discussions are ongoing, says Lisa Nandy BBC Laura Kuenssberg: John Healey's gone, but more threats for PM will follow BBC Jarvis says he has ‘big responsibility’ to boost Armed Forces after funding row | ITV News ITVX",
             "gaia_synthesis": "",
-            "published_at": "2026-06-14 17:09:00",
+            "published_at": "2026-06-14 18:39:00",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "konflikt-78067c49-2026-06-15",
-            "title": "Hezbollah releases images claiming high-precision missile strike on Israeli military gathering",
+            "id": "konflikt-119b5994-2026-06-15",
+            "title": "Trump Marks Milestone Birthday With Vulgar Attack on Ally",
             "location": {
                 "city": "Israel",
                 "country": "Israel",
@@ -470,9 +431,9 @@
             },
             "sources": [
                 {
-                    "name": "The Zambian Observer - The Zambian Observer - Late",
+                    "name": "The Daily Beast",
                     "type": "commercial",
-                    "url": "https://zambianobserver.com/hezbollah-releases-images-claiming-high-precision-missile-strike-on-israeli-military-gathering/"
+                    "url": "https://www.thedailybeast.com/trump-marks-milestone-birthday-with-vulgar-attack-on-ally-israeli-pm-netanyahu-over-iran-war/"
                 }
             ],
             "source_count": 1,
@@ -480,9 +441,9 @@
             "tier": 2,
             "category": "konflikt",
             "sentiment": "negative",
-            "summary": "Hezbollah releases images claiming high-precision missile strike on Israeli military gathering Images released today by Hezbollah appear to show a previously undisclosed attack carried out on June 4, 2026, targeting what the group claimed was a gathering point of Israeli troops and military vehicles near the strategic Beaufort Castle area in southern Lebanon. According to [...] The post Hezbollah releases images claiming high-precision missile strike on Israeli military gathering first appeared ",
+            "summary": "Nathan Howard / REUTERS President Donald Trump had a birthday blowup with Israeli Prime Minister Benjamin Netanyahu over their unpopular war in Iran. The president told Axios that he was “p---ed off” when his advisors told him that Israel had struck Lebanon, as the Trump administration is trying to negotiate an end to the conflict it started. “It is so bad — I couldn’t believe it. An hour before we are supposed to sign the deal,” Trump told the outlet on his 80th birthday. Read more at The Daily",
             "gaia_synthesis": "",
-            "published_at": "2026-06-14 17:08:47",
+            "published_at": "2026-06-14 18:38:59",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -511,7 +472,7 @@
             "sentiment": "negative",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-15T07:09:12.354739+02:00",
+            "published_at": "2026-06-15T08:39:54.127928+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -540,8 +501,47 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-15T07:09:12.354739+02:00",
+            "published_at": "2026-06-15T08:39:54.127928+02:00",
             "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-6daf05e3-2026-06-15",
+            "title": "Residents should report racism involving police, Montreal-Nord mayor says",
+            "location": {
+                "city": "Canada",
+                "country": "Canada",
+                "lat": 45.42,
+                "lon": -75.7,
+                "precision": "country",
+                "bbox": [
+                    -76.7,
+                    44.42,
+                    -74.7,
+                    46.42
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Medicine Hat News",
+                    "type": "commercial",
+                    "url": "https://medicinehatnews.com/news/national-news/2026/06/14/residents-should-report-racism-involving-police-montreal-nord-mayor-says/"
+                },
+                {
+                    "name": "Citynews Montreal",
+                    "type": "commercial",
+                    "url": "https://montreal.citynews.ca/2026/06/14/residents-report-racism-police-montreal-north-mayor/"
+                }
+            ],
+            "source_count": 2,
+            "score": 6.5,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "MONTREAL — Montreal-Nord’s mayor is urging residents who have experienced racial profiling, discrimination, or racist behaviour by police to come forward. Christine Black made the appeal as Montreal-Nord, a borough on the northeast side of Montreal, continues to grapple with allegations involving the city’s officers assigned to local police station 39. On Friday, Montreal police The post Residents should report racism involving police, Montreal-Nord mayor says appeared first on Medicine Hat News",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-14 18:38:59",
+            "multi_source_verified": true,
             "has_article": false
         },
         {
@@ -647,6 +647,74 @@
             "has_article": false
         },
         {
+            "id": "brott-6e53a152-2026-06-15",
+            "title": "Norske bonusprinsen Marius Borg Höiby döms till fängelse",
+            "location": {
+                "city": "Norge",
+                "country": "Norge",
+                "lat": 59.91,
+                "lon": 10.75,
+                "precision": "country",
+                "bbox": [
+                    9.75,
+                    58.91,
+                    11.75,
+                    60.91
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9239183"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "brott",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-15T08:39:54.127928+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-4392ce4e-2026-06-15",
+            "title": "Anna och Emil firade Sveriges VM-seger i Monterrey: ”Duschat i öl”",
+            "location": {
+                "city": "Sverige",
+                "country": "Sverige",
+                "lat": 59.33,
+                "lon": 18.07,
+                "precision": "country",
+                "bbox": [
+                    17.07,
+                    58.33,
+                    19.07,
+                    60.33
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9239140"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-15T08:39:54.127928+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
             "id": "samhälle-e36a92fd-2026-06-15",
             "title": "Kaliber avslöjar: Ytterligare kriminell i S-uppgörelsen i Botkyrka 2023",
             "location": {
@@ -676,7 +744,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-15T07:09:12.354739+02:00",
+            "published_at": "2026-06-15T08:39:54.127928+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -710,7 +778,41 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-15T07:09:12.354739+02:00",
+            "published_at": "2026-06-15T08:39:54.127928+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-1d13a31c-2026-06-15",
+            "title": "Svenska fans laddar inför VM-premiär: ”Staden verkligen andas fotboll”",
+            "location": {
+                "city": "Sverige",
+                "country": "Sverige",
+                "lat": 59.33,
+                "lon": 18.07,
+                "precision": "country",
+                "bbox": [
+                    17.07,
+                    58.33,
+                    19.07,
+                    60.33
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9239007"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Den svenska supporternärvaron växer snabbt i värdstaden inför Sveriges premiärmatch i fotbolls-VM. Fansen på plats beskriver en elektrisk stämning där hela staden andas fotboll.",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-15T08:39:54.127928+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -744,31 +846,31 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-15T07:09:12.354739+02:00",
+            "published_at": "2026-06-15T08:39:54.127928+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-1271f49c-2026-06-15",
-            "title": "Rysslands importstopp slår hårt mot Armeniens ekonomi",
+            "id": "samhälle-83e8683d-2026-06-15",
+            "title": "Glädjefnatt på krogen när Sverige krossade Tunisien i VM",
             "location": {
-                "city": "Ryssland",
-                "country": "Ryssland",
-                "lat": 55.76,
-                "lon": 37.62,
+                "city": "Sverige",
+                "country": "Sverige",
+                "lat": 59.33,
+                "lon": 18.07,
                 "precision": "country",
                 "bbox": [
-                    36.62,
-                    54.76,
-                    38.62,
-                    56.76
+                    17.07,
+                    58.33,
+                    19.07,
+                    60.33
                 ]
             },
             "sources": [
                 {
-                    "name": "SR Ekot",
+                    "name": "SVT Nyheter",
                     "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9238553"
+                    "url": "https://www.svt.se/nyheter/lokalt/jonkoping/gladjefnatt-pa-krogen-nar-sverige-krossade-tunisien-i-vm"
                 }
             ],
             "source_count": 1,
@@ -776,9 +878,9 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "",
+            "summary": "Det blev klang och jubel när glada svenska supportrar firade Sveriges 5-1-seger mot Tunisien i premiären av fotbolls-VM.",
             "gaia_synthesis": "",
-            "published_at": "2026-06-15T07:09:12.354739+02:00",
+            "published_at": "Mon, 15 Jun 2026 07:02:57 +0200",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -810,7 +912,7 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "Långa köer och besökande som inte kom in fick titta genom stängslet. Men också vilt firande. Runt 3 000 fans tittade på Sveriges drömstart vid Ullevi. – De är hur bra som helst, säger Samuel Bexell.",
+            "summary": "Långa köer och besökande som inte kom in fick titta genom stängslet. Men också vilt firande. Över 3 000 fans tittade på Sveriges drömstart vid Ullevi. – De är hur bra som helst, säger Samuel Bexell.",
             "gaia_synthesis": "",
             "published_at": "Mon, 15 Jun 2026 06:55:45 +0200",
             "multi_source_verified": false,
@@ -844,7 +946,7 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "Sverige kan ha åkt på en smäll mot Tunisien. Vänsterbacken Gabriel Gudmundsson klev av med en befarad skada. – Jag tror det bara var kramp, säger förbundskapten Graham Potter till SVT Sport.",
+            "summary": "Sverige kan ha åkt på en smäll mot Tunisien. Vänsterbacken Gabriel Gudmundsson klev av med en befarad skada. Men ger lugnande besked. – Jag mår bra, säger han till ST Sport.",
             "gaia_synthesis": "",
             "published_at": "Mon, 15 Jun 2026 05:33:50 +0200",
             "multi_source_verified": false,
@@ -1123,74 +1225,6 @@
             "has_article": false
         },
         {
-            "id": "samhälle-6eed020a-2026-06-15",
-            "title": "Stökigt firande efter New York Knicks historiska NBA-vinst",
-            "location": {
-                "city": "New York",
-                "country": "",
-                "lat": 40.7128,
-                "lon": -74.006,
-                "precision": "city",
-                "bbox": [
-                    -74.106,
-                    40.6128,
-                    -73.906,
-                    40.8128
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/sport/basket/stokigt-firande-efter-new-york-knicks-historiska-nba-vinst"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "Fansen har väntat i 53 år. Nu rapporterar CNN att firandet i New York blivit stökigt efter Knicks historiska NBA-vinst. Bland annat ska polisbilar ha förstörts, enligt den amerikanska tv-kanalen.",
-            "gaia_synthesis": "",
-            "published_at": "Sun, 14 Jun 2026 08:46:20 +0200",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "miljö-a2e5780b-2026-06-15",
-            "title": "RM6.3mil flood retention pond upgrade to benefit 39,550 in Penang",
-            "location": {
-                "city": "Penang",
-                "country": "",
-                "lat": 5.4065013,
-                "lon": 100.2559077,
-                "precision": "city",
-                "bbox": [
-                    100.1749755,
-                    5.1220035,
-                    100.5503059,
-                    5.5856779
-                ]
-            },
-            "sources": [
-                {
-                    "name": "New Straits Times",
-                    "type": "commercial",
-                    "url": "https://www.nst.com.my/news/regional/2026/06/1463313/rm63mil-flood-retention-pond-upgrade-benefit-39550-penang"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "miljö",
-            "sentiment": "neutral",
-            "summary": "GEORGE TOWN: The RM6.3 million S18 Flood Retention Pond and pump system upgrading project in the Timur Laut district is expected to benefit more than 39,550 residents in the George Town area.",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-14 17:08:48",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
             "id": "politik-f5e0a3af-2026-06-15",
             "title": "Jakob Forssmed (KD) släpper  egen VM-låt",
             "location": {
@@ -1220,26 +1254,26 @@
             "has_article": false
         },
         {
-            "id": "ekonomi-6bd1c708-2026-06-15",
-            "title": "Spielberg’s 'Disclosure Day' tops box office as indie hit 'Obsession' continues strong run",
+            "id": "ekonomi-84292983-2026-06-15",
+            "title": "10 Costco Products To Amp Up Homemade Chili",
             "location": {
-                "city": "New York",
+                "city": "Costco",
                 "country": "",
-                "lat": 40.7128,
-                "lon": -74.006,
+                "lat": -34.8633053,
+                "lon": 138.581671,
                 "precision": "city",
                 "bbox": [
-                    -74.106,
-                    40.6128,
-                    -73.906,
-                    40.8128
+                    138.5800833,
+                    -34.8642979,
+                    138.5832526,
+                    -34.8624333
                 ]
             },
             "sources": [
                 {
-                    "name": "Emirates24|7",
+                    "name": "Daily Meal",
                     "type": "commercial",
-                    "url": "https://www.emirates247.com/world/spielbergs-disclosure-day-tops-box-office-as-indie-hit-obsession-continues-strong-run/2590"
+                    "url": "https://www.thedailymeal.com/2191347/costco-products-homemade-chili/"
                 }
             ],
             "source_count": 1,
@@ -1247,33 +1281,33 @@
             "tier": 2,
             "category": "ekonomi",
             "sentiment": "neutral",
-            "summary": "New York: Steven Spielberg’s latest film “Disclosure Day” has debuted at number one at the North American box office, earning $44 million in its opening weekend. The film, released by Universal Pictures, also generated $92.9 million globally, marking Spielberg’s strongest opening for an original movie, not accounting for inflation. Strong opening for original film “Disclosure Day”, described as a return to blockbuster-style filmmaking, is Spielberg’s first summer release in a decade. The film, w",
+            "summary": "Before you stock up to make some delicious homemade chili, check out this list of Costco products that will help you take your dish to the next level.",
             "gaia_synthesis": "",
-            "published_at": "2026-06-14 17:09:00",
+            "published_at": "2026-06-14 18:39:00",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-8f34b135-2026-06-15",
-            "title": "The Boston Celtics Are Pushing to Land Giannis Antetokounmpo",
+            "id": "samhälle-a4e3d684-2026-06-15",
+            "title": "East Idaho rodeo powerhouse lives up to reputation at state finals as numerous local cowboys and cowgirls now head to nationals",
             "location": {
-                "city": "Boston",
+                "city": "Idaho",
                 "country": "",
-                "lat": 42.3588336,
-                "lon": -71.0578303,
+                "lat": 43.6447642,
+                "lon": -114.015407,
                 "precision": "city",
                 "bbox": [
-                    -71.1912442,
-                    42.2279149,
-                    -70.8044881,
-                    42.3969775
+                    -117.2430324,
+                    41.9888339,
+                    -111.043564,
+                    49.0008447
                 ]
             },
             "sources": [
                 {
-                    "name": "Yardbarker",
+                    "name": "Hjnews",
                     "type": "commercial",
-                    "url": "https://www.yardbarker.com/nba/articles/the_boston_celtics_are_pushing_to_land_giannis_antetokounmpo/s1_17176_43954151"
+                    "url": "https://www.hjnews.com/montpelier/freeaccess/east-idaho-rodeo-powerhouse-lives-up-to-reputation-at-state-finals-as-numerous-local-cowboys/article_982958fe-1b95-4243-ba36-6a869ece3d1a.html"
                 }
             ],
             "source_count": 1,
@@ -1281,33 +1315,67 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "Now that the 2025–26 NBA season is officially over, all attention shifts to what is shaping up to be another offseason full of activity. Nothing will draw more headlines than the Giannis Antetokounmpo trade sweepstakes, as the Milwaukee Bucks superstar is widely expected to be dealt in the coming weeks.",
+            "summary": "East Idaho will be well represented at the National High School Finals Rodeo in Lincoln, Nebraska, next month.",
             "gaia_synthesis": "",
-            "published_at": "2026-06-14 17:09:00",
+            "published_at": "2026-06-14 18:39:00",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-e4af0bde-2026-06-15",
-            "title": "Historic Duffield Row Gets 420-Foot Neighbor As LPC Backs Tower Plan",
+            "id": "samhälle-1fd07874-2026-06-15",
+            "title": "SA’s small business engine is warming up, but funding gaps still choke growth",
             "location": {
-                "city": "Duffield",
+                "city": "South Africa",
+                "country": "South Africa",
+                "lat": -33.92,
+                "lon": 18.42,
+                "precision": "country",
+                "bbox": [
+                    17.42,
+                    -34.92,
+                    19.42,
+                    -32.92
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Daily Maverick",
+                    "type": "commercial",
+                    "url": "https://www.dailymaverick.co.za/article/2026-06-14-sas-small-business-engine-is-warming-up-but-funding-gaps-still-choke-growth/"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "South Africa’s small businesses are no longer locked in the same panic cycle that defined the years of load shedding, rising interest rates and brittle consumer demand, but the recovery now under way is uneven, careful and still vulnerable to another external shock.",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-14 18:39:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-a4e0af6f-2026-06-15",
+            "title": "'Ellen' Alum Sophia Grace, 23, Announces Pregnancy With 3rd Baby",
+            "location": {
+                "city": "Sophia",
                 "country": "",
-                "lat": 52.9861026,
-                "lon": -1.4888648,
+                "lat": 37.7076145,
+                "lon": -81.250657,
                 "precision": "city",
                 "bbox": [
-                    -1.5147048,
-                    52.964305,
-                    -1.4634242,
-                    53.0033474
+                    -81.267387,
+                    37.701154,
+                    -81.230606,
+                    37.740631
                 ]
             },
             "sources": [
                 {
-                    "name": "Hoodline",
+                    "name": "Usmagazine",
                     "type": "commercial",
-                    "url": "https://hoodline.com/2026/06/historic-duffield-row-gets-420-foot-neighbor-as-lpc-backs-tower-plan/"
+                    "url": "https://www.usmagazine.com/celebrity-moms/news/ellen-shows-sophia-grace-23-pregnant-with-3rd-baby/"
                 }
             ],
             "source_count": 1,
@@ -1315,33 +1383,33 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "LPC approved a revised 420‐ft mixed‐use tower at 188 Duffield Street in Downtown Brooklyn; four landmarked houses will be preserved.",
+            "summary": "Former The Ellen DeGeneres Show child star Sophia Grace Brownlee is pregnant with her third baby. “We are so excited to meet you 🤍,” Brownlee, 23, wrote via Instagram on Sunday, June 14, alongside footage of herself showing her son River, 3, and daughter Athena, 18 months, holding ultrasound photos. Brownlee also added “Pregnant,” “Pregnancy,” “Mom [...]",
             "gaia_synthesis": "",
-            "published_at": "2026-06-14 17:09:00",
+            "published_at": "2026-06-14 18:39:00",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-34bc37fd-2026-06-15",
-            "title": "‎How Yul Edochie Took Judy Austin From Me – Judy’s Ex-husband",
+            "id": "samhälle-aa829a3f-2026-06-15",
+            "title": "'Everything came together': How Arkansas men's track achieved season sweep under first-year coach Doug Case",
             "location": {
-                "city": "Nigeria",
-                "country": "Nigeria",
-                "lat": 9.07,
-                "lon": 7.39,
-                "precision": "country",
+                "city": "Arkansas",
+                "country": "",
+                "lat": 35.2048883,
+                "lon": -92.4479108,
+                "precision": "city",
                 "bbox": [
-                    6.39,
-                    8.07,
-                    8.39,
-                    10.07
+                    -94.6178753,
+                    33.0042455,
+                    -89.6425425,
+                    36.4996
                 ]
             },
             "sources": [
                 {
-                    "name": "Leadership",
+                    "name": "Nwaonline",
                     "type": "commercial",
-                    "url": "https://leadership.ng/how-yul-edochie-took-judy-austin-from-me-judys-ex-husband/"
+                    "url": "https://www.nwaonline.com/news/2026/jun/14/everything-came-together-how-arkansas-track-and-field-achieved-season-sweep-under-first-year-coach-doug-case/"
                 }
             ],
             "source_count": 1,
@@ -1349,33 +1417,33 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "‎The ex-husband of Nollywood actress Judy Austin, Emmanuel Obasi, has spoken about their crashed marriage. ‎ ‎In a preview of his interview on The Honest Bunch Podcast, he revealed that they were once married and had two children, but their relationship became strained because of Yul. ‎ ‎According to him, anytime they were watching television, [...]",
+            "summary": "The Razorbacks have now won 53 national championships across men’s and women’s track and field and cross country.",
             "gaia_synthesis": "",
-            "published_at": "2026-06-14 17:09:00",
+            "published_at": "2026-06-14 18:39:00",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-7e2879b3-2026-06-15",
-            "title": "Surya Pranam organised at Konark Sun temple",
+            "id": "samhälle-eeb9c935-2026-06-15",
+            "title": "Analyzing Severe Acute Kidney Injury Using the Renal Angina Index - Cureus",
             "location": {
-                "city": "India",
-                "country": "India",
-                "lat": 28.61,
-                "lon": 77.21,
-                "precision": "country",
+                "city": "Severe",
+                "country": "",
+                "lat": 45.7528538,
+                "lon": -0.2388099,
+                "precision": "city",
                 "bbox": [
-                    76.21,
-                    27.61,
-                    78.21,
-                    29.61
+                    -0.2942508,
+                    45.7393663,
+                    -0.2196675,
+                    45.7953476
                 ]
             },
             "sources": [
                 {
-                    "name": "The Times Of India",
+                    "name": "Google News",
                     "type": "commercial",
-                    "url": "https://timesofindia.indiatimes.com/city/vijayawada/surya-pranam-organised-at-konark-sun-temple/articleshow/131725708.cms"
+                    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQN2R1cExpbGw2M2NlanNGYkpzcV9DUXlNa3VhRlVZMGVkS01LS0tVZ1lQd1RlYWc5OFVSa2FJQnlKR2lSTThxS0ZFMS1oZ3ZwaHZHckd6cmttMnpseGdhakY3OUJjRFUwTlZuamd1OFJWS2Vadi1OUUxvb2E4amdQLWdGb3laUkhvWG0tdzN4eXkzYmFVYjh0OEprMzVtZ0xFcTJBaXBMOA?oc=5"
                 }
             ],
             "source_count": 1,
@@ -1383,33 +1451,28 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "AUM Free Yoga Organisation held 108-round Surya Namaskar event at Konark Sun Temple, Odisha, inaugurated by Governor Kambhampati Haribabu.",
+            "summary": "Analyzing Severe Acute Kidney Injury Using the Renal Angina Index Cureus",
             "gaia_synthesis": "",
-            "published_at": "2026-06-14 17:08:59",
+            "published_at": "2026-06-14 18:38:58",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-24d86612-2026-06-15",
-            "title": "Agri learning site gets chairs from recycled plastic",
+            "id": "samhälle-b110c10c-2026-06-15",
+            "title": "Frukostbuffé, öl och fotbollsfest: ”Det är det här man lever för”",
             "location": {
-                "city": "Philippines",
-                "country": "Philippines",
-                "lat": 14.6,
-                "lon": 120.98,
-                "precision": "country",
-                "bbox": [
-                    119.98,
-                    13.6,
-                    121.98,
-                    15.6
-                ]
+                "city": "Global",
+                "country": "Global",
+                "lat": 0.0,
+                "lon": 0.0,
+                "precision": "global",
+                "bbox": null
             },
             "sources": [
                 {
-                    "name": "Daily Tribune",
-                    "type": "commercial",
-                    "url": "https://tribune.net.ph/2026/06/14/agri-learning-site-gets-chairs-from-recycled-plastic"
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9239129"
                 }
             ],
             "source_count": 1,
@@ -1419,41 +1482,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-14 17:08:56",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-bb74ef64-2026-06-15",
-            "title": "‘Lemon-on-sticks’ phenotype indicates poor prognosis in heart failure, finds study",
-            "location": {
-                "city": "India",
-                "country": "India",
-                "lat": 28.61,
-                "lon": 77.21,
-                "precision": "country",
-                "bbox": [
-                    76.21,
-                    27.61,
-                    78.21,
-                    29.61
-                ]
-            },
-            "sources": [
-                {
-                    "name": "Business Medical Dialogues",
-                    "type": "commercial",
-                    "url": "https://medicaldialogues.in/cardiology-ctvs/news/lemon-on-sticks-phenotype-indicates-poor-prognosis-in-heart-failure-finds-study-172802"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "Analyses identified a high-risk subgroup of patients – described as the ‘lemon-on-sticks’ phenotype – who had a high disease burden and poor outcomes, according to results presented today at Heart...",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-14 17:08:53",
+            "published_at": "2026-06-15T08:39:54.127928+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1482,7 +1511,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-15T07:09:12.354739+02:00",
+            "published_at": "2026-06-15T08:39:54.127928+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1511,7 +1540,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-15T07:09:12.354739+02:00",
+            "published_at": "2026-06-15T08:39:54.127928+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1540,7 +1569,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-15T07:09:12.354739+02:00",
+            "published_at": "2026-06-15T08:39:54.127928+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1569,7 +1598,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-15T07:09:12.354739+02:00",
+            "published_at": "2026-06-15T08:39:54.127928+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1598,7 +1627,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-15T07:09:12.354739+02:00",
+            "published_at": "2026-06-15T08:39:54.127928+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1627,13 +1656,13 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-15T07:09:12.354739+02:00",
+            "published_at": "2026-06-15T08:39:54.127928+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-2c4b9cdc-2026-06-15",
-            "title": "EU-kommisionär: ”Jordbruket viktigare än någonsin”",
+            "id": "samhälle-524fc93d-2026-06-15",
+            "title": "Lastbilsolycka på väg 27 – person fastklämd",
             "location": {
                 "city": "Global",
                 "country": "Global",
@@ -1644,9 +1673,9 @@
             },
             "sources": [
                 {
-                    "name": "SR Ekot",
+                    "name": "SVT Nyheter",
                     "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9234751"
+                    "url": "https://www.svt.se/nyheter/lokalt/jonkoping/lastbilsolycka-pa-vag-27-person-fastklamd"
                 }
             ],
             "source_count": 1,
@@ -1654,9 +1683,9 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "",
+            "summary": "En singelolycka med en lastbil inträffade på måndagsmorgonen på väg 27 mellan Bredaryd och Anderstorp. Och vägen är helt avstängd. – En person är fastklämd, säger räddningstjänstens ledningsoperatör.",
             "gaia_synthesis": "",
-            "published_at": "2026-06-15T07:09:12.354739+02:00",
+            "published_at": "Mon, 15 Jun 2026 07:39:35 +0200",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1717,38 +1746,25 @@
             "published_at": "Mon, 15 Jun 2026 05:30:02 +0200",
             "multi_source_verified": false,
             "has_article": false
-        },
-        {
-            "id": "samhälle-252fbf2b-2026-06-15",
-            "title": "VM-stjärnorna hetsar varandra – med straff: ”Mycket fri lek”",
-            "location": {
-                "city": "Global",
-                "country": "Global",
-                "lat": 0.0,
-                "lon": 0.0,
-                "precision": "global",
-                "bbox": null
-            },
-            "sources": [
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/sport/fotboll/vm-stjarnorna-hetsar-varandra-med-straff-mycket-fri-lek"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "En VM-bubbla. Så vad hittar stjärnorna på under träningsfri tid? – Vi kallar det ”ping pang”, säger Gustaf Lagerbielke.",
-            "gaia_synthesis": "",
-            "published_at": "Sun, 14 Jun 2026 08:43:55 +0200",
-            "multi_source_verified": false,
-            "has_article": false
         }
     ],
     "relations": [
+        {
+            "id": "rel-auto-proximity-samhälle-fae4dc44-2026-06-15-samhälle-4392ce4e-2026-06-15",
+            "source": "samhälle-fae4dc44-2026-06-15",
+            "target": "samhälle-4392ce4e-2026-06-15",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-fae4dc44-2026-06-15-samhälle-e36a92fd-2026-06-15",
+            "source": "samhälle-fae4dc44-2026-06-15",
+            "target": "samhälle-e36a92fd-2026-06-15",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
         {
             "id": "rel-auto-proximity-samhälle-fae4dc44-2026-06-15-samhälle-1d13a31c-2026-06-15",
             "source": "samhälle-fae4dc44-2026-06-15",
@@ -1758,9 +1774,9 @@
             "description": "Regional koppling inom kategorin samhälle."
         },
         {
-            "id": "rel-auto-proximity-samhälle-fae4dc44-2026-06-15-samhälle-e36a92fd-2026-06-15",
+            "id": "rel-auto-proximity-samhälle-fae4dc44-2026-06-15-samhälle-83e8683d-2026-06-15",
             "source": "samhälle-fae4dc44-2026-06-15",
-            "target": "samhälle-e36a92fd-2026-06-15",
+            "target": "samhälle-83e8683d-2026-06-15",
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
@@ -1798,9 +1814,137 @@
             "description": "Regional koppling inom kategorin samhälle."
         },
         {
-            "id": "rel-auto-proximity-samhälle-1d13a31c-2026-06-15-samhälle-e36a92fd-2026-06-15",
-            "source": "samhälle-1d13a31c-2026-06-15",
+            "id": "rel-auto-proximity-samhälle-a558c832-2026-06-15-samhälle-10eba995-2026-06-15",
+            "source": "samhälle-a558c832-2026-06-15",
+            "target": "samhälle-10eba995-2026-06-15",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-a558c832-2026-06-15-samhälle-240bd310-2026-06-15",
+            "source": "samhälle-a558c832-2026-06-15",
+            "target": "samhälle-240bd310-2026-06-15",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-10eba995-2026-06-15-samhälle-240bd310-2026-06-15",
+            "source": "samhälle-10eba995-2026-06-15",
+            "target": "samhälle-240bd310-2026-06-15",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-4392ce4e-2026-06-15-samhälle-e36a92fd-2026-06-15",
+            "source": "samhälle-4392ce4e-2026-06-15",
             "target": "samhälle-e36a92fd-2026-06-15",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-4392ce4e-2026-06-15-samhälle-1d13a31c-2026-06-15",
+            "source": "samhälle-4392ce4e-2026-06-15",
+            "target": "samhälle-1d13a31c-2026-06-15",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-4392ce4e-2026-06-15-samhälle-83e8683d-2026-06-15",
+            "source": "samhälle-4392ce4e-2026-06-15",
+            "target": "samhälle-83e8683d-2026-06-15",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-4392ce4e-2026-06-15-samhälle-54cfa665-2026-06-15",
+            "source": "samhälle-4392ce4e-2026-06-15",
+            "target": "samhälle-54cfa665-2026-06-15",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-4392ce4e-2026-06-15-samhälle-71c48497-2026-06-15",
+            "source": "samhälle-4392ce4e-2026-06-15",
+            "target": "samhälle-71c48497-2026-06-15",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-4392ce4e-2026-06-15-samhälle-0b34e67e-2026-06-15",
+            "source": "samhälle-4392ce4e-2026-06-15",
+            "target": "samhälle-0b34e67e-2026-06-15",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-4392ce4e-2026-06-15-samhälle-3eeb6c31-2026-06-15",
+            "source": "samhälle-4392ce4e-2026-06-15",
+            "target": "samhälle-3eeb6c31-2026-06-15",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-e36a92fd-2026-06-15-samhälle-1d13a31c-2026-06-15",
+            "source": "samhälle-e36a92fd-2026-06-15",
+            "target": "samhälle-1d13a31c-2026-06-15",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-e36a92fd-2026-06-15-samhälle-83e8683d-2026-06-15",
+            "source": "samhälle-e36a92fd-2026-06-15",
+            "target": "samhälle-83e8683d-2026-06-15",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-e36a92fd-2026-06-15-samhälle-54cfa665-2026-06-15",
+            "source": "samhälle-e36a92fd-2026-06-15",
+            "target": "samhälle-54cfa665-2026-06-15",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-e36a92fd-2026-06-15-samhälle-71c48497-2026-06-15",
+            "source": "samhälle-e36a92fd-2026-06-15",
+            "target": "samhälle-71c48497-2026-06-15",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-e36a92fd-2026-06-15-samhälle-0b34e67e-2026-06-15",
+            "source": "samhälle-e36a92fd-2026-06-15",
+            "target": "samhälle-0b34e67e-2026-06-15",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-e36a92fd-2026-06-15-samhälle-3eeb6c31-2026-06-15",
+            "source": "samhälle-e36a92fd-2026-06-15",
+            "target": "samhälle-3eeb6c31-2026-06-15",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-1d13a31c-2026-06-15-samhälle-83e8683d-2026-06-15",
+            "source": "samhälle-1d13a31c-2026-06-15",
+            "target": "samhälle-83e8683d-2026-06-15",
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
@@ -1838,56 +1982,32 @@
             "description": "Regional koppling inom kategorin samhälle."
         },
         {
-            "id": "rel-auto-proximity-samhälle-a558c832-2026-06-15-samhälle-10eba995-2026-06-15",
-            "source": "samhälle-a558c832-2026-06-15",
-            "target": "samhälle-10eba995-2026-06-15",
-            "type": "thematic_link",
-            "weight": 0.5,
-            "description": "Regional koppling inom kategorin samhälle."
-        },
-        {
-            "id": "rel-auto-proximity-samhälle-a558c832-2026-06-15-samhälle-240bd310-2026-06-15",
-            "source": "samhälle-a558c832-2026-06-15",
-            "target": "samhälle-240bd310-2026-06-15",
-            "type": "thematic_link",
-            "weight": 0.5,
-            "description": "Regional koppling inom kategorin samhälle."
-        },
-        {
-            "id": "rel-auto-proximity-samhälle-10eba995-2026-06-15-samhälle-240bd310-2026-06-15",
-            "source": "samhälle-10eba995-2026-06-15",
-            "target": "samhälle-240bd310-2026-06-15",
-            "type": "thematic_link",
-            "weight": 0.5,
-            "description": "Regional koppling inom kategorin samhälle."
-        },
-        {
-            "id": "rel-auto-proximity-samhälle-e36a92fd-2026-06-15-samhälle-54cfa665-2026-06-15",
-            "source": "samhälle-e36a92fd-2026-06-15",
+            "id": "rel-auto-proximity-samhälle-83e8683d-2026-06-15-samhälle-54cfa665-2026-06-15",
+            "source": "samhälle-83e8683d-2026-06-15",
             "target": "samhälle-54cfa665-2026-06-15",
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
         },
         {
-            "id": "rel-auto-proximity-samhälle-e36a92fd-2026-06-15-samhälle-71c48497-2026-06-15",
-            "source": "samhälle-e36a92fd-2026-06-15",
+            "id": "rel-auto-proximity-samhälle-83e8683d-2026-06-15-samhälle-71c48497-2026-06-15",
+            "source": "samhälle-83e8683d-2026-06-15",
             "target": "samhälle-71c48497-2026-06-15",
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
         },
         {
-            "id": "rel-auto-proximity-samhälle-e36a92fd-2026-06-15-samhälle-0b34e67e-2026-06-15",
-            "source": "samhälle-e36a92fd-2026-06-15",
+            "id": "rel-auto-proximity-samhälle-83e8683d-2026-06-15-samhälle-0b34e67e-2026-06-15",
+            "source": "samhälle-83e8683d-2026-06-15",
             "target": "samhälle-0b34e67e-2026-06-15",
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
         },
         {
-            "id": "rel-auto-proximity-samhälle-e36a92fd-2026-06-15-samhälle-3eeb6c31-2026-06-15",
-            "source": "samhälle-e36a92fd-2026-06-15",
+            "id": "rel-auto-proximity-samhälle-83e8683d-2026-06-15-samhälle-3eeb6c31-2026-06-15",
+            "source": "samhälle-83e8683d-2026-06-15",
             "target": "samhälle-3eeb6c31-2026-06-15",
             "type": "thematic_link",
             "weight": 0.5,
@@ -1948,14 +2068,6 @@
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
-        },
-        {
-            "id": "rel-auto-proximity-samhälle-7e2879b3-2026-06-15-samhälle-bb74ef64-2026-06-15",
-            "source": "samhälle-7e2879b3-2026-06-15",
-            "target": "samhälle-bb74ef64-2026-06-15",
-            "type": "thematic_link",
-            "weight": 0.5,
-            "description": "Regional koppling inom kategorin samhälle."
         }
     ],
     "meta_analysis": {
@@ -1968,17 +2080,18 @@
         "geographic_distribution": {
             "Internationellt": 1,
             "Okänt": 15,
-            "Sverige": 9,
+            "Sverige": 11,
             "Frankrike": 1,
             "Usa": 4,
-            "Ryssland": 3,
+            "Ryssland": 1,
+            "Storbritannien": 1,
             "Israel": 1,
             "Global": 13,
+            "Canada": 1,
+            "Norge": 1,
             "Mexiko": 1,
-            "Nigeria": 1,
-            "India": 2,
-            "Philippines": 1
+            "South Africa": 1
         },
-        "gaia_daily_brief": "Säkerhetsläget domineras av usa och iran överens om avtal – hormuzsundet öppnas, medan den geopolitiska kartan spänner över 12 länder/regioner. För en djupgående bild, klicka på markörerna och läs gAIas sammanfattningar."
+        "gaia_daily_brief": "Säkerhetsläget domineras av usa och iran överens om avtal – hormuzsundet öppnas, medan den geopolitiska kartan spänner över 13 länder/regioner. För en djupgående bild, klicka på markörerna och läs gAIas sammanfattningar."
     }
 }
