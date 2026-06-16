@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-06-16T03:58:36.688946+00:00",
+    "generated_at": "2026-06-16T05:09:09.887438+00:00",
     "workflow_version": "2.3",
     "source_info": {
         "swedish_rss": [
@@ -10,7 +10,7 @@
             "NewsData.io"
         ],
         "api_plan": "NewsData.io Active",
-        "total_raw_articles": 65,
+        "total_raw_articles": 66,
         "deduplicated_count": 59
     },
     "news": [
@@ -76,8 +76,8 @@
             "tier": 1,
             "category": "konflikt",
             "sentiment": "neutral",
-            "summary": "",
-            "published_at": "2026-06-16T05:58:01.760217+02:00",
+            "summary": "Sveriges Radios Mellanösternkorrespondent Cecilia Uddén analyserar det nya avtalet mellan USA och Iran. Hon beskriver hur den akuta militära konflikten nu har övergått i ett geopolitiskt spänningstillstånd under ytan.",
+            "published_at": "2026-06-16T07:08:36.058005+02:00",
             "multi_source_verified": false,
             "article_generated": true,
             "has_article": true
@@ -110,8 +110,8 @@
             "tier": 1,
             "category": "konflikt",
             "sentiment": "negative",
-            "summary": "",
-            "published_at": "2026-06-16T05:58:01.760217+02:00",
+            "summary": "Den ryska drönar- och missilattacken mot det historiska grottklostret Kyiv-Pechersk Lavra i Ukraina har mötts av starka internationella fördömanden. Stora skador rapporteras på den ikoniska Uspenskijkatedralen.",
+            "published_at": "2026-06-16T07:08:36.058005+02:00",
             "multi_source_verified": false,
             "article_generated": true,
             "has_article": true
@@ -178,7 +178,7 @@
             "tier": 1,
             "category": "konflikt",
             "sentiment": "neutral",
-            "summary": "En port till ett flerfamiljshus i Hagsätra i södra Stockholm har fått mindre skador efter en explosion natten till tisdag.",
+            "summary": "En port till ett flerfamiljshus i Hagsätra i södra Stockholm har fått mindre skador efter en explosion natten till tisdag. Polisen utreder händelsen som grov skadegörelse.",
             "published_at": "Tue, 16 Jun 2026 04:15:49 +0200",
             "multi_source_verified": false,
             "article_generated": true,
@@ -212,42 +212,8 @@
             "tier": 1,
             "category": "konflikt",
             "sentiment": "negative",
-            "summary": "En explosion inträffade vid en villa i Västra Frölunda i Göteborg på måndagskvällen. En man brottades ner och hölls fast av en privatperson tills polisen kunde gripa honom.",
+            "summary": "En explosion inträffade vid en villa i Västra Frölunda i Göteborg under måndagskvällen. En misstänkt man i 25-årsåldern greps direkt på platsen av rådiga privatpersoner.",
             "published_at": "Mon, 15 Jun 2026 21:18:17 +0200",
-            "multi_source_verified": false,
-            "article_generated": true,
-            "has_article": true
-        },
-        {
-            "id": "brott-alvesta-våldsdåd-2026-06-16",
-            "title": "Misstänkt gärningsman död efter grovt våldsdåd i Alvesta",
-            "location": {
-                "city": "Alvesta",
-                "country": "Sverige",
-                "lat": 56.9167,
-                "lon": 14.5,
-                "precision": "city",
-                "bbox": [
-                    14.4,
-                    56.85,
-                    14.6,
-                    56.95
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/lokalt/smaland/uppgifter-mamman-varnade-socialtjansten-dagar-fore-mordforsoket-i-alvesta"
-                }
-            ],
-            "source_count": 1,
-            "score": 8.0,
-            "tier": 1,
-            "category": "brott",
-            "sentiment": "negative",
-            "summary": "Ett grovt våldsbrott inträffade i Alvesta under natten till söndagen. Två barn har förts till sjukhus med livshotande skador, och en misstänkt man i 30-årsåldern hittades död på platsen. Polisen utreder händelsen som försök till mord och har spärrat av området för teknisk undersökning.",
-            "published_at": "Mon, 15 Jun 2026 14:49:28 +0200",
             "multi_source_verified": false,
             "article_generated": true,
             "has_article": true
@@ -290,47 +256,8 @@
             "tier": 1,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "",
-            "published_at": "2026-06-16T05:58:01.760217+02:00",
-            "multi_source_verified": true,
-            "article_generated": true,
-            "has_article": true
-        },
-        {
-            "id": "samhälle-684ee1a3-2026-06-16",
-            "title": "Storbritannien förbjuder sociala medier för unga",
-            "location": {
-                "city": "Storbritannien",
-                "country": "Storbritannien",
-                "lat": 51.51,
-                "lon": -0.13,
-                "precision": "country",
-                "bbox": [
-                    -1.13,
-                    50.51,
-                    0.87,
-                    52.51
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9239637"
-                },
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/storbritannien-forbjuder-sociala-medier-for-barn-under-16"
-                }
-            ],
-            "source_count": 2,
-            "score": 7.5,
-            "tier": 1,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "published_at": "2026-06-16T05:58:01.760217+02:00",
+            "summary": "USA:s president Donald Trump bekräftar att ett historiskt samförståndsavtal har träffats med Iran. Blockaden mot iranska hamnar hävs och Hormuzsundet öppnas åter för oljetrafik på fredag.",
+            "published_at": "2026-06-16T07:08:36.058005+02:00",
             "multi_source_verified": true,
             "article_generated": true,
             "has_article": true
@@ -368,11 +295,79 @@
             "tier": 1,
             "category": "samhälle",
             "sentiment": "negative",
-            "summary": "Åtta personer har dött efter att ett amerikanskt B-52-bombplan störtade strax efter start vid Edwards Air Force Base i Kalifornien, USA på måndagen.",
+            "summary": "Ett amerikanskt B-52-bombplan har störtat strax efter start vid Edwards Air Force Base i Kalifornien. Samtliga åtta personer ombord har bekräftats omkomna under ett rutintest.",
             "published_at": "Tue, 16 Jun 2026 00:19:52 +0200",
             "multi_source_verified": true,
             "article_generated": true,
             "has_article": true
+        },
+        {
+            "id": "politik-824657e0-2026-06-16",
+            "title": "Storbritannien: Förbjuder sociala medier för barn under 16",
+            "location": {
+                "city": "Storbritannien",
+                "country": "Storbritannien",
+                "lat": 51.51,
+                "lon": -0.13,
+                "precision": "country",
+                "bbox": [
+                    -1.13,
+                    50.51,
+                    0.87,
+                    52.51
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/storbritannien-forbjuder-sociala-medier-for-barn-under-16"
+                }
+            ],
+            "source_count": 1,
+            "score": 7.0,
+            "tier": 2,
+            "category": "politik",
+            "sentiment": "neutral",
+            "summary": "Storbritannien kommer att förbjuda sociala medier för barn under 16 år. – Ett totalt förbud är rätt väg att gå, säger landets premiärminister Keir Starmer enligt BBC.",
+            "gaia_synthesis": "",
+            "published_at": "Mon, 15 Jun 2026 09:18:22 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "hälsa-d3dc80ea-2026-06-16",
+            "title": "Misstänkt mordförsök i Västerås: Två tonåringar till sjukhus",
+            "location": {
+                "city": "Västerås",
+                "country": "Sverige",
+                "lat": 59.6162,
+                "lon": 16.5528,
+                "precision": "city",
+                "bbox": [
+                    16.4528,
+                    59.5162,
+                    16.652800000000003,
+                    59.7162
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/lokalt/vastmanland/misstankt-mordforsok-i-vasteras-tva-tonaringar-till-sjukhus"
+                }
+            ],
+            "source_count": 1,
+            "score": 7.0,
+            "tier": 2,
+            "category": "hälsa",
+            "sentiment": "neutral",
+            "summary": "Polisen larmades under måndagskvällen till Råby i Västerås, där två pojkar i övre tonåren påträffades utomhus. Båda fördes till sjukhus med oklara skador. Båda ska varit vakna och talbara.",
+            "gaia_synthesis": "",
+            "published_at": "Tue, 16 Jun 2026 06:38:30 +0200",
+            "multi_source_verified": false,
+            "has_article": false
         },
         {
             "id": "försvar-da059e14-2026-06-16",
@@ -462,7 +457,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-16T05:58:01.760217+02:00",
+            "published_at": "2026-06-16T07:08:36.058005+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -496,7 +491,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-16T05:58:01.760217+02:00",
+            "published_at": "2026-06-16T07:08:36.058005+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -530,7 +525,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-16T05:58:01.760217+02:00",
+            "published_at": "2026-06-16T07:08:36.058005+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -564,7 +559,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-16T05:58:01.760217+02:00",
+            "published_at": "2026-06-16T07:08:36.058005+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -598,41 +593,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-16T05:58:01.760217+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-8171a9f6-2026-06-16",
-            "title": "LKAB får tillstånd för fortsatt verksamhet i Malmberget",
-            "location": {
-                "city": "Malmberget",
-                "country": "",
-                "lat": 61.1446227,
-                "lon": 15.5670987,
-                "precision": "city",
-                "bbox": [
-                    15.5670487,
-                    61.1445727,
-                    15.5671487,
-                    61.1446727
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9239423"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-16T05:58:01.760217+02:00",
+            "published_at": "2026-06-16T07:08:36.058005+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -739,26 +700,26 @@
             "has_article": false
         },
         {
-            "id": "samhälle-a558c832-2026-06-16",
-            "title": "AI-modell stängs ner efter beslut från Vita huset",
+            "id": "samhälle-64b7b8fa-2026-06-16",
+            "title": "Mc-olycka utanför Götene – ambulanshelikopter tillkallad",
             "location": {
-                "city": "Usa",
-                "country": "Usa",
-                "lat": 38.91,
-                "lon": -77.04,
-                "precision": "country",
+                "city": "Götene",
+                "country": "",
+                "lat": 58.55,
+                "lon": 13.533333,
+                "precision": "city",
                 "bbox": [
-                    -78.04,
-                    37.91,
-                    -76.04,
-                    39.91
+                    13.2193491,
+                    58.4320317,
+                    13.6764044,
+                    58.7568079
                 ]
             },
             "sources": [
                 {
-                    "name": "SVT Utrikes",
+                    "name": "SVT Nyheter",
                     "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/ai-modell-stangs-ner-efter-beslut-fran-vita-huset"
+                    "url": "https://www.svt.se/nyheter/lokalt/vast/mc-olycka-utanfor-gotene-ambulanshelikopter-pa-vag"
                 }
             ],
             "source_count": 1,
@@ -766,43 +727,9 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "Anthropic uppger att man har stängt ner sin senaste AI-modell efter ett beslut från Vita huset att de bara får användas av amerikaner. – Det här visar att USA har makten att stänga av den mest avancerade tekniken över en natt, säger SVT:s ekonomikommentator Alexander Norén.",
+            "summary": "En motorcykelförare ska av oklar anledning ha vält mellan Österplana och Medeplana utanför Götene. Räddningstjänst och ambulanshelikopter är på plats.",
             "gaia_synthesis": "",
-            "published_at": "Mon, 15 Jun 2026 06:13:58 +0200",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "energi-ef1ab744-2026-06-16",
-            "title": "Britain detains shadow fleet tanker for first time; Kyiv expects stronger pressure on Russia’s oil revenues",
-            "location": {
-                "city": "Storbritannien",
-                "country": "Storbritannien",
-                "lat": 51.51,
-                "lon": -0.13,
-                "precision": "country",
-                "bbox": [
-                    -1.13,
-                    50.51,
-                    0.87,
-                    52.51
-                ]
-            },
-            "sources": [
-                {
-                    "name": "Ukrinform",
-                    "type": "commercial",
-                    "url": "https://www.ukrinform.net/rubric-economy/4134059-britain-detains-shadow-fleet-tanker-for-first-time-kyiv-expects-stronger-pressure-on-russias-oil-revenues.html"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "energi",
-            "sentiment": "neutral",
-            "summary": "The tanker SMYRTOS, linked to Russia’s shadow fleet and already subject to sanctions by a number of countries, has been detained in British territorial waters for the first time; its detention could signal a tightening of actual oversight over compliance with the sanctions regime.",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-15 15:58:00",
+            "published_at": "Tue, 16 Jun 2026 06:41:04 +0200",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1004,7 +931,7 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "Världen är i chock efter Kap Verdes skräll mot Spanien. Över fyra miljoner människor har nu börjat följa matchhjälten Vozinha på Instagram. – Jag har drömt om det här i hela mitt liv. Jag har jobbat för det här i hela mitt liv, säger målvakten efter matchen.",
+            "summary": "Världen är i chock efter Kap Verdes skräll mot Spanien. Över fem miljoner människor har nu börjat följa matchhjälten Vozinha på Instagram. – Jag har drömt om det här i hela mitt liv. Jag har jobbat för det här i hela mitt liv, säger målvakten efter matchen.",
             "gaia_synthesis": "",
             "published_at": "Mon, 15 Jun 2026 20:21:47 +0200",
             "multi_source_verified": false,
@@ -1181,74 +1108,6 @@
             "has_article": false
         },
         {
-            "id": "samhälle-d1587924-2026-06-16",
-            "title": "Monica Zetterlund-sällskapet lägger ner: ”Inga resurser”",
-            "location": {
-                "city": "Sverige",
-                "country": "Sverige",
-                "lat": 59.33,
-                "lon": 18.07,
-                "precision": "country",
-                "bbox": [
-                    17.07,
-                    58.33,
-                    19.07,
-                    60.33
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/kultur/monica-zetterlund-sallskapet-lagger-ner"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "Monica Zetterlund-sällskapet kommer att lägga ned sin verksamhet. Sällskapets uppgift har varit att vårda den svenska jazz-ikonens arv.",
-            "gaia_synthesis": "",
-            "published_at": "Mon, 15 Jun 2026 16:13:05 +0200",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "brott-af939c35-2026-06-16",
-            "title": "Polis i Skåne avstängd – misstänks ha sexchattat om barnvåldtäkter",
-            "location": {
-                "city": "Skåne",
-                "country": "Sverige",
-                "lat": 56.0,
-                "lon": 13.5,
-                "precision": "city",
-                "bbox": [
-                    13.4,
-                    55.9,
-                    13.6,
-                    56.1
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/lokalt/skane/polis-i-skane-avstangd-misstanks-ha-sexchattat-om-barnvaldtakter"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "brott",
-            "sentiment": "neutral",
-            "summary": "En polisman i Skåne har stängts av från sin tjänst sedan han avslöjats med att sexchatta om barnvåldtäkter och incest. – Vi fick reda på det här i morse och vi bedömer att det rör sig om mycket allvarlig brottslighet, säger Jarl Holmström, biträdande regionpolischef.",
-            "gaia_synthesis": "",
-            "published_at": "Mon, 15 Jun 2026 14:32:02 +0200",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
             "id": "politik-c9a8ca45-2026-06-16",
             "title": "Bakslag för Tidöpartierna – oppositionen begärde vilandeförklaring",
             "location": {
@@ -1273,7 +1132,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-16T05:58:01.760217+02:00",
+            "published_at": "2026-06-16T07:08:36.058005+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1336,60 +1195,26 @@
             "has_article": false
         },
         {
-            "id": "samhälle-f0a46440-2026-06-16",
-            "title": "iShares Asia 50 ETF declares semi-annual distribution of $0.5143",
+            "id": "samhälle-12651843-2026-06-16",
+            "title": "Nathan C. Gallagher",
             "location": {
-                "city": "Canada",
-                "country": "Canada",
-                "lat": 45.42,
-                "lon": -75.7,
-                "precision": "country",
-                "bbox": [
-                    -76.7,
-                    44.42,
-                    -74.7,
-                    46.42
-                ]
-            },
-            "sources": [
-                {
-                    "name": "Seeking Alpha",
-                    "type": "commercial",
-                    "url": "https://seekingalpha.com/news/4603559-ishares-asia-50-etf-declares-semi-annual-distribution-of-05143?feed_item_type=news"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "iShares Asia 50 ETF (AIA) announces a $0.5143 dividend and 0.84% 30-day SEC yield (May 31).",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-15 15:58:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-298c4a44-2026-06-16",
-            "title": "Dick’s plots 100 Lids shop-in-shops by the end of the summer",
-            "location": {
-                "city": "Lids",
+                "city": "Gallagher",
                 "country": "",
-                "lat": 53.7974185,
-                "lon": -1.5437941,
+                "lat": 38.1731604,
+                "lon": -81.4017802,
                 "precision": "city",
                 "bbox": [
-                    -1.7037941,
-                    53.6374185,
-                    -1.3837941,
-                    53.9574185
+                    -81.4217802,
+                    38.1531604,
+                    -81.3817802,
+                    38.1931604
                 ]
             },
             "sources": [
                 {
-                    "name": "Retaildive",
+                    "name": "Stoughtonnews.com",
                     "type": "commercial",
-                    "url": "https://www.retaildive.com/news/dicks-sporting-goods-lids-shop-in-shops/822901/"
+                    "url": "https://www.stoughtonnews.com/obituaries/nathan-c-gallagher/article_8a29ef91-ac0a-496e-acb6-d2c7c9f59264.html"
                 }
             ],
             "source_count": 1,
@@ -1397,33 +1222,33 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "A partnership featuring licensed and lifestyle headwear is already available at 46 locations and will expand nationwide in the months to come.",
+            "summary": "STOUGHTON - Nathan C. Gallagher, age 48, of Stoughton, passed away on Tuesday, March 17, 2026, at home. A celebration of Nathan’s life will be held at HALVERSON’S EVERYTHING NICE, 1965 Barber Drive, Stoughton, from 11 a.m. until 3 p.m. on Sunday, June 28, 2026.",
             "gaia_synthesis": "",
-            "published_at": "2026-06-15 15:58:00",
+            "published_at": "2026-06-15 17:08:00",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-d6cc4492-2026-06-16",
-            "title": "Jefferson County sheriff sworn in as president of West Virginia Association of County Officials",
+            "id": "samhälle-95e6227a-2026-06-16",
+            "title": "Niners win series vs. TimberHogs, series vs. Blues posptoned",
             "location": {
-                "city": "County",
+                "city": "Blues",
                 "country": "",
-                "lat": 39.982355,
-                "lon": 112.397213,
+                "lat": -43.5545516,
+                "lon": 171.5596589,
                 "precision": "city",
                 "bbox": [
-                    112.1121335,
-                    39.6887231,
-                    112.6423839,
-                    40.298503
+                    171.5574092,
+                    -43.5556491,
+                    171.5605795,
+                    -43.554449
                 ]
             },
             "sources": [
                 {
-                    "name": "Wv News",
+                    "name": "Dailysentinel",
                     "type": "commercial",
-                    "url": "https://www.wvnews.com/news/wvnews/jefferson-county-sheriff-sworn-in-as-president-of-west-virginia-association-of-county-officials/article_3d185655-b71a-40f7-970d-e997ec2bb00f.html"
+                    "url": "https://www.dailysentinel.com/sports/niners-win-series-vs-timberhogs-series-vs-blues-posptoned/article_fbb45f9a-3831-45f3-bb73-a6fcceb63544.html"
                 }
             ],
             "source_count": 1,
@@ -1431,169 +1256,67 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "Jefferson County Sheriff Thomas “Tom” Hansen was sworn in as president of the West Virginia Association of County Officials during the group’s Spring Board Meeting in Wheeling.",
+            "summary": "Friday night saw the Nacogdoches Niners’ six-game win streak snapped in a 3-1 loss to the Piney Woods TimberHogs, but the Niners responded with 15-1 win on Saturday and an 11-6 win on Sunday to come away with the series...",
             "gaia_synthesis": "",
-            "published_at": "2026-06-15 15:58:00",
+            "published_at": "2026-06-15 17:08:00",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-242a09a0-2026-06-16",
-            "title": "Australia tickets for FIFA World Cup 2026: How to buy, best prices, schedule and more for football matches",
+            "id": "samhälle-b19d4b8e-2026-06-16",
+            "title": "Nairobi training session partners Chinese and African media on AI innovation",
             "location": {
-                "city": "Australia",
-                "country": "Australia",
-                "lat": -33.87,
-                "lon": 151.21,
+                "city": "Kina",
+                "country": "Kina",
+                "lat": 39.9,
+                "lon": 116.4,
                 "precision": "country",
                 "bbox": [
-                    150.21,
-                    -34.87,
-                    152.21,
-                    -32.87
-                ]
-            },
-            "sources": [
-                {
-                    "name": "Sporting News",
-                    "type": "commercial",
-                    "url": "https://www.sportingnews.com/us/tickets/news/australia-tickets-fifa-world-cup-2026-buy-prices-schedule-matches/3560a737b356d85e47dcd419"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "Here's everything you need to buy to buy Australia National Team tickets at the 2026 FIFA World Cup, including prices and a schedule of matches.",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-15 15:58:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-93bf9f5a-2026-06-16",
-            "title": "Windsor Manor Vinton Recognizes Memory Care Week with Special Celebrations and Programming",
-            "location": {
-                "city": "Manor",
-                "country": "",
-                "lat": 30.3420882,
-                "lon": -97.555905,
-                "precision": "city",
-                "bbox": [
-                    -97.5763363,
-                    30.3281388,
-                    -97.4563191,
-                    30.3887144
-                ]
-            },
-            "sources": [
-                {
-                    "name": "Communitynewspapergroup",
-                    "type": "commercial",
-                    "url": "https://www.communitynewspapergroup.com/windsor-manor-vinton-recognizes-memory-care-week-with-special-celebrations-and-programming/article_922badfc-3b11-438c-bd90-0cfb323ece07.html"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "VINTON – June 11, 2026 – Windsor Manor Vinton, a local senior living community, will celebrate Memory Care Week from June 15 – 20, 2026. This week offers an opportunity for the community to honor, celebrate, and bring awareness to...",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-15 15:58:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-67fd73fc-2026-06-16",
-            "title": "Preston Davey: Timeline of events leading to his tragic death",
-            "location": {
-                "city": "United Kingdom",
-                "country": "United Kingdom",
-                "lat": 51.51,
-                "lon": -0.13,
-                "precision": "country",
-                "bbox": [
-                    -1.13,
-                    50.51,
-                    0.87,
-                    52.51
-                ]
-            },
-            "sources": [
-                {
-                    "name": "Blackpool Gazette",
-                    "type": "commercial",
-                    "url": "https://www.blackpoolgazette.co.uk/news/crime/preston-davey-tragic-short-life-events-8733282"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "Explore the heart-wrenching timeline of key events in the short life of baby Preston Davey whose life ended in tragedy.",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-15 15:57:58",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-211aacbf-2026-06-16",
-            "title": "Sheffield Council \"sleepwalking into another street tree scandal\" say protesters",
-            "location": {
-                "city": "United Kingdom",
-                "country": "United Kingdom",
-                "lat": 51.51,
-                "lon": -0.13,
-                "precision": "country",
-                "bbox": [
-                    -1.13,
-                    50.51,
-                    0.87,
-                    52.51
+                    115.4,
+                    38.9,
+                    117.4,
+                    40.9
                 ]
             },
             "sources": [
                 {
                     "name": "The Star",
                     "type": "commercial",
-                    "url": "https://www.thestar.co.uk/news/politics/council/sheffield-council-sleepwalking-into-another-street-tree-scandal-say-protesters-8733310"
+                    "url": "https://www.thestar.com.my/news/world/2026/06/16/nairobi-training-session-partners-chinese-and-african-media-on-ai-innovation"
                 }
             ],
             "source_count": 1,
             "score": 5.0,
             "tier": 2,
             "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "Sheffield Council has been warned that it faces “sleepwalking” into another street tree-type scandal over any sale of grass verges or small green spaces.",
+            "sentiment": "positive",
+            "summary": "NAIROBI, June 15 (Xinhua) -- A media training session on artificial intelligence (AI) was held in Nairobi, the Kenyan capital, on Monday, aimed at enhancing African media practitioners' understanding of AI and its application in the rapidly evolving media landscape.",
             "gaia_synthesis": "",
-            "published_at": "2026-06-15 15:57:55",
+            "published_at": "2026-06-15 17:08:00",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-c7ce3562-2026-06-16",
-            "title": "Fox buying Roku for $22 billion",
+            "id": "samhälle-d5a528b8-2026-06-16",
+            "title": "Barrington Police: More complaints surface against former coach",
             "location": {
-                "city": "Roku",
+                "city": "Police",
                 "country": "",
-                "lat": -9.4593746,
-                "lon": 147.0906457,
+                "lat": 48.9645031,
+                "lon": 15.6277127,
                 "precision": "city",
                 "bbox": [
-                    147.0706457,
-                    -9.4793746,
-                    147.1106457,
-                    -9.4393746
+                    15.5974394,
+                    48.9501836,
+                    15.6525326,
+                    48.9786434
                 ]
             },
             "sources": [
                 {
-                    "name": "Kron4",
+                    "name": "Eastbayri.com",
                     "type": "commercial",
-                    "url": "https://www.kron4.com/news/national/fox-buying-roku-for-22-billion/"
+                    "url": "https://www.eastbayri.com/////////////stories/barrington-police-more-complaints-surface-against-former-coach,140671"
                 }
             ],
             "source_count": 1,
@@ -1601,33 +1324,33 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "Fox Corp. announced Monday that it is buying streaming company Roku for $22 billion.",
+            "summary": "Barrington Police are investigating two additional complaints filed against former private school coach and teacher Sean Cassidy. Earlier this month, the Rhode Island Internet Crimes ...",
             "gaia_synthesis": "",
-            "published_at": "2026-06-15 15:57:54",
+            "published_at": "2026-06-15 17:08:00",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-403c4f8e-2026-06-16",
-            "title": "Rising Violence",
+            "id": "samhälle-6dc82e0e-2026-06-16",
+            "title": "Amazon invertirá miles de millones en Missouri; acción sube 3%",
             "location": {
-                "city": "India",
-                "country": "India",
-                "lat": 28.61,
-                "lon": 77.21,
+                "city": "Mexico",
+                "country": "Mexico",
+                "lat": 19.43,
+                "lon": -99.13,
                 "precision": "country",
                 "bbox": [
-                    76.21,
-                    27.61,
-                    78.21,
-                    29.61
+                    -100.13,
+                    18.43,
+                    -98.13,
+                    20.43
                 ]
             },
             "sources": [
                 {
-                    "name": "Garhwalpost",
+                    "name": "Investing México",
                     "type": "commercial",
-                    "url": "https://garhwalpost.in/rising-violence/"
+                    "url": "https://mx.investing.com/news/stock-market-news/amazon-invertira-miles-de-millones-en-missouri-accion-sube-3-3654470"
                 }
             ],
             "source_count": 1,
@@ -1635,9 +1358,227 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "The number of unnatural deaths in India is anyway high owing to the overall poor living conditions. The nation’s central and state governments have the mandate to bring improvements by developing resilient infrastructure, provide amenities and support services to the people and, generally, work on overall progress. Even as the effort on this front continues, [...]",
+            "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-15 15:57:53",
+            "published_at": "2026-06-15 17:08:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-0a6b76a9-2026-06-16",
+            "title": "Amazon investirà miliardi in Missouri per un data center, titolo +3%",
+            "location": {
+                "city": "Italy",
+                "country": "Italy",
+                "lat": 41.9,
+                "lon": 12.5,
+                "precision": "country",
+                "bbox": [
+                    11.5,
+                    40.9,
+                    13.5,
+                    42.9
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Investing - Quotazioni",
+                    "type": "commercial",
+                    "url": "https://it.investing.com/news/stock-market-news/amazon-investira-miliardi-in-missouri-per-un-data-center-titolo-3-3416184"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-15 17:08:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-5ebb020d-2026-06-16",
+            "title": "EDB highlights sustained economic growth, improving stability in Uzbekistan",
+            "location": {
+                "city": "Uzbekistan",
+                "country": "",
+                "lat": 41.32373,
+                "lon": 63.9528098,
+                "precision": "city",
+                "bbox": [
+                    55.9985531,
+                    37.1816004,
+                    73.2147728,
+                    45.5906784
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Trend",
+                    "type": "commercial",
+                    "url": "https://www.trend.az/business/4197872.html"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-15 17:08:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-506088ea-2026-06-16",
+            "title": "33736240-high-scaled-aspect-ratio-512-320",
+            "location": {
+                "city": "Brazil",
+                "country": "Brazil",
+                "lat": -15.79,
+                "lon": -47.88,
+                "precision": "country",
+                "bbox": [
+                    -48.88,
+                    -16.79,
+                    -46.88,
+                    -14.79
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Lance!",
+                    "type": "commercial",
+                    "url": "https://www.lance.com.br/copa-do-mundo/memphis-fala-sobre-possivel-encontro-com-o-brasil-na-copa-do-mundo.html"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "O atacante Memphis Depay, do Corinthians, comentou a possibilidade de a Holanda enfrentar o Brasil no mata-mata.",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-15 17:08:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-829f0efe-2026-06-16",
+            "title": "SKR: Satsningar på fler operationer kortar inte vårdköerna",
+            "location": {
+                "city": "Global",
+                "country": "Global",
+                "lat": 0.0,
+                "lon": 0.0,
+                "precision": "global",
+                "bbox": null
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9239606"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-16T07:08:36.058005+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "ekonomi-83ca8293-2026-06-16",
+            "title": "Arbetsförmedlingen varnar för hög långtidsarbetslöshet",
+            "location": {
+                "city": "Global",
+                "country": "Global",
+                "lat": 0.0,
+                "lon": 0.0,
+                "precision": "global",
+                "bbox": null
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9238280"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "ekonomi",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-16T07:08:36.058005+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-4ac64a2f-2026-06-16",
+            "title": "Magyar ska göra om public service – chefer får lämna",
+            "location": {
+                "city": "Global",
+                "country": "Global",
+                "lat": 0.0,
+                "lon": 0.0,
+                "precision": "global",
+                "bbox": null
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9239852"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-16T07:08:36.058005+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-98c09f5e-2026-06-16",
+            "title": "Politiker köpte tomt av kommunen – gjorde miljonvinst",
+            "location": {
+                "city": "Global",
+                "country": "Global",
+                "lat": 0.0,
+                "lon": 0.0,
+                "precision": "global",
+                "bbox": null
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9239348"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-16T07:08:36.058005+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1666,7 +1607,7 @@
             "sentiment": "negative",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-16T05:58:01.760217+02:00",
+            "published_at": "2026-06-16T07:08:36.058005+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1695,7 +1636,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-16T05:58:01.760217+02:00",
+            "published_at": "2026-06-16T07:08:36.058005+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1724,7 +1665,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-16T05:58:01.760217+02:00",
+            "published_at": "2026-06-16T07:08:36.058005+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1753,7 +1694,7 @@
             "sentiment": "positive",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-16T05:58:01.760217+02:00",
+            "published_at": "2026-06-16T07:08:36.058005+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1782,7 +1723,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-16T05:58:01.760217+02:00",
+            "published_at": "2026-06-16T07:08:36.058005+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1811,65 +1752,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-16T05:58:01.760217+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-da28c0df-2026-06-16",
-            "title": "EU drar igång förhandlingar om ukrainskt medlemskap: ”Välkommet”",
-            "location": {
-                "city": "Global",
-                "country": "Global",
-                "lat": 0.0,
-                "lon": 0.0,
-                "precision": "global",
-                "bbox": null
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9239413"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-16T05:58:01.760217+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-cffb6972-2026-06-16",
-            "title": "Marius Borg Høiby kommer överklaga domen",
-            "location": {
-                "city": "Global",
-                "country": "Global",
-                "lat": 0.0,
-                "lon": 0.0,
-                "precision": "global",
-                "bbox": null
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9239432"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-16T05:58:01.760217+02:00",
+            "published_at": "2026-06-16T07:08:36.058005+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1932,6 +1815,35 @@
             "has_article": false
         },
         {
+            "id": "ekonomi-cc5aeabd-2026-06-16",
+            "title": "Arbetslösheten spås sjunka långsamt",
+            "location": {
+                "city": "Global",
+                "country": "Global",
+                "lat": 0.0,
+                "lon": 0.0,
+                "precision": "global",
+                "bbox": null
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/inrikes/arbetslosheten-spas-sjunka-langsamt"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "ekonomi",
+            "sentiment": "neutral",
+            "summary": "Nästa år väntas arbetslösheten sjunka ner mot 6 procent. – Återhämtningen fortsätter, men långsamt. Det dröjer till andra halvåret 2027 innan vi når nivån före lågkonjunkturen, säger Marcus Löwing på Arbetsförmedlingen.",
+            "gaia_synthesis": "",
+            "published_at": "Tue, 16 Jun 2026 06:53:00 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
             "id": "samhälle-9b5ec6c0-2026-06-16",
             "title": "Här misstänks ligan sälja narkotika – framför polisens kamera",
             "location": {
@@ -1959,44 +1871,86 @@
             "published_at": "Tue, 16 Jun 2026 05:30:06 +0200",
             "multi_source_verified": false,
             "has_article": false
+        },
+        {
+            "id": "samhälle-06cda941-2026-06-16",
+            "title": "New sweeps cash casino sites that just opened: Worth a look now",
+            "location": {
+                "city": "Global",
+                "country": "Global",
+                "lat": 0.0,
+                "lon": 0.0,
+                "precision": "global",
+                "bbox": null
+            },
+            "sources": [
+                {
+                    "name": "Alabama Local News",
+                    "type": "commercial",
+                    "url": "https://www.al.com/sweepstakes/2026/06/new-sweeps-cash-casino-sites-that-just-opened-worth-a-look-now.html"
+                }
+            ],
+            "source_count": 1,
+            "score": 4.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Check out the new sweeps cash casino sites hitting the market this year, alongside the best established gaming alternatives to try right now.",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-15 17:08:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-864d9fc2-2026-06-16",
+            "title": "Video: Sunny, comfortable start to work week",
+            "location": {
+                "city": "Global",
+                "country": "Global",
+                "lat": 0.0,
+                "lon": 0.0,
+                "precision": "global",
+                "bbox": null
+            },
+            "sources": [
+                {
+                    "name": "Wmur",
+                    "type": "commercial",
+                    "url": "https://www.wmur.com/article/new-hampshire-weather-video-afternoon-61526/71592194"
+                }
+            ],
+            "source_count": 1,
+            "score": 4.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Meteorologist Kevin Skarupa says sunny and more comfortable days are ahead.",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-15 17:08:00",
+            "multi_source_verified": false,
+            "has_article": false
         }
     ],
     "relations": [
         {
-            "id": "rel-auto-proximity-brott-alvesta-våldsdåd-2026-06-16-brott-af939c35-2026-06-16",
-            "source": "brott-alvesta-våldsdåd-2026-06-16",
-            "target": "brott-af939c35-2026-06-16",
-            "type": "thematic_link",
-            "weight": 0.5,
-            "description": "Regional koppling inom kategorin brott."
-        },
-        {
-            "id": "rel-auto-proximity-samhälle-684ee1a3-2026-06-16-samhälle-67fd73fc-2026-06-16",
-            "source": "samhälle-684ee1a3-2026-06-16",
-            "target": "samhälle-67fd73fc-2026-06-16",
-            "type": "thematic_link",
-            "weight": 0.5,
-            "description": "Regional koppling inom kategorin samhälle."
-        },
-        {
-            "id": "rel-auto-proximity-samhälle-684ee1a3-2026-06-16-samhälle-211aacbf-2026-06-16",
-            "source": "samhälle-684ee1a3-2026-06-16",
-            "target": "samhälle-211aacbf-2026-06-16",
-            "type": "thematic_link",
-            "weight": 0.5,
-            "description": "Regional koppling inom kategorin samhälle."
-        },
-        {
-            "id": "rel-auto-proximity-samhälle-7e81e732-2026-06-16-samhälle-a558c832-2026-06-16",
-            "source": "samhälle-7e81e732-2026-06-16",
-            "target": "samhälle-a558c832-2026-06-16",
-            "type": "thematic_link",
-            "weight": 0.5,
-            "description": "Regional koppling inom kategorin samhälle."
-        },
-        {
             "id": "rel-auto-proximity-samhälle-2adb7934-2026-06-16-samhälle-316ec6c5-2026-06-16",
             "source": "samhälle-2adb7934-2026-06-16",
+            "target": "samhälle-316ec6c5-2026-06-16",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-64b7b8fa-2026-06-16-samhälle-5825f81a-2026-06-16",
+            "source": "samhälle-64b7b8fa-2026-06-16",
+            "target": "samhälle-5825f81a-2026-06-16",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-64b7b8fa-2026-06-16-samhälle-316ec6c5-2026-06-16",
+            "source": "samhälle-64b7b8fa-2026-06-16",
             "target": "samhälle-316ec6c5-2026-06-16",
             "type": "thematic_link",
             "weight": 0.5,
@@ -2019,14 +1973,6 @@
             "description": "Regional koppling inom kategorin samhälle."
         },
         {
-            "id": "rel-auto-proximity-samhälle-7e4887e4-2026-06-16-samhälle-d1587924-2026-06-16",
-            "source": "samhälle-7e4887e4-2026-06-16",
-            "target": "samhälle-d1587924-2026-06-16",
-            "type": "thematic_link",
-            "weight": 0.5,
-            "description": "Regional koppling inom kategorin samhälle."
-        },
-        {
             "id": "rel-auto-proximity-samhälle-fbbe6c72-2026-06-16-samhälle-af57b6c6-2026-06-16",
             "source": "samhälle-fbbe6c72-2026-06-16",
             "target": "samhälle-af57b6c6-2026-06-16",
@@ -2041,30 +1987,6 @@
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
-        },
-        {
-            "id": "rel-auto-proximity-samhälle-f5d57d30-2026-06-16-samhälle-d1587924-2026-06-16",
-            "source": "samhälle-f5d57d30-2026-06-16",
-            "target": "samhälle-d1587924-2026-06-16",
-            "type": "thematic_link",
-            "weight": 0.5,
-            "description": "Regional koppling inom kategorin samhälle."
-        },
-        {
-            "id": "rel-auto-proximity-samhälle-3095ef64-2026-06-16-samhälle-d1587924-2026-06-16",
-            "source": "samhälle-3095ef64-2026-06-16",
-            "target": "samhälle-d1587924-2026-06-16",
-            "type": "thematic_link",
-            "weight": 0.5,
-            "description": "Regional koppling inom kategorin samhälle."
-        },
-        {
-            "id": "rel-auto-proximity-samhälle-67fd73fc-2026-06-16-samhälle-211aacbf-2026-06-16",
-            "source": "samhälle-67fd73fc-2026-06-16",
-            "target": "samhälle-211aacbf-2026-06-16",
-            "type": "thematic_link",
-            "weight": 0.5,
-            "description": "Regional koppling inom kategorin samhälle."
         }
     ],
     "meta_analysis": {
@@ -2075,22 +1997,21 @@
             "Det här vet vi om avtalet mellan USA och Iran"
         ],
         "geographic_distribution": {
-            "Global": 17,
+            "Global": 22,
             "Okänt": 16,
             "Ryssland": 1,
             "Iran": 2,
-            "Sverige": 9,
-            "Storbritannien": 2,
+            "Sverige": 7,
             "USA": 1,
+            "Storbritannien": 1,
             "Internationellt": 1,
             "Norge": 2,
-            "Usa": 1,
             "Spanien": 2,
-            "Canada": 1,
-            "Australia": 1,
-            "United Kingdom": 2,
-            "India": 1
+            "Kina": 1,
+            "Mexico": 1,
+            "Italy": 1,
+            "Brazil": 1
         },
-        "gaia_daily_brief": "Säkerhetsläget domineras av ”så går det till bakom kulisserna på ett g7-möte”, medan den geopolitiska kartan spänner över 15 länder/regioner. För en djupgående bild, klicka på markörerna och läs gAIas sammanfattningar."
+        "gaia_daily_brief": "Säkerhetsläget domineras av ”så går det till bakom kulisserna på ett g7-möte”, medan den geopolitiska kartan spänner över 14 länder/regioner. För en djupgående bild, klicka på markörerna och läs gAIas sammanfattningar."
     }
 }
