@@ -47,11 +47,12 @@
             "tier": 1,
             "category": "diplomati",
             "sentiment": "neutral",
-            "summary": "Iran hävdar att Libanon är en del av fredsavtalet med USA. Men oavsett kommer Israel inte avsluta kriget mot Hizbollah, menar Mellanösternexperten Magnus Norell. – Det här är inget bra avtal och det kommer inte att lösa de här grundläggande problemen vare sig i Libanon eller någon annanstans i Mellanöstern, säger Magnus Norell.",
+            "summary": "Trots USA:s och Irans nyligen överenskomna fredsavtal väntas Israel inte avbryta sina insatser mot Hizbollah. Mellanösternexperten Magnus Norell varnar för att avtalet inte adresserar de grundläggande säkerhetsutmaningarna i regionen.",
             "published_at": "Tue, 16 Jun 2026 16:05:05 +0200",
             "multi_source_verified": true,
             "article_generated": true,
-            "has_article": true
+            "has_article": true,
+            "gaia_synthesis": "Det asymmetriska förhållandet mellan stormaktsöverenskommelser och regionala ombudskrig (proxy-konflikter) visar på bristerna i traditionell stats-centrerad diplomati. När regionala aktörer med starka säkerhetsintressen exkluderas, tenderar lokala stridigheter att fortlöpa oberoende av globala maktbalansförskjutningar."
         },
         {
             "id": "konflikt-d3fd0eda-2026-06-17",
@@ -81,11 +82,12 @@
             "tier": 1,
             "category": "konflikt",
             "sentiment": "negative",
-            "summary": "",
+            "summary": "Civila ukrainare har återigen dödats och skadats i ryska drönarattacker riktade mot personbilar i Zaporizjzja-regionen. Attackerna understryker den ständiga faran för civilbefolkningen nära frontlinjerna.",
             "published_at": "2026-06-17T07:11:06.683285+02:00",
             "multi_source_verified": false,
             "article_generated": true,
-            "has_article": true
+            "has_article": true,
+            "gaia_synthesis": "Attacker mot civila transportmedel representerar en fullständig urholkning av distinktionsprincipen i den internationella humanitära rätten. När teknologiska plattformar som billiga drönare gör det möjligt att rikta in sig på enskilda fordon på distans, blir tröskeln för att utföra dödligt våld mot icke-stridande allt lägre."
         },
         {
             "id": "konflikt-cece7398-2026-06-17",
@@ -115,11 +117,12 @@
             "tier": 1,
             "category": "konflikt",
             "sentiment": "negative",
-            "summary": "Ytterligare en dödlig amerikansk attack har utförts mot ett fartyg i Stilla havet som påstås ha varit inblandat i narkotikasmuggling.",
+            "summary": "Det amerikanska kustbevakningen har genomfört ytterligare en dödlig insats mot ett misstänkt narkotikafartyg i Stilla havet. Incidenten är en del av USA:s skärpta övervakning av internationella farvatten.",
             "published_at": "Wed, 17 Jun 2026 03:27:29 +0200",
             "multi_source_verified": false,
             "article_generated": true,
-            "has_article": true
+            "has_article": true,
+            "gaia_synthesis": "Det ökade våldet i gränslandet mellan brottsbekämpning och militära operationer på internationellt vatten belyser hur statlig suveränitet projiceras utanför nationella gränser under täckmanteln av nationell säkerhet, vilket skapar komplexa juridiska gråzoner enligt havsrättskonventionen (UNCLOS)."
         },
         {
             "id": "diplomati-178be33d-2026-06-17",
@@ -149,11 +152,12 @@
             "tier": 1,
             "category": "diplomati",
             "sentiment": "negative",
-            "summary": "Brasiliens högsta domstol har på tisdagen dömt Eduardo Bolsonaro, son till expresidenten Jair Bolsonaro, till över fyra års fängelse för att ha uppmanat USA att införa sanktioner mot Brasilien.",
+            "summary": "Eduardo Bolsonaro, son till Brasiliens expresident, har dömts till över fyra års fängelse av högsta domstolen. Domen rör anklagelser om att han uppmanat USA att införa sanktioner mot sitt eget hemland.",
             "published_at": "Wed, 17 Jun 2026 01:31:30 +0200",
             "multi_source_verified": false,
             "article_generated": true,
-            "has_article": true
+            "has_article": true,
+            "gaia_synthesis": "Fallet illustrerar spänningen mellan nationell suveränitet och transnationella politiska nätverk. När inhemska aktörer använder utländska påtryckningsmedel för att nå politiska mål utmanas rättsstatens ramar, och rättssystemet tvingas agera för att skydda den demokratiska integriteten mot extern påverkan."
         },
         {
             "id": "diplomati-b7f6fd98-2026-06-17",
@@ -183,11 +187,12 @@
             "tier": 1,
             "category": "diplomati",
             "sentiment": "neutral",
-            "summary": "Under tisdagen gick G7-mötet i franska staden Èvian-les-Bains in på sin andra dag. Kriget i Ukraina stod på agendan, där USA:s president Trump och Ukrainas president Zelenskyj möttes och diskuterade bland annat nya ryska sanktioner. – Vi behöver användbara medel för att stoppa Putin, sade Zelenskyj i en intervju.",
+            "summary": "Under G7-mötet i Èvian-les-Bains diskuterade USA:s president Donald Trump och Ukrainas president Volodymyr Zelenskyj nya strategier mot Ryssland. Trump antydde att Moskva bör pressas till förhandlingsbordet.",
             "published_at": "Tue, 16 Jun 2026 08:39:08 +0200",
             "multi_source_verified": false,
             "article_generated": true,
-            "has_article": true
+            "has_article": true,
+            "gaia_synthesis": "Det transaktionella diplomatiska mönstret belyser en förskjutning i den globala ordningen där multilaterala allianser ersätts av bilaterala uppgörelser drivna av stormaktsintressen. Detta ställer mindre nationer inför utmaningen att värna sin suveränitet i ett system där fred förhandlas som eine affärsuppgörelse."
         },
         {
             "id": "konflikt-4d0eac53-2026-06-17",
@@ -217,11 +222,12 @@
             "tier": 1,
             "category": "konflikt",
             "sentiment": "neutral",
-            "summary": "Just nu pågår Nato-övningen Ramstein Flag 2026 på 15 flygbaser runt om i Europa. På F 21 i Luleå har utländska förband flyttat in för att öva högintensivt försvar. – Alla flygplan är lite olika, så vi har olika roller, men tillsammans är vi starka, säger Henrik Björling, stridspilot F 21.",
+            "summary": "Luleå och F 21 är värd för delar av den omfattande Nato-övningen Ramstein Flag 2026. Utländska stridsförband tränar nu tillsammans med det svenska flygvapnet för högintensivt försvar.",
             "published_at": "Tue, 16 Jun 2026 18:03:03 +0200",
             "multi_source_verified": false,
             "article_generated": true,
-            "has_article": true
+            "has_article": true,
+            "gaia_synthesis": "Integrationen av nationella luftstridskrafter i en gemensam överspridande kommandostruktur belyser den teknologiska och logistiska interoperabilitetens betydelse i modern krigföring. Det visar även hur regional säkerhet i Norden blivit en integrerad del av den globala geopolitiska avskräckningsdoktrinen."
         },
         {
             "id": "brott-alvesta-våldsdåd-2026-06-17",
@@ -251,11 +257,12 @@
             "tier": 1,
             "category": "brott",
             "sentiment": "negative",
-            "summary": "Ett grovt våldsbrott inträffade i Alvesta under natten till söndagen. Två barn har förts till sjukhus med livshotande skador, och en misstänkt man i 30-årsåldern hittades död på platsen. Polisen utreder händelsen som försök till mord och har spärrat av området för teknisk undersökning.",
+            "summary": "Ett grovt våldsdåd har skakat Alvesta där två barn skadats livshotande. Den misstänkte gärningsmannen har hittats död, och allvarlig kritik riktas nu mot socialtjänstens hantering av fallet.",
             "published_at": "Tue, 16 Jun 2026 16:49:37 +0200",
             "multi_source_verified": false,
             "article_generated": true,
-            "has_article": true
+            "has_article": true,
+            "gaia_synthesis": "Fallet belyser behovet av tvärvetenskapliga och proaktiva skyddsmekanismer inom den offentliga förvaltningen. När system för tidig upptäckt och intervention misslyckas på grund av byråkratisk tröghet eller underresursering, undergrävs medborgarnas förtroende för det sociala kontraktet på ett fundamentalt plan."
         },
         {
             "id": "brott-87fe3c75-2026-06-17",
@@ -290,11 +297,12 @@
             "tier": 1,
             "category": "brott",
             "sentiment": "neutral",
-            "summary": "Den Putinkritiske satir-konstnären Semyon Skrepetsky har blivit brutalt skjuten på en parkering i Polen. Parkeringen ligger 600 meter från ett belarusiskt konsulat, och polsk polis har gripit två belarusiska medborgare som nu utreds, enligt BBC.",
+            "summary": "Den ryske satirkonstnären Semyon Skrepetsky har skjutits till döds på en parkering i Polen nära ett belarusiskt konsulat. Polsk polis har gripit två belarusiska medborgare.",
             "published_at": "Tue, 16 Jun 2026 16:35:02 +0200",
             "multi_source_verified": true,
             "article_generated": true,
-            "has_article": true
+            "has_article": true,
+            "gaia_synthesis": "Transnationell repression – där auktoritära stater förföljer och eliminerar kritiker utanför sina egna gränser – utmanar de mottagande staternas säkerhet och suveränitet. Det visar att digital exil och geografisk flykt inte längre ger fullgott skydd mot statsfinansierade hotaktörer i en globalt sammankopplad värld."
         },
         {
             "id": "hälsa-25276ccb-2026-06-17",
