@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-06-19T04:15:52.666752+00:00",
+    "generated_at": "2026-06-19T05:25:14.454205+00:00",
     "workflow_version": "2.3",
     "source_info": {
         "swedish_rss": [
@@ -15,31 +15,31 @@
     },
     "news": [
         {
-            "id": "diplomati-13ed2b25-2026-06-19",
-            "title": "EU-basen öppnar ”diplomatisk kanal” till Moskva",
+            "id": "diplomati-2888f233-2026-06-19",
+            "title": "EU-toppen har öppnat ”diplomatisk kanal” till Kreml",
             "location": {
-                "city": "Moskva",
+                "city": "Kreml",
                 "country": "",
-                "lat": 55.7558,
-                "lon": 37.6173,
+                "lat": 55.7516212,
+                "lon": 37.618122,
                 "precision": "city",
                 "bbox": [
-                    37.5173,
-                    55.6558,
-                    37.7173,
-                    55.8558
+                    37.6123784,
+                    55.7480273,
+                    37.6232671,
+                    55.7552089
                 ]
             },
             "sources": [
                 {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/eu-basen-oppnar-diplomatisk-kanal-till-moskva"
-                },
-                {
                     "name": "SR Ekot",
                     "type": "public_service",
                     "url": "https://www.sverigesradio.se/artikel/9242485"
+                },
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/eu-basen-oppnar-diplomatisk-kanal-till-moskva"
                 }
             ],
             "source_count": 2,
@@ -48,15 +48,15 @@
             "category": "diplomati",
             "sentiment": "neutral",
             "summary": "EU:s nya rådsordförande António Costa har öppnat en diplomatisk kanal till Ryssland för att undersöka förutsättningarna för fredssamtal, men betonar att alla diskussioner sker i samförstånd med Ukraina.",
-            "published_at": "Fri, 19 Jun 2026 00:52:02 +0200",
+            "published_at": "2026-06-19T07:17:01.949932+02:00",
             "multi_source_verified": true,
             "article_generated": true,
             "has_article": true,
             "gaia_synthesis": "Etableringen av en direkt diplomatisk kanal mellan EU och Ryssland markerar en potentiell vändpunkt från rent konfrontativ retorik till sonderande diplomati. Detta visar på en pragmatisk insikt om att krigets slutpunkt kräver dialog, även under pågående sanktionsregimer."
         },
         {
-            "id": "försvar-29a85a56-2026-06-19",
-            "title": "Nato stärker och moderniserar sina kärnvapen",
+            "id": "försvar-688282a8-2026-06-19",
+            "title": "Nato ska modernisera sina kärnvapen: ”Nödvändigt för att säkra fred”",
             "location": {
                 "city": "Global",
                 "country": "Global",
@@ -67,6 +67,11 @@
             },
             "sources": [
                 {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9242440"
+                },
+                {
                     "name": "SVT Utrikes",
                     "type": "public_service",
                     "url": "https://www.svt.se/nyheter/utrikes/nato-starker-och-moderniserar-sina-karnvapen"
@@ -75,11 +80,6 @@
                     "name": "SVT Nyheter",
                     "type": "public_service",
                     "url": "https://www.svt.se/nyheter/utrikes/nato-starker-och-moderniserar-sina-karnvapen"
-                },
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9242440"
                 }
             ],
             "source_count": 3,
@@ -88,7 +88,7 @@
             "category": "försvar",
             "sentiment": "neutral",
             "summary": "Nato ska stärka och moderniserar sina kärnvapenförmågor som svar på Rysslands och Kinas växande kärnvapenarsenaler och retorik.",
-            "published_at": "Thu, 18 Jun 2026 12:13:26 +0200",
+            "published_at": "2026-06-19T07:17:01.949932+02:00",
             "multi_source_verified": true,
             "article_generated": true,
             "has_article": true,
@@ -135,41 +135,6 @@
             "gaia_synthesis": "Decentraliserad och lokalt ägd energiproduktion fungerar som en effektiv systemisk buffert mot globala geopolitiska och ekonomiska chocker. Denna mikro-resiliens visar att omställningen till förnybart inte bara är eine miljöfråga utan en fundamental säkerhetsstrategi."
         },
         {
-            "id": "konflikt-3294482c-2026-06-19",
-            "title": "Iran ökar förtrycket – maktskifte långt borta",
-            "location": {
-                "city": "Iran",
-                "country": "Iran",
-                "lat": 35.69,
-                "lon": 51.39,
-                "precision": "country",
-                "bbox": [
-                    50.39,
-                    34.69,
-                    52.39,
-                    36.69
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/iran-okar-fortrycket-maktskifte-langt-borta"
-                }
-            ],
-            "source_count": 1,
-            "score": 8.0,
-            "tier": 1,
-            "category": "konflikt",
-            "sentiment": "neutral",
-            "summary": "Trots ekonomisk kollaps, skenande inflation och utbredd folklig vrede bedöms den iranska regimen ha stärkt sitt grepp om makten genom ökat internt förtryck och avrättningar.",
-            "published_at": "Thu, 18 Jun 2026 23:11:09 +0200",
-            "multi_source_verified": false,
-            "article_generated": true,
-            "has_article": true,
-            "gaia_synthesis": "Auktoritära regimer i kris tenderar att prioritera intern överlevnad genom maximalt våldsmonopol framför ekonomiska reformer eller sociala eftergifter. Förtryckets effektivitet visar på svårigheten för oorganiserade folkrörelser att utmana en militariserad säkerhetsapparat."
-        },
-        {
             "id": "konflikt-0cf0f876-2026-06-19",
             "title": "Tre dödade i amerikansk båtattack i Stilla havet",
             "location": {
@@ -198,7 +163,7 @@
             "category": "konflikt",
             "sentiment": "negative",
             "summary": "En amerikansk patrullbåt har öppnat eld mot en misstänkt smuggelbåt i Stilla havet efter att ha blivit beskjuten, vilket krävde tre personers liv.",
-            "published_at": "2026-06-19T06:00:17.024744+02:00",
+            "published_at": "2026-06-19T07:17:01.949932+02:00",
             "multi_source_verified": false,
             "article_generated": true,
             "has_article": true,
@@ -233,7 +198,7 @@
             "category": "diplomati",
             "sentiment": "neutral",
             "summary": "EU:s stats- och regeringschefer möts i Bryssel för att diskutera strategier kring handelsrelationerna med Kina, med särskilt fokus på att minska strategiska beroenden.",
-            "published_at": "2026-06-19T06:00:17.024744+02:00",
+            "published_at": "2026-06-19T07:17:01.949932+02:00",
             "multi_source_verified": false,
             "article_generated": true,
             "has_article": true,
@@ -268,11 +233,46 @@
             "category": "försvar",
             "sentiment": "neutral",
             "summary": "Donald Trump har i ett uttalande starkt försvarat det nyligen överenskomna avtalet med Iran och avfärdat inrikespolitiska kritiker som inte förstår strategiskt förhandlingsarbete.",
-            "published_at": "2026-06-19T06:00:17.024744+02:00",
+            "published_at": "2026-06-19T07:17:01.949932+02:00",
             "multi_source_verified": false,
             "article_generated": true,
             "has_article": true,
             "gaia_synthesis": "Trumps försvar av avtalet illustrerar hans transaktionella utrikespolitiska doktrin, där framgång mäts i konkreta avtal och omedelbar deeskalering snarare än ideologisk konsekvens eller långsiktiga alliansåtaganden."
+        },
+        {
+            "id": "konflikt-3294482c-2026-06-19",
+            "title": "Iran ökar förtrycket – maktskifte långt borta",
+            "location": {
+                "city": "Iran",
+                "country": "Iran",
+                "lat": 35.69,
+                "lon": 51.39,
+                "precision": "country",
+                "bbox": [
+                    50.39,
+                    34.69,
+                    52.39,
+                    36.69
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/iran-okar-fortrycket-maktskifte-langt-borta"
+                }
+            ],
+            "source_count": 1,
+            "score": 8.0,
+            "tier": 1,
+            "category": "konflikt",
+            "sentiment": "neutral",
+            "summary": "Trots ekonomisk kollaps, skenande inflation och utbredd folklig vrede bedöms den iranska regimen ha stärkt sitt grepp om makten genom ökat internt förtryck och avrättningar.",
+            "published_at": "Thu, 18 Jun 2026 23:11:09 +0200",
+            "multi_source_verified": false,
+            "article_generated": true,
+            "has_article": true,
+            "gaia_synthesis": "Auktoritära regimer i kris tenderar att prioritera intern överlevnad genom maximalt våldsmonopol framför ekonomiska reformer eller sociala eftergifter. Förtryckets effektivitet visar på svårigheten för oorganiserade folkrörelser att utmana en militariserad säkerhetsapparat."
         },
         {
             "id": "brott-fd02f9ea-2026-06-19",
@@ -417,6 +417,40 @@
             "has_article": false
         },
         {
+            "id": "konflikt-0d77442b-2026-06-19",
+            "title": "Zelenskyy meets King of Belgium in Brussels – photo",
+            "location": {
+                "city": "Ukraina",
+                "country": "Ukraina",
+                "lat": 50.45,
+                "lon": 30.52,
+                "precision": "country",
+                "bbox": [
+                    29.52,
+                    49.45,
+                    31.52,
+                    51.45
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Українська Правда",
+                    "type": "commercial",
+                    "url": "https://www.pravda.com.ua/eng/news/2026/06/18/8040034/"
+                }
+            ],
+            "source_count": 1,
+            "score": 7.0,
+            "tier": 2,
+            "category": "konflikt",
+            "sentiment": "negative",
+            "summary": "Ukrainian President Volodymyr Zelenskyy met with King Philippe of Belgium during his visit to Brussels on 18 June and briefed him on the situation at the front and in the war overall.",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-18 17:17:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
             "id": "hälsa-283eba4e-2026-06-19",
             "title": "SSAB öppnade i Luleå – arbetare drabbad av näsblod",
             "location": {
@@ -447,40 +481,6 @@
             "summary": "SSAB i Luleå stängde arbetsplatsen i påskas efter att flera arbetare drabbats av mystiska sjukdomar. För två dagar sedan öppnade man den helt igen och nu har en arbetare drabbats av näsblod.",
             "gaia_synthesis": "",
             "published_at": "Thu, 18 Jun 2026 12:54:51 +0200",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "försvar-ba7b3cb3-2026-06-19",
-            "title": "VP impeach pre-trial starts; no decision yet on Chiz",
-            "location": {
-                "city": "Philippines",
-                "country": "Philippines",
-                "lat": 14.6,
-                "lon": 120.98,
-                "precision": "country",
-                "bbox": [
-                    119.98,
-                    13.6,
-                    121.98,
-                    15.6
-                ]
-            },
-            "sources": [
-                {
-                    "name": "Philstar.com",
-                    "type": "commercial",
-                    "url": "https://www.philstar.com/headlines/2026/06/19/2536257/vp-impeach-pre-trial-starts-no-decision-yet-chiz"
-                }
-            ],
-            "source_count": 1,
-            "score": 7.0,
-            "tier": 2,
-            "category": "försvar",
-            "sentiment": "neutral",
-            "summary": "The ball has started rolling ahead of the July 6 start of the impeachment trial of Vice President Sara Duterte, with both defense and prosecution panels facing each other at yesterday’s pre-trial conference at the Senate.",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-18 16:00:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -524,6 +524,346 @@
             "has_article": false
         },
         {
+            "id": "samhälle-74a6a057-2026-06-19",
+            "title": "Benner om Burnham: ”I stark position att utmana Starmer”",
+            "location": {
+                "city": "Burnham",
+                "country": "",
+                "lat": 41.638924,
+                "lon": -87.5567108,
+                "precision": "city",
+                "bbox": [
+                    -87.564072,
+                    41.629925,
+                    -87.5250866,
+                    41.644635
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9242504"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-19T07:17:01.949932+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-f8156381-2026-06-19",
+            "title": "Burnham vann valet – kan nu utmana Starmer om makten",
+            "location": {
+                "city": "Starmer",
+                "country": "",
+                "lat": 52.5543609,
+                "lon": -1.1901856,
+                "precision": "city",
+                "bbox": [
+                    -1.1906039,
+                    52.5541056,
+                    -1.1900734,
+                    52.5545326
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9242492"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-19T07:17:01.949932+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-daea0ede-2026-06-19",
+            "title": "Häktet i Göteborg förbereds ta emot barn under 15 år",
+            "location": {
+                "city": "Göteborg",
+                "country": "Sverige",
+                "lat": 57.7089,
+                "lon": 11.9746,
+                "precision": "city",
+                "bbox": [
+                    11.874600000000001,
+                    57.6089,
+                    12.0746,
+                    57.8089
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9241248"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-19T07:17:01.949932+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-51a3e37e-2026-06-19",
+            "title": "Stubb tror inte på svenska oron: ”Ser inga bevis”",
+            "location": {
+                "city": "Sverige",
+                "country": "Sverige",
+                "lat": 59.33,
+                "lon": 18.07,
+                "precision": "country",
+                "bbox": [
+                    17.07,
+                    58.33,
+                    19.07,
+                    60.33
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9242481"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-19T07:17:01.949932+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-9ab4c311-2026-06-19",
+            "title": "Efterlysta svenskar landat i Sverige – förts till häkten",
+            "location": {
+                "city": "Sverige",
+                "country": "Sverige",
+                "lat": 59.33,
+                "lon": 18.07,
+                "precision": "country",
+                "bbox": [
+                    17.07,
+                    58.33,
+                    19.07,
+                    60.33
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9242429"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-19T07:17:01.949932+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "brott-d29a313f-2026-06-19",
+            "title": "Norsk polis köper Volvobilar",
+            "location": {
+                "city": "Norge",
+                "country": "Norge",
+                "lat": 59.91,
+                "lon": 10.75,
+                "precision": "country",
+                "bbox": [
+                    9.75,
+                    58.91,
+                    11.75,
+                    60.91
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9242413"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "brott",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-19T07:17:01.949932+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-c80f1473-2026-06-19",
+            "title": "Experten: ”Iran kommer aldrig se röken av 300 miljarder”",
+            "location": {
+                "city": "Iran",
+                "country": "Iran",
+                "lat": 35.69,
+                "lon": 51.39,
+                "precision": "country",
+                "bbox": [
+                    50.39,
+                    34.69,
+                    52.39,
+                    36.69
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9242270"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-19T07:17:01.949932+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-08a2fb87-2026-06-19",
+            "title": "Ett sömnigt förstadsområde kan bli Starmers fall",
+            "location": {
+                "city": "Starmers",
+                "country": "",
+                "lat": 51.851253,
+                "lon": -0.0767341,
+                "precision": "city",
+                "bbox": [
+                    -0.0807487,
+                    51.84779,
+                    -0.0728777,
+                    51.8546015
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9242254"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-19T07:17:01.949932+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-a1d31ab8-2026-06-19",
+            "title": "Svensk-iranier delade om avtalet: ”Tycker synd om folket”",
+            "location": {
+                "city": "Sverige",
+                "country": "Sverige",
+                "lat": 59.33,
+                "lon": 18.07,
+                "precision": "country",
+                "bbox": [
+                    17.07,
+                    58.33,
+                    19.07,
+                    60.33
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9242129"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-19T07:17:01.949932+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-ceb84668-2026-06-19",
+            "title": "Åklagaren om domen mot Poya Shafie: ”Väldigt nöjda”",
+            "location": {
+                "city": "Poya",
+                "country": "",
+                "lat": -21.2679914,
+                "lon": 165.1947188,
+                "precision": "city",
+                "bbox": [
+                    164.9835747,
+                    -21.3935126,
+                    165.4012871,
+                    -21.1472014
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9242140"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-19T07:17:01.949932+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
             "id": "samhälle-51e5b955-2026-06-19",
             "title": "Israel har dödat över 1 000 under Gazas vapenvila",
             "location": {
@@ -554,6 +894,40 @@
             "summary": "Sedan Israel och Hamas ingick vapenvila i oktober har fler än 1 000 palestinier dödats i Gazaremsan, uppger lokala myndigheter.",
             "gaia_synthesis": "",
             "published_at": "Thu, 18 Jun 2026 11:21:12 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "energi-b2b7d86b-2026-06-19",
+            "title": "Gas company repairs Plum road near fracking injection well",
+            "location": {
+                "city": "Plum",
+                "country": "",
+                "lat": 40.5003457,
+                "lon": -79.7494911,
+                "precision": "city",
+                "bbox": [
+                    -79.8366296,
+                    40.4435118,
+                    -79.7016834,
+                    40.5517987
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Home | Triblive.com",
+                    "type": "commercial",
+                    "url": "https://triblive.com/local/valley-news-dispatch/gas-company-repairs-plum-road-near-fracking-injection-well/"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "energi",
+            "sentiment": "neutral",
+            "summary": "Part of Old Leechburg Road in Plum is on the mend.",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-18 17:17:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -966,346 +1340,6 @@
             "has_article": false
         },
         {
-            "id": "samhälle-f8156381-2026-06-19",
-            "title": "Burnham vann valet – kan nu utmana Starmer om makten",
-            "location": {
-                "city": "Starmer",
-                "country": "",
-                "lat": 52.5543609,
-                "lon": -1.1901856,
-                "precision": "city",
-                "bbox": [
-                    -1.1906039,
-                    52.5541056,
-                    -1.1900734,
-                    52.5545326
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9242492"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-19T06:00:17.024744+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-daea0ede-2026-06-19",
-            "title": "Häktet i Göteborg förbereds ta emot barn under 15 år",
-            "location": {
-                "city": "Göteborg",
-                "country": "Sverige",
-                "lat": 57.7089,
-                "lon": 11.9746,
-                "precision": "city",
-                "bbox": [
-                    11.874600000000001,
-                    57.6089,
-                    12.0746,
-                    57.8089
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9241248"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-19T06:00:17.024744+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-51a3e37e-2026-06-19",
-            "title": "Stubb tror inte på svenska oron: ”Ser inga bevis”",
-            "location": {
-                "city": "Sverige",
-                "country": "Sverige",
-                "lat": 59.33,
-                "lon": 18.07,
-                "precision": "country",
-                "bbox": [
-                    17.07,
-                    58.33,
-                    19.07,
-                    60.33
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9242481"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-19T06:00:17.024744+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-9ab4c311-2026-06-19",
-            "title": "Efterlysta svenskar landat i Sverige – förts till häkten",
-            "location": {
-                "city": "Sverige",
-                "country": "Sverige",
-                "lat": 59.33,
-                "lon": 18.07,
-                "precision": "country",
-                "bbox": [
-                    17.07,
-                    58.33,
-                    19.07,
-                    60.33
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9242429"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-19T06:00:17.024744+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "brott-d29a313f-2026-06-19",
-            "title": "Norsk polis köper Volvobilar",
-            "location": {
-                "city": "Norge",
-                "country": "Norge",
-                "lat": 59.91,
-                "lon": 10.75,
-                "precision": "country",
-                "bbox": [
-                    9.75,
-                    58.91,
-                    11.75,
-                    60.91
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9242413"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "brott",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-19T06:00:17.024744+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-c80f1473-2026-06-19",
-            "title": "Experten: ”Iran kommer aldrig se röken av 300 miljarder”",
-            "location": {
-                "city": "Iran",
-                "country": "Iran",
-                "lat": 35.69,
-                "lon": 51.39,
-                "precision": "country",
-                "bbox": [
-                    50.39,
-                    34.69,
-                    52.39,
-                    36.69
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9242270"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-19T06:00:17.024744+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-a1d31ab8-2026-06-19",
-            "title": "Svensk-iranier delade om avtalet: ”Tycker synd om folket”",
-            "location": {
-                "city": "Sverige",
-                "country": "Sverige",
-                "lat": 59.33,
-                "lon": 18.07,
-                "precision": "country",
-                "bbox": [
-                    17.07,
-                    58.33,
-                    19.07,
-                    60.33
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9242129"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-19T06:00:17.024744+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-ceb84668-2026-06-19",
-            "title": "Åklagaren om domen mot Poya Shafie: ”Väldigt nöjda”",
-            "location": {
-                "city": "Poya",
-                "country": "",
-                "lat": -21.2679914,
-                "lon": 165.1947188,
-                "precision": "city",
-                "bbox": [
-                    164.9835747,
-                    -21.3935126,
-                    165.4012871,
-                    -21.1472014
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9242140"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-19T06:00:17.024744+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-31012727-2026-06-19",
-            "title": "Liljeheden: USA sänker Natos avskräckande förmåga",
-            "location": {
-                "city": "Usa",
-                "country": "Usa",
-                "lat": 38.91,
-                "lon": -77.04,
-                "precision": "country",
-                "bbox": [
-                    -78.04,
-                    37.91,
-                    -76.04,
-                    39.91
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9241967"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-19T06:00:17.024744+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "politik-5572347c-2026-06-19",
-            "title": "Vote: Who will be the best Pa. high school field hockey player in PAISAA in 2026?",
-            "location": {
-                "city": "Pa",
-                "country": "",
-                "lat": 8.559559,
-                "lon": -81.1308434,
-                "precision": "city",
-                "bbox": [
-                    -83.0518594,
-                    7.0027171,
-                    -77.1585751,
-                    9.8469028
-                ]
-            },
-            "sources": [
-                {
-                    "name": "Pennlive",
-                    "type": "commercial",
-                    "url": "https://www.pennlive.com/highschoolsports/2026/06/vote-who-will-be-the-best-pa-high-school-field-hockey-player-in-paisaa-in-2026.html"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "politik",
-            "sentiment": "neutral",
-            "summary": "Which Pennsylvania field hockey player will be the best of the best this fall in PAISAA?",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-18 16:00:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
             "id": "politik-9bf5a4cc-2026-06-19",
             "title": "Forssmed försvarar omstritt regeringsuppdrag: ”Relevant”",
             "location": {
@@ -1364,60 +1398,26 @@
             "has_article": false
         },
         {
-            "id": "ekonomi-ba9926a6-2026-06-19",
-            "title": "Trillion-dollar meme stocks are here. Be ready",
+            "id": "samhälle-b85be737-2026-06-19",
+            "title": "The 36th Annual Thurston Classic Takes Flight in Meadville",
             "location": {
-                "city": "United States",
-                "country": "United States",
-                "lat": 38.91,
-                "lon": -77.04,
-                "precision": "country",
-                "bbox": [
-                    -78.04,
-                    37.91,
-                    -76.04,
-                    39.91
-                ]
-            },
-            "sources": [
-                {
-                    "name": "The Star",
-                    "type": "commercial",
-                    "url": "https://www.thestar.com.my/business/insight/2026/06/19/trillion-dollar-meme-stocks-are-here-be-ready"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "ekonomi",
-            "sentiment": "neutral",
-            "summary": "During the Covid-19 pandemic, meme mania swept through the United States stock market, short-squeezing and shuttering high-profile hedge funds.",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-18 16:00:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-8add0069-2026-06-19",
-            "title": "Hillary Clinton was right about Trump politics | Letter",
-            "location": {
-                "city": "Clinton",
+                "city": "Annual",
                 "country": "",
-                "lat": 41.2711458,
-                "lon": -77.6984481,
+                "lat": 35.1276485,
+                "lon": -3.5804604,
                 "precision": "city",
                 "bbox": [
-                    -78.09337,
-                    40.9627264,
-                    -77.1438594,
-                    41.4783869
+                    -3.6004604,
+                    35.1076485,
+                    -3.5604604,
+                    35.1476485
                 ]
             },
             "sources": [
                 {
-                    "name": "Lewiston Sun Journal",
+                    "name": "Erie News Now",
                     "type": "commercial",
-                    "url": "https://www.sunjournal.com/2026/06/18/hillary-clinton-was-right-about-trump-politics-letter/"
+                    "url": "https://www.erienewsnow.com/news/the-36th-annual-thurston-classic-takes-flight-in-meadville/article_ed34b03f-de75-4449-9c37-d75bd018208f.html"
                 }
             ],
             "source_count": 1,
@@ -1425,15 +1425,117 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "UFC fighter Josh Hokit, in a post-match stunt at the White House, made the transphobic and racist comment, “Michelle Obama is a man. Am I right America?” And before he said that, he thanked Jesus. A phrase new to me, “performative outrage culture,” sums up this scene perfectly. Hokit’s diametrically opposed expressions here represent the [...]",
+            "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-18 16:00:00",
+            "published_at": "2026-06-18 17:17:00",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-5b1b23d0-2026-06-19",
-            "title": "Darwen councillors urge residents to share views at latest advice surgery",
+            "id": "samhälle-6b895be4-2026-06-19",
+            "title": "Kuwait Producer Price Index rises 41.4% in first quarter of 2026",
+            "location": {
+                "city": "Producer",
+                "country": "",
+                "lat": 29.9957219,
+                "lon": 79.5720213,
+                "precision": "city",
+                "bbox": [
+                    79.5620213,
+                    29.9857219,
+                    79.5820213,
+                    30.0057219
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Kuwait Times",
+                    "type": "commercial",
+                    "url": "https://kuwaittimes.com/article/45151/kuwait/other-news/kuwait-producer-price-index-rises-414-in-first-quarter-of-2026/"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "KUWAIT: Kuwait’s Central Statistical Bureau (CSB) reported that the domestic Producer Price Index (PPI) increased by 41.42 percent during the first quarter of 2026 compared with th...",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-18 17:17:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-4efd9744-2026-06-19",
+            "title": "Independent Bank Corporation Announces Shareholder Approval to Acquire HCB Financial Corp. and Highpoint Community Bank",
+            "location": {
+                "city": "Bank",
+                "country": "",
+                "lat": 51.5131048,
+                "lon": -0.0893749,
+                "precision": "city",
+                "bbox": [
+                    -0.0943749,
+                    51.5081048,
+                    -0.0843749,
+                    51.5181048
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Globe Newswire",
+                    "type": "commercial",
+                    "url": "https://www.globenewswire.com/news-release/2026/06/18/3314448/36248/en/Independent-Bank-Corporation-Announces-Shareholder-Approval-to-Acquire-HCB-Financial-Corp-and-Highpoint-Community-Bank.html"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "GRAND RAPIDS, Mich., and HASTINGS, Mich., June 18, 2026 (GLOBE NEWSWIRE) -- Independent Bank Corporation (NASDAQ: IBCP), the parent company of Independent Bank, with total assets of approximately $5.5 billion, and HCB Financial Corp. (“HCB”), the parent company of Highpoint Community Bank, with total assets of approximately $590 million, previously announced the signing of a definitive merger agreement on March 18, 2026 for IBCP to acquire HCB.",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-18 17:17:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-6023ecb6-2026-06-19",
+            "title": "Brooklyn Shows up For The Knicks",
+            "location": {
+                "city": "New York",
+                "country": "",
+                "lat": 40.7128,
+                "lon": -74.006,
+                "precision": "city",
+                "bbox": [
+                    -74.106,
+                    40.6128,
+                    -73.906,
+                    40.8128
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Bkreader",
+                    "type": "commercial",
+                    "url": "https://www.bkreader.com/arts-entertainment/brooklyn-shows-up-for-the-knicks-12440473"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "There were plenty of Brooklynites celebrating their beloved New York Knicks at the ticker-tape parade in lower Manhattan.",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-18 17:17:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-53cdd2c0-2026-06-19",
+            "title": "Amelia Pelta hopes to inspire more girls into weightlifting as she targets spot at Olympic Games",
             "location": {
                 "city": "United Kingdom",
                 "country": "United Kingdom",
@@ -1449,9 +1551,9 @@
             },
             "sources": [
                 {
-                    "name": "Lancashire Telegraph",
+                    "name": "Yahoo! News",
                     "type": "commercial",
-                    "url": "https://www.lancashiretelegraph.co.uk/news/26205456.darwen-councillors-urge-residents-share-views/"
+                    "url": "https://uk.sports.yahoo.com/news/amelia-pelta-hopes-inspire-more-171700531.html"
                 }
             ],
             "source_count": 1,
@@ -1459,83 +1561,15 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "Residents in Darwen who need help with any issues they are experiencing in the town are being invited to share their concerns with their councillors.",
+            "summary": "Edgware local Amelie Pelta is targeting a spot at the Olympic Games in Olympic weightlifting and hopes to inspire other girls along the way",
             "gaia_synthesis": "",
-            "published_at": "2026-06-18 16:00:00",
+            "published_at": "2026-06-18 17:17:00",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-11537bd9-2026-06-19",
-            "title": "The best five-star hotels in Majorca",
-            "location": {
-                "city": "United Kingdom",
-                "country": "United Kingdom",
-                "lat": 51.51,
-                "lon": -0.13,
-                "precision": "country",
-                "bbox": [
-                    -1.13,
-                    50.51,
-                    0.87,
-                    52.51
-                ]
-            },
-            "sources": [
-                {
-                    "name": "The Telegraph",
-                    "type": "commercial",
-                    "url": "https://www.telegraph.co.uk/travel/destinations/europe/spain/majorca/articles/best-five-star-hotels-majorca/"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "This sun-drenched Balearic island is home to some fabulous five-star offerings, from sleek city stays to thoughtfully restored fincas",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-18 16:00:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-79659f48-2026-06-19",
-            "title": "Funeral held in Mississauga for OPP officer killed in the line of duty: 'He only gave us love and friendship'",
-            "location": {
-                "city": "Usa",
-                "country": "Usa",
-                "lat": 38.91,
-                "lon": -77.04,
-                "precision": "country",
-                "bbox": [
-                    -78.04,
-                    37.91,
-                    -76.04,
-                    39.91
-                ]
-            },
-            "sources": [
-                {
-                    "name": "The Peterborough Examiner",
-                    "type": "commercial",
-                    "url": "https://www.thepeterboroughexaminer.com/news/ontario/funeral-to-be-held-thursday-morning-for-opp-officer-killed-in-the-line-of-duty/article_59dca9f3-a1ca-583f-bcff-819539af23a3.html"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "Const. Tarun Bali, 29, died June 9 while conducting an investigation with members of the James Bay OPP detachment near Hearst, Ont.",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-18 16:00:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-1ccc4e20-2026-06-19",
-            "title": "'We did a happy dance': Peterborough-area couple wins large lottery prize with scratch ticket",
+            "id": "samhälle-3e438fe1-2026-06-19",
+            "title": "City of Kimberley rescinds water quality advisory",
             "location": {
                 "city": "Canada",
                 "country": "Canada",
@@ -1551,9 +1585,9 @@
             },
             "sources": [
                 {
-                    "name": "The Peterborough Examiner",
+                    "name": "Kimberley Bulletin",
                     "type": "commercial",
-                    "url": "https://www.thepeterboroughexaminer.com/news/ennismore-couple-wins-scratch-lottery/article_284409d4-7c37-5868-9e33-75da18b98212.html"
+                    "url": "https://kimberleybulletin.com/2026/06/18/city-of-kimberley-rescinds-water-quality-advisory-2/"
                 }
             ],
             "source_count": 1,
@@ -1561,33 +1595,33 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "The winning ticket was purchased at Causeway Variety on Robinson Road in Ennismore.",
+            "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-18 16:00:00",
+            "published_at": "2026-06-18 17:17:00",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-1ac82ab3-2026-06-19",
-            "title": "Meta enhances Teen Accounts with new safety updates",
+            "id": "samhälle-e65a5141-2026-06-19",
+            "title": "MY HERO ACADEMIA: ALL’S JUSTICE hits Switch 2 Sept. 4th, 2026",
             "location": {
-                "city": "Philippines",
-                "country": "Philippines",
-                "lat": 14.6,
-                "lon": 120.98,
-                "precision": "country",
+                "city": "Switch",
+                "country": "",
+                "lat": 8.0417353,
+                "lon": 123.4840129,
+                "precision": "city",
                 "bbox": [
-                    119.98,
-                    13.6,
-                    121.98,
-                    15.6
+                    123.4640129,
+                    8.0217353,
+                    123.5040129,
+                    8.0617353
                 ]
             },
             "sources": [
                 {
-                    "name": "Philstar.com",
+                    "name": "Gonintendo",
                     "type": "commercial",
-                    "url": "https://www.philstar.com/headlines/2026/06/19/2536261/meta-enhances-teen-accounts-new-safety-updates"
+                    "url": "https://gonintendo.com/contents/62015-my-hero-academia-all-s-justice-hits-switch-2-sept-4th-2026"
                 }
             ],
             "source_count": 1,
@@ -1595,33 +1629,28 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "Tech giant Meta has launched a revamped version of Teen Account features, providing the Filipino youth with a safe, age-appropriate experience on Instagram, Facebook and Messenger.",
+            "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-18 16:00:00",
+            "published_at": "2026-06-18 17:17:00",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-8b91a333-2026-06-19",
-            "title": "Chinese policies deliver uptick in property sales",
+            "id": "samhälle-c7114b8e-2026-06-19",
+            "title": "EU-ledarna bråkar om budget: ”En våldsam ökning”",
             "location": {
-                "city": "Kina",
-                "country": "Kina",
-                "lat": 39.9,
-                "lon": 116.4,
-                "precision": "country",
-                "bbox": [
-                    115.4,
-                    38.9,
-                    117.4,
-                    40.9
-                ]
+                "city": "Global",
+                "country": "Global",
+                "lat": 0.0,
+                "lon": 0.0,
+                "precision": "global",
+                "bbox": null
             },
             "sources": [
                 {
-                    "name": "The Star",
-                    "type": "commercial",
-                    "url": "https://www.thestar.com.my/business/business-news/2026/06/19/chinese-policies-deliver-uptick-in-property-sales"
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9242493"
                 }
             ],
             "source_count": 1,
@@ -1629,9 +1658,154 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "The traditional spring home-buying season, which typically peaks in March and April, stretched into May this year as policy support and targeted demand in first-tier cities drove a notable pickup in sales, helping to restore market expectations, experts say.",
+            "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-18 16:00:00",
+            "published_at": "2026-06-19T07:17:01.949932+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-b243d11e-2026-06-19",
+            "title": "Risk för mycket pollen under midsommar",
+            "location": {
+                "city": "Global",
+                "country": "Global",
+                "lat": 0.0,
+                "lon": 0.0,
+                "precision": "global",
+                "bbox": null
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9242496"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-19T07:17:01.949932+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-430d7178-2026-06-19",
+            "title": "Var tredje får inte mer än 100 kronor i elstöd: ”Löjeväckande”",
+            "location": {
+                "city": "Global",
+                "country": "Global",
+                "lat": 0.0,
+                "lon": 0.0,
+                "precision": "global",
+                "bbox": null
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9241761"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-19T07:17:01.949932+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-a76acd28-2026-06-19",
+            "title": "Treåring allvarligt skadad – hamnade i en krokodilinhägnad",
+            "location": {
+                "city": "Global",
+                "country": "Global",
+                "lat": 0.0,
+                "lon": 0.0,
+                "precision": "global",
+                "bbox": null
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9242399"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-19T07:17:01.949932+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-3bc18a03-2026-06-19",
+            "title": "Hegseths nya kritik mot Natoallierade: ”Ingen överraskning”",
+            "location": {
+                "city": "Global",
+                "country": "Global",
+                "lat": 0.0,
+                "lon": 0.0,
+                "precision": "global",
+                "bbox": null
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9242310"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-19T07:17:01.949932+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "hälsa-d1674abe-2026-06-19",
+            "title": "Rural hospitals say insurer denials are the deeper threat",
+            "location": {
+                "city": "Global",
+                "country": "Global",
+                "lat": 0.0,
+                "lon": 0.0,
+                "precision": "global",
+                "bbox": null
+            },
+            "sources": [
+                {
+                    "name": "Ottumwacourier",
+                    "type": "commercial",
+                    "url": "https://www.ottumwacourier.com/news/rural-hospitals-say-insurer-denials-are-the-deeper-threat/article_587c28db-66ca-447d-bca5-5ddb4bdd6927.html"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "hälsa",
+            "sentiment": "neutral",
+            "summary": "FAIRFIELD — The debate over rural health care this year has centered on Medicaid and the Big Beautiful Bill, the federal budget law Congress passed last year. But leaders of two rural southeast Iowa county hospitals said Tuesday that the...",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-18 17:17:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1692,299 +1866,29 @@
             "published_at": "Fri, 19 Jun 2026 05:30:06 +0200",
             "multi_source_verified": false,
             "has_article": false
-        },
-        {
-            "id": "samhälle-430d7178-2026-06-19",
-            "title": "Var tredje får inte mer än 100 kronor i elstöd: ”Löjeväckande”",
-            "location": {
-                "city": "Global",
-                "country": "Global",
-                "lat": 0.0,
-                "lon": 0.0,
-                "precision": "global",
-                "bbox": null
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9241761"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-19T06:00:17.024744+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-a76acd28-2026-06-19",
-            "title": "Treåring allvarligt skadad – hamnade i en krokodilinhägnad",
-            "location": {
-                "city": "Global",
-                "country": "Global",
-                "lat": 0.0,
-                "lon": 0.0,
-                "precision": "global",
-                "bbox": null
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9242399"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-19T06:00:17.024744+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-3bc18a03-2026-06-19",
-            "title": "Hegseths nya kritik mot Natoallierade: ”Ingen överraskning”",
-            "location": {
-                "city": "Global",
-                "country": "Global",
-                "lat": 0.0,
-                "lon": 0.0,
-                "precision": "global",
-                "bbox": null
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9242310"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-19T06:00:17.024744+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-08a2fb87-2026-06-19",
-            "title": "Ett sömnigt förstadsområde kan bli Starmers fall",
-            "location": {
-                "city": "Global",
-                "country": "Global",
-                "lat": 0.0,
-                "lon": 0.0,
-                "precision": "global",
-                "bbox": null
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9242254"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-19T06:00:17.024744+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-5ec4c38c-2026-06-19",
-            "title": "Så ser midsommartrafiken ut just nu: ”Börjar tjocka på”",
-            "location": {
-                "city": "Global",
-                "country": "Global",
-                "lat": 0.0,
-                "lon": 0.0,
-                "precision": "global",
-                "bbox": null
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9242157"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-19T06:00:17.024744+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-f5e79f57-2026-06-19",
-            "title": "S: Moderaternas skatteförslag tecken på desperation",
-            "location": {
-                "city": "Global",
-                "country": "Global",
-                "lat": 0.0,
-                "lon": 0.0,
-                "precision": "global",
-                "bbox": null
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9242085"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-19T06:00:17.024744+02:00",
-            "multi_source_verified": false,
-            "has_article": false
         }
     ],
     "relations": [
         {
-            "id": "rel-auto-proximity-samhälle-237d3758-2026-06-19-samhälle-a23dbdeb-2026-06-19",
-            "source": "samhälle-237d3758-2026-06-19",
-            "target": "samhälle-a23dbdeb-2026-06-19",
-            "type": "thematic_link",
-            "weight": 0.5,
-            "description": "Regional koppling inom kategorin samhälle."
-        },
-        {
-            "id": "rel-auto-proximity-samhälle-237d3758-2026-06-19-samhälle-50d4e434-2026-06-19",
-            "source": "samhälle-237d3758-2026-06-19",
-            "target": "samhälle-50d4e434-2026-06-19",
-            "type": "thematic_link",
-            "weight": 0.5,
-            "description": "Regional koppling inom kategorin samhälle."
-        },
-        {
-            "id": "rel-auto-proximity-samhälle-237d3758-2026-06-19-samhälle-51a3e37e-2026-06-19",
-            "source": "samhälle-237d3758-2026-06-19",
-            "target": "samhälle-51a3e37e-2026-06-19",
-            "type": "thematic_link",
-            "weight": 0.5,
-            "description": "Regional koppling inom kategorin samhälle."
-        },
-        {
-            "id": "rel-auto-proximity-samhälle-237d3758-2026-06-19-samhälle-9ab4c311-2026-06-19",
-            "source": "samhälle-237d3758-2026-06-19",
-            "target": "samhälle-9ab4c311-2026-06-19",
-            "type": "thematic_link",
-            "weight": 0.5,
-            "description": "Regional koppling inom kategorin samhälle."
-        },
-        {
-            "id": "rel-auto-proximity-samhälle-237d3758-2026-06-19-samhälle-a1d31ab8-2026-06-19",
-            "source": "samhälle-237d3758-2026-06-19",
-            "target": "samhälle-a1d31ab8-2026-06-19",
-            "type": "thematic_link",
-            "weight": 0.5,
-            "description": "Regional koppling inom kategorin samhälle."
-        },
-        {
-            "id": "rel-auto-proximity-samhälle-a23dbdeb-2026-06-19-samhälle-50d4e434-2026-06-19",
-            "source": "samhälle-a23dbdeb-2026-06-19",
-            "target": "samhälle-50d4e434-2026-06-19",
-            "type": "thematic_link",
-            "weight": 0.5,
-            "description": "Regional koppling inom kategorin samhälle."
-        },
-        {
-            "id": "rel-auto-proximity-samhälle-a23dbdeb-2026-06-19-samhälle-51a3e37e-2026-06-19",
-            "source": "samhälle-a23dbdeb-2026-06-19",
-            "target": "samhälle-51a3e37e-2026-06-19",
-            "type": "thematic_link",
-            "weight": 0.5,
-            "description": "Regional koppling inom kategorin samhälle."
-        },
-        {
-            "id": "rel-auto-proximity-samhälle-a23dbdeb-2026-06-19-samhälle-9ab4c311-2026-06-19",
-            "source": "samhälle-a23dbdeb-2026-06-19",
-            "target": "samhälle-9ab4c311-2026-06-19",
-            "type": "thematic_link",
-            "weight": 0.5,
-            "description": "Regional koppling inom kategorin samhälle."
-        },
-        {
-            "id": "rel-auto-proximity-samhälle-a23dbdeb-2026-06-19-samhälle-a1d31ab8-2026-06-19",
-            "source": "samhälle-a23dbdeb-2026-06-19",
-            "target": "samhälle-a1d31ab8-2026-06-19",
-            "type": "thematic_link",
-            "weight": 0.5,
-            "description": "Regional koppling inom kategorin samhälle."
-        },
-        {
-            "id": "rel-auto-proximity-samhälle-639410f6-2026-06-19-samhälle-b13b8ca7-2026-06-19",
-            "source": "samhälle-639410f6-2026-06-19",
-            "target": "samhälle-b13b8ca7-2026-06-19",
-            "type": "thematic_link",
-            "weight": 0.5,
-            "description": "Regional koppling inom kategorin samhälle."
-        },
-        {
-            "id": "rel-auto-proximity-samhälle-50d4e434-2026-06-19-samhälle-51a3e37e-2026-06-19",
-            "source": "samhälle-50d4e434-2026-06-19",
-            "target": "samhälle-51a3e37e-2026-06-19",
-            "type": "thematic_link",
-            "weight": 0.5,
-            "description": "Regional koppling inom kategorin samhälle."
-        },
-        {
-            "id": "rel-auto-proximity-samhälle-50d4e434-2026-06-19-samhälle-9ab4c311-2026-06-19",
-            "source": "samhälle-50d4e434-2026-06-19",
-            "target": "samhälle-9ab4c311-2026-06-19",
-            "type": "thematic_link",
-            "weight": 0.5,
-            "description": "Regional koppling inom kategorin samhälle."
-        },
-        {
-            "id": "rel-auto-proximity-samhälle-50d4e434-2026-06-19-samhälle-a1d31ab8-2026-06-19",
-            "source": "samhälle-50d4e434-2026-06-19",
-            "target": "samhälle-a1d31ab8-2026-06-19",
-            "type": "thematic_link",
-            "weight": 0.5,
-            "description": "Regional koppling inom kategorin samhälle."
-        },
-        {
-            "id": "rel-auto-proximity-samhälle-f8156381-2026-06-19-samhälle-5b1b23d0-2026-06-19",
+            "id": "rel-auto-proximity-samhälle-f8156381-2026-06-19-samhälle-08a2fb87-2026-06-19",
             "source": "samhälle-f8156381-2026-06-19",
-            "target": "samhälle-5b1b23d0-2026-06-19",
+            "target": "samhälle-08a2fb87-2026-06-19",
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
         },
         {
-            "id": "rel-auto-proximity-samhälle-f8156381-2026-06-19-samhälle-11537bd9-2026-06-19",
+            "id": "rel-auto-proximity-samhälle-f8156381-2026-06-19-samhälle-4efd9744-2026-06-19",
             "source": "samhälle-f8156381-2026-06-19",
-            "target": "samhälle-11537bd9-2026-06-19",
+            "target": "samhälle-4efd9744-2026-06-19",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-f8156381-2026-06-19-samhälle-53cdd2c0-2026-06-19",
+            "source": "samhälle-f8156381-2026-06-19",
+            "target": "samhälle-53cdd2c0-2026-06-19",
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
@@ -2006,6 +1910,30 @@
             "description": "Regional koppling inom kategorin samhälle."
         },
         {
+            "id": "rel-auto-proximity-samhälle-51a3e37e-2026-06-19-samhälle-237d3758-2026-06-19",
+            "source": "samhälle-51a3e37e-2026-06-19",
+            "target": "samhälle-237d3758-2026-06-19",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-51a3e37e-2026-06-19-samhälle-a23dbdeb-2026-06-19",
+            "source": "samhälle-51a3e37e-2026-06-19",
+            "target": "samhälle-a23dbdeb-2026-06-19",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-51a3e37e-2026-06-19-samhälle-50d4e434-2026-06-19",
+            "source": "samhälle-51a3e37e-2026-06-19",
+            "target": "samhälle-50d4e434-2026-06-19",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
             "id": "rel-auto-proximity-samhälle-9ab4c311-2026-06-19-samhälle-a1d31ab8-2026-06-19",
             "source": "samhälle-9ab4c311-2026-06-19",
             "target": "samhälle-a1d31ab8-2026-06-19",
@@ -2014,17 +1942,113 @@
             "description": "Regional koppling inom kategorin samhälle."
         },
         {
-            "id": "rel-auto-proximity-samhälle-31012727-2026-06-19-samhälle-79659f48-2026-06-19",
-            "source": "samhälle-31012727-2026-06-19",
-            "target": "samhälle-79659f48-2026-06-19",
+            "id": "rel-auto-proximity-samhälle-9ab4c311-2026-06-19-samhälle-237d3758-2026-06-19",
+            "source": "samhälle-9ab4c311-2026-06-19",
+            "target": "samhälle-237d3758-2026-06-19",
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
         },
         {
-            "id": "rel-auto-proximity-samhälle-5b1b23d0-2026-06-19-samhälle-11537bd9-2026-06-19",
-            "source": "samhälle-5b1b23d0-2026-06-19",
-            "target": "samhälle-11537bd9-2026-06-19",
+            "id": "rel-auto-proximity-samhälle-9ab4c311-2026-06-19-samhälle-a23dbdeb-2026-06-19",
+            "source": "samhälle-9ab4c311-2026-06-19",
+            "target": "samhälle-a23dbdeb-2026-06-19",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-9ab4c311-2026-06-19-samhälle-50d4e434-2026-06-19",
+            "source": "samhälle-9ab4c311-2026-06-19",
+            "target": "samhälle-50d4e434-2026-06-19",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-08a2fb87-2026-06-19-samhälle-4efd9744-2026-06-19",
+            "source": "samhälle-08a2fb87-2026-06-19",
+            "target": "samhälle-4efd9744-2026-06-19",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-08a2fb87-2026-06-19-samhälle-53cdd2c0-2026-06-19",
+            "source": "samhälle-08a2fb87-2026-06-19",
+            "target": "samhälle-53cdd2c0-2026-06-19",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-a1d31ab8-2026-06-19-samhälle-237d3758-2026-06-19",
+            "source": "samhälle-a1d31ab8-2026-06-19",
+            "target": "samhälle-237d3758-2026-06-19",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-a1d31ab8-2026-06-19-samhälle-a23dbdeb-2026-06-19",
+            "source": "samhälle-a1d31ab8-2026-06-19",
+            "target": "samhälle-a23dbdeb-2026-06-19",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-a1d31ab8-2026-06-19-samhälle-50d4e434-2026-06-19",
+            "source": "samhälle-a1d31ab8-2026-06-19",
+            "target": "samhälle-50d4e434-2026-06-19",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-237d3758-2026-06-19-samhälle-a23dbdeb-2026-06-19",
+            "source": "samhälle-237d3758-2026-06-19",
+            "target": "samhälle-a23dbdeb-2026-06-19",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-237d3758-2026-06-19-samhälle-50d4e434-2026-06-19",
+            "source": "samhälle-237d3758-2026-06-19",
+            "target": "samhälle-50d4e434-2026-06-19",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-a23dbdeb-2026-06-19-samhälle-50d4e434-2026-06-19",
+            "source": "samhälle-a23dbdeb-2026-06-19",
+            "target": "samhälle-50d4e434-2026-06-19",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-639410f6-2026-06-19-samhälle-b13b8ca7-2026-06-19",
+            "source": "samhälle-639410f6-2026-06-19",
+            "target": "samhälle-b13b8ca7-2026-06-19",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-c05b1ca5-2026-06-19-samhälle-6023ecb6-2026-06-19",
+            "source": "samhälle-c05b1ca5-2026-06-19",
+            "target": "samhälle-6023ecb6-2026-06-19",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-4efd9744-2026-06-19-samhälle-53cdd2c0-2026-06-19",
+            "source": "samhälle-4efd9744-2026-06-19",
+            "target": "samhälle-53cdd2c0-2026-06-19",
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
@@ -2032,27 +2056,25 @@
     ],
     "meta_analysis": {
         "top_themes": [
-            "EU-basen öppnar ”diplomatisk kanal” till Moskva",
-            "Nato stärker och moderniserar sina kärnvapen",
+            "EU-toppen har öppnat ”diplomatisk kanal” till Kreml",
+            "Nato ska modernisera sina kärnvapen: ”Nödvändigt för att säkra fred”",
             "Följ med till byn som skyddat sig från globala energikriser",
-            "Iran ökar förtrycket – maktskifte långt borta"
+            "Tre dödade i amerikansk båtattack i Stilla havet"
         ],
         "geographic_distribution": {
-            "Okänt": 11,
+            "Okänt": 17,
             "Global": 12,
             "Europa": 1,
+            "Usa": 1,
             "Iran": 4,
-            "Usa": 3,
             "Storbritannien": 2,
             "Norge": 2,
+            "Ukraina": 1,
             "Sverige": 12,
-            "Philippines": 2,
             "Israel": 1,
-            "United States": 1,
-            "United Kingdom": 2,
-            "Canada": 1,
-            "Kina": 1
+            "United Kingdom": 1,
+            "Canada": 1
         },
-        "gaia_daily_brief": "Säkerhetsläget domineras av eu-basen öppnar ”diplomatisk kanal” till moskva, medan den geopolitiska kartan spänner över 14 länder/regioner. För en djupgående bild, klicka på markörerna och läs gAIas sammanfattningar."
+        "gaia_daily_brief": "Säkerhetsläget domineras av eu-toppen har öppnat ”diplomatisk kanal” till kreml, medan den geopolitiska kartan spänner över 12 länder/regioner. För en djupgående bild, klicka på markörerna och läs gAIas sammanfattningar."
     }
 }
