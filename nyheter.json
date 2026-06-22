@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-06-21T05:46:47.281717+00:00",
+    "generated_at": "2026-06-22T03:16:36.392953+00:00",
     "workflow_version": "2.3",
     "source_info": {
         "swedish_rss": [
@@ -11,11 +11,93 @@
         ],
         "api_plan": "NewsData.io Active",
         "total_raw_articles": 61,
-        "deduplicated_count": 45
+        "deduplicated_count": 52
     },
     "news": [
         {
-            "id": "konflikt-c5bfd5e8-2026-06-21",
+            "id": "konflikt-ae339178-2026-06-22",
+            "title": "Fredsförhandlingarna i Schweiz – detta vet vi",
+            "location": {
+                "city": "Iran",
+                "country": "Iran",
+                "lat": 35.69,
+                "lon": 51.39,
+                "precision": "country",
+                "bbox": [
+                    50.39,
+                    34.69,
+                    52.39,
+                    36.69
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/fredsforhandlingarna-i-schweiz-detta-vet-vi"
+                },
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/fredsforhandlingarna-i-schweiz-detta-vet-vi"
+                }
+            ],
+            "source_count": 2,
+            "score": 9.5,
+            "tier": 1,
+            "category": "konflikt",
+            "sentiment": "neutral",
+            "summary": "Under söndagen inleddes förhandlingarna om ett fredsavtal mellan USA och Iran. Mitt under samtalen riktade president Trump ett hot över sociala medier – vilket ska ha fått den iranska förhandlingsdelegationen att lämna i en protest. ”Vi kommer attackera Iran ännu hårdare”, skrev han.",
+            "published_at": "Sun, 21 Jun 2026 23:56:19 +0200",
+            "multi_source_verified": true,
+            "article_generated": true,
+            "has_article": true,
+            "gaia_synthesis": "Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.",
+            "article_content": "\n        <p class=\"lead\">Under söndagen inleddes förhandlingarna om ett fredsavtal mellan USA och Iran. Mitt under samtalen riktade president Trump ett hot över sociala medier – vilket ska ha fått den iranska förhandlingsdelegationen att lämna i en protest. ”Vi kommer attackera Iran ännu hårdare”, skrev han.</p>\n        <h2>Bakgrund</h2>\n        <p>Händelsen är kulmen på en längre tids utveckling där spänningarna byggts upp gradvis. Flera experter har tidigare varnat för att situationen skulle kunna eskalera om inte diplomatiska eller förebyggande åtgärder vidtogs i tid.</p>\n        <h2>Analys</h2>\n        <p>Konsekvenserna av detta kan bli långtgående, inte bara för de direkt inblandade parterna utan även för det omgivande samhället och den internationella gemenskapen. Det krävs nu en noggrann övervakning av hur aktörerna agerar härnäst.</p>\n        <div class=\"article-synthesis\">\n            <div class=\"article-synthesis-header\">\n                <div class=\"icon\">🤖</div>\n                <span>gAIa-reflektion</span>\n            </div>\n            <div class=\"article-synthesis-body\">\n                <p>Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.</p>\n            </div>\n        </div>\n        <h2>Vidare läsning</h2>\n        <p>För mer information, se den ursprungliga källan: <a href=\"https://www.svt.se/nyheter/utrikes/fredsforhandlingarna-i-schweiz-detta-vet-vi\" target=\"_blank\">SVT Utrikes</a>.</p>\n    "
+        },
+        {
+            "id": "konflikt-8794885d-2026-06-22",
+            "title": "Explosion vid industrizon i Qatar",
+            "location": {
+                "city": "Qatar",
+                "country": "",
+                "lat": 25.3336984,
+                "lon": 51.2295295,
+                "precision": "city",
+                "bbox": [
+                    50.5675,
+                    24.4707534,
+                    52.638011,
+                    26.434565
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/explosion-vid-industrizon-i-qatar"
+                },
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/explosion-vid-industrizon-i-qatar"
+                }
+            ],
+            "source_count": 2,
+            "score": 9.5,
+            "tier": 1,
+            "category": "konflikt",
+            "sentiment": "neutral",
+            "summary": "En explosion har inträffat i industrizonen Ras Laffan i Qatar, där världens största fossilgasterminal är belägen.",
+            "published_at": "Sun, 21 Jun 2026 22:31:29 +0200",
+            "multi_source_verified": true,
+            "article_generated": true,
+            "has_article": true,
+            "gaia_synthesis": "Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.",
+            "article_content": "\n        <p class=\"lead\">En explosion har inträffat i industrizonen Ras Laffan i Qatar, där världens största fossilgasterminal är belägen.</p>\n        <h2>Bakgrund</h2>\n        <p>Händelsen är kulmen på en längre tids utveckling där spänningarna byggts upp gradvis. Flera experter har tidigare varnat för att situationen skulle kunna eskalera om inte diplomatiska eller förebyggande åtgärder vidtogs i tid.</p>\n        <h2>Analys</h2>\n        <p>Konsekvenserna av detta kan bli långtgående, inte bara för de direkt inblandade parterna utan även för det omgivande samhället och den internationella gemenskapen. Det krävs nu en noggrann övervakning av hur aktörerna agerar härnäst.</p>\n        <div class=\"article-synthesis\">\n            <div class=\"article-synthesis-header\">\n                <div class=\"icon\">🤖</div>\n                <span>gAIa-reflektion</span>\n            </div>\n            <div class=\"article-synthesis-body\">\n                <p>Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.</p>\n            </div>\n        </div>\n        <h2>Vidare läsning</h2>\n        <p>För mer information, se den ursprungliga källan: <a href=\"https://www.svt.se/nyheter/utrikes/explosion-vid-industrizon-i-qatar\" target=\"_blank\">SVT Utrikes</a>.</p>\n    "
+        },
+        {
+            "id": "konflikt-c5bfd5e8-2026-06-22",
             "title": "Efter Israels attacker: ”Många kroppar i rasmassorna”",
             "location": {
                 "city": "Israel",
@@ -42,120 +124,52 @@
             "tier": 1,
             "category": "konflikt",
             "sentiment": "negative",
-            "summary": "Efter intensiva israeliska flyganfall mot Gaza, särskilt i flyktingläger och bostadsområden, rapporterar räddningsarbetare om stora förluster och svårigheter att nå överlevande. Många kroppar uppges ligga kvar under rasmassorna till följd av akut resursbrist.",
-            "published_at": "2026-06-21T07:33:34.894112+02:00",
+            "summary": "",
+            "published_at": "2026-06-22T05:16:06.361400+02:00",
             "multi_source_verified": false,
             "article_generated": true,
             "has_article": true,
-            "gaia_synthesis": "Den fortsatta intensiteten i de militära operationerna i Gaza belyser en allvarlig asymmetri där civil infrastruktur drabbas hårdast. Att räddningsinsatser förhindras av resursbrist och rasmassor visar hur krigföringen i tätbefolkade områden skapar långvariga mänskliga katastrofer och sätter internationella humanitära normer ur spel."
+            "gaia_synthesis": "Eskaleringen i Mellanöstern, särskilt med direkt amerikansk inblandning, ökar risken för ett regionalt storkrig. Den bräckliga geopolitiska balansen utmanas ytterligare av inrikespolitiska spänningar i de inblandade länderna.",
+            "article_content": "\n        <p class=\"lead\"></p>\n        <h2>Bakgrund</h2>\n        <p>Händelsen är kulmen på en längre tids utveckling där spänningarna byggts upp gradvis. Flera experter har tidigare varnat för att situationen skulle kunna eskalera om inte diplomatiska eller förebyggande åtgärder vidtogs i tid.</p>\n        <h2>Analys</h2>\n        <p>Konsekvenserna av detta kan bli långtgående, inte bara för de direkt inblandade parterna utan även för det omgivande samhället och den internationella gemenskapen. Det krävs nu en noggrann övervakning av hur aktörerna agerar härnäst.</p>\n        <div class=\"article-synthesis\">\n            <div class=\"article-synthesis-header\">\n                <div class=\"icon\">🤖</div>\n                <span>gAIa-reflektion</span>\n            </div>\n            <div class=\"article-synthesis-body\">\n                <p>Eskaleringen i Mellanöstern, särskilt med direkt amerikansk inblandning, ökar risken för ett regionalt storkrig. Den bräckliga geopolitiska balansen utmanas ytterligare av inrikespolitiska spänningar i de inblandade länderna.</p>\n            </div>\n        </div>\n        <h2>Vidare läsning</h2>\n        <p>För mer information, se den ursprungliga källan: <a href=\"https://www.sverigesradio.se/artikel/9242995\" target=\"_blank\">SR Ekot</a>.</p>\n    "
         },
         {
-            "id": "konflikt-51b43e62-2026-06-21",
-            "title": "Sara reste från Sverige till Paris för att demonstrera: ”Krig löser inget”",
+            "id": "försvar-e17949a3-2026-06-22",
+            "title": "Se upp Sverige! Japan storspelade mot Tunisien: ”Oroväckande”",
             "location": {
-                "city": "Paris",
-                "country": "",
-                "lat": 48.8566,
-                "lon": 2.3522,
-                "precision": "city",
-                "bbox": [
-                    2.2521999999999998,
-                    48.7566,
-                    2.4522,
-                    48.9566
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9242909"
-                }
-            ],
-            "source_count": 1,
-            "score": 8.0,
-            "tier": 1,
-            "category": "konflikt",
-            "sentiment": "neutral",
-            "summary": "Svenska fredsaktivisten Sara reste till Paris för att delta i en storskalig europeisk fredsdemonstration mot globala konflikter. Med budskapet ”Krig löser inget” vill deltagarna pressa ledare att prioritera diplomatiska lösningar.",
-            "published_at": "2026-06-21T07:33:34.894112+02:00",
-            "multi_source_verified": false,
-            "article_generated": true,
-            "has_article": true,
-            "gaia_synthesis": "Transnationell fredsaktivism i Europa reflekterar en djup folklig oro över den ökande globala militariseringen. Att enskilda medborgare söker sig över gränserna för att bilda gemensam front understryker civilsamhällets vilja att utmana rådande försvarsdoktriner och söka alternativa vägar till kollektiv säkerhet genom gränsöverskridande solidaritet."
-        },
-        {
-            "id": "konflikt-1183e170-2026-06-21",
-            "title": "Vägbomber dödar sju i Pakistan",
-            "location": {
-                "city": "Pakistan",
-                "country": "Pakistan",
-                "lat": 33.69,
-                "lon": 73.04,
+                "city": "Sverige",
+                "country": "Sverige",
+                "lat": 59.33,
+                "lon": 18.07,
                 "precision": "country",
                 "bbox": [
-                    72.04,
-                    32.69,
-                    74.04,
-                    34.69
+                    17.07,
+                    58.33,
+                    19.07,
+                    60.33
                 ]
             },
             "sources": [
                 {
-                    "name": "SVT Utrikes",
+                    "name": "SVT Nyheter",
                     "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/vagbomber-dodar-sju-i-pakistan"
+                    "url": "https://www.svt.se/sport/fotboll/se-upp-sverige-japan-storspelade-mot-tunisien-orovackande"
                 }
             ],
             "source_count": 1,
             "score": 8.0,
             "tier": 1,
-            "category": "konflikt",
-            "sentiment": "negative",
-            "summary": "Minst sju personer har dödats efter att två vägbomber exploderat i den oroliga Khyber Pakhtunkhwa-provinsen i Pakistan. Attentaten pekar på fortsatt hög aktivitet från militanta grupper i gränsområdet.",
-            "published_at": "Sat, 20 Jun 2026 10:59:17 +0200",
-            "multi_source_verified": false,
-            "article_generated": true,
-            "has_article": true,
-            "gaia_synthesis": "De dödliga vägbomberna i Pakistan belyser de ihållande säkerhetsutmaningarna i federalt administrerade stamområden där statlig kontroll är svag. Dynamiken speglar hur lokala militanta fraktioner utnyttjar gränsernas porositet och historiska spänningar för att destabilisera regionen, vilket kräver djupgående politiska reformer vid sidan av militära insatser."
-        },
-        {
-            "id": "konflikt-7bae52ec-2026-06-21",
-            "title": "Undantagstillstånd utlyst i Bolivia",
-            "location": {
-                "city": "Bolivia",
-                "country": "Bolivia",
-                "lat": -16.2902,
-                "lon": -63.5887,
-                "precision": "country",
-                "bbox": [
-                    -64.5887,
-                    -17.2902,
-                    -62.5887,
-                    -15.290199999999999
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/undantagstillstand-utlyst-i-bolivia"
-                }
-            ],
-            "source_count": 1,
-            "score": 8.0,
-            "tier": 1,
-            "category": "konflikt",
+            "category": "försvar",
             "sentiment": "neutral",
-            "summary": "Bolivias president har utlyst undantagstillstånd efter omfattande folkliga protester och vägblockader orsakade av ekonomisk kris och bränslebrist, vilket ger militären utökade befogenheter.",
-            "published_at": "Sat, 20 Jun 2026 08:41:39 +0200",
+            "summary": "2–2 mot Nederländerna. Och nu: 4–0 mot Tunisien. Japan imponerar stort i fotbolls-VM, inför den svenska ödesmatchen mot laget natten till fredag. – Jag tänker på det svenska försvarsspelet, det finns mycket att se upp med, säger SVT:s kommentator Pelle Bäckman.",
+            "published_at": "Sun, 21 Jun 2026 07:55:20 +0200",
             "multi_source_verified": false,
             "article_generated": true,
             "has_article": true,
-            "gaia_synthesis": "Införandet av undantagstillstånd i Bolivia är ett tecken på en djupgående socioekonomisk och politisk kris där staten tar till tvångsmedel när de ekonomiska verktygen sviker. Det visar hur snabbt resursbrist, särskilt bränsle och valuta, kan omvandlas till akuta hot mot statens stabilitet och leda till demokratisk tillbakagång genom militarisering av ordningsmakten."
+            "gaia_synthesis": "Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.",
+            "article_content": "\n        <p class=\"lead\">2–2 mot Nederländerna. Och nu: 4–0 mot Tunisien. Japan imponerar stort i fotbolls-VM, inför den svenska ödesmatchen mot laget natten till fredag. – Jag tänker på det svenska försvarsspelet, det finns mycket att se upp med, säger SVT:s kommentator Pelle Bäckman.</p>\n        <h2>Bakgrund</h2>\n        <p>Händelsen är kulmen på en längre tids utveckling där spänningarna byggts upp gradvis. Flera experter har tidigare varnat för att situationen skulle kunna eskalera om inte diplomatiska eller förebyggande åtgärder vidtogs i tid.</p>\n        <h2>Analys</h2>\n        <p>Konsekvenserna av detta kan bli långtgående, inte bara för de direkt inblandade parterna utan även för det omgivande samhället och den internationella gemenskapen. Det krävs nu en noggrann övervakning av hur aktörerna agerar härnäst.</p>\n        <div class=\"article-synthesis\">\n            <div class=\"article-synthesis-header\">\n                <div class=\"icon\">🤖</div>\n                <span>gAIa-reflektion</span>\n            </div>\n            <div class=\"article-synthesis-body\">\n                <p>Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.</p>\n            </div>\n        </div>\n        <h2>Vidare läsning</h2>\n        <p>För mer information, se den ursprungliga källan: <a href=\"https://www.svt.se/sport/fotboll/se-upp-sverige-japan-storspelade-mot-tunisien-orovackande\" target=\"_blank\">SVT Nyheter</a>.</p>\n    "
         },
         {
-            "id": "samhälle-6afcde12-2026-06-21",
+            "id": "samhälle-6afcde12-2026-06-22",
             "title": "En död efter villabrand i Svenljunga",
             "location": {
                 "city": "Svenljunga",
@@ -192,16 +206,181 @@
             "tier": 1,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "En allvarlig brand i Svenljunga krävde ett dödsoffer och skadade två personer under natten. Parallellt rapporteras om en dödlig tågolycka utanför München under gårdagen.",
-            "published_at": "2026-06-21T07:33:34.894112+02:00",
+            "summary": "",
+            "published_at": "2026-06-22T05:16:06.361400+02:00",
             "multi_source_verified": true,
             "article_generated": true,
             "has_article": true,
-            "gaia_synthesis": "Tragedierna i Svenljunga och München belyser vikten av snabba och samordnade räddningsinsatser vid plötsliga olyckshändelser. De understryker hur lokala katastrofer ställer akuta krav på räddningstjänstens beredskap och vikten av förebyggande brandskydd och transportsäkerhetsåtgärder."
+            "gaia_synthesis": "Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.",
+            "article_content": "\n        <p class=\"lead\"></p>\n        <h2>Bakgrund</h2>\n        <p>Händelsen är kulmen på en längre tids utveckling där spänningarna byggts upp gradvis. Flera experter har tidigare varnat för att situationen skulle kunna eskalera om inte diplomatiska eller förebyggande åtgärder vidtogs i tid.</p>\n        <h2>Analys</h2>\n        <p>Konsekvenserna av detta kan bli långtgående, inte bara för de direkt inblandade parterna utan även för det omgivande samhället och den internationella gemenskapen. Det krävs nu en noggrann övervakning av hur aktörerna agerar härnäst.</p>\n        <div class=\"article-synthesis\">\n            <div class=\"article-synthesis-header\">\n                <div class=\"icon\">🤖</div>\n                <span>gAIa-reflektion</span>\n            </div>\n            <div class=\"article-synthesis-body\">\n                <p>Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.</p>\n            </div>\n        </div>\n        <h2>Vidare läsning</h2>\n        <p>För mer information, se den ursprungliga källan: <a href=\"https://www.sverigesradio.se/artikel/9243022\" target=\"_blank\">SR Ekot</a>.</p>\n    "
         },
         {
-            "id": "brott-4ab0a08f-2026-06-21",
-            "title": "Svensk gripen i Colombia för narkotikasmuggling",
+            "id": "samhälle-93da4dde-2026-06-22",
+            "title": "Förhandlingarna mellan Iran och USA har startat",
+            "location": {
+                "city": "Iran",
+                "country": "Iran",
+                "lat": 35.69,
+                "lon": 51.39,
+                "precision": "country",
+                "bbox": [
+                    50.39,
+                    34.69,
+                    52.39,
+                    36.69
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9243142"
+                },
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9243018"
+                }
+            ],
+            "source_count": 2,
+            "score": 7.5,
+            "tier": 1,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "published_at": "2026-06-22T05:16:06.361400+02:00",
+            "multi_source_verified": true,
+            "article_generated": true,
+            "has_article": true,
+            "gaia_synthesis": "Eskaleringen i Mellanöstern, särskilt med direkt amerikansk inblandning, ökar risken för ett regionalt storkrig. Den bräckliga geopolitiska balansen utmanas ytterligare av inrikespolitiska spänningar i de inblandade länderna.",
+            "article_content": "\n        <p class=\"lead\"></p>\n        <h2>Bakgrund</h2>\n        <p>Händelsen är kulmen på en längre tids utveckling där spänningarna byggts upp gradvis. Flera experter har tidigare varnat för att situationen skulle kunna eskalera om inte diplomatiska eller förebyggande åtgärder vidtogs i tid.</p>\n        <h2>Analys</h2>\n        <p>Konsekvenserna av detta kan bli långtgående, inte bara för de direkt inblandade parterna utan även för det omgivande samhället och den internationella gemenskapen. Det krävs nu en noggrann övervakning av hur aktörerna agerar härnäst.</p>\n        <div class=\"article-synthesis\">\n            <div class=\"article-synthesis-header\">\n                <div class=\"icon\">🤖</div>\n                <span>gAIa-reflektion</span>\n            </div>\n            <div class=\"article-synthesis-body\">\n                <p>Eskaleringen i Mellanöstern, särskilt med direkt amerikansk inblandning, ökar risken för ett regionalt storkrig. Den bräckliga geopolitiska balansen utmanas ytterligare av inrikespolitiska spänningar i de inblandade länderna.</p>\n            </div>\n        </div>\n        <h2>Vidare läsning</h2>\n        <p>För mer information, se den ursprungliga källan: <a href=\"https://www.sverigesradio.se/artikel/9243142\" target=\"_blank\">SR Ekot</a>.</p>\n    "
+        },
+        {
+            "id": "samhälle-ba48e575-2026-06-22",
+            "title": "Abelardo de la Espriella går mot valseger i Colombia",
+            "location": {
+                "city": "Espriella",
+                "country": "",
+                "lat": 1.4830183,
+                "lon": -78.6511167,
+                "precision": "city",
+                "bbox": [
+                    -78.6711167,
+                    1.4630183,
+                    -78.6311167,
+                    1.5030183
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/presidentvalet-i-colombia-snart-stanger-vallokalerna"
+                },
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/presidentvalet-i-colombia-snart-stanger-vallokalerna"
+                }
+            ],
+            "source_count": 2,
+            "score": 7.5,
+            "tier": 1,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Högerkandidaten och Trumpfavoriten Abelardo de la Espriella har utropat sig till segrare i Colombias presidentval. ”Stort, han vann”, skriver Donald Trump på Truth social.",
+            "published_at": "Sun, 21 Jun 2026 21:45:03 +0200",
+            "multi_source_verified": true,
+            "article_generated": true,
+            "has_article": true,
+            "gaia_synthesis": "Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.",
+            "article_content": "\n        <p class=\"lead\">Högerkandidaten och Trumpfavoriten Abelardo de la Espriella har utropat sig till segrare i Colombias presidentval. ”Stort, han vann”, skriver Donald Trump på Truth social.</p>\n        <h2>Bakgrund</h2>\n        <p>Händelsen är kulmen på en längre tids utveckling där spänningarna byggts upp gradvis. Flera experter har tidigare varnat för att situationen skulle kunna eskalera om inte diplomatiska eller förebyggande åtgärder vidtogs i tid.</p>\n        <h2>Analys</h2>\n        <p>Konsekvenserna av detta kan bli långtgående, inte bara för de direkt inblandade parterna utan även för det omgivande samhället och den internationella gemenskapen. Det krävs nu en noggrann övervakning av hur aktörerna agerar härnäst.</p>\n        <div class=\"article-synthesis\">\n            <div class=\"article-synthesis-header\">\n                <div class=\"icon\">🤖</div>\n                <span>gAIa-reflektion</span>\n            </div>\n            <div class=\"article-synthesis-body\">\n                <p>Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.</p>\n            </div>\n        </div>\n        <h2>Vidare läsning</h2>\n        <p>För mer information, se den ursprungliga källan: <a href=\"https://www.svt.se/nyheter/utrikes/presidentvalet-i-colombia-snart-stanger-vallokalerna\" target=\"_blank\">SVT Utrikes</a>.</p>\n    "
+        },
+        {
+            "id": "samhälle-6053d432-2026-06-22",
+            "title": "Trump: Spegeldammen ska repareras – igen",
+            "location": {
+                "city": "Washington",
+                "country": "",
+                "lat": 38.9072,
+                "lon": -77.0369,
+                "precision": "city",
+                "bbox": [
+                    -77.1369,
+                    38.8072,
+                    -76.93690000000001,
+                    39.007200000000005
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/trump-spegeldammen-ska-repareras-igen"
+                },
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/trump-spegeldammen-ska-repareras-igen"
+                }
+            ],
+            "source_count": 2,
+            "score": 7.5,
+            "tier": 1,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Mångmiljonrenoveringen av spegeldammen vid Lincoln Memorial i Washington har rört upp känslor efter att vattnet färgats grönt av alger. Nu ska dammen tömmas och repareras – igen, meddelar USA:s president på sociala medier. Så sent som i helgen greps flera personer vid dammen.",
+            "published_at": "Sun, 21 Jun 2026 21:40:12 +0200",
+            "multi_source_verified": true,
+            "article_generated": true,
+            "has_article": true,
+            "gaia_synthesis": "Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.",
+            "article_content": "\n        <p class=\"lead\">Mångmiljonrenoveringen av spegeldammen vid Lincoln Memorial i Washington har rört upp känslor efter att vattnet färgats grönt av alger. Nu ska dammen tömmas och repareras – igen, meddelar USA:s president på sociala medier. Så sent som i helgen greps flera personer vid dammen.</p>\n        <h2>Bakgrund</h2>\n        <p>Händelsen är kulmen på en längre tids utveckling där spänningarna byggts upp gradvis. Flera experter har tidigare varnat för att situationen skulle kunna eskalera om inte diplomatiska eller förebyggande åtgärder vidtogs i tid.</p>\n        <h2>Analys</h2>\n        <p>Konsekvenserna av detta kan bli långtgående, inte bara för de direkt inblandade parterna utan även för det omgivande samhället och den internationella gemenskapen. Det krävs nu en noggrann övervakning av hur aktörerna agerar härnäst.</p>\n        <div class=\"article-synthesis\">\n            <div class=\"article-synthesis-header\">\n                <div class=\"icon\">🤖</div>\n                <span>gAIa-reflektion</span>\n            </div>\n            <div class=\"article-synthesis-body\">\n                <p>Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.</p>\n            </div>\n        </div>\n        <h2>Vidare läsning</h2>\n        <p>För mer information, se den ursprungliga källan: <a href=\"https://www.svt.se/nyheter/utrikes/trump-spegeldammen-ska-repareras-igen\" target=\"_blank\">SVT Utrikes</a>.</p>\n    "
+        },
+        {
+            "id": "samhälle-4458e02b-2026-06-22",
+            "title": "Ord mot ord om Hormuz – svenska rederiet: ”Inväntar klara besked”",
+            "location": {
+                "city": "Hormuzsundet",
+                "country": "Internationellt",
+                "lat": 26.6,
+                "lon": 56.25,
+                "precision": "region",
+                "bbox": [
+                    55.8,
+                    26.0,
+                    56.7,
+                    27.2
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/ord-mot-ord-om-hormuz-svenska-rederiet-invantar-klara-besked"
+                },
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/ord-mot-ord-om-hormuz-svenska-rederiet-invantar-klara-besked"
+                }
+            ],
+            "source_count": 2,
+            "score": 7.5,
+            "tier": 1,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Är Hormuzsundet öppet eller inte? Ord står mot ord när USA säger ”öppet” och Iran ”stängt”. Oklarheten påverkar även rederierna som vidtar försiktigheter. ”Säkerhetsläget är fortsatt osäkert,” skriver Stena Bulks vd till SVT.",
+            "published_at": "Sun, 21 Jun 2026 15:35:02 +0200",
+            "multi_source_verified": true,
+            "article_generated": true,
+            "has_article": true,
+            "gaia_synthesis": "Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.",
+            "article_content": "\n        <p class=\"lead\">Är Hormuzsundet öppet eller inte? Ord står mot ord när USA säger ”öppet” och Iran ”stängt”. Oklarheten påverkar även rederierna som vidtar försiktigheter. ”Säkerhetsläget är fortsatt osäkert,” skriver Stena Bulks vd till SVT.</p>\n        <h2>Bakgrund</h2>\n        <p>Händelsen är kulmen på en längre tids utveckling där spänningarna byggts upp gradvis. Flera experter har tidigare varnat för att situationen skulle kunna eskalera om inte diplomatiska eller förebyggande åtgärder vidtogs i tid.</p>\n        <h2>Analys</h2>\n        <p>Konsekvenserna av detta kan bli långtgående, inte bara för de direkt inblandade parterna utan även för det omgivande samhället och den internationella gemenskapen. Det krävs nu en noggrann övervakning av hur aktörerna agerar härnäst.</p>\n        <div class=\"article-synthesis\">\n            <div class=\"article-synthesis-header\">\n                <div class=\"icon\">🤖</div>\n                <span>gAIa-reflektion</span>\n            </div>\n            <div class=\"article-synthesis-body\">\n                <p>Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.</p>\n            </div>\n        </div>\n        <h2>Vidare läsning</h2>\n        <p>För mer information, se den ursprungliga källan: <a href=\"https://www.svt.se/nyheter/utrikes/ord-mot-ord-om-hormuz-svenska-rederiet-invantar-klara-besked\" target=\"_blank\">SVT Utrikes</a>.</p>\n    "
+        },
+        {
+            "id": "politik-0640e8c4-2026-06-22",
+            "title": "Får inte rösta i riksdagsvalet – trots tretton år i Sverige",
             "location": {
                 "city": "Sverige",
                 "country": "Sverige",
@@ -219,107 +398,56 @@
                 {
                     "name": "SR Ekot",
                     "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9243000"
-                },
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/svensk-kokainsmugglare-gripen-i-colombia"
-                },
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/svensk-kokainsmugglare-gripen-i-colombia"
-                }
-            ],
-            "source_count": 3,
-            "score": 7.5,
-            "tier": 1,
-            "category": "brott",
-            "sentiment": "neutral",
-            "summary": "En svensk medborgare har gripits i Colombia misstänkt för narkotikasmuggling, vilket belyser svenska kriminella nätverks växande globala räckvidd och direkta kopplingar till sydamerikanska karteller.",
-            "published_at": "2026-06-21T07:33:34.894112+02:00",
-            "multi_source_verified": true,
-            "article_generated": true,
-            "has_article": true,
-            "gaia_synthesis": "Gripandet av en svensk narkotikasmugglar i Colombia visar hur nationella brottsnätverk har utvecklats till transnationella aktörer med direkta importkanaler. Det betonar att kampen mot organiserad brottslighet kräver fördjupat internationellt samarbete och underrättelseutbyte för att bryta de globala försörjningskedjorna."
-        },
-        {
-            "id": "samhälle-00c7a88b-2026-06-21",
-            "title": "Drottning Sonja om Mette-Marit: ”Fantastiskt”",
-            "location": {
-                "city": "Norge",
-                "country": "Norge",
-                "lat": 59.91,
-                "lon": 10.75,
-                "precision": "country",
-                "bbox": [
-                    9.75,
-                    58.91,
-                    11.75,
-                    60.91
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/drottning-sonja-om-mette-marit-fantastiskt"
-                },
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/drottning-sonja-om-mette-marit-fantastiskt"
-                }
-            ],
-            "source_count": 2,
-            "score": 7.5,
-            "tier": 1,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "Drottning Sonja har gett lugnande besked om kronprinsessan Mette-Marits hälsotillstånd efter hennes lungtransplantation, vilket hon beskriver som fantastiskt.",
-            "published_at": "Sat, 20 Jun 2026 19:08:46 +0200",
-            "multi_source_verified": true,
-            "article_generated": true,
-            "has_article": true,
-            "gaia_synthesis": "Offentliga uttalanden kring monarkers hälsa balanserar privat integritet med konstitutionell transparens. Lättnaden i det norska kungahuset speglar den personliga tragedi och triumf som transplantationer innebär, samtidigt som det belyser den norska monarkins starka folkliga förankring och symboliska roll."
-        },
-        {
-            "id": "försvar-93cc359b-2026-06-21",
-            "title": "Türkiye exports first-ever warship to NATO and EU member state",
-            "location": {
-                "city": "Turkiet",
-                "country": "Turkiet",
-                "lat": 39.93,
-                "lon": 32.86,
-                "precision": "country",
-                "bbox": [
-                    31.86,
-                    38.93,
-                    33.86,
-                    40.93
-                ]
-            },
-            "sources": [
-                {
-                    "name": "Azernews",
-                    "type": "commercial",
-                    "url": "https://www.azernews.az/region/260019.html"
+                    "url": "https://www.sverigesradio.se/artikel/9241790"
                 }
             ],
             "source_count": 1,
             "score": 7.0,
             "tier": 2,
-            "category": "försvar",
+            "category": "politik",
             "sentiment": "neutral",
-            "summary": "Romania became the first NATO and EU member state to purchase a Turkish-made warship.",
+            "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-20 17:33:00",
+            "published_at": "2026-06-22T05:16:06.361400+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "politik-6c0b932f-2026-06-21",
+            "id": "politik-a2c88070-2026-06-22",
+            "title": "Val i Colombia: ”Aldrig upplevt det så här polariserat”",
+            "location": {
+                "city": "Colombia",
+                "country": "",
+                "lat": 4.099917,
+                "lon": -72.9088133,
+                "precision": "city",
+                "bbox": [
+                    -82.1243611,
+                    -4.2280906,
+                    -66.8511118,
+                    16.0495518
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9243129"
+                }
+            ],
+            "source_count": 1,
+            "score": 7.0,
+            "tier": 2,
+            "category": "politik",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-22T05:16:06.361400+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "politik-6c0b932f-2026-06-22",
             "title": "Grön omställning står på spel – polariserat val i Colombia",
             "location": {
                 "city": "Colombia",
@@ -353,26 +481,26 @@
             "has_article": false
         },
         {
-            "id": "energi-0c2dcf34-2026-06-21",
-            "title": "Familjerna på plats under Sveriges rysarmatch: ”Minne för livet”",
+            "id": "energi-93dc37bf-2026-06-22",
+            "title": "Oljeutsläpp i Göteborg – fåglar fastnade",
             "location": {
-                "city": "Sverige",
+                "city": "Göteborg",
                 "country": "Sverige",
-                "lat": 59.33,
-                "lon": 18.07,
-                "precision": "country",
+                "lat": 57.7089,
+                "lon": 11.9746,
+                "precision": "city",
                 "bbox": [
-                    17.07,
-                    58.33,
-                    19.07,
-                    60.33
+                    11.874600000000001,
+                    57.6089,
+                    12.0746,
+                    57.8089
                 ]
             },
             "sources": [
                 {
                     "name": "SVT Nyheter",
                     "type": "public_service",
-                    "url": "https://www.svt.se/sport/fotboll/familjerna-pa-plats-under-sveriges-rysarmatch-minne-for-livet"
+                    "url": "https://www.svt.se/nyheter/lokalt/vast/oljeutslapp-i-goteborg-faglar-fastnade"
                 }
             ],
             "source_count": 1,
@@ -380,53 +508,48 @@
             "tier": 2,
             "category": "energi",
             "sentiment": "neutral",
-            "summary": "Familjens energi blir betydelsefull under VM. Flera av Sveriges VM-stjärnor kommer att ha nära och kära på plats mot Nederländerna. – Det är otroligt, säger förbundskapten Graham Potter.",
+            "summary": "Stora mängder olja har läckt ut i Kvillebäcken på Hisingen i Göteborg, rapporterar Göteborgs-Posten.",
             "gaia_synthesis": "",
-            "published_at": "Sat, 20 Jun 2026 16:18:30 +0200",
+            "published_at": "Sun, 21 Jun 2026 23:19:41 +0200",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-bc4e8757-2026-06-21",
-            "title": "Uppgifter: Starmer väntas avgå på måndag",
+            "id": "konflikt-259f9221-2026-06-22",
+            "title": "Lebanon death toll rises to 4,106",
             "location": {
-                "city": "Global",
-                "country": "Global",
-                "lat": 0.0,
-                "lon": 0.0,
-                "precision": "global",
-                "bbox": null
+                "city": "Israel",
+                "country": "Israel",
+                "lat": 31.77,
+                "lon": 35.24,
+                "precision": "country",
+                "bbox": [
+                    34.24,
+                    30.77,
+                    36.24,
+                    32.769999999999996
+                ]
             },
             "sources": [
                 {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9242991"
-                },
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/uppgifter-starmer-vantas-avga-pa-mandag"
-                },
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/uppgifter-starmer-vantas-avga-pa-mandag"
+                    "name": "Middleeasteye Net",
+                    "type": "commercial",
+                    "url": "https://www.middleeasteye.net/live-blog/live-blog-update/lebanon-death-toll-rises-2"
                 }
             ],
-            "source_count": 3,
-            "score": 6.5,
+            "source_count": 1,
+            "score": 7.0,
             "tier": 2,
-            "category": "samhälle",
+            "category": "konflikt",
             "sentiment": "neutral",
-            "summary": "",
+            "summary": "Lebanon death toll rises to 4,106 At least 4,106 have been killed and 12,153 wounded since 2 March, according to Lebanon’s Ministry of Public Health. Among those killed were 383 women, 251 children, and 135 medical workers. A man inspects the damage at the site of an Israeli strike that targeted an area in the southern Lebanese city of Nabatieh on 21 June 2026 (Abbas Fakih/AFP)",
             "gaia_synthesis": "",
-            "published_at": "2026-06-21T07:33:34.894112+02:00",
-            "multi_source_verified": true,
+            "published_at": "2026-06-21 15:15:57",
+            "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-27027821-2026-06-21",
+            "id": "samhälle-27027821-2026-06-22",
             "title": "21 juni: Nattens nyheter",
             "location": {
                 "city": "Global",
@@ -446,14 +569,9 @@
                     "name": "SVT Utrikes",
                     "type": "public_service",
                     "url": "https://www.svt.se/nyheter/utrikes/20-juni-nattens-nyheter-loizns"
-                },
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/19-juni-nattens-nyheter-lfnk85"
                 }
             ],
-            "source_count": 3,
+            "source_count": 2,
             "score": 6.0,
             "tier": 2,
             "category": "samhälle",
@@ -465,26 +583,26 @@
             "has_article": false
         },
         {
-            "id": "samhälle-6d749778-2026-06-21",
-            "title": "Förhandlingarna mellan USA och Iran verkar komma igång",
+            "id": "samhälle-f6ea3074-2026-06-22",
+            "title": "Högerkandidat vinner valet i Colombia",
             "location": {
-                "city": "Iran",
-                "country": "Iran",
-                "lat": 35.69,
-                "lon": 51.39,
-                "precision": "country",
+                "city": "Colombia",
+                "country": "",
+                "lat": 4.099917,
+                "lon": -72.9088133,
+                "precision": "city",
                 "bbox": [
-                    50.39,
-                    34.69,
-                    52.39,
-                    36.69
+                    -82.1243611,
+                    -4.2280906,
+                    -66.8511118,
+                    16.0495518
                 ]
             },
             "sources": [
                 {
                     "name": "SR Ekot",
                     "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9243018"
+                    "url": "https://www.sverigesradio.se/artikel/9243190"
                 }
             ],
             "source_count": 1,
@@ -494,12 +612,250 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-21T07:33:34.894112+02:00",
+            "published_at": "2026-06-22T05:16:06.361400+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-f0c3cff6-2026-06-21",
+            "id": "samhälle-1dab3e9d-2026-06-22",
+            "title": "Johana: Oro för Trumps stöd till högerkandidat i Colombia",
+            "location": {
+                "city": "Trumps",
+                "country": "",
+                "lat": -40.3557127,
+                "lon": 175.6088555,
+                "precision": "city",
+                "bbox": [
+                    175.6088055,
+                    -40.3557627,
+                    175.6089055,
+                    -40.3556627
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9243174"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-22T05:16:06.361400+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-2f2ab04e-2026-06-22",
+            "title": "Trump anklagas ligga bakom utredning mot Newsom",
+            "location": {
+                "city": "Newsom",
+                "country": "",
+                "lat": 36.08006,
+                "lon": -86.9972252,
+                "precision": "city",
+                "bbox": [
+                    -87.0172252,
+                    36.06006,
+                    -86.9772252,
+                    36.10006
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9241473"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-22T05:16:06.361400+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-eba2a6c1-2026-06-22",
+            "title": "Exiliranier i USA: ”Tror inte det här är slutet”",
+            "location": {
+                "city": "Usa",
+                "country": "Usa",
+                "lat": 38.91,
+                "lon": -77.04,
+                "precision": "country",
+                "bbox": [
+                    -78.04,
+                    37.91,
+                    -76.04,
+                    39.91
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9242645"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-22T05:16:06.361400+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-c6423051-2026-06-22",
+            "title": "Turister chockas av den svenska sommarvärmen",
+            "location": {
+                "city": "Sverige",
+                "country": "Sverige",
+                "lat": 59.33,
+                "lon": 18.07,
+                "precision": "country",
+                "bbox": [
+                    17.07,
+                    58.33,
+                    19.07,
+                    60.33
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9243148"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-22T05:16:06.361400+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-a596dae9-2026-06-22",
+            "title": "Rädsla inför valet i Colombia – hotmejl till universitet",
+            "location": {
+                "city": "Colombia",
+                "country": "",
+                "lat": 4.099917,
+                "lon": -72.9088133,
+                "precision": "city",
+                "bbox": [
+                    -82.1243611,
+                    -4.2280906,
+                    -66.8511118,
+                    16.0495518
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9243062"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-22T05:16:06.361400+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-5b0cb785-2026-06-22",
+            "title": "Kinas universitet skrotar språk och undervisar i AI",
+            "location": {
+                "city": "Kina",
+                "country": "Kina",
+                "lat": 39.9,
+                "lon": 116.4,
+                "precision": "country",
+                "bbox": [
+                    115.4,
+                    38.9,
+                    117.4,
+                    40.9
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9240584"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-22T05:16:06.361400+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-3b7f6e39-2026-06-22",
+            "title": "Efter Think Pink-skandalen – högarna med avfall ligger kvar",
+            "location": {
+                "city": "Think",
+                "country": "",
+                "lat": 51.4694246,
+                "lon": 7.2661432,
+                "precision": "city",
+                "bbox": [
+                    7.2654106,
+                    51.4690176,
+                    7.2668759,
+                    51.469768
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9241380"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-22T05:16:06.361400+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-f0c3cff6-2026-06-22",
             "title": "Trots förlusten – hoppet lever bland svenska fansen",
             "location": {
                 "city": "Sverige",
@@ -528,133 +884,31 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-21T07:33:34.894112+02:00",
+            "published_at": "2026-06-22T05:16:06.361400+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-3c6ea1c7-2026-06-21",
-            "title": "Besvikna Sverige-fans: ”Exakt det här som inte fick hända”",
+            "id": "samhälle-3c11d94a-2026-06-22",
+            "title": "Kung Charles offentliggör sin deklaration",
             "location": {
-                "city": "Sverige",
-                "country": "Sverige",
-                "lat": 59.33,
-                "lon": 18.07,
-                "precision": "country",
-                "bbox": [
-                    17.07,
-                    58.33,
-                    19.07,
-                    60.33
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9242976"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-21T07:33:34.894112+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-e11f4ff5-2026-06-21",
-            "title": "Iran svarar på bruten vapenvila: Stänger Hormuz igen",
-            "location": {
-                "city": "Iran",
-                "country": "Iran",
-                "lat": 35.69,
-                "lon": 51.39,
-                "precision": "country",
-                "bbox": [
-                    50.39,
-                    34.69,
-                    52.39,
-                    36.69
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9242893"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-21T07:33:34.894112+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-ae3030ae-2026-06-21",
-            "title": "Nu drar ovädret in över Sverige",
-            "location": {
-                "city": "Sverige",
-                "country": "Sverige",
-                "lat": 59.33,
-                "lon": 18.07,
-                "precision": "country",
-                "bbox": [
-                    17.07,
-                    58.33,
-                    19.07,
-                    60.33
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9242786"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-21T07:33:34.894112+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-21ad24bb-2026-06-21",
-            "title": "Värmesmocka och midsommarfirande när fansen laddar upp i Houston",
-            "location": {
-                "city": "Houston",
+                "city": "Charles",
                 "country": "",
-                "lat": 29.7589382,
-                "lon": -95.3676974,
+                "lat": 38.4991611,
+                "lon": -77.027847,
                 "precision": "city",
                 "bbox": [
-                    -95.9097419,
-                    29.5370705,
-                    -95.0120525,
-                    30.1103506
+                    -77.3235261,
+                    38.171328,
+                    -76.6624791,
+                    38.7072682
                 ]
             },
             "sources": [
                 {
                     "name": "SR Ekot",
                     "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9242726"
+                    "url": "https://www.sverigesradio.se/artikel/9243002"
                 }
             ],
             "source_count": 1,
@@ -664,99 +918,31 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-21T07:33:34.894112+02:00",
+            "published_at": "2026-06-22T05:16:06.361400+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "energi-d04f4d5f-2026-06-21",
-            "title": "Solar panel prices crash after fuel cut",
+            "id": "samhälle-f0b326e1-2026-06-22",
+            "title": "Värmeböljan i Europa håller i sig – kan nå delar av Sverige",
             "location": {
-                "city": "Pakistan",
-                "country": "Pakistan",
-                "lat": 33.69,
-                "lon": 73.04,
-                "precision": "country",
+                "city": "Europa",
+                "country": "Europa",
+                "lat": 54.526,
+                "lon": 15.2551,
+                "precision": "region",
                 "bbox": [
-                    72.04,
-                    32.69,
-                    74.04,
-                    34.69
-                ]
-            },
-            "sources": [
-                {
-                    "name": "Daily Times - Latest Pakistan News, World, Busines",
-                    "type": "commercial",
-                    "url": "https://dailytimes.com.pk/1511032/solar-panel-prices-crash-after-fuel-cut/"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "energi",
-            "sentiment": "neutral",
-            "summary": "Solar panel prices have declined in Lahore following a major reduction in petroleum product rates. The price drop is expected to lower renewable energy costs for consumers and businesses. Households planning solar installations and battery purchases are likely to benefit the most. Market sources said prices of solar panels with different wattage capacities have fallen [...]",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-20 17:32:49",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "politik-5247919e-2026-06-21",
-            "title": "Should Israel consider a new method for voting lawmakers into the Knesset? - opinion",
-            "location": {
-                "city": "Israel",
-                "country": "Israel",
-                "lat": 31.77,
-                "lon": 35.24,
-                "precision": "country",
-                "bbox": [
-                    34.24,
-                    30.77,
-                    36.24,
-                    32.769999999999996
-                ]
-            },
-            "sources": [
-                {
-                    "name": "Jpost",
-                    "type": "commercial",
-                    "url": "https://www.jpost.com/opinion/article-899791"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "politik",
-            "sentiment": "neutral",
-            "summary": "In Israel, the voter has no influence on which individuals will serve in the Knesset; thus, the selection and ranking of candidates by the parties is decisive.",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-20 17:32:48",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-78545a8e-2026-06-21",
-            "title": "Svenska supportrar hyllas i Mexiko – efter fina gesten",
-            "location": {
-                "city": "Mexiko-City",
-                "country": "Mexiko",
-                "lat": 19.4326,
-                "lon": -99.1332,
-                "precision": "city",
-                "bbox": [
-                    -99.35,
-                    19.15,
-                    -98.95,
-                    19.55
+                    -25.0,
+                    35.0,
+                    45.0,
+                    70.0
                 ]
             },
             "sources": [
                 {
                     "name": "SVT Utrikes",
                     "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/svenska-supportrar-hyllas-i-mexiko-efter-fina-gesten"
+                    "url": "https://www.svt.se/nyheter/utrikes/varmeboljan-i-europa-haller-i-sig-kan-na-delar-av-sverige"
                 }
             ],
             "source_count": 1,
@@ -764,14 +950,286 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "Över 4 000 svenska supportrar tog sig till mexikanska Monterrey för att stötta landslaget. Men det som nu fått störst uppmärksamhet i mexikanska medier handlar inte om fotbollen, utan om en video där svenska fans kramar en kvinna som demonstrerar utanför arenan.",
+            "summary": "En värmesmocka har slagit till mot Europa och på flera platser väntas temperaturer uppemot 40 grader. Även Sverige ser ut att få känna på Europa-hettan. – Det kan bli 25 till 30 grader i både Svealand och Götaland, säger SVT:s meteorolog Leon Lee.",
             "gaia_synthesis": "",
-            "published_at": "Sat, 20 Jun 2026 12:31:24 +0200",
+            "published_at": "Sun, 21 Jun 2026 14:37:30 +0200",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-5a1040c9-2026-06-21",
+            "id": "samhälle-bc9fe5a3-2026-06-22",
+            "title": "Röd värmevarning – alkoholförbud i Frankrike",
+            "location": {
+                "city": "Europa",
+                "country": "Europa",
+                "lat": 54.526,
+                "lon": 15.2551,
+                "precision": "region",
+                "bbox": [
+                    -25.0,
+                    35.0,
+                    45.0,
+                    70.0
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/rod-varmevarning-alkoholforbud-i-frankrike"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "En värmebölja sveper just nu över stora delar av Europa. Frankrike har utfärdat en röd värmevarning för mer än en tredjedel av landet. – Det som är spektakulärt är inte att det kan nå 40 grader utan att det pågår så länge, under en hel vecka nästan, säger SVT:s meteorolog Leon Lee.",
+            "gaia_synthesis": "",
+            "published_at": "Sun, 21 Jun 2026 10:31:22 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-1634e9a3-2026-06-22",
+            "title": "Jesper Karlström har blivit pappa under VM: ”Försökt trycka bort känslorna”",
+            "location": {
+                "city": "Karlström",
+                "country": "",
+                "lat": 58.6176553,
+                "lon": 15.1730282,
+                "precision": "city",
+                "bbox": [
+                    15.1729782,
+                    58.6176053,
+                    15.1730782,
+                    58.6177053
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/sport/fotboll/jesper-karlstrom-har-blivit-pappa-under-vm-forsokt-trycka-bort-kanslorna"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Än har Jesper Karlström inte träffat sin nyfödda dotter. Längtan är givetvis stor. – Just de jobbiga känslorna har jag försökt trycka bort, säger Blågults VM-mittfältare.",
+            "gaia_synthesis": "",
+            "published_at": "Sun, 21 Jun 2026 21:44:20 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-7d36560b-2026-06-22",
+            "title": "Lamine Yamal gjorde sitt första VM-mål i Spaniens kross mot Saudiarabien",
+            "location": {
+                "city": "Spanien",
+                "country": "Spanien",
+                "lat": 40.42,
+                "lon": -3.7,
+                "precision": "country",
+                "bbox": [
+                    -4.7,
+                    39.42,
+                    -2.7,
+                    41.42
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/sport/fotboll/lamine-yamal-gjorde-sitt-forsta-vm-mal-i-spaniens-kross-mot-saudiarabien"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Lamine Yamal, 18, har gjort sitt första mål i VM. Superstjärnan öppnade målskyttet när Spanien krossade Saudiarabien med 4–0. Han överglänstes dock av Mikel Oyarzabal, 29, som gjorde två mål och en assist i storsegern.",
+            "gaia_synthesis": "",
+            "published_at": "Sun, 21 Jun 2026 20:01:19 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-fc461d9c-2026-06-22",
+            "title": "Allvarlig trafikolycka i Kalix kommun – två döda",
+            "location": {
+                "city": "Kalix",
+                "country": "",
+                "lat": 66.0,
+                "lon": 23.0,
+                "precision": "city",
+                "bbox": [
+                    22.3380412,
+                    65.2880901,
+                    23.8576023,
+                    66.2387974
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/lokalt/norrbotten/allvarlig-trafikolycka-i-kalix-kommun"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "negative",
+            "summary": "Två personer har dött efter en singelolycka i Kalix kommun, uppger polisen. Räddningstjänstens larmoperatör uppger att bil kört ut i terrängen vid olyckan.",
+            "gaia_synthesis": "",
+            "published_at": "Sun, 21 Jun 2026 17:48:10 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-459d2591-2026-06-22",
+            "title": "Fullt utvecklad brand i flerfamiljshus i Bengtsfors",
+            "location": {
+                "city": "Bengtsfors",
+                "country": "",
+                "lat": 59.032659,
+                "lon": 12.219105,
+                "precision": "city",
+                "bbox": [
+                    11.8299924,
+                    58.7495401,
+                    12.4684868,
+                    59.2636923
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/lokalt/vast/brand-i-flerfamiljshus-i-bengtfors"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "När räddningstjänsten kom till platsen slog det lågor ut ur ett fönster. Lägenheten i Bengtsfors blev helt övertänd efter att en brand startat i en tvättmaskin. Så vitt känt ska inga personer varit kvar i lägenheten när branden tagit fart.",
+            "gaia_synthesis": "",
+            "published_at": "Sun, 21 Jun 2026 16:18:54 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-22d104be-2026-06-22",
+            "title": "Person påkörd av lastbil på E14 i Stöde – allvarligt skadad",
+            "location": {
+                "city": "Sundsvall",
+                "country": "Sverige",
+                "lat": 62.3908,
+                "lon": 17.3069,
+                "precision": "city",
+                "bbox": [
+                    17.206899999999997,
+                    62.2908,
+                    17.4069,
+                    62.4908
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/lokalt/vasternorrland/trafikolycka-pa-e14-i-stode-utanfor-sundsvall-person-pakord"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "En trafikolycka inträffade på söndag eftermiddag vid Stöde på E14 väster om Sundsvall. En person har blivit påkörd av en lastbil och vårdas för allvarliga skador.",
+            "gaia_synthesis": "",
+            "published_at": "Sun, 21 Jun 2026 15:43:03 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-ddcf2345-2026-06-22",
+            "title": "Två fullt utvecklade villabränder i Sunne",
+            "location": {
+                "city": "Sunne",
+                "country": "",
+                "lat": 59.85,
+                "lon": 13.15,
+                "precision": "city",
+                "bbox": [
+                    12.5847057,
+                    59.6512415,
+                    13.387145,
+                    60.1228674
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/lokalt/varmland/fullt-utvecklad-villabrand-utanfor-sunne"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Strax efter 14 på söndagseftermiddagen larmades räddningstjänsten till Öjenäs i Sunne kommun gällande en villabrand. Strax därefter kom ytterligare ett larm om en brand.",
+            "gaia_synthesis": "",
+            "published_at": "Sun, 21 Jun 2026 14:38:56 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-fab60934-2026-06-22",
+            "title": "Så går Sverige vidare i fotbolls-VM – kan möta Norge",
+            "location": {
+                "city": "Sverige",
+                "country": "Sverige",
+                "lat": 59.33,
+                "lon": 18.07,
+                "precision": "country",
+                "bbox": [
+                    17.07,
+                    58.33,
+                    19.07,
+                    60.33
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/sport/fotboll/trots-overkorningen-sa-gar-sverige-vidare-i-vm"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Frankrike, Brasilien, eller... Norge? Efter svenska storförlusten mot Nederländerna ser slutspelsmöjligheterna tuffa ut. Vilka kan det bli i sextondelsfinal egentligen – om Blågult ens når dit?",
+            "gaia_synthesis": "",
+            "published_at": "Sun, 21 Jun 2026 07:54:50 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-5a1040c9-2026-06-22",
             "title": "Elin kapade stuprören – fick 10 000 kronor i belöning",
             "location": {
                 "city": "Malmö",
@@ -805,7 +1263,7 @@
             "has_article": false
         },
         {
-            "id": "samhälle-2938ec69-2026-06-21",
+            "id": "samhälle-2938ec69-2026-06-22",
             "title": "Taxibeställning i Luleå slutade i misshandel – se filmen",
             "location": {
                 "city": "Luleå",
@@ -839,173 +1297,8 @@
             "has_article": false
         },
         {
-            "id": "samhälle-a6a2cebf-2026-06-21",
-            "title": "Storsatsning för att förhindra gängrekrytering – ny polisoperation i Värmland",
-            "location": {
-                "city": "Värmland",
-                "country": "",
-                "lat": 59.8907917,
-                "lon": 13.2949215,
-                "precision": "city",
-                "bbox": [
-                    11.6911282,
-                    58.725326,
-                    14.475715,
-                    61.0560011
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/lokalt/varmland/storsatsning-for-att-forhindra-gangrekrytering-ny-polisoperation-i-varmland"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "Polisen trappar nu upp arbetet med att stoppa rekryteringen av unga till kriminella gäng. Genom den nationella operationen Augere ska alla lokalpolisområden i länet samarbeta med kommunerna. – I Hagfors och i norra Värmland har vi flera exempel där barn och unga blivit involverade i brottslig verksamhet, säger Henrik Gustavsson, kommunpolis i norra Värmland.",
-            "gaia_synthesis": "",
-            "published_at": "Sun, 21 Jun 2026 05:30:08 +0200",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-a09b1c48-2026-06-21",
-            "title": "Nederländerna förvånas över spådomen: ”Förstår inte varför”",
-            "location": {
-                "city": "Nederländerna",
-                "country": "Nederländerna",
-                "lat": 52.37,
-                "lon": 4.9,
-                "precision": "country",
-                "bbox": [
-                    3.9000000000000004,
-                    51.37,
-                    5.9,
-                    53.37
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/sport/fotboll/nederlanderna-forvanas-over-spadomen-forstar-inte-varfor"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "Är Nederländerna en favorit till VM-guldet? Enligt viss internationell press har de bollats upp som kandidat. – Vi förstår inte varför, säger Jesper Langbroek, reporter på tidskriften ELF Voetbal.",
-            "gaia_synthesis": "",
-            "published_at": "Sat, 20 Jun 2026 14:04:02 +0200",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-b834b861-2026-06-21",
-            "title": "Sveriges djärva inställning: ”Ska absolut våga vara offensiva”",
-            "location": {
-                "city": "Sverige",
-                "country": "Sverige",
-                "lat": 59.33,
-                "lon": 18.07,
-                "precision": "country",
-                "bbox": [
-                    17.07,
-                    58.33,
-                    19.07,
-                    60.33
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/sport/fotboll/sveriges-djarva-installning-ska-absolut-vaga-vara-offensiva"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "Blågult mot toppnationen Nederländerna. Med en tydlig hållning. – Jag tycker egentligen vi ska köra på, säger Daniel Svensson till SVT Sport.",
-            "gaia_synthesis": "",
-            "published_at": "Sat, 20 Jun 2026 10:57:16 +0200",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-cba37467-2026-06-21",
-            "title": "”Udda” avsparkstid för Sverige: ”Inte det skönaste”",
-            "location": {
-                "city": "Sverige",
-                "country": "Sverige",
-                "lat": 59.33,
-                "lon": 18.07,
-                "precision": "country",
-                "bbox": [
-                    17.07,
-                    58.33,
-                    19.07,
-                    60.33
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/sport/fotboll/udda-avsparkstid-for-sverige-inte-det-skonaste"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "Andra omgången av VM-gruppspelet. Då väntar en annorlunda matchtid för Sverige. – Nu blir det en omställning för vissa, säger wingbacken Alexander Bernhardsson.",
-            "gaia_synthesis": "",
-            "published_at": "Sat, 20 Jun 2026 09:03:51 +0200",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "miljö-61356f46-2026-06-21",
-            "title": "Rapport: Mer än en miljard barn utsatta för klimathot",
-            "location": {
-                "city": "Global",
-                "country": "Global",
-                "lat": 0.0,
-                "lon": 0.0,
-                "precision": "global",
-                "bbox": null
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9240115"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "miljö",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-21T07:33:34.894112+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-6d64d70e-2026-06-21",
-            "title": "Ex-Hitman and New Jersey Councilman Back in Handcuffs",
+            "id": "energi-b3d265b7-2026-06-22",
+            "title": "Egyptian President urges secure US–Iran deal to protect Arab and GCC stability",
             "location": {
                 "city": "Usa",
                 "country": "Usa",
@@ -1021,77 +1314,140 @@
             },
             "sources": [
                 {
-                    "name": "Pjmedia.com",
+                    "name": "Emirates24|7",
                     "type": "commercial",
-                    "url": "https://pjmedia.com/catherinesalgado/2026/06/20/ex-hitman-and-new-jersey-councilman-back-in-handcuffs-n4954180"
+                    "url": "https://www.emirates247.com/world/egyptian-president-urges-secure-usiran-deal-to-protect-arab-and-gcc-stability/2836"
                 }
             ],
             "source_count": 1,
-            "score": 5.0,
+            "score": 6.0,
             "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "When it comes to modern American politics, truth is stranger than fiction — such as a mafia hitman-turned-councilman who is...",
+            "category": "energi",
+            "sentiment": "positive",
+            "summary": "Cairo: Egyptian President Abdel Fattah El-Sisi affirmed that any final agreement between the United States and the Islamic Republic of Iran must ensure the security of Gulf Cooperation Council (GCC) states and all Arab countries. He stressed that it should address their concerns, particularly respect for state sovereignty and territorial integrity, adherence to principles of good neighbourliness, freedom of navigation, and the peaceful settlement of disputes. President El-Sisi made the remarks w",
             "gaia_synthesis": "",
-            "published_at": "2026-06-20 17:33:00",
+            "published_at": "2026-06-21 15:16:00",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-a35a81eb-2026-06-21",
-            "title": "Armagh edge Waterford in thriller to secure home quarter-final",
+            "id": "politik-f4366aa7-2026-06-22",
+            "title": "Pakistan envoy meets Edn minister",
             "location": {
-                "city": "Waterford",
-                "country": "",
-                "lat": 52.2609997,
-                "lon": -7.1119081,
-                "precision": "city",
+                "city": "Pakistan",
+                "country": "Pakistan",
+                "lat": 33.69,
+                "lon": 73.04,
+                "precision": "country",
                 "bbox": [
-                    -7.1869522,
-                    52.2102427,
-                    -7.0338797,
-                    52.2798229
+                    72.04,
+                    32.69,
+                    74.04,
+                    34.69
                 ]
             },
             "sources": [
                 {
-                    "name": "The Independent",
+                    "name": "Daily Observer",
                     "type": "commercial",
-                    "url": "https://www.independent.ie/sport/gaa/ladies-football/armagh-edge-waterford-in-thriller-to-secure-home-quarter-final/a/157538868.html"
+                    "url": "https://www.observerbd.com/news/580321"
                 }
             ],
             "source_count": 1,
-            "score": 5.0,
+            "score": 6.0,
             "tier": 2,
-            "category": "samhälle",
+            "category": "politik",
+            "sentiment": "neutral",
+            "summary": "Pakistan High Commissioner to Bangladesh Imran Haider held a courtesy meeting with Education Minister Dr A.N.M. Ehsanul Haque Milan on Sunday, discussing ways to strengthen cooperation in the education sector between the two countries.During the meeting, the high commissioner briefed the education minister on the progress of the “Pakistan-Bangladesh Knowledge Corridor” initiative and highlighted areas of potential collaboration.The two sides discussed cooperation in youth development, technical ",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-21 15:15:49",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "politik-b54f527c-2026-06-22",
+            "title": "Trump Says UK Prime Minister Starmer Is Resigning",
+            "location": {
+                "city": "Storbritannien",
+                "country": "Storbritannien",
+                "lat": 51.51,
+                "lon": -0.13,
+                "precision": "country",
+                "bbox": [
+                    -1.13,
+                    50.51,
+                    0.87,
+                    52.51
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Pjmedia.com",
+                    "type": "commercial",
+                    "url": "https://pjmedia.com/catherinesalgado/2026/06/21/trump-says-uk-prime-minister-starmer-is-resigning-n4954206"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "politik",
+            "sentiment": "neutral",
+            "summary": "President Donald Trump apparently confirmed the rumors that British Prime Minister Keir Starmer is resigning, amid wide unpopularity in the...",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-21 15:15:49",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "miljö-c233b8bc-2026-06-22",
+            "title": "S kritik mot regeringen: Inte klimatanpassat tillräckligt",
+            "location": {
+                "city": "Global",
+                "country": "Global",
+                "lat": 0.0,
+                "lon": 0.0,
+                "precision": "global",
+                "bbox": null
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9243104"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "miljö",
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-20 17:33:00",
+            "published_at": "2026-06-22T05:16:06.361400+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-3d5d115d-2026-06-21",
-            "title": "Hurricanes’ Deslauriers signs two-year deal at championship parade",
+            "id": "samhälle-decc3f70-2026-06-22",
+            "title": "The Braided Rug Company Highlights the Lasting Appeal of Oval Rugs",
             "location": {
-                "city": "Canada",
-                "country": "Canada",
-                "lat": 45.42,
-                "lon": -75.7,
+                "city": "Storbritannien",
+                "country": "Storbritannien",
+                "lat": 51.51,
+                "lon": -0.13,
                 "precision": "country",
                 "bbox": [
-                    -76.7,
-                    44.42,
-                    -74.7,
-                    46.42
+                    -1.13,
+                    50.51,
+                    0.87,
+                    52.51
                 ]
             },
             "sources": [
                 {
-                    "name": "Sportsnet",
+                    "name": "Express-press-release",
                     "type": "commercial",
-                    "url": "https://www.sportsnet.ca/nhl/article/hurricanes-deslauriers-signs-two-year-deal-at-championship-parade/"
+                    "url": "https://express-press-release.net/news/2026/06/21/1758749"
                 }
             ],
             "source_count": 1,
@@ -1099,15 +1455,15 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "The Carolina Hurricanes signed the winger to a two-year, $1.75 million extension worth $875,000 in average annual value, the team announced Saturday.",
+            "summary": "Aberdovey, UK, 2026-06-21 — /EPR Network/ — The Braided Rug Company is highlighting the growing popularity of Oval Rugs among homeowners seeking a combination of [read full press release...]",
             "gaia_synthesis": "",
-            "published_at": "2026-06-20 17:33:00",
+            "published_at": "2026-06-21 15:15:58",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-802d1a36-2026-06-21",
-            "title": "VIDEO: Jasprit Bumrah Wins Hearts After Stopping For Fan's Autograph Despite Getting Late To Pick Up Son From School",
+            "id": "samhälle-06d028c0-2026-06-22",
+            "title": "Manipur: Kuki CSOs Impose Emergency Highway Shutdown, Alleging Selective Security Operations Against Kuki-Zo Areas",
             "location": {
                 "city": "India",
                 "country": "India",
@@ -1123,9 +1479,9 @@
             },
             "sources": [
                 {
-                    "name": "The Free Press Journal",
+                    "name": "Northeast Live",
                     "type": "commercial",
-                    "url": "https://www.freepressjournal.in/sports/video-jasprit-bumrah-wins-hearts-after-stopping-for-fans-autograph-despite-getting-late-to-pick-up-son-from-school"
+                    "url": "https://northeastlivetv.com/around-ne/manipur/manipur-kuki-csos-impose-emergency-highway-shutdown-alleging-selective-security-operations-against-kuki-zo-areas/"
                 }
             ],
             "source_count": 1,
@@ -1133,49 +1489,15 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "A video that has gone viral on social media shows Bumrah stopping to sign an autograph for a fan, even though he was in a hurry to pick up his son from school. Jasprit Bumrah took time and fulfilled the fan's wish.",
+            "summary": "The shutdown, called by Kuki civil Society Organisations Kangpokpi, witnessed widespread participation in Kangpokpi, Saparmeina, Gamgiphai The post Manipur: Kuki CSOs Impose Emergency Highway Shutdown, Alleging Selective Security Operations Against Kuki-Zo Areas appeared first on Northeast Live .",
             "gaia_synthesis": "",
-            "published_at": "2026-06-20 17:32:51",
+            "published_at": "2026-06-21 15:15:58",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-abf637f5-2026-06-21",
-            "title": "BTP Cloud Foundry MCP Server: Managing CF Environments with AI",
-            "location": {
-                "city": "Cloud",
-                "country": "",
-                "lat": 39.4850226,
-                "lon": -97.6705137,
-                "precision": "city",
-                "bbox": [
-                    -97.9315052,
-                    39.307137,
-                    -97.36834,
-                    39.6539923
-                ]
-            },
-            "sources": [
-                {
-                    "name": "Sap",
-                    "type": "commercial",
-                    "url": "https://community.sap.com/t5/technology-blog-posts-by-members/btp-cloud-foundry-mcp-server-managing-cf-environments-with-ai/ba-p/14348694"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "Introduction Cloud Foundry on SAP BTP is where your applications live. Managing apps, services, spaces, routes, and all the surrounding infrastructure typically means switching between the CF CLI, the BTP Cockpit and various dashboards. The BTP Cloud Foundry MCP Server exposes the Cloud Foundry V3 A...",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-20 17:32:50",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-790f9f3b-2026-06-21",
-            "title": "Donald Trump escalates feud with Giorgia Meloni over G7 photo allegation",
+            "id": "samhälle-79bcd5f6-2026-06-22",
+            "title": "Link trực tiếp Nữ Side FC 92 vs Nữ Kansas City II 04:00, ngày 22/06",
             "location": {
                 "city": "Usa",
                 "country": "Usa",
@@ -1191,9 +1513,9 @@
             },
             "sources": [
                 {
-                    "name": "Newseisamay",
+                    "name": "Xoilac365",
                     "type": "commercial",
-                    "url": "https://newseisamay.com/world/us-news/donald-trump-escalates-feud-with-giorgia-meloni-over-g7-photo-allegation-d74007f9-4270-4c2c-8333-00156279925d.cms"
+                    "url": "https://xoilac365xe.tv/truc-tiep/nu-side-fc-92-vs-nu-kansas-city-ii-luc-0400-ngay-22-06-2026/"
                 }
             ],
             "source_count": 1,
@@ -1201,14 +1523,174 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "Trump doubled down on claims Giorgia Meloni repeatedly sought a G7 photo with him, deepening their feud. Meloni called it fabricated as Italy's FM canceled a US trip.",
+            "summary": "Xem trực tuyến trận đấu Nữ Side FC 92 vs Nữ Kansas City II sẽ được phát sóng vào lúc 04:00 giải đấu USA NWSL Nữ trên kênh Xoilac TV.",
             "gaia_synthesis": "",
-            "published_at": "2026-06-20 17:32:49",
+            "published_at": "2026-06-21 15:15:56",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-0a06b658-2026-06-21",
+            "id": "samhälle-0f7883e1-2026-06-22",
+            "title": "A171 closed at Birk Brow due to incident, police confirm",
+            "location": {
+                "city": "United Kingdom",
+                "country": "United Kingdom",
+                "lat": 51.51,
+                "lon": -0.13,
+                "precision": "country",
+                "bbox": [
+                    -1.13,
+                    50.51,
+                    0.87,
+                    52.51
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Gazettelive Co Uk",
+                    "type": "commercial",
+                    "url": "https://www.gazettelive.co.uk/news/teesside-news/a171-closed-birk-brow-due-34161318"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Drivers heading east at Birk Brow Road are being asked to find an alternative route",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-21 15:15:56",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-fe856d65-2026-06-22",
+            "title": "Today's news in pictures - Sunday, June 21, 2026",
+            "location": {
+                "city": "June",
+                "country": "",
+                "lat": 30.9461533,
+                "lon": 74.6953689,
+                "precision": "city",
+                "bbox": [
+                    74.6753689,
+                    30.9261533,
+                    74.7153689,
+                    30.9661533
+                ]
+            },
+            "sources": [
+                {
+                    "name": "New Straits Times",
+                    "type": "commercial",
+                    "url": "https://www.nst.com.my/news/nation/2026/06/1469173/todays-news-pictures-sunday-june-21-2026"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "MISSED what happened today? Here's a glimpse at what happened throughout the country in photographs.",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-21 15:15:55",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-37f24c83-2026-06-22",
+            "title": "Rogue Sneaker Waves Turn San Francisco Beaches Treacherous",
+            "location": {
+                "city": "Sneaker",
+                "country": "",
+                "lat": 37.8633426,
+                "lon": 23.7504247,
+                "precision": "city",
+                "bbox": [
+                    23.7503747,
+                    37.8632926,
+                    23.7504747,
+                    37.8633926
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Hoodline",
+                    "type": "commercial",
+                    "url": "https://hoodline.com/2026/06/rogue-sneaker-waves-turn-san-francisco-beaches-treacherous/"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Beach Hazards Statement through Wednesday for sneaker waves and rip currents. Cool coast mornings, breezy afternoons; inland heat returns midweek.",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-21 15:15:49",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-c91fd6e8-2026-06-22",
+            "title": "Fler företag drogtestar personal: ”Bruket finns överallt”",
+            "location": {
+                "city": "Global",
+                "country": "Global",
+                "lat": 0.0,
+                "lon": 0.0,
+                "precision": "global",
+                "bbox": null
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9239544"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-22T05:16:06.361400+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-350d9454-2026-06-22",
+            "title": "Sofia placerades i skyddat boende: ”Tar inte med hur det upplevdes”",
+            "location": {
+                "city": "Global",
+                "country": "Global",
+                "lat": 0.0,
+                "lon": 0.0,
+                "precision": "global",
+                "bbox": null
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9241152"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-22T05:16:06.361400+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-0a06b658-2026-06-22",
             "title": "Kommuner vill göra avlopp redo för kris: ”Enormt behov”",
             "location": {
                 "city": "Global",
@@ -1232,13 +1714,13 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-21T07:33:34.894112+02:00",
+            "published_at": "2026-06-22T05:16:06.361400+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-3c11d94a-2026-06-21",
-            "title": "Kung Charles offentliggör sin deklaration",
+            "id": "samhälle-ea0e4f6a-2026-06-22",
+            "title": "Milslång kö – flera olyckor i midsommartrafiken",
             "location": {
                 "city": "Global",
                 "country": "Global",
@@ -1249,9 +1731,9 @@
             },
             "sources": [
                 {
-                    "name": "SR Ekot",
+                    "name": "SVT Nyheter",
                     "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9243002"
+                    "url": "https://www.svt.se/nyheter/inrikes/milslang-ko-flera-olyckor-i-midsommartrafiken"
                 }
             ],
             "source_count": 1,
@@ -1259,15 +1741,15 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "",
+            "summary": "Trots flera allvarliga olyckor har midsommartrafiken i stort rullat på som väntat, enligt Trafikverket. Men under söndagen har det bildats milslånga köer på Ölandsbron.",
             "gaia_synthesis": "",
-            "published_at": "2026-06-21T07:33:34.894112+02:00",
+            "published_at": "Sun, 21 Jun 2026 16:30:55 +0200",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-f1484382-2026-06-21",
-            "title": "IMY: Securitas bröt mot GDPR – kamerabevakade förare",
+            "id": "samhälle-2d5fcd0b-2026-06-22",
+            "title": "Adam var ”soldat för hedern” – ångrar sig",
             "location": {
                 "city": "Global",
                 "country": "Global",
@@ -1278,9 +1760,9 @@
             },
             "sources": [
                 {
-                    "name": "SR Ekot",
+                    "name": "SVT Nyheter",
                     "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9240914"
+                    "url": "https://www.svt.se/nyheter/inrikes/adam-var-soldat-for-hedern-angrar-sig"
                 }
             ],
             "source_count": 1,
@@ -1288,159 +1770,14 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "",
+            "summary": "Pojkar lämnas oskyddade – mitt under pågående polisutredningar om hedersvåld. SVT:s granskning visar att socialtjänsten lämnar två av tre av pojkarna i de misstänkta hemmen, samtidigt som de flesta flickor omhändertas. – Vi pojkar är både offer och förövare. Jag gjorde saker som jag inte ville göra, säger Adam som föreläser om sitt liv.",
             "gaia_synthesis": "",
-            "published_at": "2026-06-21T07:33:34.894112+02:00",
+            "published_at": "Sun, 21 Jun 2026 08:03:50 +0200",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-e6bf3f6d-2026-06-21",
-            "title": "Trafikverket: ”Beredskapsläge egentligen i hela landet”",
-            "location": {
-                "city": "Global",
-                "country": "Global",
-                "lat": 0.0,
-                "lon": 0.0,
-                "precision": "global",
-                "bbox": null
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9242859"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-21T07:33:34.894112+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-e6b5d763-2026-06-21",
-            "title": "SMHI: Flera varningar för åska – ovädret rör sig norrut",
-            "location": {
-                "city": "Global",
-                "country": "Global",
-                "lat": 0.0,
-                "lon": 0.0,
-                "precision": "global",
-                "bbox": null
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9242825"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-21T07:33:34.894112+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-b461aef7-2026-06-21",
-            "title": "Polisen: Normal midsommar med stök och krök",
-            "location": {
-                "city": "Global",
-                "country": "Global",
-                "lat": 0.0,
-                "lon": 0.0,
-                "precision": "global",
-                "bbox": null
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9242809"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-21T07:33:34.894112+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-b13b3ed1-2026-06-21",
-            "title": "Betalningar utan nät snart verklighet i matbutikerna",
-            "location": {
-                "city": "Global",
-                "country": "Global",
-                "lat": 0.0,
-                "lon": 0.0,
-                "precision": "global",
-                "bbox": null
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9230374"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-21T07:33:34.894112+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-9fa0ae77-2026-06-21",
-            "title": "Direktrapport om åskovädret på midsommardagen",
-            "location": {
-                "city": "Global",
-                "country": "Global",
-                "lat": 0.0,
-                "lon": 0.0,
-                "precision": "global",
-                "bbox": null
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9242806"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-21T07:33:34.894112+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-8dd4854b-2026-06-21",
+            "id": "samhälle-8dd4854b-2026-06-22",
             "title": "Invasiva arter kan ge klirr i kassan via mobilspel",
             "location": {
                 "city": "Global",
@@ -1467,159 +1804,125 @@
             "published_at": "Sun, 21 Jun 2026 05:30:08 +0200",
             "multi_source_verified": false,
             "has_article": false
-        },
-        {
-            "id": "samhälle-c23c2c28-2026-06-21",
-            "title": "Här ska nya ambulanser köpas in – för tio miljoner kronor",
-            "location": {
-                "city": "Global",
-                "country": "Global",
-                "lat": 0.0,
-                "lon": 0.0,
-                "precision": "global",
-                "bbox": null
-            },
-            "sources": [
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/lokalt/sormland/har-ska-nya-ambulanser-kopas-in-for-tio-miljoner-kronor"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "Fyra nya ambulanser ska köpas in till stationen i Katrineholm och ersätta de som anses för gamla. Det ska också ställas nya tekniska krav på de fordon som köps in till regionen.",
-            "gaia_synthesis": "",
-            "published_at": "Sun, 21 Jun 2026 05:30:08 +0200",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-133f3495-2026-06-21",
-            "title": "Top 10 social casinos players are joining this weekend",
-            "location": {
-                "city": "Global",
-                "country": "Global",
-                "lat": 0.0,
-                "lon": 0.0,
-                "precision": "global",
-                "bbox": null
-            },
-            "sources": [
-                {
-                    "name": "Pennlive",
-                    "type": "commercial",
-                    "url": "https://www.pennlive.com/sweepstakes-casinos/2026/06/top-10-social-casinos-players-are-joining-this-weekend.html"
-                }
-            ],
-            "source_count": 1,
-            "score": 4.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "Players on the lookout for the ultimate gaming experience should check out our comprehensive ranking of the top 10 social casinos players are playing right now.",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-20 17:33:00",
-            "multi_source_verified": false,
-            "has_article": false
         }
     ],
     "relations": [
         {
-            "id": "rel-auto-proximity-samhälle-6d749778-2026-06-21-samhälle-e11f4ff5-2026-06-21",
-            "source": "samhälle-6d749778-2026-06-21",
-            "target": "samhälle-e11f4ff5-2026-06-21",
+            "id": "rel-auto-proximity-samhälle-6afcde12-2026-06-22-samhälle-459d2591-2026-06-22",
+            "source": "samhälle-6afcde12-2026-06-22",
+            "target": "samhälle-459d2591-2026-06-22",
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
         },
         {
-            "id": "rel-auto-proximity-samhälle-f0c3cff6-2026-06-21-samhälle-3c6ea1c7-2026-06-21",
-            "source": "samhälle-f0c3cff6-2026-06-21",
-            "target": "samhälle-3c6ea1c7-2026-06-21",
+            "id": "rel-auto-proximity-samhälle-6053d432-2026-06-22-samhälle-eba2a6c1-2026-06-22",
+            "source": "samhälle-6053d432-2026-06-22",
+            "target": "samhälle-eba2a6c1-2026-06-22",
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
         },
         {
-            "id": "rel-auto-proximity-samhälle-f0c3cff6-2026-06-21-samhälle-ae3030ae-2026-06-21",
-            "source": "samhälle-f0c3cff6-2026-06-21",
-            "target": "samhälle-ae3030ae-2026-06-21",
+            "id": "rel-auto-proximity-samhälle-6053d432-2026-06-22-samhälle-3c11d94a-2026-06-22",
+            "source": "samhälle-6053d432-2026-06-22",
+            "target": "samhälle-3c11d94a-2026-06-22",
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
         },
         {
-            "id": "rel-auto-proximity-samhälle-f0c3cff6-2026-06-21-samhälle-b834b861-2026-06-21",
-            "source": "samhälle-f0c3cff6-2026-06-21",
-            "target": "samhälle-b834b861-2026-06-21",
+            "id": "rel-auto-proximity-samhälle-6053d432-2026-06-22-samhälle-79bcd5f6-2026-06-22",
+            "source": "samhälle-6053d432-2026-06-22",
+            "target": "samhälle-79bcd5f6-2026-06-22",
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
         },
         {
-            "id": "rel-auto-proximity-samhälle-f0c3cff6-2026-06-21-samhälle-cba37467-2026-06-21",
-            "source": "samhälle-f0c3cff6-2026-06-21",
-            "target": "samhälle-cba37467-2026-06-21",
+            "id": "rel-auto-proximity-samhälle-f6ea3074-2026-06-22-samhälle-a596dae9-2026-06-22",
+            "source": "samhälle-f6ea3074-2026-06-22",
+            "target": "samhälle-a596dae9-2026-06-22",
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
         },
         {
-            "id": "rel-auto-proximity-samhälle-3c6ea1c7-2026-06-21-samhälle-ae3030ae-2026-06-21",
-            "source": "samhälle-3c6ea1c7-2026-06-21",
-            "target": "samhälle-ae3030ae-2026-06-21",
+            "id": "rel-auto-proximity-samhälle-eba2a6c1-2026-06-22-samhälle-3c11d94a-2026-06-22",
+            "source": "samhälle-eba2a6c1-2026-06-22",
+            "target": "samhälle-3c11d94a-2026-06-22",
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
         },
         {
-            "id": "rel-auto-proximity-samhälle-3c6ea1c7-2026-06-21-samhälle-b834b861-2026-06-21",
-            "source": "samhälle-3c6ea1c7-2026-06-21",
-            "target": "samhälle-b834b861-2026-06-21",
+            "id": "rel-auto-proximity-samhälle-eba2a6c1-2026-06-22-samhälle-79bcd5f6-2026-06-22",
+            "source": "samhälle-eba2a6c1-2026-06-22",
+            "target": "samhälle-79bcd5f6-2026-06-22",
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
         },
         {
-            "id": "rel-auto-proximity-samhälle-3c6ea1c7-2026-06-21-samhälle-cba37467-2026-06-21",
-            "source": "samhälle-3c6ea1c7-2026-06-21",
-            "target": "samhälle-cba37467-2026-06-21",
+            "id": "rel-auto-proximity-samhälle-c6423051-2026-06-22-samhälle-f0c3cff6-2026-06-22",
+            "source": "samhälle-c6423051-2026-06-22",
+            "target": "samhälle-f0c3cff6-2026-06-22",
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
         },
         {
-            "id": "rel-auto-proximity-samhälle-ae3030ae-2026-06-21-samhälle-b834b861-2026-06-21",
-            "source": "samhälle-ae3030ae-2026-06-21",
-            "target": "samhälle-b834b861-2026-06-21",
+            "id": "rel-auto-proximity-samhälle-c6423051-2026-06-22-samhälle-fab60934-2026-06-22",
+            "source": "samhälle-c6423051-2026-06-22",
+            "target": "samhälle-fab60934-2026-06-22",
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
         },
         {
-            "id": "rel-auto-proximity-samhälle-ae3030ae-2026-06-21-samhälle-cba37467-2026-06-21",
-            "source": "samhälle-ae3030ae-2026-06-21",
-            "target": "samhälle-cba37467-2026-06-21",
+            "id": "rel-auto-proximity-samhälle-f0c3cff6-2026-06-22-samhälle-fab60934-2026-06-22",
+            "source": "samhälle-f0c3cff6-2026-06-22",
+            "target": "samhälle-fab60934-2026-06-22",
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
         },
         {
-            "id": "rel-auto-proximity-samhälle-b834b861-2026-06-21-samhälle-cba37467-2026-06-21",
-            "source": "samhälle-b834b861-2026-06-21",
-            "target": "samhälle-cba37467-2026-06-21",
+            "id": "rel-auto-proximity-samhälle-3c11d94a-2026-06-22-samhälle-79bcd5f6-2026-06-22",
+            "source": "samhälle-3c11d94a-2026-06-22",
+            "target": "samhälle-79bcd5f6-2026-06-22",
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
         },
         {
-            "id": "rel-auto-proximity-samhälle-6d64d70e-2026-06-21-samhälle-790f9f3b-2026-06-21",
-            "source": "samhälle-6d64d70e-2026-06-21",
-            "target": "samhälle-790f9f3b-2026-06-21",
+            "id": "rel-auto-proximity-samhälle-f0b326e1-2026-06-22-samhälle-bc9fe5a3-2026-06-22",
+            "source": "samhälle-f0b326e1-2026-06-22",
+            "target": "samhälle-bc9fe5a3-2026-06-22",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-fc461d9c-2026-06-22-samhälle-2938ec69-2026-06-22",
+            "source": "samhälle-fc461d9c-2026-06-22",
+            "target": "samhälle-2938ec69-2026-06-22",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-459d2591-2026-06-22-samhälle-ddcf2345-2026-06-22",
+            "source": "samhälle-459d2591-2026-06-22",
+            "target": "samhälle-ddcf2345-2026-06-22",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-decc3f70-2026-06-22-samhälle-0f7883e1-2026-06-22",
+            "source": "samhälle-decc3f70-2026-06-22",
+            "target": "samhälle-0f7883e1-2026-06-22",
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
@@ -1627,27 +1930,27 @@
     ],
     "meta_analysis": {
         "top_themes": [
+            "Fredsförhandlingarna i Schweiz – detta vet vi",
+            "Explosion vid industrizon i Qatar",
             "Efter Israels attacker: ”Många kroppar i rasmassorna”",
-            "Sara reste från Sverige till Paris för att demonstrera: ”Krig löser inget”",
-            "Vägbomber dödar sju i Pakistan",
-            "Undantagstillstånd utlyst i Bolivia"
+            "Se upp Sverige! Japan storspelade mot Tunisien: ”Oroväckande”"
         ],
         "geographic_distribution": {
-            "Israel": 2,
-            "Okänt": 7,
-            "Pakistan": 2,
-            "Bolivia": 1,
-            "Sverige": 9,
-            "Norge": 1,
-            "Turkiet": 1,
-            "Global": 14,
             "Iran": 2,
-            "Mexiko": 1,
-            "Nederländerna": 1,
-            "Usa": 2,
-            "Canada": 1,
-            "India": 1
+            "Okänt": 18,
+            "Israel": 2,
+            "Sverige": 9,
+            "Internationellt": 1,
+            "Global": 8,
+            "Usa": 3,
+            "Kina": 1,
+            "Europa": 2,
+            "Spanien": 1,
+            "Pakistan": 1,
+            "Storbritannien": 2,
+            "India": 1,
+            "United Kingdom": 1
         },
-        "gaia_daily_brief": "Säkerhetsläget domineras av efter israels attacker: ”många kroppar i rasmassorna”, medan den geopolitiska kartan spänner över 14 länder/regioner. För en djupgående bild, klicka på markörerna och läs gAIas sammanfattningar."
+        "gaia_daily_brief": "Säkerhetsläget domineras av fredsförhandlingarna i schweiz – detta vet vi, medan den geopolitiska kartan spänner över 14 länder/regioner. För en djupgående bild, klicka på markörerna och läs gAIas sammanfattningar."
     }
 }
