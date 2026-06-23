@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-06-23T03:27:30.082183+00:00",
+    "generated_at": "2026-06-23T05:09:31.594682+00:00",
     "workflow_version": "2.3",
     "source_info": {
         "swedish_rss": [
@@ -10,10 +10,65 @@
             "NewsData.io"
         ],
         "api_plan": "NewsData.io Active",
-        "total_raw_articles": 62,
+        "total_raw_articles": 63,
         "deduplicated_count": 55
     },
     "news": [
+        {
+            "id": "politik-98842463-2026-06-23",
+            "title": "Keir Starmer avgår som Storbritanniens premiärminister",
+            "location": {
+                "city": "Storbritannien",
+                "country": "Storbritannien",
+                "lat": 51.51,
+                "lon": -0.13,
+                "precision": "country",
+                "bbox": [
+                    -1.13,
+                    50.51,
+                    0.87,
+                    52.51
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/keir-starmer-avgar-som-storbritanniens-premiarminister"
+                },
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/keir-starmer-avgar-det-har-hander-nu"
+                },
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/uppgifter-keir-starmer-vantas-avga-folj-det-senaste"
+                },
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/keir-starmer-avgar-som-storbritanniens-premiarminister"
+                },
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/keir-starmer-avgar-det-har-hander-nu"
+                }
+            ],
+            "source_count": 5,
+            "score": 8.5,
+            "tier": 1,
+            "category": "politik",
+            "sentiment": "neutral",
+            "summary": "I ett känslosamt tal utanför Downing Street meddelade Keir Starmer sin avgång som premiärminister efter att ha förlorat partiets förtroende, vilket kastar Storbritannien in i en ny period av politisk osäkerhet.",
+            "published_at": "Mon, 22 Jun 2026 11:51:05 +0200",
+            "multi_source_verified": true,
+            "article_generated": true,
+            "has_article": true,
+            "gaia_synthesis": "Starmers känslosamma avgång markerar det definitiva slutet på hans försök att stabilisera Storbritannien efter brexit-årens turbulens. Hans oförmåga att hantera det interna missnöjet och opinionsfallet visar på svårigheten att styra med en pragmatisk mitt-politik i ett land där väljarna kräver djupgående systemförändringar och omedelbar ekonomisk lättnad."
+        },
         {
             "id": "politik-0566e506-2026-06-23",
             "title": "SVT möter avhoppad rysk officer: ”Om de hittar mig dör jag”",
@@ -95,46 +150,6 @@
             "gaia_synthesis": "Greenspans bortgång markerar slutet på en era av orubblig tro på marknadens självreglering. Hans legacy är djupt sammanflätat med konceptet 'Greenspan-putten' – tanken att centralbanken alltid kliver in för att rädda marknaden vid kriser – vilket banade väg för en moral hazard som kom att omforma modern finanspolitik och bidrog till de strukturella obalanser som kulminerade i finanskrisen 2008."
         },
         {
-            "id": "politik-9bcf43c4-2026-06-23",
-            "title": "Keir Starmer avgår – det här händer nu",
-            "location": {
-                "city": "Storbritannien",
-                "country": "Storbritannien",
-                "lat": 51.51,
-                "lon": -0.13,
-                "precision": "country",
-                "bbox": [
-                    -1.13,
-                    50.51,
-                    0.87,
-                    52.51
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/keir-starmer-avgar-det-har-hander-nu"
-                },
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/keir-starmer-avgar-det-har-hander-nu"
-                }
-            ],
-            "source_count": 2,
-            "score": 8.5,
-            "tier": 1,
-            "category": "politik",
-            "sentiment": "neutral",
-            "summary": "Efter månader av internt missnöje och opinionsfall avgår Keir Starmer som premiärminister och Labourledare. Nomineringarna till partiledarvalet öppnar den 9 juli, medan partiet söker en ny riktning.",
-            "published_at": "Mon, 22 Jun 2026 11:36:44 +0200",
-            "multi_source_verified": true,
-            "article_generated": true,
-            "has_article": true,
-            "gaia_synthesis": "Starmers fall belyser den inneboende instabiliteten i moderna brittiska majoritetsregeringar när de ställs inför strukturella ekonomiska problem. Det visar att en jordskredsseger i val snabbt kan eroderas om ledarskapet misslyckas med att leverera påtagliga förbättringar för väljarna, vilket banar väg för regionala utmanare som Andy Burnham att flytta fram sina positioner."
-        },
-        {
             "id": "konflikt-83c20428-2026-06-23",
             "title": "Efter Ukrainas attacker – bensinförsäljning begränsas hårt på Krimhalvön",
             "location": {
@@ -163,96 +178,11 @@
             "category": "konflikt",
             "sentiment": "negative",
             "summary": "Till följd av ihållande ukrainska drönarattacker mot ryska energilager och transportleder har ockupationsmyndigheterna på Krim helt stoppat civil försäljning av bensin och diesel, vilket lamslår halvöns ekonomi och turism.",
-            "published_at": "2026-06-23T05:27:02.337351+02:00",
+            "published_at": "2026-06-23T07:08:53.126650+02:00",
             "multi_source_verified": false,
             "article_generated": true,
             "has_article": true,
             "gaia_synthesis": "Bränslekrisen på Krim visar Ukrainas förmåga att bedriva asymmetrisk utnötning genom att systematiskt strypa logistiska chokepoints. Genom att förvandla Krim från en säker rysk bas och semesterort till en isolerad och energifattig enklav, demonstrerar man hur strategiska angrepp mot kritisk infrastruktur direkt kan påverka motståndarens militära rörelsefrihet och civila administrationsförmåga."
-        },
-        {
-            "id": "konflikt-62adba7d-2026-06-23",
-            "title": "Två döda i amerikansk attack på fartyg i Stilla havet",
-            "location": {
-                "city": "Usa",
-                "country": "Usa",
-                "lat": 38.91,
-                "lon": -77.04,
-                "precision": "country",
-                "bbox": [
-                    -78.04,
-                    37.91,
-                    -76.04,
-                    39.91
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/tva-doda-i-amerikansk-attack-pa-fartyg-i-stilla-havet"
-                }
-            ],
-            "source_count": 1,
-            "score": 8.0,
-            "tier": 1,
-            "category": "konflikt",
-            "sentiment": "negative",
-            "summary": "Ytterligare en dödlig konfrontation har ägt rum i Stilla havet där USA:s militär attackerat ett misstänkt narkotikasmugglingsfartyg, vilket resulterade i två dödsoffer och väcker fortsatta frågor om insyn och havsrätt.",
-            "published_at": "Mon, 22 Jun 2026 06:44:14 +0200",
-            "multi_source_verified": false,
-            "article_generated": true,
-            "has_article": true,
-            "gaia_synthesis": "Operationerna i östra Stilla havet belyser en glidning mot militär unilateralism i internationellt vatten under flagg av brottsbekång. Genom att behandla drogkarteller som militära kombattanter och tillämpa kinetiskt våld utan domstolsprövning, utmanar USA etablerade internationella överenskommelser och riskerar att skapa farliga prejudikat för andra stormakters agerande på öppet hav."
-        },
-        {
-            "id": "politik-523716c0-2026-06-23",
-            "title": "Starmer avgår som premiärminister: ”Väldigt känslosamt”",
-            "location": {
-                "city": "Global",
-                "country": "Global",
-                "lat": 0.0,
-                "lon": 0.0,
-                "precision": "global",
-                "bbox": null
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9243448"
-                },
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/keir-starmer-avgar-som-storbritanniens-premiarminister"
-                },
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/uppgifter-keir-starmer-vantas-avga-folj-det-senaste"
-                },
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/keir-starmer-avgar-som-storbritanniens-premiarminister"
-                },
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/uppgifter-keir-starmer-vantas-avga-folj-det-senaste"
-                }
-            ],
-            "source_count": 5,
-            "score": 7.5,
-            "tier": 1,
-            "category": "politik",
-            "sentiment": "neutral",
-            "summary": "I ett känslosamt tal utanför Downing Street meddelade Keir Starmer sin avgång som premiärminister efter att ha förlorat partiets förtroende, vilket kastar Storbritannien in i en ny period av politisk osäkerhet.",
-            "published_at": "2026-06-23T05:27:02.337351+02:00",
-            "multi_source_verified": true,
-            "article_generated": true,
-            "has_article": true,
-            "gaia_synthesis": "Starmers känslosamma avgång markerar det definitiva slutet på hans försök att stabilisera Storbritannien efter brexit-årens turbulens. Hans oförmåga att hantera det interna missnöjet och opinionsfallet visar på svårigheten att styra med en pragmatisk mitt-politik i ett land där väljarna kräver djupgående systemförändringar och omedelbar ekonomisk lättnad."
         },
         {
             "id": "samhälle-0aadf914-2026-06-23",
@@ -283,16 +213,50 @@
                 }
             ],
             "source_count": 2,
-            "score": 7.5,
+            "score": 8.0,
             "tier": 1,
             "category": "samhälle",
             "sentiment": "neutral",
             "summary": "En extrem värmebölja i Frankrike med temperaturer över 40 grader har lett till röda värmevarningar i 49 departement och krävt två barns liv, vilket tvingat myndigheterna att införa omfattande restriktioner och stänga skolor.",
-            "published_at": "2026-06-23T05:27:02.337351+02:00",
+            "published_at": "2026-06-23T07:08:53.126650+02:00",
             "multi_source_verified": true,
             "article_generated": true,
             "has_article": true,
             "gaia_synthesis": "Den franska värmekrisen är en konkret manifestation av klimatkrisens direkta inverkan på människors säkerhet och samhällets infrastruktur. Att stänga skolor, begränsa alkohol och ställa in tåg visar hur klimatförändringarna tvingar fram nödåtgärder som stör vardagslivet, vilket ställer ökade krav på klimatanpassning i europeiska städer."
+        },
+        {
+            "id": "politik-5e887ac0-2026-06-23",
+            "title": "Här testar Hadi SVT:s valkompass: ”Jättetaggad på att rösta”",
+            "location": {
+                "city": "Hadi",
+                "country": "",
+                "lat": 30.4657182,
+                "lon": 99.6974725,
+                "precision": "city",
+                "bbox": [
+                    99.6974225,
+                    30.4656682,
+                    99.6975225,
+                    30.4657682
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/lokalt/vasternorrland/nu-ar-den-lokala-valkompassen-live"
+                }
+            ],
+            "source_count": 1,
+            "score": 7.0,
+            "tier": 2,
+            "category": "politik",
+            "sentiment": "neutral",
+            "summary": "Vet du vilket parti som matchar dina åsikter bäst? Om svaret är ”ingen aning” är du inte ensam. Nu lanseras SVT:s lokala valkompass som hjälper dig att hitta rätt bland partierna i din kommun och region. Svara på några frågor och se vilka som tycker mest som du i de frågor som faktiskt påverkar ditt liv.",
+            "gaia_synthesis": "",
+            "published_at": "Tue, 23 Jun 2026 05:54:30 +0200",
+            "multi_source_verified": false,
+            "has_article": false
         },
         {
             "id": "politik-f9ab811f-2026-06-23",
@@ -329,36 +293,138 @@
             "has_article": false
         },
         {
-            "id": "politik-542e850d-2026-06-23",
-            "title": "Guide: Almedalen 2026 – få koll på veckan",
+            "id": "politik-e1b9548f-2026-06-23",
+            "title": "Nigel Farage Calls for a Prompt UK General Election As Starmer Resigns",
             "location": {
-                "city": "Visby",
-                "country": "Sverige",
-                "lat": 57.6348,
-                "lon": 18.2948,
-                "precision": "city",
+                "city": "Storbritannien",
+                "country": "Storbritannien",
+                "lat": 51.51,
+                "lon": -0.13,
+                "precision": "country",
                 "bbox": [
-                    18.194799999999997,
-                    57.5348,
-                    18.3948,
-                    57.7348
+                    -1.13,
+                    50.51,
+                    0.87,
+                    52.51
                 ]
             },
             "sources": [
                 {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/inrikes/guide-almedalen-2026-fa-koll-pa-veckan"
+                    "name": "Pjmedia.com",
+                    "type": "commercial",
+                    "url": "https://pjmedia.com/catherinesalgado/2026/06/22/nigel-farage-calls-for-prompt-uk-general-election-as-starmer-resigns-n4954234"
                 }
             ],
             "source_count": 1,
-            "score": 7.0,
+            "score": 6.0,
             "tier": 2,
             "category": "politik",
             "sentiment": "neutral",
-            "summary": "Det är bara månader kvar till valet och dags för den årliga Almedalsveckan i Visby. Måndag 22 juni invigs veckan med att ungdomsförbunden har debatt. På tisdagen intar riksdagspartierna Almedalens stora scen med varsin halvdag fram till och med fredag 26 juni. Flera tusen evenemang kommer hållas i staden.",
+            "summary": "Reform UK leader and Member of Parliament Nigel Farage has called for an immediate new general election as unpopular Labour...",
             "gaia_synthesis": "",
-            "published_at": "Mon, 22 Jun 2026 09:24:22 +0200",
+            "published_at": "2026-06-22 17:08:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "hälsa-4b9f91a2-2026-06-23",
+            "title": "Texas A&M Study Highlights Pictor PictVet® as a Promising New Tool for Non-Invasive Beef Cattle Health Monitoring",
+            "location": {
+                "city": "Canada",
+                "country": "Canada",
+                "lat": 45.42,
+                "lon": -75.7,
+                "precision": "country",
+                "bbox": [
+                    -76.7,
+                    44.42,
+                    -74.7,
+                    46.42
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Newswire",
+                    "type": "commercial",
+                    "url": "https://www.newswire.ca/news-releases/texas-a-amp-m-study-highlights-pictor-pictvet-r-as-a-promising-new-tool-for-non-invasive-beef-cattle-health-monitoring-852013247.html"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "hälsa",
+            "sentiment": "neutral",
+            "summary": "/CNW/ -- Pictor Holdings Inc., a global targeted proteomic platform company, today highlighted the publication of an independent peer-reviewed study conducted...",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-22 17:08:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-815f97a8-2026-06-23",
+            "title": "Analytiker: antiukrainska stämningar växer i Polen",
+            "location": {
+                "city": "Polen",
+                "country": "Polen",
+                "lat": 52.23,
+                "lon": 21.01,
+                "precision": "country",
+                "bbox": [
+                    20.01,
+                    51.23,
+                    22.01,
+                    53.23
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9243657"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-23T07:08:53.126650+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-8a066cb8-2026-06-23",
+            "title": "Direktrapport från Almedalen 2026",
+            "location": {
+                "city": "Almedalen",
+                "country": "",
+                "lat": 57.6408672,
+                "lon": 18.2908538,
+                "precision": "city",
+                "bbox": [
+                    18.2890489,
+                    57.6395799,
+                    18.2922859,
+                    57.6420931
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9227365"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-23T07:08:53.126650+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -392,7 +458,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-23T05:27:02.337351+02:00",
+            "published_at": "2026-06-23T07:08:53.126650+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -426,7 +492,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-23T05:27:02.337351+02:00",
+            "published_at": "2026-06-23T07:08:53.126650+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -460,7 +526,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-23T05:27:02.337351+02:00",
+            "published_at": "2026-06-23T07:08:53.126650+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -494,7 +560,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-23T05:27:02.337351+02:00",
+            "published_at": "2026-06-23T07:08:53.126650+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -528,7 +594,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-23T05:27:02.337351+02:00",
+            "published_at": "2026-06-23T07:08:53.126650+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -562,7 +628,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-23T05:27:02.337351+02:00",
+            "published_at": "2026-06-23T07:08:53.126650+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -596,7 +662,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-23T05:27:02.337351+02:00",
+            "published_at": "2026-06-23T07:08:53.126650+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -630,75 +696,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-23T05:27:02.337351+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-df7eed73-2026-06-23",
-            "title": "Nina Benner: Mycket talar för en ordnad övergång",
-            "location": {
-                "city": "Benner",
-                "country": "",
-                "lat": 51.1411158,
-                "lon": 8.0067895,
-                "precision": "city",
-                "bbox": [
-                    8.0067395,
-                    51.1410658,
-                    8.0068395,
-                    51.1411658
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9243458"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-23T05:27:02.337351+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-c8306f59-2026-06-23",
-            "title": "Polisen ökar säkerheten i Almedalen – drönare dygnet runt",
-            "location": {
-                "city": "Almedalen",
-                "country": "",
-                "lat": 57.6408672,
-                "lon": 18.2908538,
-                "precision": "city",
-                "bbox": [
-                    18.2890489,
-                    57.6395799,
-                    18.2922859,
-                    57.6420931
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9243340"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-23T05:27:02.337351+02:00",
+            "published_at": "2026-06-23T07:08:53.126650+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -835,6 +833,142 @@
             "summary": "Det är värmebölja i Europa. Flera länder har utfärdat vädervarningar och på vissa håll väntas det bli uppemot 40 grader varmt. Följ senaste nytt i SVT:s liverapport.",
             "gaia_synthesis": "",
             "published_at": "Mon, 22 Jun 2026 09:17:49 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-5b6ed475-2026-06-23",
+            "title": "Britt-Marie Wiker får riksväg 61 rakt över tomten: ”Ingen bryr sig”",
+            "location": {
+                "city": "Wiker",
+                "country": "",
+                "lat": 48.2335217,
+                "lon": 9.4597947,
+                "precision": "city",
+                "bbox": [
+                    9.4597447,
+                    48.2334717,
+                    9.4598447,
+                    48.2335717
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/lokalt/varmland/britt-marie-wiker-far-riksvag-61-rakt-over-sin-tomt-ingen-bryr-sig"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Främre delen av Britt-Marie Wikers tomt är numer en arbetsplats med tung trafik, grushögar och arbetare som bygger ut riksväg 61. Ett extra körfält tar plats på sträckan utanför hennes hus. – Det blir väldigt stressigt och jag blir på dåligt humör. Det är ingen som ställer upp och hjälper till med någonting, säger hon.",
+            "gaia_synthesis": "",
+            "published_at": "Tue, 23 Jun 2026 05:30:00 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-3ef2bd5c-2026-06-23",
+            "title": "Region Skåne beställde oberoende granskning – strök advokaternas frågor",
+            "location": {
+                "city": "Helsingborg",
+                "country": "Sverige",
+                "lat": 56.0465,
+                "lon": 12.6945,
+                "precision": "city",
+                "bbox": [
+                    12.5945,
+                    55.9465,
+                    12.7945,
+                    56.1465
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/lokalt/helsingborg/region-skane-bestallde-oberoende-granskning-strok-advokaternas-fragor"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Utredningen kallades ”oberoende” av Region Skåne. Samtidigt ströks trettio frågor som utredarna ville ställa – på order av regionens chefsjurist. Nu kan SVT Nyheter Helsingborg avslöja hur regionens chefer bakom kulisserna styrde granskningen av hur de hanterat kontraktet med säkerhetsbolaget Avarn.",
+            "gaia_synthesis": "",
+            "published_at": "Tue, 23 Jun 2026 05:30:00 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-a6cdaaba-2026-06-23",
+            "title": "Sänkt skatt – het valfråga som splittrar politiken i Oxelösund",
+            "location": {
+                "city": "Oxelösund",
+                "country": "",
+                "lat": 58.666667,
+                "lon": 17.083056,
+                "precision": "city",
+                "bbox": [
+                    16.9871143,
+                    58.3989812,
+                    17.8120748,
+                    58.7070054
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/lokalt/sormland/sankt-skatt-het-valfraga-som-splittrar-politiken-i-oxelosund"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "I Oxelösund står partierna långt ifrån varandra om kommunalskatten. Den styrande majoriteten med KD, SD, Liberalerna och Moderaterna lovar en skattesänkning med 10 öre från år 2028 om de får fortsatt förtroende efter valet.",
+            "gaia_synthesis": "",
+            "published_at": "Tue, 23 Jun 2026 05:30:00 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-0155d399-2026-06-23",
+            "title": "Neita, 99, har gärna både män och kvinnor från hemtjänsten",
+            "location": {
+                "city": "Uppsala",
+                "country": "Sverige",
+                "lat": 59.8586,
+                "lon": 17.6389,
+                "precision": "city",
+                "bbox": [
+                    17.538899999999998,
+                    59.7586,
+                    17.7389,
+                    59.958600000000004
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/lokalt/uppsala/neita-99-har-garna-bade-man-och-kvinnor-fran-hemtjansten"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Frågan om att äldre ska få välja hemtjänstpersonal utifrån kön är omdiskuterad i valrörelsen – inte minst efter vårdskandalen i Uppsala förra året. 99-åriga Neita Lundquist förstår och sympatiserar med dem som är oroliga, men träffar själv gärna både män och kvinnor från hemtjänsten. – Jag vill ha båda, säger hon.",
+            "gaia_synthesis": "",
+            "published_at": "Tue, 23 Jun 2026 05:30:00 +0200",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1043,74 +1177,6 @@
             "has_article": false
         },
         {
-            "id": "samhälle-db67ade1-2026-06-23",
-            "title": "Mordförsöket på Sis-hemmet i Boden: Flicka skyldig",
-            "location": {
-                "city": "Boden",
-                "country": "Sverige",
-                "lat": 65.8251,
-                "lon": 21.6887,
-                "precision": "city",
-                "bbox": [
-                    21.6,
-                    65.8,
-                    21.7,
-                    65.9
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/lokalt/norrbotten/mordforsoket-pa-sis-hemmet-i-boden-flicka-skyldig"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "En flicka på Sis-hemmet Sävastgården i Boden har gjort sig skyldig till mordförsök, konstaterar Luleå tingsrätt. Detta efter att hon bundit fast och tagit strypgrepp på en medintagen flicka.",
-            "gaia_synthesis": "",
-            "published_at": "Mon, 22 Jun 2026 10:08:49 +0200",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-14f78122-2026-06-23",
-            "title": "LKAB hjälper Kiruna kommun ur krisen – satsar 1,8 miljarder",
-            "location": {
-                "city": "Kiruna",
-                "country": "Sverige",
-                "lat": 67.8558,
-                "lon": 20.2253,
-                "precision": "city",
-                "bbox": [
-                    20.1253,
-                    67.75580000000001,
-                    20.325300000000002,
-                    67.9558
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/lokalt/norrbotten/lkab-hjalper-kiruna-kommun-ur-krisen-satsar-18-miljarder"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "LKAB går in med insatser värda 1,8 miljarder kronor för att hjälpa Kiruna kommun för att rädda den ekonomiska situationen i kommunen. Det är precis den summa som kommunen saknar för att klara den pågående etappen i stadsflytten.",
-            "gaia_synthesis": "",
-            "published_at": "Mon, 22 Jun 2026 09:41:32 +0200",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
             "id": "politik-d791fb59-2026-06-23",
             "title": "Burnham vill rädda Labourpartiet – men kan ses som oprövat kort",
             "location": {
@@ -1140,26 +1206,55 @@
             "has_article": false
         },
         {
-            "id": "samhälle-219893fe-2026-06-23",
-            "title": "Messi breaks World Cup record, shop his trending Argentina jersey",
+            "id": "politik-9bf1209d-2026-06-23",
+            "title": "Ulf Kristersson tappar i förtroende – Andersson drar ifrån",
             "location": {
-                "city": "Argentina",
-                "country": "Argentina",
-                "lat": -34.6,
-                "lon": -58.38,
+                "city": "Global",
+                "country": "Global",
+                "lat": 0.0,
+                "lon": 0.0,
+                "precision": "global",
+                "bbox": null
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/inrikes/ulf-kristersson-tappar-i-fortroende-andersson-drar-ifran"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "politik",
+            "sentiment": "neutral",
+            "summary": "Väljarnas förtroende för statsminister Ulf Kristersson (M) sviktar. I Verians mätning i juni tappar Moderatledaren – medan Socialdemokraternas Magdalena Andersson drar iväg åt motsatt håll. Avståndet dem emellan är nu 14 procentenheter.",
+            "gaia_synthesis": "",
+            "published_at": "Tue, 23 Jun 2026 06:02:46 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-7a91b587-2026-06-23",
+            "title": "Kuwait continues strong run at Arab Athletics Championships in Egypt",
+            "location": {
+                "city": "Egypt",
+                "country": "Egypt",
+                "lat": 30.04,
+                "lon": 31.24,
                 "precision": "country",
                 "bbox": [
-                    -59.38,
-                    -35.6,
-                    -57.38,
-                    -33.6
+                    30.24,
+                    29.04,
+                    32.239999999999995,
+                    31.04
                 ]
             },
             "sources": [
                 {
-                    "name": "The Daily Jeffersonian",
+                    "name": "Kuwait News",
                     "type": "commercial",
-                    "url": "https://www.daily-jeff.com/story/sports/soccer/worldcup/2026/06/22/shop-lionel-messi-argentina-jerseys-soccer-gear-world-cup/90647932007/"
+                    "url": "https://www.arabtimesonline.com/news/kuwait-continues-strong-run-at-arab-athletics-championships-in-egypt/"
                 }
             ],
             "source_count": 1,
@@ -1167,67 +1262,135 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "Gear up and watch Lionel Messi and Argentina during the 2026 World Cup with new jerseys. Here are the latest trending Adidas jerseys",
+            "summary": "CAIRO, June 22(KUNA): Kuwait’s athletics team delivered a strong performance at the Arab Athletics Championships for Under-16 and Under-23 categories, held in Egypt at the Suez Can...",
             "gaia_synthesis": "",
-            "published_at": "2026-06-22 15:27:00",
+            "published_at": "2026-06-22 17:08:00",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-0bc413f4-2026-06-23",
-            "title": "EasyJet founder courted by US hostile bidder - The Telegraph",
+            "id": "ekonomi-02044a26-2026-06-23",
+            "title": "Later Appoints Sofia Hernandez to Board of Directors, Deepening Expertise in Creator Economy",
             "location": {
-                "city": "Usa",
-                "country": "Usa",
-                "lat": 38.91,
-                "lon": -77.04,
-                "precision": "country",
-                "bbox": [
-                    -78.04,
-                    37.91,
-                    -76.04,
-                    39.91
-                ]
-            },
-            "sources": [
-                {
-                    "name": "Google News",
-                    "type": "commercial",
-                    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVkpMd1NGN1lXcFhNM2NrcEhHX1FLaG1raHNpSTlLMDhvZndmSmZUTTA4d2V1a3czQ2NVOHRsVFp4eGFDdnlBM3hNX01oV2taYWdOSUZQRGx1RjVmaEZSQnhDd3VRdEk2NHVuRGVva3lSbXhXR1NJdC0tQWJtRnpYcW5QdklQa0hhd1lxZkVpd0dfVjNleTZUZWxXRkhjSDFlN004X0p3?oc=5"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "EasyJet founder courted by US hostile bidder The Telegraph EasyJet rejects £4.7bn takeover offer from US investment firm Castlelake BBC EasyJet bidder is still offering less than a full ticket The Guardian EasyJet rejects £4.7bn takeover bid from Castlelake Financial Times Castlelake sets out $6.3 billion easyJet bid backed by airline execs Reuters",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-22 15:27:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-b6d374f3-2026-06-23",
-            "title": "Anita Anderson Eaton",
-            "location": {
-                "city": "Eaton",
+                "city": "Sofia",
                 "country": "",
-                "lat": 42.5935964,
-                "lon": -84.8443666,
+                "lat": 42.6977028,
+                "lon": 23.3217359,
                 "precision": "city",
                 "bbox": [
-                    -85.0755823,
-                    42.4214487,
-                    -84.600422,
-                    42.7707303
+                    23.167997,
+                    42.5579851,
+                    23.6215817,
+                    42.864302
                 ]
             },
             "sources": [
                 {
-                    "name": "Times-herald.com",
+                    "name": "Pr Newswire",
                     "type": "commercial",
-                    "url": "https://www.times-herald.com/obituaries/anita-anderson-eaton/article_a1278d24-53b1-4386-817d-30c7cfa9c616.html"
+                    "url": "https://www.prnewswire.com/news-releases/later-appoints-sofia-hernandez-to-board-of-directors-deepening-expertise-in-creator-economy-302806521.html"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "ekonomi",
+            "sentiment": "positive",
+            "summary": "The new appointment brings a former TikTok marketing executive to Later's board as Later continues to see record year-over-year growth. BOSTON, June 22, 2026 /PRNewswire/ -- Later, the world's most intelligent influencer marketing company, today announced the appointment of Sofia...",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-22 17:08:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "brott-33b22172-2026-06-23",
+            "title": "Florida Walmart cashier arrested for stealing elderly man's winning lottery ticket, deputies say",
+            "location": {
+                "city": "Walmart",
+                "country": "",
+                "lat": 41.9786491,
+                "lon": -78.6088597,
+                "precision": "city",
+                "bbox": [
+                    -78.6097995,
+                    41.9776703,
+                    -78.6081244,
+                    41.9792095
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Kcra",
+                    "type": "commercial",
+                    "url": "https://www.kcra.com/article/florida-walmart-cashier-steals-winning-lottery-ticket/71665587"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "brott",
+            "sentiment": "neutral",
+            "summary": "A Florida Walmart cashier was arrested after deputies said she stole an elderly man's winning lottery ticket.",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-22 17:08:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-da92f902-2026-06-23",
+            "title": "Grape seeds from Texas are going to space",
+            "location": {
+                "city": "Texas",
+                "country": "",
+                "lat": 31.2638905,
+                "lon": -98.5456116,
+                "precision": "city",
+                "bbox": [
+                    -106.6458459,
+                    25.83706,
+                    -93.5078217,
+                    36.5004529
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Popular Science",
+                    "type": "commercial",
+                    "url": "https://www.popsci.com/science/grape-seeds-space-texas/"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Your next bottle of red could come from seeds that orbited Planet Earth. The post Grape seeds from Texas are going to space appeared first on Popular Science .",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-22 17:08:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-75594277-2026-06-23",
+            "title": "Simple Modern Announces Sonic the Hedgehog Partnership",
+            "location": {
+                "city": "Modern",
+                "country": "",
+                "lat": 48.3357255,
+                "lon": 17.3087863,
+                "precision": "city",
+                "bbox": [
+                    17.242219,
+                    48.3039637,
+                    17.369026,
+                    48.404315
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Gonintendo",
+                    "type": "commercial",
+                    "url": "https://gonintendo.com/contents/62109-simple-modern-announces-sonic-the-hedgehog-partnership"
                 }
             ],
             "source_count": 1,
@@ -1237,47 +1400,81 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-22 15:27:00",
+            "published_at": "2026-06-22 17:08:00",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "brott-46cb31da-2026-06-23",
-            "title": "Man arrested in Liberty shooting",
+            "id": "samhälle-77277da2-2026-06-23",
+            "title": "iOS 27 beta 2 now available as Apple tests major Siri AI upgrade - 9to5Mac",
             "location": {
-                "city": "Liberty",
+                "city": "Apple",
                 "country": "",
-                "lat": 30.0856736,
-                "lon": -94.7856262,
+                "lat": 12.9822892,
+                "lon": 77.5962827,
                 "precision": "city",
                 "bbox": [
-                    -95.1657672,
-                    29.8842315,
-                    -94.4423065,
-                    30.4934119
+                    77.5962327,
+                    12.9822392,
+                    77.5963327,
+                    12.9823392
                 ]
             },
             "sources": [
                 {
-                    "name": "Courier-tribune",
+                    "name": "Google News",
                     "type": "commercial",
-                    "url": "https://www.courier-tribune.com/news/crime/man-arrested-in-liberty-shooting/article_518a1b0d-ffca-5235-be69-92c2653401b8.html"
+                    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSFhRNi05OU5TVVN2X1lNajJGTXlCNkpUNHNtVmlGM0VoNnV1WVQ0OVMtWjQzUEpGOTVpMzUzRWtoWDMwdjQ4MTVORnFMT0JIS19pUkpxVlQ1YlEtMHBjaTRFSTJmc0kwWUVObGRrc1RnSFJPOHl6UnF1ZGYwcUhQcVdLbGFHbW9rbHpmTF9FdzIyMzdNR245SHM3WjY?oc=5"
                 }
             ],
             "source_count": 1,
             "score": 5.0,
             "tier": 2,
-            "category": "brott",
+            "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "A Greensboro man is accused of shooting a man in the Liberty area, the Randolph County Sheriff’s Office said.",
+            "summary": "iOS 27 beta 2 now available as Apple tests major Siri AI upgrade 9to5Mac Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27 TechCrunch Advanced AI Dictation Not Enabled by Default in iOS 27 Beta MacRumors Second developer betas of iOS 27, macOS 27 are out AppleInsider How Apple Is Making Your Older iPhone Run Faster and Stay Alive Longer WIRED",
             "gaia_synthesis": "",
-            "published_at": "2026-06-22 15:27:00",
+            "published_at": "2026-06-22 17:08:00",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-060dbbab-2026-06-23",
-            "title": "BJP leader slams govt. over police job issues, GO 46",
+            "id": "samhälle-e0a47485-2026-06-23",
+            "title": "Tenable Joins OpenAI Daybreak Cyber Partner Program",
+            "location": {
+                "city": "Joins",
+                "country": "",
+                "lat": 40.8413446,
+                "lon": 14.2485741,
+                "precision": "city",
+                "bbox": [
+                    14.2485241,
+                    40.8412946,
+                    14.2486241,
+                    40.8413946
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Financialcontent",
+                    "type": "commercial",
+                    "url": "https://www.financialcontent.com/article/gnwcq-2026-6-22-tenable-joins-openai-daybreak-cyber-partner-program"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Companies will explore how frontier AI can help organizations identify, prioritize and reduce cyber risk faster in the AI era",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-22 17:08:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-a9455a55-2026-06-23",
+            "title": "Priyanka Chopra calls Nick Jonas 'best dad', shares his adorable pic with Malti Marie",
             "location": {
                 "city": "India",
                 "country": "India",
@@ -1293,9 +1490,9 @@
             },
             "sources": [
                 {
-                    "name": "The Hindu",
+                    "name": "Dna",
                     "type": "commercial",
-                    "url": "https://www.thehindu.com/news/national/telangana/bjp-leader-slams-govt-over-police-job-issues-go-46/article71133954.ece"
+                    "url": "https://www.dnaindia.com/entertainment/report-priyanka-chopra-calls-nick-jonas-best-dad-shares-his-adorable-pic-with-malti-marie-3214017"
                 }
             ],
             "source_count": 1,
@@ -1303,33 +1500,28 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "BJP leader A. Maheshwar Reddy criticizes Telangana government over police job recruitment issues and demands policy review for fairness.",
+            "summary": "Actress Priyanka Chopra shares a candid pic on Father's Day of Nick Jonas, who was spending quality time with their daughter, Malti Marie.",
             "gaia_synthesis": "",
-            "published_at": "2026-06-22 15:27:00",
+            "published_at": "2026-06-22 17:08:00",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-98c9f838-2026-06-23",
-            "title": "AMG TimesSquare Small Cap Growth Fund Q1 2026 Commentary",
+            "id": "samhälle-3ebb9faf-2026-06-23",
+            "title": "Läkaren: Münchhausen-fall måste utredas snabbare",
             "location": {
-                "city": "Canada",
-                "country": "Canada",
-                "lat": 45.42,
-                "lon": -75.7,
-                "precision": "country",
-                "bbox": [
-                    -76.7,
-                    44.42,
-                    -74.7,
-                    46.42
-                ]
+                "city": "Global",
+                "country": "Global",
+                "lat": 0.0,
+                "lon": 0.0,
+                "precision": "global",
+                "bbox": null
             },
             "sources": [
                 {
-                    "name": "Seeking Alpha",
-                    "type": "commercial",
-                    "url": "https://seekingalpha.com/article/4916728-amg-timessquare-small-cap-growth-fund-q1-2026-commentary"
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9243598"
                 }
             ],
             "source_count": 1,
@@ -1337,33 +1529,28 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "Amidst first quarter volatility, AMG TimesSquare Small Cap Growth Fund underperformed the Russell 2000 Growth Index.",
+            "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-22 15:27:00",
+            "published_at": "2026-06-23T07:08:53.126650+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-77db6d6b-2026-06-23",
-            "title": "Google Invests $75 Million in A24 to Develop AI-Powered Filmmaking Tools - Variety",
+            "id": "samhälle-82832b99-2026-06-23",
+            "title": "Indiska gränsstyrkor tvingar migranter tillbaka över gränsen",
             "location": {
-                "city": "Invests",
-                "country": "",
-                "lat": 42.4821529,
-                "lon": -71.0656139,
-                "precision": "city",
-                "bbox": [
-                    -71.0656639,
-                    42.4821029,
-                    -71.0655639,
-                    42.4822029
-                ]
+                "city": "Global",
+                "country": "Global",
+                "lat": 0.0,
+                "lon": 0.0,
+                "precision": "global",
+                "bbox": null
             },
             "sources": [
                 {
-                    "name": "Google News",
-                    "type": "commercial",
-                    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMExTejZnVFR3X19uQUl1RlozVFEwdXRXTmlReW5PeEJBam1IZk9jbzdJeGlHaXhkM1R6R29hMWppSHJ0dlhWUFQybG0td3l6YVRtU3k3MlBZQlgtSUxPbktRWGVEUmdlT3BNb3JUSWZ2bzU5Ylo5V1ZRU21LRkxxTUphZw?oc=5"
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9243786"
                 }
             ],
             "source_count": 1,
@@ -1371,111 +1558,9 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "Google Invests $75 Million in A24 to Develop AI-Powered Filmmaking Tools Variety Exclusive | Google Investing in ‘Backrooms’ Studio A24 WSJ Market Chatter: Alphabet's Google to Invest $75 Million in A24 as Part of AI Partnership 富途牛牛 Google Deepmind and A24 team up on AI filmmaking research The Decoder Future Shock: \"Backrooms\" Movie Studio A24 Takes $75 Million Investment from Google to Use AI Tools, Like Making Movies (Report) Showbiz411",
+            "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-22 15:27:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-e7197cc5-2026-06-23",
-            "title": "Free CarFit Clinic coming to Fergus Falls on June 24",
-            "location": {
-                "city": "Clinic",
-                "country": "",
-                "lat": 10.6140091,
-                "lon": 76.134713,
-                "precision": "city",
-                "bbox": [
-                    76.1346467,
-                    10.6139339,
-                    76.134781,
-                    10.6140831
-                ]
-            },
-            "sources": [
-                {
-                    "name": "Alexandria Echo Press",
-                    "type": "commercial",
-                    "url": "https://www.echopress.com/news/free-carfit-clinic-coming-to-fergus-falls-on-june-24"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "Residents are encouraged to reserve a 30-minute time slot in advance.",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-22 15:26:59",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-cdc0f3c5-2026-06-23",
-            "title": "Alabama nurse’s husband forced to listen as she begged for her life before being shot dead",
-            "location": {
-                "city": "United Kingdom",
-                "country": "United Kingdom",
-                "lat": 51.51,
-                "lon": -0.13,
-                "precision": "country",
-                "bbox": [
-                    -1.13,
-                    50.51,
-                    0.87,
-                    52.51
-                ]
-            },
-            "sources": [
-                {
-                    "name": "The Independent",
-                    "type": "commercial",
-                    "url": "https://www.independent.co.uk/news/world/americas/crime/ada-doss-matthew-taylor-hospital-alabama-b3000366.html"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "negative",
-            "summary": "The hospital has claimed that the alleged shooter ‘never entered our emergency department or any other hospital facility,’ nor presented himself for care",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-22 15:26:59",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "ekonomi-6519fff4-2026-06-23",
-            "title": "Why Alphabet stock is tanking over 6% on Monday",
-            "location": {
-                "city": "United Kingdom",
-                "country": "United Kingdom",
-                "lat": 51.51,
-                "lon": -0.13,
-                "precision": "country",
-                "bbox": [
-                    -1.13,
-                    50.51,
-                    0.87,
-                    52.51
-                ]
-            },
-            "sources": [
-                {
-                    "name": "Invezz",
-                    "type": "commercial",
-                    "url": "https://invezz.com/news/2026/06/22/why-alphabet-stock-is-tanking-over-6-on-monday/"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "ekonomi",
-            "sentiment": "neutral",
-            "summary": "Alphabet shares fell as investors assessed the departure of prominent AI researchers and broader concerns about AI spending. The stock dropped more than 6.6%, falling to $343.47 in morning trading, as the market assessed the departure of two senior AI leaders from Google's research organizations. DeepMind loses another high-profile researcher The latest setback came after John Jumper, one of Google DeepMind's most prominent scientists, announced he would leave the company to join Anthropic. Jump",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-22 15:26:56",
+            "published_at": "2026-06-23T07:08:53.126650+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1504,7 +1589,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-23T05:27:02.337351+02:00",
+            "published_at": "2026-06-23T07:08:53.126650+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1533,7 +1618,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-23T05:27:02.337351+02:00",
+            "published_at": "2026-06-23T07:08:53.126650+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1562,7 +1647,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-23T05:27:02.337351+02:00",
+            "published_at": "2026-06-23T07:08:53.126650+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1591,7 +1676,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-23T05:27:02.337351+02:00",
+            "published_at": "2026-06-23T07:08:53.126650+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1620,7 +1705,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-23T05:27:02.337351+02:00",
+            "published_at": "2026-06-23T07:08:53.126650+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1643,44 +1728,16 @@
                 }
             ],
             "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
+            "score": 8.0,
+            "tier": 1,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-23T05:27:02.337351+02:00",
+            "summary": "Efter månader av internt missnöje och opinionsfall avgår Keir Starmer som premiärminister och Labourledare. Nomineringarna till partiledarvalet öppnar den 9 juli, medan partiet söker en ny riktning.",
+            "gaia_synthesis": "Starmers fall belyser den inneboende instabiliteten i moderna brittiska majoritetsregeringar när de ställs inför strukturella ekonomiska problem. Det visar att en jordskredsseger i val snabbt kan eroderas om ledarskapet misslyckas med att leverera påtagliga förbättringar för väljarna, vilket banar väg för regionala utmanare som Andy Burnham att flytta fram sina positioner.",
+            "published_at": "2026-06-23T07:08:53.126650+02:00",
             "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-999d97a3-2026-06-23",
-            "title": "Parisbor i extremvärmen: ”Vi svalkar oss i kanalen”",
-            "location": {
-                "city": "Global",
-                "country": "Global",
-                "lat": 0.0,
-                "lon": 0.0,
-                "precision": "global",
-                "bbox": null
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9243195"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-23T05:27:02.337351+02:00",
-            "multi_source_verified": false,
-            "has_article": false
+            "has_article": true,
+            "article_generated": true
         },
         {
             "id": "samhälle-bdae8ae1-2026-06-23",
@@ -1797,67 +1854,49 @@
             "published_at": "Mon, 22 Jun 2026 12:32:05 +0200",
             "multi_source_verified": false,
             "has_article": false
-        },
-        {
-            "id": "samhälle-d1f831de-2026-06-23",
-            "title": "Nordanstigsbo körde olovligt för 33:e gången på 9 år",
-            "location": {
-                "city": "Global",
-                "country": "Global",
-                "lat": 0.0,
-                "lon": 0.0,
-                "precision": "global",
-                "bbox": null
-            },
-            "sources": [
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/lokalt/gavleborg/nordanstigsbo-korde-olovligt-for-33e-gangen-pa-9-ar"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "För 33:e gången på nio år dömdes en Nordanstigsbo här om veckan av Hälsinglands tingsrätt för grov olovlig körning.",
-            "gaia_synthesis": "",
-            "published_at": "Mon, 22 Jun 2026 10:48:25 +0200",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-bb1e8d82-2026-06-23",
-            "title": "Förstaklassare kan få spetsutbildning i musik",
-            "location": {
-                "city": "Global",
-                "country": "Global",
-                "lat": 0.0,
-                "lon": 0.0,
-                "precision": "global",
-                "bbox": null
-            },
-            "sources": [
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/kultur/forstaklassare-kan-fa-spetsutbildning-i-musik"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "En försöksverksamhet med spetsutbildning i musik kan få bedrivas med start i årskurs 1, enligt en ny utredning.",
-            "gaia_synthesis": "",
-            "published_at": "Mon, 22 Jun 2026 09:39:55 +0200",
-            "multi_source_verified": false,
-            "has_article": false
         }
     ],
     "relations": [
+        {
+            "id": "rel-auto-proximity-samhälle-8a066cb8-2026-06-23-samhälle-5bc839fa-2026-06-23",
+            "source": "samhälle-8a066cb8-2026-06-23",
+            "target": "samhälle-5bc839fa-2026-06-23",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-8a066cb8-2026-06-23-samhälle-cb82aec7-2026-06-23",
+            "source": "samhälle-8a066cb8-2026-06-23",
+            "target": "samhälle-cb82aec7-2026-06-23",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-8a066cb8-2026-06-23-samhälle-ec8ed80e-2026-06-23",
+            "source": "samhälle-8a066cb8-2026-06-23",
+            "target": "samhälle-ec8ed80e-2026-06-23",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-8a066cb8-2026-06-23-samhälle-8c1a9cdd-2026-06-23",
+            "source": "samhälle-8a066cb8-2026-06-23",
+            "target": "samhälle-8c1a9cdd-2026-06-23",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-8a066cb8-2026-06-23-samhälle-a6cdaaba-2026-06-23",
+            "source": "samhälle-8a066cb8-2026-06-23",
+            "target": "samhälle-a6cdaaba-2026-06-23",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
         {
             "id": "rel-auto-proximity-samhälle-5bc839fa-2026-06-23-samhälle-cb82aec7-2026-06-23",
             "source": "samhälle-5bc839fa-2026-06-23",
@@ -1883,9 +1922,17 @@
             "description": "Regional koppling inom kategorin samhälle."
         },
         {
-            "id": "rel-auto-proximity-samhälle-5bc839fa-2026-06-23-samhälle-c8306f59-2026-06-23",
+            "id": "rel-auto-proximity-samhälle-5bc839fa-2026-06-23-samhälle-a6cdaaba-2026-06-23",
             "source": "samhälle-5bc839fa-2026-06-23",
-            "target": "samhälle-c8306f59-2026-06-23",
+            "target": "samhälle-a6cdaaba-2026-06-23",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-5bc839fa-2026-06-23-samhälle-0155d399-2026-06-23",
+            "source": "samhälle-5bc839fa-2026-06-23",
+            "target": "samhälle-0155d399-2026-06-23",
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
@@ -1923,9 +1970,9 @@
             "description": "Regional koppling inom kategorin samhälle."
         },
         {
-            "id": "rel-auto-proximity-samhälle-cb82aec7-2026-06-23-samhälle-c8306f59-2026-06-23",
+            "id": "rel-auto-proximity-samhälle-cb82aec7-2026-06-23-samhälle-a6cdaaba-2026-06-23",
             "source": "samhälle-cb82aec7-2026-06-23",
-            "target": "samhälle-c8306f59-2026-06-23",
+            "target": "samhälle-a6cdaaba-2026-06-23",
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
@@ -1939,9 +1986,17 @@
             "description": "Regional koppling inom kategorin samhälle."
         },
         {
-            "id": "rel-auto-proximity-samhälle-ec8ed80e-2026-06-23-samhälle-c8306f59-2026-06-23",
+            "id": "rel-auto-proximity-samhälle-ec8ed80e-2026-06-23-samhälle-a6cdaaba-2026-06-23",
             "source": "samhälle-ec8ed80e-2026-06-23",
-            "target": "samhälle-c8306f59-2026-06-23",
+            "target": "samhälle-a6cdaaba-2026-06-23",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-ec8ed80e-2026-06-23-samhälle-0155d399-2026-06-23",
+            "source": "samhälle-ec8ed80e-2026-06-23",
+            "target": "samhälle-0155d399-2026-06-23",
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
@@ -1955,9 +2010,17 @@
             "description": "Regional koppling inom kategorin samhälle."
         },
         {
-            "id": "rel-auto-proximity-samhälle-8c1a9cdd-2026-06-23-samhälle-c8306f59-2026-06-23",
+            "id": "rel-auto-proximity-samhälle-8c1a9cdd-2026-06-23-samhälle-a6cdaaba-2026-06-23",
             "source": "samhälle-8c1a9cdd-2026-06-23",
-            "target": "samhälle-c8306f59-2026-06-23",
+            "target": "samhälle-a6cdaaba-2026-06-23",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-8c1a9cdd-2026-06-23-samhälle-0155d399-2026-06-23",
+            "source": "samhälle-8c1a9cdd-2026-06-23",
+            "target": "samhälle-0155d399-2026-06-23",
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
@@ -1971,9 +2034,25 @@
             "description": "Regional koppling inom kategorin samhälle."
         },
         {
-            "id": "rel-auto-proximity-samhälle-4d38768b-2026-06-23-samhälle-cdc0f3c5-2026-06-23",
-            "source": "samhälle-4d38768b-2026-06-23",
-            "target": "samhälle-cdc0f3c5-2026-06-23",
+            "id": "rel-auto-proximity-samhälle-a6cdaaba-2026-06-23-samhälle-0155d399-2026-06-23",
+            "source": "samhälle-a6cdaaba-2026-06-23",
+            "target": "samhälle-0155d399-2026-06-23",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-a6cdaaba-2026-06-23-samhälle-e34eca4f-2026-06-23",
+            "source": "samhälle-a6cdaaba-2026-06-23",
+            "target": "samhälle-e34eca4f-2026-06-23",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-0155d399-2026-06-23-samhälle-e34eca4f-2026-06-23",
+            "source": "samhälle-0155d399-2026-06-23",
+            "target": "samhälle-e34eca4f-2026-06-23",
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
@@ -1997,26 +2076,26 @@
     ],
     "meta_analysis": {
         "top_themes": [
+            "Keir Starmer avgår som Storbritanniens premiärminister",
             "SVT möter avhoppad rysk officer: ”Om de hittar mig dör jag”",
             "Centralbankslegendaren Alan Greenspan död – blev 100 år",
-            "Keir Starmer avgår – det här händer nu",
             "Efter Ukrainas attacker – bensinförsäljning begränsas hårt på Krimhalvön"
         ],
         "geographic_distribution": {
+            "Storbritannien": 3,
             "Europa": 2,
-            "Usa": 3,
-            "Storbritannien": 2,
+            "Usa": 1,
             "Ukraina": 1,
-            "Global": 15,
             "Frankrike": 1,
-            "Sverige": 11,
-            "Iran": 2,
-            "Okänt": 13,
-            "Argentina": 1,
-            "India": 1,
+            "Okänt": 17,
+            "Sverige": 10,
             "Canada": 1,
-            "United Kingdom": 2
+            "Polen": 1,
+            "Iran": 2,
+            "Global": 14,
+            "Egypt": 1,
+            "India": 1
         },
-        "gaia_daily_brief": "Säkerhetsläget domineras av svt möter avhoppad rysk officer: ”om de hittar mig dör jag”, medan den geopolitiska kartan spänner över 13 länder/regioner. För en djupgående bild, klicka på markörerna och läs gAIas sammanfattningar."
+        "gaia_daily_brief": "Säkerhetsläget domineras av keir starmer avgår som storbritanniens premiärminister, medan den geopolitiska kartan spänner över 13 länder/regioner. För en djupgående bild, klicka på markörerna och läs gAIas sammanfattningar."
     }
 }
