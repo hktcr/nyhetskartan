@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-06-23T03:17:56.420335+00:00",
+    "generated_at": "2026-06-23T03:27:30.082183+00:00",
     "workflow_version": "2.3",
     "source_info": {
         "swedish_rss": [
@@ -11,7 +11,7 @@
         ],
         "api_plan": "NewsData.io Active",
         "total_raw_articles": 62,
-        "deduplicated_count": 56
+        "deduplicated_count": 55
     },
     "news": [
         {
@@ -163,7 +163,7 @@
             "category": "konflikt",
             "sentiment": "negative",
             "summary": "Till följd av ihållande ukrainska drönarattacker mot ryska energilager och transportleder har ockupationsmyndigheterna på Krim helt stoppat civil försäljning av bensin och diesel, vilket lamslår halvöns ekonomi och turism.",
-            "published_at": "2026-06-23T05:17:28.613503+02:00",
+            "published_at": "2026-06-23T05:27:02.337351+02:00",
             "multi_source_verified": false,
             "article_generated": true,
             "has_article": true,
@@ -248,7 +248,7 @@
             "category": "politik",
             "sentiment": "neutral",
             "summary": "I ett känslosamt tal utanför Downing Street meddelade Keir Starmer sin avgång som premiärminister efter att ha förlorat partiets förtroende, vilket kastar Storbritannien in i en ny period av politisk osäkerhet.",
-            "published_at": "2026-06-23T05:17:28.613503+02:00",
+            "published_at": "2026-06-23T05:27:02.337351+02:00",
             "multi_source_verified": true,
             "article_generated": true,
             "has_article": true,
@@ -288,7 +288,7 @@
             "category": "samhälle",
             "sentiment": "neutral",
             "summary": "En extrem värmebölja i Frankrike med temperaturer över 40 grader har lett till röda värmevarningar i 49 departement och krävt två barns liv, vilket tvingat myndigheterna att införa omfattande restriktioner och stänga skolor.",
-            "published_at": "2026-06-23T05:17:28.613503+02:00",
+            "published_at": "2026-06-23T05:27:02.337351+02:00",
             "multi_source_verified": true,
             "article_generated": true,
             "has_article": true,
@@ -392,7 +392,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-23T05:17:28.613503+02:00",
+            "published_at": "2026-06-23T05:27:02.337351+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -426,7 +426,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-23T05:17:28.613503+02:00",
+            "published_at": "2026-06-23T05:27:02.337351+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -460,7 +460,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-23T05:17:28.613503+02:00",
+            "published_at": "2026-06-23T05:27:02.337351+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -494,7 +494,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-23T05:17:28.613503+02:00",
+            "published_at": "2026-06-23T05:27:02.337351+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -528,7 +528,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-23T05:17:28.613503+02:00",
+            "published_at": "2026-06-23T05:27:02.337351+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -562,7 +562,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-23T05:17:28.613503+02:00",
+            "published_at": "2026-06-23T05:27:02.337351+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -596,7 +596,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-23T05:17:28.613503+02:00",
+            "published_at": "2026-06-23T05:27:02.337351+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -630,7 +630,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-23T05:17:28.613503+02:00",
+            "published_at": "2026-06-23T05:27:02.337351+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -664,7 +664,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-23T05:17:28.613503+02:00",
+            "published_at": "2026-06-23T05:27:02.337351+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -698,7 +698,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-23T05:17:28.613503+02:00",
+            "published_at": "2026-06-23T05:27:02.337351+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1111,142 +1111,6 @@
             "has_article": false
         },
         {
-            "id": "politik-9e548fff-2026-06-23",
-            "title": "Right-Wing Lawyer Claims Victory in Tightly Disputed Colombian Election",
-            "location": {
-                "city": "Lawyer",
-                "country": "",
-                "lat": 50.0368455,
-                "lon": 36.2433045,
-                "precision": "city",
-                "bbox": [
-                    36.2432545,
-                    50.0367955,
-                    36.2433545,
-                    50.0368955
-                ]
-            },
-            "sources": [
-                {
-                    "name": "Occrp",
-                    "type": "commercial",
-                    "url": "https://www.occrp.org/en/news/right-wing-lawyer-claims-victory-in-tightly-disputed-colombian-election"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "politik",
-            "sentiment": "neutral",
-            "summary": "Having campaigned on an iron-fist promise to root out crime and corruption, the controversial lawyer is demanding an immediate concession following a razor-thin tally, igniting a bitter legal battle over the final vote.",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-22 15:17:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "politik-f7a719e0-2026-06-23",
-            "title": "Andy Burnham shocks viewers with his appearance as he's sworn in as MP",
-            "location": {
-                "city": "United Kingdom",
-                "country": "United Kingdom",
-                "lat": 51.51,
-                "lon": -0.13,
-                "precision": "country",
-                "bbox": [
-                    -1.13,
-                    50.51,
-                    0.87,
-                    52.51
-                ]
-            },
-            "sources": [
-                {
-                    "name": "Express",
-                    "type": "commercial",
-                    "url": "https://www.express.co.uk/news/uk/2220482/andy-burnham-shocks-viewers-appearance"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "politik",
-            "sentiment": "neutral",
-            "summary": "Andy Burnham has confirmed he will run for Prime Minister.",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-22 15:17:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "politik-6e74afc7-2026-06-23",
-            "title": "PRP denies selling nomination forms to Kwankwaso, dismisses takeover allegation",
-            "location": {
-                "city": "Nigeria",
-                "country": "Nigeria",
-                "lat": 9.07,
-                "lon": 7.39,
-                "precision": "country",
-                "bbox": [
-                    6.39,
-                    8.07,
-                    8.39,
-                    10.07
-                ]
-            },
-            "sources": [
-                {
-                    "name": "Tribune",
-                    "type": "commercial",
-                    "url": "https://tribuneonlineng.com/prp-denies-selling-nomination-forms-to-kwankwaso-dismisses-takeover-allegation/"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "politik",
-            "sentiment": "neutral",
-            "summary": "The Peoples Redemption Party (PRP) has refuted allegations that it sold 69 nomination forms to former Kano State Governor, Senator Rabiu Musa Kwankwaso, for the purpose of taking over the party ahead of the 2027 general elections. The party’s Secretary, Musa Maigari, dismissed the claim during an interview with journalists on Monday, insisting that Kwankwaso [...] The post PRP denies selling nomination forms to Kwankwaso, dismisses takeover allegation appeared first on Tribune Online .",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-22 15:16:59",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "politik-fe650a03-2026-06-23",
-            "title": "National Assembly Approves Rs9.17 Trillion in Budget Grants, Rejects Opposition Cut Motions",
-            "location": {
-                "city": "Pakistan",
-                "country": "Pakistan",
-                "lat": 33.69,
-                "lon": 73.04,
-                "precision": "country",
-                "bbox": [
-                    72.04,
-                    32.69,
-                    74.04,
-                    34.69
-                ]
-            },
-            "sources": [
-                {
-                    "name": "Daily Parliament Times",
-                    "type": "commercial",
-                    "url": "https://www.dailyparliamenttimes.com/2026/06/22/national-assembly-approves-rs9-17-trillion-in-budget-grants-rejects-opposition-cut-motions/"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "politik",
-            "sentiment": "neutral",
-            "summary": "Islamabad: (Parliament Times) The National Assembly has formally advanced the federal budget for the fiscal year 2026-27 by approving 125 demands for grants totaling Rs9.171 trillion, while rejecting 307 cut motions submitted by opposition lawmakers through a majority vote. The session, chaired by Speaker Sardar Ayaz Sadiq, saw Finance Minister Muhammad Aurangzeb present demands for [...]",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-22 15:16:58",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
             "id": "politik-d791fb59-2026-06-23",
             "title": "Burnham vill rädda Labourpartiet – men kan ses som oprövat kort",
             "location": {
@@ -1276,139 +1140,144 @@
             "has_article": false
         },
         {
-            "id": "samhälle-a372666e-2026-06-23",
-            "title": "22 juni: Nattens nyheter",
+            "id": "samhälle-219893fe-2026-06-23",
+            "title": "Messi breaks World Cup record, shop his trending Argentina jersey",
             "location": {
-                "city": "Global",
-                "country": "Global",
-                "lat": 0.0,
-                "lon": 0.0,
-                "precision": "global",
-                "bbox": null
+                "city": "Argentina",
+                "country": "Argentina",
+                "lat": -34.6,
+                "lon": -58.38,
+                "precision": "country",
+                "bbox": [
+                    -59.38,
+                    -35.6,
+                    -57.38,
+                    -33.6
+                ]
             },
             "sources": [
                 {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/22-juni-nattens-nyheter-wicae2"
+                    "name": "The Daily Jeffersonian",
+                    "type": "commercial",
+                    "url": "https://www.daily-jeff.com/story/sports/soccer/worldcup/2026/06/22/shop-lionel-messi-argentina-jerseys-soccer-gear-world-cup/90647932007/"
                 }
             ],
             "source_count": 1,
-            "score": 6.0,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Gear up and watch Lionel Messi and Argentina during the 2026 World Cup with new jerseys. Here are the latest trending Adidas jerseys",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-22 15:27:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-0bc413f4-2026-06-23",
+            "title": "EasyJet founder courted by US hostile bidder - The Telegraph",
+            "location": {
+                "city": "Usa",
+                "country": "Usa",
+                "lat": 38.91,
+                "lon": -77.04,
+                "precision": "country",
+                "bbox": [
+                    -78.04,
+                    37.91,
+                    -76.04,
+                    39.91
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Google News",
+                    "type": "commercial",
+                    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVkpMd1NGN1lXcFhNM2NrcEhHX1FLaG1raHNpSTlLMDhvZndmSmZUTTA4d2V1a3czQ2NVOHRsVFp4eGFDdnlBM3hNX01oV2taYWdOSUZQRGx1RjVmaEZSQnhDd3VRdEk2NHVuRGVva3lSbXhXR1NJdC0tQWJtRnpYcW5QdklQa0hhd1lxZkVpd0dfVjNleTZUZWxXRkhjSDFlN004X0p3?oc=5"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "EasyJet founder courted by US hostile bidder The Telegraph EasyJet rejects £4.7bn takeover offer from US investment firm Castlelake BBC EasyJet bidder is still offering less than a full ticket The Guardian EasyJet rejects £4.7bn takeover bid from Castlelake Financial Times Castlelake sets out $6.3 billion easyJet bid backed by airline execs Reuters",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-22 15:27:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-b6d374f3-2026-06-23",
+            "title": "Anita Anderson Eaton",
+            "location": {
+                "city": "Eaton",
+                "country": "",
+                "lat": 42.5935964,
+                "lon": -84.8443666,
+                "precision": "city",
+                "bbox": [
+                    -85.0755823,
+                    42.4214487,
+                    -84.600422,
+                    42.7707303
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Times-herald.com",
+                    "type": "commercial",
+                    "url": "https://www.times-herald.com/obituaries/anita-anderson-eaton/article_a1278d24-53b1-4386-817d-30c7cfa9c616.html"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "Mon, 22 Jun 2026 05:22:44 +0200",
+            "published_at": "2026-06-22 15:27:00",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-04ba3c0a-2026-06-23",
-            "title": "Gault named regional VP for Farm Credit Mid-America",
+            "id": "brott-46cb31da-2026-06-23",
+            "title": "Man arrested in Liberty shooting",
             "location": {
-                "city": "Farm",
+                "city": "Liberty",
                 "country": "",
-                "lat": 53.4422962,
-                "lon": 9.2954581,
+                "lat": 30.0856736,
+                "lon": -94.7856262,
                 "precision": "city",
                 "bbox": [
-                    9.2313749,
-                    53.4121494,
-                    9.3465524,
-                    53.4718854
+                    -95.1657672,
+                    29.8842315,
+                    -94.4423065,
+                    30.4934119
                 ]
             },
             "sources": [
                 {
-                    "name": "Washtimesherald",
+                    "name": "Courier-tribune",
                     "type": "commercial",
-                    "url": "https://www.washtimesherald.com/news/local_news/gault-named-regional-vp-for-farm-credit-mid-america/article_82db2ac6-5e9d-464e-b568-4400a1affdf6.html"
+                    "url": "https://www.courier-tribune.com/news/crime/man-arrested-in-liberty-shooting/article_518a1b0d-ffca-5235-be69-92c2653401b8.html"
                 }
             ],
             "source_count": 1,
             "score": 5.0,
             "tier": 2,
-            "category": "samhälle",
+            "category": "brott",
             "sentiment": "neutral",
-            "summary": "Greensburg – After nineteen years with Farm Credit Mid-America, and the last decade serving as Regional Vice President for Crop Insurance, Cody Gault is now the Regional Vice President for Agricultural Lending in southwest Indiana. In this capacity, he will...",
+            "summary": "A Greensboro man is accused of shooting a man in the Liberty area, the Randolph County Sheriff’s Office said.",
             "gaia_synthesis": "",
-            "published_at": "2026-06-22 15:17:00",
+            "published_at": "2026-06-22 15:27:00",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-45be82ef-2026-06-23",
-            "title": "Why Is The iPad Mini More Expensive Than The iPad?",
-            "location": {
-                "city": "Is",
-                "country": "",
-                "lat": 64.9841821,
-                "lon": -18.1059013,
-                "precision": "city",
-                "bbox": [
-                    -25.0135069,
-                    63.0859177,
-                    -12.8046162,
-                    67.353
-                ]
-            },
-            "sources": [
-                {
-                    "name": "Bgr",
-                    "type": "commercial",
-                    "url": "https://www.bgr.com/2196341/why-is-ipad-mini-more-expensive-than-ipad/"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "There are several different types of iPad available, but what's likely to surprise some, is that the iPad mini is actually more expensive than the base iPad.",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-22 15:17:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-30f1af03-2026-06-23",
-            "title": "NITDA proposes framework to fight gender-based digital abuse targeting women",
-            "location": {
-                "city": "Nigeria",
-                "country": "Nigeria",
-                "lat": 9.07,
-                "lon": 7.39,
-                "precision": "country",
-                "bbox": [
-                    6.39,
-                    8.07,
-                    8.39,
-                    10.07
-                ]
-            },
-            "sources": [
-                {
-                    "name": "Nairametrics",
-                    "type": "commercial",
-                    "url": "https://nairametrics.com/2026/06/22/nitda-proposes-framework-to-fight-gender-based-digital-abuse-targeting-women/"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "The National Information Technology Development Agency says it is stepping up measures to tackle cyberbullying, gender-based online harassment and other harmful digital behaviors, and is developing a framework in this regard, the News Agency of Nigeria reports. The post NITDA proposes framework to fight gender-based digital abuse targeting women appeared first on Nairametrics .",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-22 15:16:58",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-3163a59e-2026-06-23",
-            "title": "Event Management Company Mumbai: Creating Exceptional Corporate & Brand Experiences",
+            "id": "samhälle-060dbbab-2026-06-23",
+            "title": "BJP leader slams govt. over police job issues, GO 46",
             "location": {
                 "city": "India",
                 "country": "India",
@@ -1424,9 +1293,9 @@
             },
             "sources": [
                 {
-                    "name": "Openpr.com",
+                    "name": "The Hindu",
                     "type": "commercial",
-                    "url": "https://www.openpr.com/news/4556857/event-management-company-mumbai-creating-exceptional"
+                    "url": "https://www.thehindu.com/news/national/telangana/bjp-leader-slams-govt-over-police-job-issues-go-46/article71133954.ece"
                 }
             ],
             "source_count": 1,
@@ -1434,33 +1303,33 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "Link : https://www.fionapremium.com Mumbai is India's financial capital, home to multinational corporations, growing startups, educational institutions, technology companies, and global brands. In such a dynamic business environment, events play a critical role in building relationships, strengthening brands, engaging employees, and driving",
+            "summary": "BJP leader A. Maheshwar Reddy criticizes Telangana government over police job recruitment issues and demands policy review for fairness.",
             "gaia_synthesis": "",
-            "published_at": "2026-06-22 15:16:58",
+            "published_at": "2026-06-22 15:27:00",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-2d98db79-2026-06-23",
-            "title": "Nokia recruits Gemini agents for assurance platform",
+            "id": "samhälle-98c9f838-2026-06-23",
+            "title": "AMG TimesSquare Small Cap Growth Fund Q1 2026 Commentary",
             "location": {
-                "city": "Finland",
-                "country": "Finland",
-                "lat": 60.17,
-                "lon": 24.94,
+                "city": "Canada",
+                "country": "Canada",
+                "lat": 45.42,
+                "lon": -75.7,
                 "precision": "country",
                 "bbox": [
-                    23.94,
-                    59.17,
-                    25.94,
-                    61.17
+                    -76.7,
+                    44.42,
+                    -74.7,
+                    46.42
                 ]
             },
             "sources": [
                 {
-                    "name": "Mobileworldlive",
+                    "name": "Seeking Alpha",
                     "type": "commercial",
-                    "url": "https://www.mobileworldlive.com/nokia/nokia-recruits-gemini-agents-for-assurance-platform/"
+                    "url": "https://seekingalpha.com/article/4916728-amg-timessquare-small-cap-growth-fund-q1-2026-commentary"
                 }
             ],
             "source_count": 1,
@@ -1468,9 +1337,145 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "Google Cloud and Nokia outlined a plan to integrate agents made using Gemini AI models into the vendor’s network assurance platform, a move they promoted as aiding quick resolution of operator issues. The post Nokia recruits Gemini agents for assurance platform appeared first on Mobile World Live .",
+            "summary": "Amidst first quarter volatility, AMG TimesSquare Small Cap Growth Fund underperformed the Russell 2000 Growth Index.",
             "gaia_synthesis": "",
-            "published_at": "2026-06-22 15:16:57",
+            "published_at": "2026-06-22 15:27:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-77db6d6b-2026-06-23",
+            "title": "Google Invests $75 Million in A24 to Develop AI-Powered Filmmaking Tools - Variety",
+            "location": {
+                "city": "Invests",
+                "country": "",
+                "lat": 42.4821529,
+                "lon": -71.0656139,
+                "precision": "city",
+                "bbox": [
+                    -71.0656639,
+                    42.4821029,
+                    -71.0655639,
+                    42.4822029
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Google News",
+                    "type": "commercial",
+                    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMExTejZnVFR3X19uQUl1RlozVFEwdXRXTmlReW5PeEJBam1IZk9jbzdJeGlHaXhkM1R6R29hMWppSHJ0dlhWUFQybG0td3l6YVRtU3k3MlBZQlgtSUxPbktRWGVEUmdlT3BNb3JUSWZ2bzU5Ylo5V1ZRU21LRkxxTUphZw?oc=5"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Google Invests $75 Million in A24 to Develop AI-Powered Filmmaking Tools Variety Exclusive | Google Investing in ‘Backrooms’ Studio A24 WSJ Market Chatter: Alphabet's Google to Invest $75 Million in A24 as Part of AI Partnership 富途牛牛 Google Deepmind and A24 team up on AI filmmaking research The Decoder Future Shock: \"Backrooms\" Movie Studio A24 Takes $75 Million Investment from Google to Use AI Tools, Like Making Movies (Report) Showbiz411",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-22 15:27:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-e7197cc5-2026-06-23",
+            "title": "Free CarFit Clinic coming to Fergus Falls on June 24",
+            "location": {
+                "city": "Clinic",
+                "country": "",
+                "lat": 10.6140091,
+                "lon": 76.134713,
+                "precision": "city",
+                "bbox": [
+                    76.1346467,
+                    10.6139339,
+                    76.134781,
+                    10.6140831
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Alexandria Echo Press",
+                    "type": "commercial",
+                    "url": "https://www.echopress.com/news/free-carfit-clinic-coming-to-fergus-falls-on-june-24"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Residents are encouraged to reserve a 30-minute time slot in advance.",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-22 15:26:59",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-cdc0f3c5-2026-06-23",
+            "title": "Alabama nurse’s husband forced to listen as she begged for her life before being shot dead",
+            "location": {
+                "city": "United Kingdom",
+                "country": "United Kingdom",
+                "lat": 51.51,
+                "lon": -0.13,
+                "precision": "country",
+                "bbox": [
+                    -1.13,
+                    50.51,
+                    0.87,
+                    52.51
+                ]
+            },
+            "sources": [
+                {
+                    "name": "The Independent",
+                    "type": "commercial",
+                    "url": "https://www.independent.co.uk/news/world/americas/crime/ada-doss-matthew-taylor-hospital-alabama-b3000366.html"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "negative",
+            "summary": "The hospital has claimed that the alleged shooter ‘never entered our emergency department or any other hospital facility,’ nor presented himself for care",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-22 15:26:59",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "ekonomi-6519fff4-2026-06-23",
+            "title": "Why Alphabet stock is tanking over 6% on Monday",
+            "location": {
+                "city": "United Kingdom",
+                "country": "United Kingdom",
+                "lat": 51.51,
+                "lon": -0.13,
+                "precision": "country",
+                "bbox": [
+                    -1.13,
+                    50.51,
+                    0.87,
+                    52.51
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Invezz",
+                    "type": "commercial",
+                    "url": "https://invezz.com/news/2026/06/22/why-alphabet-stock-is-tanking-over-6-on-monday/"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "ekonomi",
+            "sentiment": "neutral",
+            "summary": "Alphabet shares fell as investors assessed the departure of prominent AI researchers and broader concerns about AI spending. The stock dropped more than 6.6%, falling to $343.47 in morning trading, as the market assessed the departure of two senior AI leaders from Google's research organizations. DeepMind loses another high-profile researcher The latest setback came after John Jumper, one of Google DeepMind's most prominent scientists, announced he would leave the company to join Anthropic. Jump",
+            "gaia_synthesis": "",
+            "published_at": "2026-06-22 15:26:56",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1499,7 +1504,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-23T05:17:28.613503+02:00",
+            "published_at": "2026-06-23T05:27:02.337351+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1528,7 +1533,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-23T05:17:28.613503+02:00",
+            "published_at": "2026-06-23T05:27:02.337351+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1557,7 +1562,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-23T05:17:28.613503+02:00",
+            "published_at": "2026-06-23T05:27:02.337351+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1586,7 +1591,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-23T05:17:28.613503+02:00",
+            "published_at": "2026-06-23T05:27:02.337351+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1615,7 +1620,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-23T05:17:28.613503+02:00",
+            "published_at": "2026-06-23T05:27:02.337351+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1644,7 +1649,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-23T05:17:28.613503+02:00",
+            "published_at": "2026-06-23T05:27:02.337351+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1673,7 +1678,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-06-23T05:17:28.613503+02:00",
+            "published_at": "2026-06-23T05:27:02.337351+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1850,35 +1855,6 @@
             "published_at": "Mon, 22 Jun 2026 09:39:55 +0200",
             "multi_source_verified": false,
             "has_article": false
-        },
-        {
-            "id": "samhälle-04808ae3-2026-06-23",
-            "title": "Coca-Cola faces $20 billion tax bill in IRS lawsuit",
-            "location": {
-                "city": "Global",
-                "country": "Global",
-                "lat": 0.0,
-                "lon": 0.0,
-                "precision": "global",
-                "bbox": null
-            },
-            "sources": [
-                {
-                    "name": "Thestreet",
-                    "type": "commercial",
-                    "url": "https://www.thestreet.com/taxes/coca-cola-ko-20-billion-irs-tax-lawsuit"
-                }
-            ],
-            "source_count": 1,
-            "score": 4.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "The beverage company's transfer pricing fight reaches a federal appeals court.",
-            "gaia_synthesis": "",
-            "published_at": "2026-06-22 15:17:00",
-            "multi_source_verified": false,
-            "has_article": false
         }
     ],
     "relations": [
@@ -1995,6 +1971,14 @@
             "description": "Regional koppling inom kategorin samhälle."
         },
         {
+            "id": "rel-auto-proximity-samhälle-4d38768b-2026-06-23-samhälle-cdc0f3c5-2026-06-23",
+            "source": "samhälle-4d38768b-2026-06-23",
+            "target": "samhälle-cdc0f3c5-2026-06-23",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
             "id": "rel-auto-proximity-samhälle-4750b057-2026-06-23-samhälle-44525ec3-2026-06-23",
             "source": "samhälle-4750b057-2026-06-23",
             "target": "samhälle-44525ec3-2026-06-23",
@@ -2020,20 +2004,19 @@
         ],
         "geographic_distribution": {
             "Europa": 2,
-            "Usa": 2,
+            "Usa": 3,
             "Storbritannien": 2,
             "Ukraina": 1,
-            "Global": 17,
+            "Global": 15,
             "Frankrike": 1,
             "Sverige": 11,
             "Iran": 2,
-            "Okänt": 12,
-            "United Kingdom": 1,
-            "Nigeria": 2,
-            "Pakistan": 1,
+            "Okänt": 13,
+            "Argentina": 1,
             "India": 1,
-            "Finland": 1
+            "Canada": 1,
+            "United Kingdom": 2
         },
-        "gaia_daily_brief": "Säkerhetsläget domineras av svt möter avhoppad rysk officer: ”om de hittar mig dör jag”, medan den geopolitiska kartan spänner över 14 länder/regioner. För en djupgående bild, klicka på markörerna och läs gAIas sammanfattningar."
+        "gaia_daily_brief": "Säkerhetsläget domineras av svt möter avhoppad rysk officer: ”om de hittar mig dör jag”, medan den geopolitiska kartan spänner över 13 länder/regioner. För en djupgående bild, klicka på markörerna och läs gAIas sammanfattningar."
     }
 }
