@@ -2155,10 +2155,12 @@
     ],
     "meta_analysis": {
         "top_themes": [
-            "Polen och Sverige skriver avtal om tre A26-ubåtar den 29 juni",
-            "Kvinna dödades i rysk drönarattack mitt på stranden i Odessa",
-            "IS-ledare dödad av USA i Syrien",
-            "Svenska rederier säljer gamla fartyg – hamnar i ryska skuggflottan"
+            "Maritim avskräckning och försvarssamarbete i Östersjön (A26-ubåtsavtalet)",
+            "Krigets intrång i det civila rummet (Drönarattacken i Odessa)",
+            "USA:s asymmetriska terrorbekämpning (IS-ledare dödad i Syrien)",
+            "Sanktionsprövning och skuggflottor (Granskningen av svenska fartygsförsäljningar)",
+            "Rättsliga följder av organiserad brottslighet (Domar efter brandattackerna i Jönköping)",
+            "Naturkatastrofer i sårbara stater (Jordbävningarna i Venezuela)"
         ],
         "geographic_distribution": {
             "Sverige": 15,
@@ -2173,6 +2175,6 @@
             "India": 1,
             "Global": 15
         },
-        "gaia_daily_brief": "Säkerhetsläget domineras av polen och sverige skriver avtal om tre a26-ubåtar den 29 juni, medan den geopolitiska kartan spänner över 11 länder/regioner. För en djupgående bild, klicka på markörerna och läs gAIas sammanfattningar."
+        "gaia_daily_brief": "Dagens nyhetsbild präglas av strategiska försvarssteg och asymmetriska konflikter. I Östersjöregionen markerar det kommande svensk-polska A26-ubåtsavtalet en ny fas i regionalt marina försvarssamarbete inom NATO. Samtidigt fortsätter det humanitära lidandet i Ukraina genom ryska drönarangrepp mot civila i Odessa, och i Syrien rapporterar USA en framgångsrik eliminering av en högt uppsatt IS-ledare. Inrikes blottar SVT:s granskning av hur svenska fartyg slussas till den ryska skuggflottan svårigheterna med globala sanktioner, medan tingsrätten i Jönköping utdömer hårda straff för branddåden på Råslätt. Globalt utspelar sig dessutom en svår naturkatastrof i Venezuela efter en serie kraftiga jordbävningar som slår mot ett redan sårbart samhälle."
     }
 }
