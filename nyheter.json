@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-11T03:17:01.218471+00:00",
+    "generated_at": "2026-07-11T03:23:01.871024+00:00",
     "workflow_version": "2.3",
     "source_info": {
         "swedish_rss": [
@@ -51,9 +51,7 @@
             "published_at": "Fri, 10 Jul 2026 17:46:43 +0200",
             "multi_source_verified": true,
             "article_generated": true,
-            "has_article": true,
-            "gaia_synthesis": "Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.",
-            "article_content": "\n        <p class=\"lead\">Den brittiske ex-politikern Ann Widdecombe hittades död i sitt hem under torsdagen. Polisen utreder händelsen som mord och en 26-årig man har gripits, rapporterar Reuters.</p>\n        <h2>Bakgrund</h2>\n        <p>Händelsen är kulmen på en längre tids utveckling där spänningarna byggts upp gradvis. Flera experter har tidigare varnat för att situationen skulle kunna eskalera om inte diplomatiska eller förebyggande åtgärder vidtogs i tid.</p>\n        <h2>Analys</h2>\n        <p>Konsekvenserna av detta kan bli långtgående, inte bara för de direkt inblandade parterna utan även för det omgivande samhället och den internationella gemenskapen. Det krävs nu en noggrann övervakning av hur aktörerna agerar härnäst.</p>\n        <div class=\"article-synthesis\">\n            <div class=\"article-synthesis-header\">\n                <div class=\"icon\">🤖</div>\n                <span>gAIa-reflektion</span>\n            </div>\n            <div class=\"article-synthesis-body\">\n                <p>Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.</p>\n            </div>\n        </div>\n        <h2>Vidare läsning</h2>\n        <p>För mer information, se den ursprungliga källan: <a href=\"https://www.svt.se/nyheter/utrikes/brittisk-ex-minister-ann-widdecombe-misstankt-mordad-i-sitt-hem\" target=\"_blank\">SVT Utrikes</a>.</p>\n    "
+            "has_article": true
         },
         {
             "id": "konflikt-8ffc0f23-2026-07-11",
@@ -87,9 +85,7 @@
             "published_at": "Fri, 10 Jul 2026 16:17:34 +0200",
             "multi_source_verified": false,
             "article_generated": true,
-            "has_article": true,
-            "gaia_synthesis": "Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.",
-            "article_content": "\n        <p class=\"lead\">En stor skogsbrand härjar i södra Spanien. Både boende och turister har under dygnet tvingats evakuera från sina hem. – Det känns som att en bomb har fallit, säger borgmästaren Francisco Miguel Reyes till El País.</p>\n        <h2>Bakgrund</h2>\n        <p>Händelsen är kulmen på en längre tids utveckling där spänningarna byggts upp gradvis. Flera experter har tidigare varnat för att situationen skulle kunna eskalera om inte diplomatiska eller förebyggande åtgärder vidtogs i tid.</p>\n        <h2>Analys</h2>\n        <p>Konsekvenserna av detta kan bli långtgående, inte bara för de direkt inblandade parterna utan även för det omgivande samhället och den internationella gemenskapen. Det krävs nu en noggrann övervakning av hur aktörerna agerar härnäst.</p>\n        <div class=\"article-synthesis\">\n            <div class=\"article-synthesis-header\">\n                <div class=\"icon\">🤖</div>\n                <span>gAIa-reflektion</span>\n            </div>\n            <div class=\"article-synthesis-body\">\n                <p>Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.</p>\n            </div>\n        </div>\n        <h2>Vidare läsning</h2>\n        <p>För mer information, se den ursprungliga källan: <a href=\"https://www.svt.se/nyheter/utrikes/boende-evakueras-vet-inte-om-huset-brunnit-ner\" target=\"_blank\">SVT Utrikes</a>.</p>\n    "
+            "has_article": true
         },
         {
             "id": "konflikt-f261d51b-2026-07-11",
@@ -123,13 +119,11 @@
             "published_at": "Fri, 10 Jul 2026 11:04:59 +0200",
             "multi_source_verified": false,
             "article_generated": true,
-            "has_article": true,
-            "gaia_synthesis": "Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.",
-            "article_content": "\n        <p class=\"lead\">Attackerna mellan Iran och USA har återigen blossat upp. Enligt statsvetaren Anders Persson finns det lite som just nu talar för varken fred eller storkrig. – Jag tror att det vi har sett de senaste dagarna kan vara en bild av framtiden, säger han i Morgonstudion.</p>\n        <h2>Bakgrund</h2>\n        <p>Händelsen är kulmen på en längre tids utveckling där spänningarna byggts upp gradvis. Flera experter har tidigare varnat för att situationen skulle kunna eskalera om inte diplomatiska eller förebyggande åtgärder vidtogs i tid.</p>\n        <h2>Analys</h2>\n        <p>Konsekvenserna av detta kan bli långtgående, inte bara för de direkt inblandade parterna utan även för det omgivande samhället och den internationella gemenskapen. Det krävs nu en noggrann övervakning av hur aktörerna agerar härnäst.</p>\n        <div class=\"article-synthesis\">\n            <div class=\"article-synthesis-header\">\n                <div class=\"icon\">🤖</div>\n                <span>gAIa-reflektion</span>\n            </div>\n            <div class=\"article-synthesis-body\">\n                <p>Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.</p>\n            </div>\n        </div>\n        <h2>Vidare läsning</h2>\n        <p>För mer information, se den ursprungliga källan: <a href=\"https://www.svt.se/nyheter/utrikes/experten-sa-stor-ar-risken-for-storkrig-i-mellanostern\" target=\"_blank\">SVT Utrikes</a>.</p>\n    "
+            "has_article": true
         },
         {
-            "id": "konflikt-bb6dd11e-2026-07-11",
-            "title": "Uppgifter om explosioner i Kiev",
+            "id": "konflikt-72536ac6-2026-07-11",
+            "title": "Nya ryska attacker i Kiev – minst sex skadade",
             "location": {
                 "city": "Kiev",
                 "country": "",
@@ -154,14 +148,12 @@
             "score": 8.0,
             "tier": 1,
             "category": "konflikt",
-            "sentiment": "neutral",
+            "sentiment": "negative",
             "summary": "",
-            "published_at": "2026-07-11T05:16:28.450408+02:00",
+            "published_at": "2026-07-11T05:22:36.165248+02:00",
             "multi_source_verified": false,
             "article_generated": true,
-            "has_article": true,
-            "gaia_synthesis": "Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.",
-            "article_content": "\n        <p class=\"lead\"></p>\n        <h2>Bakgrund</h2>\n        <p>Händelsen är kulmen på en längre tids utveckling där spänningarna byggts upp gradvis. Flera experter har tidigare varnat för att situationen skulle kunna eskalera om inte diplomatiska eller förebyggande åtgärder vidtogs i tid.</p>\n        <h2>Analys</h2>\n        <p>Konsekvenserna av detta kan bli långtgående, inte bara för de direkt inblandade parterna utan även för det omgivande samhället och den internationella gemenskapen. Det krävs nu en noggrann övervakning av hur aktörerna agerar härnäst.</p>\n        <div class=\"article-synthesis\">\n            <div class=\"article-synthesis-header\">\n                <div class=\"icon\">🤖</div>\n                <span>gAIa-reflektion</span>\n            </div>\n            <div class=\"article-synthesis-body\">\n                <p>Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.</p>\n            </div>\n        </div>\n        <h2>Vidare läsning</h2>\n        <p>För mer information, se den ursprungliga källan: <a href=\"https://www.sverigesradio.se/artikel/9255275\" target=\"_blank\">SR Ekot</a>.</p>\n    "
+            "has_article": true
         },
         {
             "id": "konflikt-fde160a2-2026-07-11",
@@ -192,12 +184,10 @@
             "category": "konflikt",
             "sentiment": "negative",
             "summary": "",
-            "published_at": "2026-07-11T05:16:28.450408+02:00",
+            "published_at": "2026-07-11T05:22:36.165248+02:00",
             "multi_source_verified": false,
             "article_generated": true,
-            "has_article": true,
-            "gaia_synthesis": "Den militära upprustningen vid Natos gränser belyser en återgång till kalla kriget-retorik och strategisk positionering. Det visar på behovet av stärkt europeisk försvarsförmåga och tydligare säkerhetspolitiska doktriner.",
-            "article_content": "\n        <p class=\"lead\"></p>\n        <h2>Bakgrund</h2>\n        <p>Händelsen är kulmen på en längre tids utveckling där spänningarna byggts upp gradvis. Flera experter har tidigare varnat för att situationen skulle kunna eskalera om inte diplomatiska eller förebyggande åtgärder vidtogs i tid.</p>\n        <h2>Analys</h2>\n        <p>Konsekvenserna av detta kan bli långtgående, inte bara för de direkt inblandade parterna utan även för det omgivande samhället och den internationella gemenskapen. Det krävs nu en noggrann övervakning av hur aktörerna agerar härnäst.</p>\n        <div class=\"article-synthesis\">\n            <div class=\"article-synthesis-header\">\n                <div class=\"icon\">🤖</div>\n                <span>gAIa-reflektion</span>\n            </div>\n            <div class=\"article-synthesis-body\">\n                <p>Den militära upprustningen vid Natos gränser belyser en återgång till kalla kriget-retorik och strategisk positionering. Det visar på behovet av stärkt europeisk försvarsförmåga och tydligare säkerhetspolitiska doktriner.</p>\n            </div>\n        </div>\n        <h2>Vidare läsning</h2>\n        <p>För mer information, se den ursprungliga källan: <a href=\"https://www.sverigesradio.se/artikel/9255235\" target=\"_blank\">SR Ekot</a>.</p>\n    "
+            "has_article": true
         },
         {
             "id": "konflikt-19f63121-2026-07-11",
@@ -228,12 +218,10 @@
             "category": "konflikt",
             "sentiment": "neutral",
             "summary": "",
-            "published_at": "2026-07-11T05:16:28.450408+02:00",
+            "published_at": "2026-07-11T05:22:36.165248+02:00",
             "multi_source_verified": false,
             "article_generated": true,
-            "has_article": true,
-            "gaia_synthesis": "Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.",
-            "article_content": "\n        <p class=\"lead\"></p>\n        <h2>Bakgrund</h2>\n        <p>Händelsen är kulmen på en längre tids utveckling där spänningarna byggts upp gradvis. Flera experter har tidigare varnat för att situationen skulle kunna eskalera om inte diplomatiska eller förebyggande åtgärder vidtogs i tid.</p>\n        <h2>Analys</h2>\n        <p>Konsekvenserna av detta kan bli långtgående, inte bara för de direkt inblandade parterna utan även för det omgivande samhället och den internationella gemenskapen. Det krävs nu en noggrann övervakning av hur aktörerna agerar härnäst.</p>\n        <div class=\"article-synthesis\">\n            <div class=\"article-synthesis-header\">\n                <div class=\"icon\">🤖</div>\n                <span>gAIa-reflektion</span>\n            </div>\n            <div class=\"article-synthesis-body\">\n                <p>Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.</p>\n            </div>\n        </div>\n        <h2>Vidare läsning</h2>\n        <p>För mer information, se den ursprungliga källan: <a href=\"https://www.sverigesradio.se/artikel/9254343\" target=\"_blank\">SR Ekot</a>.</p>\n    "
+            "has_article": true
         },
         {
             "id": "konflikt-265dddd2-2026-07-11",
@@ -267,9 +255,7 @@
             "published_at": "Fri, 10 Jul 2026 13:25:40 +0200",
             "multi_source_verified": false,
             "article_generated": true,
-            "has_article": true,
-            "gaia_synthesis": "Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.",
-            "article_content": "\n        <p class=\"lead\">En tonårig pojke åtalas vid Norrköpings tingsrätt misstänkt för grov allmänfarlig ödeläggelse och grovt brott mot lagen om brandfarliga och explosiva varor efter en explosion vid en hyresfastighet i Vilbergen i augusti förra året.</p>\n        <h2>Bakgrund</h2>\n        <p>Händelsen är kulmen på en längre tids utveckling där spänningarna byggts upp gradvis. Flera experter har tidigare varnat för att situationen skulle kunna eskalera om inte diplomatiska eller förebyggande åtgärder vidtogs i tid.</p>\n        <h2>Analys</h2>\n        <p>Konsekvenserna av detta kan bli långtgående, inte bara för de direkt inblandade parterna utan även för det omgivande samhället och den internationella gemenskapen. Det krävs nu en noggrann övervakning av hur aktörerna agerar härnäst.</p>\n        <div class=\"article-synthesis\">\n            <div class=\"article-synthesis-header\">\n                <div class=\"icon\">🤖</div>\n                <span>gAIa-reflektion</span>\n            </div>\n            <div class=\"article-synthesis-body\">\n                <p>Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.</p>\n            </div>\n        </div>\n        <h2>Vidare läsning</h2>\n        <p>För mer information, se den ursprungliga källan: <a href=\"https://www.svt.se/nyheter/lokalt/ost/tonaring-atalas-efter-explosion-vid-bostadshus-i-norrkoping\" target=\"_blank\">SVT Nyheter</a>.</p>\n    "
+            "has_article": true
         },
         {
             "id": "samhälle-0a0ce72e-2026-07-11",
@@ -308,9 +294,7 @@
             "published_at": "Fri, 10 Jul 2026 23:11:30 +0200",
             "multi_source_verified": true,
             "article_generated": true,
-            "has_article": true,
-            "gaia_synthesis": "Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.",
-            "article_content": "\n        <p class=\"lead\">Ett storbråk har brutit ut i techvärlden. Apple har stämt Open AI och hävdar att affärshemligheter har stulits.</p>\n        <h2>Bakgrund</h2>\n        <p>Händelsen är kulmen på en längre tids utveckling där spänningarna byggts upp gradvis. Flera experter har tidigare varnat för att situationen skulle kunna eskalera om inte diplomatiska eller förebyggande åtgärder vidtogs i tid.</p>\n        <h2>Analys</h2>\n        <p>Konsekvenserna av detta kan bli långtgående, inte bara för de direkt inblandade parterna utan även för det omgivande samhället och den internationella gemenskapen. Det krävs nu en noggrann övervakning av hur aktörerna agerar härnäst.</p>\n        <div class=\"article-synthesis\">\n            <div class=\"article-synthesis-header\">\n                <div class=\"icon\">🤖</div>\n                <span>gAIa-reflektion</span>\n            </div>\n            <div class=\"article-synthesis-body\">\n                <p>Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.</p>\n            </div>\n        </div>\n        <h2>Vidare läsning</h2>\n        <p>För mer information, se den ursprungliga källan: <a href=\"https://www.svt.se/nyheter/utrikes/storbrak-i-techvarlden-apple-stammer-open-ai\" target=\"_blank\">SVT Utrikes</a>.</p>\n    "
+            "has_article": true
         },
         {
             "id": "samhälle-9d329485-2026-07-11",
@@ -349,9 +333,7 @@
             "published_at": "Fri, 10 Jul 2026 18:32:59 +0200",
             "multi_source_verified": true,
             "article_generated": true,
-            "has_article": true,
-            "gaia_synthesis": "Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.",
-            "article_content": "\n        <p class=\"lead\">Två svenska män misstänks ha varit på väg mot ett beställningsmord i Limerick i Irland när de istället kraschade med sin bil. Föraren hann fly från platsen och medpassageraren hittades död med en laddad pistol.</p>\n        <h2>Bakgrund</h2>\n        <p>Händelsen är kulmen på en längre tids utveckling där spänningarna byggts upp gradvis. Flera experter har tidigare varnat för att situationen skulle kunna eskalera om inte diplomatiska eller förebyggande åtgärder vidtogs i tid.</p>\n        <h2>Analys</h2>\n        <p>Konsekvenserna av detta kan bli långtgående, inte bara för de direkt inblandade parterna utan även för det omgivande samhället och den internationella gemenskapen. Det krävs nu en noggrann övervakning av hur aktörerna agerar härnäst.</p>\n        <div class=\"article-synthesis\">\n            <div class=\"article-synthesis-header\">\n                <div class=\"icon\">🤖</div>\n                <span>gAIa-reflektion</span>\n            </div>\n            <div class=\"article-synthesis-body\">\n                <p>Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.</p>\n            </div>\n        </div>\n        <h2>Vidare läsning</h2>\n        <p>För mer information, se den ursprungliga källan: <a href=\"https://www.svt.se/nyheter/utrikes/svensk-dod-i-bilkrasch-pa-irland-pa-vag-mot-bestallningsmord\" target=\"_blank\">SVT Utrikes</a>.</p>\n    "
+            "has_article": true
         },
         {
             "id": "samhälle-39479903-2026-07-11",
@@ -390,9 +372,7 @@
             "published_at": "Fri, 10 Jul 2026 13:38:52 +0200",
             "multi_source_verified": true,
             "article_generated": true,
-            "has_article": true,
-            "gaia_synthesis": "Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.",
-            "article_content": "\n        <p class=\"lead\">Mitt under resan mellan Grekland och Tyskland på fredagsmorgonen gick fönstret på Ryanairflyget plötsligt sönder. En man var nära på att sugas ut genom flygplansfönstret, men drogs tillbaka in av medresenärer.</p>\n        <h2>Bakgrund</h2>\n        <p>Händelsen är kulmen på en längre tids utveckling där spänningarna byggts upp gradvis. Flera experter har tidigare varnat för att situationen skulle kunna eskalera om inte diplomatiska eller förebyggande åtgärder vidtogs i tid.</p>\n        <h2>Analys</h2>\n        <p>Konsekvenserna av detta kan bli långtgående, inte bara för de direkt inblandade parterna utan även för det omgivande samhället och den internationella gemenskapen. Det krävs nu en noggrann övervakning av hur aktörerna agerar härnäst.</p>\n        <div class=\"article-synthesis\">\n            <div class=\"article-synthesis-header\">\n                <div class=\"icon\">🤖</div>\n                <span>gAIa-reflektion</span>\n            </div>\n            <div class=\"article-synthesis-body\">\n                <p>Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.</p>\n            </div>\n        </div>\n        <h2>Vidare läsning</h2>\n        <p>För mer information, se den ursprungliga källan: <a href=\"https://www.svt.se/nyheter/utrikes/man-nara-att-sugas-ut-genom-flygplansfonster\" target=\"_blank\">SVT Utrikes</a>.</p>\n    "
+            "has_article": true
         },
         {
             "id": "politik-f2a8779c-2026-07-11",
@@ -424,7 +404,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-11T05:16:28.450408+02:00",
+            "published_at": "2026-07-11T05:22:36.165248+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -555,7 +535,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-11T05:16:28.450408+02:00",
+            "published_at": "2026-07-11T05:22:36.165248+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -759,7 +739,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-11T05:16:28.450408+02:00",
+            "published_at": "2026-07-11T05:22:36.165248+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -793,7 +773,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-11T05:16:28.450408+02:00",
+            "published_at": "2026-07-11T05:22:36.165248+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -827,7 +807,7 @@
             "sentiment": "negative",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-11T05:16:28.450408+02:00",
+            "published_at": "2026-07-11T05:22:36.165248+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -861,7 +841,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-11T05:16:28.450408+02:00",
+            "published_at": "2026-07-11T05:22:36.165248+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -895,7 +875,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-11T05:16:28.450408+02:00",
+            "published_at": "2026-07-11T05:22:36.165248+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -929,7 +909,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-11T05:16:28.450408+02:00",
+            "published_at": "2026-07-11T05:22:36.165248+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -963,7 +943,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-11T05:16:28.450408+02:00",
+            "published_at": "2026-07-11T05:22:36.165248+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -997,7 +977,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-11T05:16:28.450408+02:00",
+            "published_at": "2026-07-11T05:22:36.165248+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1327,7 +1307,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-11T05:16:28.450408+02:00",
+            "published_at": "2026-07-11T05:22:36.165248+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1385,7 +1365,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-11T05:16:28.450408+02:00",
+            "published_at": "2026-07-11T05:22:36.165248+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1414,7 +1394,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-11T05:16:28.450408+02:00",
+            "published_at": "2026-07-11T05:22:36.165248+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1443,7 +1423,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-11T05:16:28.450408+02:00",
+            "published_at": "2026-07-11T05:22:36.165248+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1472,7 +1452,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-11T05:16:28.450408+02:00",
+            "published_at": "2026-07-11T05:22:36.165248+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1640,7 +1620,7 @@
             "Brittisk ex-minister Ann Widdecombe misstänkt mördad i sitt hem",
             "Boende evakueras: ”Vet inte om huset brunnit ner”",
             "Experten: Så stor är risken för storkrig i Mellanöstern",
-            "Uppgifter om explosioner i Kiev"
+            "Nya ryska attacker i Kiev – minst sex skadade"
         ],
         "geographic_distribution": {
             "Storbritannien": 2,
