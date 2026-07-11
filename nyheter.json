@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-09T04:09:47.345287+00:00",
+    "generated_at": "2026-07-11T03:17:01.218471+00:00",
     "workflow_version": "2.3",
     "source_info": {
         "swedish_rss": [
@@ -10,450 +10,311 @@
             "NewsData.io"
         ],
         "api_plan": "NewsData.io Active",
-        "total_raw_articles": 39,
-        "deduplicated_count": 30
+        "total_raw_articles": 55,
+        "deduplicated_count": 47
     },
     "news": [
         {
-            "id": "samhälle-ff7e1f29-2026-07-09",
-            "title": "Reaktioner efter Le Pens besked: ”Oacceptabelt”",
+            "id": "politik-77ad886c-2026-07-11",
+            "title": "Brittisk ex-minister Ann Widdecombe misstänkt mördad i sitt hem",
             "location": {
-                "city": "Le",
-                "country": "",
-                "lat": 51.3406321,
-                "lon": 12.3747329,
-                "precision": "city",
-                "bbox": [
-                    12.2366519,
-                    51.2381704,
-                    12.5424918,
-                    51.4481145
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9253408"
-                }
-            ],
-            "source_count": 1,
-            "score": 9.0,
-            "tier": 1,
-            "category": "politik",
-            "sentiment": "neutral",
-            "summary": "Marine Le Pen meddelar att hon kommer att överklaga den franska appellationsdomstolens dom som dömer henne till tre års fängelse och fem års valbarhetsförbud. Domen hotar hennes planerade kandidatur i nästa presidentval, men hon upprepar att hon avser kandidera.",
-            "published_at": "2026-07-09T06:09:33.495589+02:00",
-            "multi_source_verified": false,
-            "article_generated": true,
-            "has_article": true
-        },
-        {
-            "id": "brott-79049c45-2026-07-09",
-            "title": "”Le Pen spelar ett högt spel”",
-            "location": {
-                "city": "Pen",
-                "country": "",
-                "lat": 5.2967319,
-                "lon": 100.2747856,
-                "precision": "city",
-                "bbox": [
-                    100.2579532,
-                    5.277608,
-                    100.2933641,
-                    5.3141987
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/le-pen-spelar-ett-hogt-spel"
-                }
-            ],
-            "source_count": 1,
-            "score": 9.0,
-            "tier": 1,
-            "category": "politik",
-            "sentiment": "neutral",
-            "summary": "Marine Le Pen meddelar att hon kommer att överklaga den franska appellationsdomstolens dom som dömer henne till tre års fängelse och fem års valbarhetsförbud. Domen hotar hennes planerade kandidatur i nästa presidentval, men hon upprepar att hon avser kandidera.",
-            "published_at": "Wed, 08 Jul 2026 17:44:49 +0200",
-            "multi_source_verified": false,
-            "article_generated": true,
-            "has_article": true
-        },
-        {
-            "id": "konflikt-b690bcf3-2026-07-09",
-            "title": "Explosioner på flera håll i Iran: ”Risk att det trappas upp”",
-            "location": {
-                "city": "Iran",
-                "country": "Iran",
-                "lat": 35.69,
-                "lon": 51.39,
+                "city": "Storbritannien",
+                "country": "Storbritannien",
+                "lat": 51.51,
+                "lon": -0.13,
                 "precision": "country",
                 "bbox": [
-                    50.39,
-                    34.69,
-                    52.39,
-                    36.69
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9253848"
-                }
-            ],
-            "source_count": 1,
-            "score": 8.0,
-            "tier": 1,
-            "category": "konflikt",
-            "sentiment": "neutral",
-            "summary": "",
-            "published_at": "2026-07-09T06:09:33.495589+02:00",
-            "multi_source_verified": false,
-            "article_generated": true,
-            "has_article": true
-        },
-        {
-            "id": "försvar-952a7fb0-2026-07-09",
-            "title": "Franska soldater ska förstärka svensk-finsk stridsgrupp",
-            "location": {
-                "city": "Sverige",
-                "country": "Sverige",
-                "lat": 59.33,
-                "lon": 18.07,
-                "precision": "country",
-                "bbox": [
-                    17.07,
-                    58.33,
-                    19.07,
-                    60.33
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9253476"
-                }
-            ],
-            "source_count": 1,
-            "score": 8.0,
-            "tier": 1,
-            "category": "försvar",
-            "sentiment": "neutral",
-            "summary": "",
-            "published_at": "2026-07-09T06:09:33.495589+02:00",
-            "multi_source_verified": false,
-            "article_generated": true,
-            "has_article": true
-        },
-        {
-            "id": "försvar-c5cf6e2d-2026-07-09",
-            "title": "”Natos gemensamma Trump-operation lyckades”",
-            "location": {
-                "city": "Ankara",
-                "country": "",
-                "lat": 39.9334,
-                "lon": 32.8597,
-                "precision": "city",
-                "bbox": [
-                    32.759699999999995,
-                    39.8334,
-                    32.9597,
-                    40.0334
+                    -1.13,
+                    50.51,
+                    0.87,
+                    52.51
                 ]
             },
             "sources": [
                 {
                     "name": "SVT Utrikes",
                     "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/natos-gemensamma-trump-operation-lyckades"
-                }
-            ],
-            "source_count": 1,
-            "score": 8.0,
-            "tier": 1,
-            "category": "försvar",
-            "sentiment": "neutral",
-            "summary": "Ledorden i strategin för Nato-toppmötet i Ankara löd: håll Trump nöjd. Och den här gången verkar det ha gått vägen.",
-            "published_at": "Wed, 08 Jul 2026 21:55:07 +0200",
-            "multi_source_verified": false,
-            "article_generated": true,
-            "has_article": true
-        },
-        {
-            "id": "konflikt-2821a7dc-2026-07-09",
-            "title": "Flera döda i israeliska attacker i Gaza",
-            "location": {
-                "city": "Israel",
-                "country": "Israel",
-                "lat": 31.77,
-                "lon": 35.24,
-                "precision": "country",
-                "bbox": [
-                    34.24,
-                    30.77,
-                    36.24,
-                    32.769999999999996
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/flera-doda-i-israeliska-attacker-i-gaza"
-                }
-            ],
-            "source_count": 1,
-            "score": 8.0,
-            "tier": 1,
-            "category": "konflikt",
-            "sentiment": "negative",
-            "summary": "Minst åtta personer har dödats i israeliska attacker runtom i Gaza under onsdagen, uppger Gazas Hamaskontrollerade civilförsvar.",
-            "published_at": "Wed, 08 Jul 2026 20:13:15 +0200",
-            "multi_source_verified": false,
-            "article_generated": true,
-            "has_article": true
-        },
-        {
-            "id": "konflikt-a5a23527-2026-07-09",
-            "title": "Mellanösternexperten: Som att öppna Pandoras ask",
-            "location": {
-                "city": "Iran",
-                "country": "Iran",
-                "lat": 35.69,
-                "lon": 51.39,
-                "precision": "country",
-                "bbox": [
-                    50.39,
-                    34.69,
-                    52.39,
-                    36.69
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/mellanosternexperten-som-att-oppna-upp-pandoras-ask"
-                }
-            ],
-            "source_count": 1,
-            "score": 8.0,
-            "tier": 1,
-            "category": "konflikt",
-            "sentiment": "negative",
-            "summary": "Efter den eskalerade situationen mellan USA och Iran är oron stor för att kriget mellan parterna ska återupptas. Mellanösternexpert Alexander Atarodi menar att vi inte är där ännu, men ett nytt krig skulle kunna leda till förödande konsekvenser. – Om kriget kommer tillbaka, då tror jag inte att vi kommer gå tillbaka till samma krig – det kan komma att bli värre, säger han.",
-            "published_at": "Wed, 08 Jul 2026 15:14:03 +0200",
-            "multi_source_verified": false,
-            "article_generated": true,
-            "has_article": true
-        },
-        {
-            "id": "konflikt-01849283-2026-07-09",
-            "title": "Nya attacker mellan USA och Iran – detta vet vi",
-            "location": {
-                "city": "Iran",
-                "country": "Iran",
-                "lat": 35.69,
-                "lon": 51.39,
-                "precision": "country",
-                "bbox": [
-                    50.39,
-                    34.69,
-                    52.39,
-                    36.69
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/nya-attacker-mellan-usa-och-iran-detta-vet-vi"
-                }
-            ],
-            "source_count": 1,
-            "score": 8.0,
-            "tier": 1,
-            "category": "konflikt",
-            "sentiment": "negative",
-            "summary": "Vapenvilan mellan USA och Iran verkar vara över efter senaste dygnens attacker mellan länderna. Det här vet vi om utvecklingen hittills. Följ det senaste i SVT:s liverapport.",
-            "published_at": "Wed, 08 Jul 2026 15:10:35 +0200",
-            "multi_source_verified": false,
-            "article_generated": true,
-            "has_article": true
-        },
-        {
-            "id": "försvar-78e2467f-2026-07-09",
-            "title": "Källor: Nato-toppmötet i Albanien kan skjutas upp",
-            "location": {
-                "city": "Albanien",
-                "country": "",
-                "lat": 41.000028,
-                "lon": 19.9999619,
-                "precision": "city",
-                "bbox": [
-                    19.0009866,
-                    39.640394,
-                    21.0574335,
-                    42.6610848
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/kallor-nato-toppmotet-i-albanien-kan-skjutas-upp"
-                }
-            ],
-            "source_count": 1,
-            "score": 8.0,
-            "tier": 1,
-            "category": "försvar",
-            "sentiment": "neutral",
-            "summary": "Nato överväger att hoppa över nästa toppmöte i Albanien år 2027, enligt källor till Bloomberg. Formuleringar om nästa års möte saknas i slutkommunikén.",
-            "published_at": "Wed, 08 Jul 2026 13:22:43 +0200",
-            "multi_source_verified": false,
-            "article_generated": true,
-            "has_article": true
-        },
-        {
-            "id": "politik-b5ee4efc-2026-07-09",
-            "title": "Ledare på Natomötet fick pistoler av Erdogan",
-            "location": {
-                "city": "Ankara",
-                "country": "",
-                "lat": 39.9334,
-                "lon": 32.8597,
-                "precision": "city",
-                "bbox": [
-                    32.759699999999995,
-                    39.8334,
-                    32.9597,
-                    40.0334
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/ledare-pa-natomotet-fick-pistoler-av-erdogan"
-                }
-            ],
-            "source_count": 1,
-            "score": 7.0,
-            "tier": 2,
-            "category": "politik",
-            "sentiment": "neutral",
-            "summary": "Turkiets president Recep Tayyip Erdogan erbjöd en pistol i gåva till var och en av ledarna som deltog i Natomötet i Ankara, uppger Storbritanniens premiärminister Keir Starmer.",
-            "gaia_synthesis": "",
-            "published_at": "Thu, 09 Jul 2026 02:58:07 +0200",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "försvar-6f45c012-2026-07-09",
-            "title": "Liljeheden: Rutte hyllade enigheten inom Nato",
-            "location": {
-                "city": "Global",
-                "country": "Global",
-                "lat": 0.0,
-                "lon": 0.0,
-                "precision": "global",
-                "bbox": null
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9253687"
-                }
-            ],
-            "source_count": 1,
-            "score": 7.0,
-            "tier": 2,
-            "category": "försvar",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-07-09T06:09:33.495589+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-b512a6c3-2026-07-09",
-            "title": "9 juli: Nattens nyheter",
-            "location": {
-                "city": "Global",
-                "country": "Global",
-                "lat": 0.0,
-                "lon": 0.0,
-                "precision": "global",
-                "bbox": null
-            },
-            "sources": [
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/9-juli-nattens-nyheter-hfxhcq"
+                    "url": "https://www.svt.se/nyheter/utrikes/brittisk-ex-minister-ann-widdecombe-misstankt-mordad-i-sitt-hem"
                 },
                 {
-                    "name": "SVT Utrikes",
+                    "name": "SVT Nyheter",
                     "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/8-juli-nattens-nyheter-vimu61"
+                    "url": "https://www.svt.se/nyheter/utrikes/brittisk-ex-minister-ann-widdecombe-misstankt-mordad-i-sitt-hem"
                 }
             ],
             "source_count": 2,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
+            "score": 8.5,
+            "tier": 1,
+            "category": "politik",
             "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "Thu, 09 Jul 2026 05:27:53 +0200",
+            "summary": "Den brittiske ex-politikern Ann Widdecombe hittades död i sitt hem under torsdagen. Polisen utreder händelsen som mord och en 26-årig man har gripits, rapporterar Reuters.",
+            "published_at": "Fri, 10 Jul 2026 17:46:43 +0200",
             "multi_source_verified": true,
-            "has_article": false
+            "article_generated": true,
+            "has_article": true,
+            "gaia_synthesis": "Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.",
+            "article_content": "\n        <p class=\"lead\">Den brittiske ex-politikern Ann Widdecombe hittades död i sitt hem under torsdagen. Polisen utreder händelsen som mord och en 26-årig man har gripits, rapporterar Reuters.</p>\n        <h2>Bakgrund</h2>\n        <p>Händelsen är kulmen på en längre tids utveckling där spänningarna byggts upp gradvis. Flera experter har tidigare varnat för att situationen skulle kunna eskalera om inte diplomatiska eller förebyggande åtgärder vidtogs i tid.</p>\n        <h2>Analys</h2>\n        <p>Konsekvenserna av detta kan bli långtgående, inte bara för de direkt inblandade parterna utan även för det omgivande samhället och den internationella gemenskapen. Det krävs nu en noggrann övervakning av hur aktörerna agerar härnäst.</p>\n        <div class=\"article-synthesis\">\n            <div class=\"article-synthesis-header\">\n                <div class=\"icon\">🤖</div>\n                <span>gAIa-reflektion</span>\n            </div>\n            <div class=\"article-synthesis-body\">\n                <p>Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.</p>\n            </div>\n        </div>\n        <h2>Vidare läsning</h2>\n        <p>För mer information, se den ursprungliga källan: <a href=\"https://www.svt.se/nyheter/utrikes/brittisk-ex-minister-ann-widdecombe-misstankt-mordad-i-sitt-hem\" target=\"_blank\">SVT Utrikes</a>.</p>\n    "
         },
         {
-            "id": "samhälle-1988ce38-2026-07-09",
-            "title": "Kung Charles benådar avrättad kvinna postumt",
+            "id": "konflikt-8ffc0f23-2026-07-11",
+            "title": "Boende evakueras: ”Vet inte om huset brunnit ner”",
             "location": {
-                "city": "Charles",
+                "city": "Spanien",
+                "country": "Spanien",
+                "lat": 40.42,
+                "lon": -3.7,
+                "precision": "country",
+                "bbox": [
+                    -4.7,
+                    39.42,
+                    -2.7,
+                    41.42
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/boende-evakueras-vet-inte-om-huset-brunnit-ner"
+                }
+            ],
+            "source_count": 1,
+            "score": 8.0,
+            "tier": 1,
+            "category": "konflikt",
+            "sentiment": "negative",
+            "summary": "En stor skogsbrand härjar i södra Spanien. Både boende och turister har under dygnet tvingats evakuera från sina hem. – Det känns som att en bomb har fallit, säger borgmästaren Francisco Miguel Reyes till El País.",
+            "published_at": "Fri, 10 Jul 2026 16:17:34 +0200",
+            "multi_source_verified": false,
+            "article_generated": true,
+            "has_article": true,
+            "gaia_synthesis": "Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.",
+            "article_content": "\n        <p class=\"lead\">En stor skogsbrand härjar i södra Spanien. Både boende och turister har under dygnet tvingats evakuera från sina hem. – Det känns som att en bomb har fallit, säger borgmästaren Francisco Miguel Reyes till El País.</p>\n        <h2>Bakgrund</h2>\n        <p>Händelsen är kulmen på en längre tids utveckling där spänningarna byggts upp gradvis. Flera experter har tidigare varnat för att situationen skulle kunna eskalera om inte diplomatiska eller förebyggande åtgärder vidtogs i tid.</p>\n        <h2>Analys</h2>\n        <p>Konsekvenserna av detta kan bli långtgående, inte bara för de direkt inblandade parterna utan även för det omgivande samhället och den internationella gemenskapen. Det krävs nu en noggrann övervakning av hur aktörerna agerar härnäst.</p>\n        <div class=\"article-synthesis\">\n            <div class=\"article-synthesis-header\">\n                <div class=\"icon\">🤖</div>\n                <span>gAIa-reflektion</span>\n            </div>\n            <div class=\"article-synthesis-body\">\n                <p>Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.</p>\n            </div>\n        </div>\n        <h2>Vidare läsning</h2>\n        <p>För mer information, se den ursprungliga källan: <a href=\"https://www.svt.se/nyheter/utrikes/boende-evakueras-vet-inte-om-huset-brunnit-ner\" target=\"_blank\">SVT Utrikes</a>.</p>\n    "
+        },
+        {
+            "id": "konflikt-f261d51b-2026-07-11",
+            "title": "Experten: Så stor är risken för storkrig i Mellanöstern",
+            "location": {
+                "city": "Iran",
+                "country": "Iran",
+                "lat": 35.69,
+                "lon": 51.39,
+                "precision": "country",
+                "bbox": [
+                    50.39,
+                    34.69,
+                    52.39,
+                    36.69
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/experten-sa-stor-ar-risken-for-storkrig-i-mellanostern"
+                }
+            ],
+            "source_count": 1,
+            "score": 8.0,
+            "tier": 1,
+            "category": "konflikt",
+            "sentiment": "negative",
+            "summary": "Attackerna mellan Iran och USA har återigen blossat upp. Enligt statsvetaren Anders Persson finns det lite som just nu talar för varken fred eller storkrig. – Jag tror att det vi har sett de senaste dagarna kan vara en bild av framtiden, säger han i Morgonstudion.",
+            "published_at": "Fri, 10 Jul 2026 11:04:59 +0200",
+            "multi_source_verified": false,
+            "article_generated": true,
+            "has_article": true,
+            "gaia_synthesis": "Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.",
+            "article_content": "\n        <p class=\"lead\">Attackerna mellan Iran och USA har återigen blossat upp. Enligt statsvetaren Anders Persson finns det lite som just nu talar för varken fred eller storkrig. – Jag tror att det vi har sett de senaste dagarna kan vara en bild av framtiden, säger han i Morgonstudion.</p>\n        <h2>Bakgrund</h2>\n        <p>Händelsen är kulmen på en längre tids utveckling där spänningarna byggts upp gradvis. Flera experter har tidigare varnat för att situationen skulle kunna eskalera om inte diplomatiska eller förebyggande åtgärder vidtogs i tid.</p>\n        <h2>Analys</h2>\n        <p>Konsekvenserna av detta kan bli långtgående, inte bara för de direkt inblandade parterna utan även för det omgivande samhället och den internationella gemenskapen. Det krävs nu en noggrann övervakning av hur aktörerna agerar härnäst.</p>\n        <div class=\"article-synthesis\">\n            <div class=\"article-synthesis-header\">\n                <div class=\"icon\">🤖</div>\n                <span>gAIa-reflektion</span>\n            </div>\n            <div class=\"article-synthesis-body\">\n                <p>Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.</p>\n            </div>\n        </div>\n        <h2>Vidare läsning</h2>\n        <p>För mer information, se den ursprungliga källan: <a href=\"https://www.svt.se/nyheter/utrikes/experten-sa-stor-ar-risken-for-storkrig-i-mellanostern\" target=\"_blank\">SVT Utrikes</a>.</p>\n    "
+        },
+        {
+            "id": "konflikt-bb6dd11e-2026-07-11",
+            "title": "Uppgifter om explosioner i Kiev",
+            "location": {
+                "city": "Kiev",
                 "country": "",
-                "lat": 38.4991611,
-                "lon": -77.027847,
+                "lat": 50.4501,
+                "lon": 30.5234,
                 "precision": "city",
                 "bbox": [
-                    -77.3235261,
-                    38.171328,
-                    -76.6624791,
-                    38.7072682
+                    30.423399999999997,
+                    50.3501,
+                    30.6234,
+                    50.5501
                 ]
             },
             "sources": [
                 {
                     "name": "SR Ekot",
                     "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9253837"
+                    "url": "https://www.sverigesradio.se/artikel/9255275"
                 }
             ],
             "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
+            "score": 8.0,
+            "tier": 1,
+            "category": "konflikt",
             "sentiment": "neutral",
             "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-07-09T06:09:33.495589+02:00",
+            "published_at": "2026-07-11T05:16:28.450408+02:00",
             "multi_source_verified": false,
-            "has_article": false
+            "article_generated": true,
+            "has_article": true,
+            "gaia_synthesis": "Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.",
+            "article_content": "\n        <p class=\"lead\"></p>\n        <h2>Bakgrund</h2>\n        <p>Händelsen är kulmen på en längre tids utveckling där spänningarna byggts upp gradvis. Flera experter har tidigare varnat för att situationen skulle kunna eskalera om inte diplomatiska eller förebyggande åtgärder vidtogs i tid.</p>\n        <h2>Analys</h2>\n        <p>Konsekvenserna av detta kan bli långtgående, inte bara för de direkt inblandade parterna utan även för det omgivande samhället och den internationella gemenskapen. Det krävs nu en noggrann övervakning av hur aktörerna agerar härnäst.</p>\n        <div class=\"article-synthesis\">\n            <div class=\"article-synthesis-header\">\n                <div class=\"icon\">🤖</div>\n                <span>gAIa-reflektion</span>\n            </div>\n            <div class=\"article-synthesis-body\">\n                <p>Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.</p>\n            </div>\n        </div>\n        <h2>Vidare läsning</h2>\n        <p>För mer information, se den ursprungliga källan: <a href=\"https://www.sverigesradio.se/artikel/9255275\" target=\"_blank\">SR Ekot</a>.</p>\n    "
         },
         {
-            "id": "samhälle-07198c2f-2026-07-09",
-            "title": "Svenska familjen tvingas fly franska brandkaoset: ”Surrealistiskt”",
+            "id": "konflikt-fde160a2-2026-07-11",
+            "title": "Ukraina skapar specialförband för attacker i Ryssland",
+            "location": {
+                "city": "Ryssland",
+                "country": "Ryssland",
+                "lat": 55.76,
+                "lon": 37.62,
+                "precision": "country",
+                "bbox": [
+                    36.62,
+                    54.76,
+                    38.62,
+                    56.76
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9255235"
+                }
+            ],
+            "source_count": 1,
+            "score": 8.0,
+            "tier": 1,
+            "category": "konflikt",
+            "sentiment": "negative",
+            "summary": "",
+            "published_at": "2026-07-11T05:16:28.450408+02:00",
+            "multi_source_verified": false,
+            "article_generated": true,
+            "has_article": true,
+            "gaia_synthesis": "Den militära upprustningen vid Natos gränser belyser en återgång till kalla kriget-retorik och strategisk positionering. Det visar på behovet av stärkt europeisk försvarsförmåga och tydligare säkerhetspolitiska doktriner.",
+            "article_content": "\n        <p class=\"lead\"></p>\n        <h2>Bakgrund</h2>\n        <p>Händelsen är kulmen på en längre tids utveckling där spänningarna byggts upp gradvis. Flera experter har tidigare varnat för att situationen skulle kunna eskalera om inte diplomatiska eller förebyggande åtgärder vidtogs i tid.</p>\n        <h2>Analys</h2>\n        <p>Konsekvenserna av detta kan bli långtgående, inte bara för de direkt inblandade parterna utan även för det omgivande samhället och den internationella gemenskapen. Det krävs nu en noggrann övervakning av hur aktörerna agerar härnäst.</p>\n        <div class=\"article-synthesis\">\n            <div class=\"article-synthesis-header\">\n                <div class=\"icon\">🤖</div>\n                <span>gAIa-reflektion</span>\n            </div>\n            <div class=\"article-synthesis-body\">\n                <p>Den militära upprustningen vid Natos gränser belyser en återgång till kalla kriget-retorik och strategisk positionering. Det visar på behovet av stärkt europeisk försvarsförmåga och tydligare säkerhetspolitiska doktriner.</p>\n            </div>\n        </div>\n        <h2>Vidare läsning</h2>\n        <p>För mer information, se den ursprungliga källan: <a href=\"https://www.sverigesradio.se/artikel/9255235\" target=\"_blank\">SR Ekot</a>.</p>\n    "
+        },
+        {
+            "id": "konflikt-19f63121-2026-07-11",
+            "title": "Över 65 000 fall av denguefeber i Sri Lanka – militären kallas in",
+            "location": {
+                "city": "Sri",
+                "country": "",
+                "lat": 7.5554942,
+                "lon": 80.7137847,
+                "precision": "city",
+                "bbox": [
+                    79.421989,
+                    5.719,
+                    82.0810141,
+                    10.035
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9254343"
+                }
+            ],
+            "source_count": 1,
+            "score": 8.0,
+            "tier": 1,
+            "category": "konflikt",
+            "sentiment": "neutral",
+            "summary": "",
+            "published_at": "2026-07-11T05:16:28.450408+02:00",
+            "multi_source_verified": false,
+            "article_generated": true,
+            "has_article": true,
+            "gaia_synthesis": "Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.",
+            "article_content": "\n        <p class=\"lead\"></p>\n        <h2>Bakgrund</h2>\n        <p>Händelsen är kulmen på en längre tids utveckling där spänningarna byggts upp gradvis. Flera experter har tidigare varnat för att situationen skulle kunna eskalera om inte diplomatiska eller förebyggande åtgärder vidtogs i tid.</p>\n        <h2>Analys</h2>\n        <p>Konsekvenserna av detta kan bli långtgående, inte bara för de direkt inblandade parterna utan även för det omgivande samhället och den internationella gemenskapen. Det krävs nu en noggrann övervakning av hur aktörerna agerar härnäst.</p>\n        <div class=\"article-synthesis\">\n            <div class=\"article-synthesis-header\">\n                <div class=\"icon\">🤖</div>\n                <span>gAIa-reflektion</span>\n            </div>\n            <div class=\"article-synthesis-body\">\n                <p>Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.</p>\n            </div>\n        </div>\n        <h2>Vidare läsning</h2>\n        <p>För mer information, se den ursprungliga källan: <a href=\"https://www.sverigesradio.se/artikel/9254343\" target=\"_blank\">SR Ekot</a>.</p>\n    "
+        },
+        {
+            "id": "konflikt-265dddd2-2026-07-11",
+            "title": "Tonåring åtalas efter explosion vid bostadshus i Norrköping",
+            "location": {
+                "city": "Norrköping",
+                "country": "Sverige",
+                "lat": 58.5942,
+                "lon": 16.1826,
+                "precision": "city",
+                "bbox": [
+                    16.0826,
+                    58.4942,
+                    16.282600000000002,
+                    58.6942
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/lokalt/ost/tonaring-atalas-efter-explosion-vid-bostadshus-i-norrkoping"
+                }
+            ],
+            "source_count": 1,
+            "score": 8.0,
+            "tier": 1,
+            "category": "konflikt",
+            "sentiment": "negative",
+            "summary": "En tonårig pojke åtalas vid Norrköpings tingsrätt misstänkt för grov allmänfarlig ödeläggelse och grovt brott mot lagen om brandfarliga och explosiva varor efter en explosion vid en hyresfastighet i Vilbergen i augusti förra året.",
+            "published_at": "Fri, 10 Jul 2026 13:25:40 +0200",
+            "multi_source_verified": false,
+            "article_generated": true,
+            "has_article": true,
+            "gaia_synthesis": "Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.",
+            "article_content": "\n        <p class=\"lead\">En tonårig pojke åtalas vid Norrköpings tingsrätt misstänkt för grov allmänfarlig ödeläggelse och grovt brott mot lagen om brandfarliga och explosiva varor efter en explosion vid en hyresfastighet i Vilbergen i augusti förra året.</p>\n        <h2>Bakgrund</h2>\n        <p>Händelsen är kulmen på en längre tids utveckling där spänningarna byggts upp gradvis. Flera experter har tidigare varnat för att situationen skulle kunna eskalera om inte diplomatiska eller förebyggande åtgärder vidtogs i tid.</p>\n        <h2>Analys</h2>\n        <p>Konsekvenserna av detta kan bli långtgående, inte bara för de direkt inblandade parterna utan även för det omgivande samhället och den internationella gemenskapen. Det krävs nu en noggrann övervakning av hur aktörerna agerar härnäst.</p>\n        <div class=\"article-synthesis\">\n            <div class=\"article-synthesis-header\">\n                <div class=\"icon\">🤖</div>\n                <span>gAIa-reflektion</span>\n            </div>\n            <div class=\"article-synthesis-body\">\n                <p>Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.</p>\n            </div>\n        </div>\n        <h2>Vidare läsning</h2>\n        <p>För mer information, se den ursprungliga källan: <a href=\"https://www.svt.se/nyheter/lokalt/ost/tonaring-atalas-efter-explosion-vid-bostadshus-i-norrkoping\" target=\"_blank\">SVT Nyheter</a>.</p>\n    "
+        },
+        {
+            "id": "samhälle-0a0ce72e-2026-07-11",
+            "title": "Storbråk i techvärlden – Apple stämmer Open AI",
+            "location": {
+                "city": "Open",
+                "country": "",
+                "lat": 54.1059492,
+                "lon": 20.2205204,
+                "precision": "city",
+                "bbox": [
+                    20.2005204,
+                    54.0859492,
+                    20.2405204,
+                    54.1259492
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/storbrak-i-techvarlden-apple-stammer-open-ai"
+                },
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9255277"
+                }
+            ],
+            "source_count": 2,
+            "score": 7.5,
+            "tier": 1,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Ett storbråk har brutit ut i techvärlden. Apple har stämt Open AI och hävdar att affärshemligheter har stulits.",
+            "published_at": "Fri, 10 Jul 2026 23:11:30 +0200",
+            "multi_source_verified": true,
+            "article_generated": true,
+            "has_article": true,
+            "gaia_synthesis": "Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.",
+            "article_content": "\n        <p class=\"lead\">Ett storbråk har brutit ut i techvärlden. Apple har stämt Open AI och hävdar att affärshemligheter har stulits.</p>\n        <h2>Bakgrund</h2>\n        <p>Händelsen är kulmen på en längre tids utveckling där spänningarna byggts upp gradvis. Flera experter har tidigare varnat för att situationen skulle kunna eskalera om inte diplomatiska eller förebyggande åtgärder vidtogs i tid.</p>\n        <h2>Analys</h2>\n        <p>Konsekvenserna av detta kan bli långtgående, inte bara för de direkt inblandade parterna utan även för det omgivande samhället och den internationella gemenskapen. Det krävs nu en noggrann övervakning av hur aktörerna agerar härnäst.</p>\n        <div class=\"article-synthesis\">\n            <div class=\"article-synthesis-header\">\n                <div class=\"icon\">🤖</div>\n                <span>gAIa-reflektion</span>\n            </div>\n            <div class=\"article-synthesis-body\">\n                <p>Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.</p>\n            </div>\n        </div>\n        <h2>Vidare läsning</h2>\n        <p>För mer information, se den ursprungliga källan: <a href=\"https://www.svt.se/nyheter/utrikes/storbrak-i-techvarlden-apple-stammer-open-ai\" target=\"_blank\">SVT Utrikes</a>.</p>\n    "
+        },
+        {
+            "id": "samhälle-9d329485-2026-07-11",
+            "title": "Svensk död i bilkrasch på Irland – på väg mot beställningsmord",
             "location": {
                 "city": "Sverige",
                 "country": "Sverige",
@@ -469,263 +330,32 @@
             },
             "sources": [
                 {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9253796"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-07-09T06:09:33.495589+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-d9b91a2a-2026-07-09",
-            "title": "Natomötet i Ankara är över – detta enades länderna om",
-            "location": {
-                "city": "Ankara",
-                "country": "",
-                "lat": 39.9334,
-                "lon": 32.8597,
-                "precision": "city",
-                "bbox": [
-                    32.759699999999995,
-                    39.8334,
-                    32.9597,
-                    40.0334
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9253806"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-07-09T06:09:33.495589+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-61833b55-2026-07-09",
-            "title": "Över 3 600 döda efter jordbävningarna i Venezuela",
-            "location": {
-                "city": "Venezuela",
-                "country": "Venezuela",
-                "lat": 10.48,
-                "lon": -66.9,
-                "precision": "country",
-                "bbox": [
-                    -67.9,
-                    9.48,
-                    -65.9,
-                    11.48
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9253631"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-07-09T06:09:33.495589+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-c4021071-2026-07-09",
-            "title": "Trumps nya hot mot Iran: Vi kommer slå till en hel del",
-            "location": {
-                "city": "Iran",
-                "country": "Iran",
-                "lat": 35.69,
-                "lon": 51.39,
-                "precision": "country",
-                "bbox": [
-                    50.39,
-                    34.69,
-                    52.39,
-                    36.69
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9253642"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-07-09T06:09:33.495589+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-aebb1978-2026-07-09",
-            "title": "Trump: Ukraina får licens att bygga Patriot",
-            "location": {
-                "city": "Ukraina",
-                "country": "Ukraina",
-                "lat": 50.45,
-                "lon": 30.52,
-                "precision": "country",
-                "bbox": [
-                    29.52,
-                    49.45,
-                    31.52,
-                    51.45
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9253640"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-07-09T06:09:33.495589+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-544aa399-2026-07-09",
-            "title": "SAS vd Anko van der Werff avgår",
-            "location": {
-                "city": "Anko",
-                "country": "",
-                "lat": 46.4115286,
-                "lon": 14.5128311,
-                "precision": "city",
-                "bbox": [
-                    14.5127811,
-                    46.4114786,
-                    14.5128811,
-                    46.4115786
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9253573"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-07-09T06:09:33.495589+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-39fb75b4-2026-07-09",
-            "title": "Lorin Ibrahim efter Trumps utspel: Han hånar Iran",
-            "location": {
-                "city": "Iran",
-                "country": "Iran",
-                "lat": 35.69,
-                "lon": 51.39,
-                "precision": "country",
-                "bbox": [
-                    50.39,
-                    34.69,
-                    52.39,
-                    36.69
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9253448"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-07-09T06:09:33.495589+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-5779be25-2026-07-09",
-            "title": "Domare: Carrol ska få miljonskadestånd av Trump",
-            "location": {
-                "city": "Usa",
-                "country": "Usa",
-                "lat": 38.91,
-                "lon": -77.04,
-                "precision": "country",
-                "bbox": [
-                    -78.04,
-                    37.91,
-                    -76.04,
-                    39.91
-                ]
-            },
-            "sources": [
-                {
                     "name": "SVT Utrikes",
                     "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/domare-carrol-ska-fa-miljonskadestand-av-trump"
+                    "url": "https://www.svt.se/nyheter/utrikes/svensk-dod-i-bilkrasch-pa-irland-pa-vag-mot-bestallningsmord"
+                },
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/svensk-dod-i-bilkrasch-pa-irland-pa-vag-mot-bestallningsmord"
                 }
             ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
+            "source_count": 2,
+            "score": 7.5,
+            "tier": 1,
             "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "USA:s president Donald Trump har tidigare dömts till miljonskadestånd i en förtalsdom mot en journalist – sedan dess har pengarna varit i limbo. Nu, tre år senare, har domare fastställt att han måste betala henne 5,8 miljoner dollar.",
-            "gaia_synthesis": "",
-            "published_at": "Wed, 08 Jul 2026 20:38:25 +0200",
-            "multi_source_verified": false,
-            "has_article": false
+            "sentiment": "negative",
+            "summary": "Två svenska män misstänks ha varit på väg mot ett beställningsmord i Limerick i Irland när de istället kraschade med sin bil. Föraren hann fly från platsen och medpassageraren hittades död med en laddad pistol.",
+            "published_at": "Fri, 10 Jul 2026 18:32:59 +0200",
+            "multi_source_verified": true,
+            "article_generated": true,
+            "has_article": true,
+            "gaia_synthesis": "Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.",
+            "article_content": "\n        <p class=\"lead\">Två svenska män misstänks ha varit på väg mot ett beställningsmord i Limerick i Irland när de istället kraschade med sin bil. Föraren hann fly från platsen och medpassageraren hittades död med en laddad pistol.</p>\n        <h2>Bakgrund</h2>\n        <p>Händelsen är kulmen på en längre tids utveckling där spänningarna byggts upp gradvis. Flera experter har tidigare varnat för att situationen skulle kunna eskalera om inte diplomatiska eller förebyggande åtgärder vidtogs i tid.</p>\n        <h2>Analys</h2>\n        <p>Konsekvenserna av detta kan bli långtgående, inte bara för de direkt inblandade parterna utan även för det omgivande samhället och den internationella gemenskapen. Det krävs nu en noggrann övervakning av hur aktörerna agerar härnäst.</p>\n        <div class=\"article-synthesis\">\n            <div class=\"article-synthesis-header\">\n                <div class=\"icon\">🤖</div>\n                <span>gAIa-reflektion</span>\n            </div>\n            <div class=\"article-synthesis-body\">\n                <p>Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.</p>\n            </div>\n        </div>\n        <h2>Vidare läsning</h2>\n        <p>För mer information, se den ursprungliga källan: <a href=\"https://www.svt.se/nyheter/utrikes/svensk-dod-i-bilkrasch-pa-irland-pa-vag-mot-bestallningsmord\" target=\"_blank\">SVT Utrikes</a>.</p>\n    "
         },
         {
-            "id": "samhälle-03a2e1a2-2026-07-09",
-            "title": "Misstänkt våldsdåd på skola i Tyskland",
+            "id": "samhälle-39479903-2026-07-11",
+            "title": "Man nära att sugas ut genom flygplansfönster",
             "location": {
                 "city": "Tyskland",
                 "country": "Tyskland",
@@ -743,7 +373,315 @@
                 {
                     "name": "SVT Utrikes",
                     "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/misstankt-valdsdad-pa-skola-i-tyskland"
+                    "url": "https://www.svt.se/nyheter/utrikes/man-nara-att-sugas-ut-genom-flygplansfonster"
+                },
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9254919"
+                }
+            ],
+            "source_count": 2,
+            "score": 7.5,
+            "tier": 1,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Mitt under resan mellan Grekland och Tyskland på fredagsmorgonen gick fönstret på Ryanairflyget plötsligt sönder. En man var nära på att sugas ut genom flygplansfönstret, men drogs tillbaka in av medresenärer.",
+            "published_at": "Fri, 10 Jul 2026 13:38:52 +0200",
+            "multi_source_verified": true,
+            "article_generated": true,
+            "has_article": true,
+            "gaia_synthesis": "Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.",
+            "article_content": "\n        <p class=\"lead\">Mitt under resan mellan Grekland och Tyskland på fredagsmorgonen gick fönstret på Ryanairflyget plötsligt sönder. En man var nära på att sugas ut genom flygplansfönstret, men drogs tillbaka in av medresenärer.</p>\n        <h2>Bakgrund</h2>\n        <p>Händelsen är kulmen på en längre tids utveckling där spänningarna byggts upp gradvis. Flera experter har tidigare varnat för att situationen skulle kunna eskalera om inte diplomatiska eller förebyggande åtgärder vidtogs i tid.</p>\n        <h2>Analys</h2>\n        <p>Konsekvenserna av detta kan bli långtgående, inte bara för de direkt inblandade parterna utan även för det omgivande samhället och den internationella gemenskapen. Det krävs nu en noggrann övervakning av hur aktörerna agerar härnäst.</p>\n        <div class=\"article-synthesis\">\n            <div class=\"article-synthesis-header\">\n                <div class=\"icon\">🤖</div>\n                <span>gAIa-reflektion</span>\n            </div>\n            <div class=\"article-synthesis-body\">\n                <p>Denna händelse understryker vikten av resilienta samhällsstrukturer och behovet av att analysera lokala kriser ur ett globalt perspektiv.</p>\n            </div>\n        </div>\n        <h2>Vidare läsning</h2>\n        <p>För mer information, se den ursprungliga källan: <a href=\"https://www.svt.se/nyheter/utrikes/man-nara-att-sugas-ut-genom-flygplansfonster\" target=\"_blank\">SVT Utrikes</a>.</p>\n    "
+        },
+        {
+            "id": "politik-f2a8779c-2026-07-11",
+            "title": "Tidigare minister i Storbritannien död – misstänkt mord",
+            "location": {
+                "city": "Storbritannien",
+                "country": "Storbritannien",
+                "lat": 51.51,
+                "lon": -0.13,
+                "precision": "country",
+                "bbox": [
+                    -1.13,
+                    50.51,
+                    0.87,
+                    52.51
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9255210"
+                }
+            ],
+            "source_count": 1,
+            "score": 7.0,
+            "tier": 2,
+            "category": "politik",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-07-11T05:16:28.450408+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "hälsa-ccf2f5ec-2026-07-11",
+            "title": "Polisinsats i Gävle – minst en person förd till sjukhus",
+            "location": {
+                "city": "Gävle",
+                "country": "Sverige",
+                "lat": 60.6749,
+                "lon": 17.1413,
+                "precision": "city",
+                "bbox": [
+                    17.0413,
+                    60.5749,
+                    17.241300000000003,
+                    60.7749
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/lokalt/gavleborg/polisinsats-i-gavle-minst-en-person-ford-till-sjukhus"
+                }
+            ],
+            "source_count": 1,
+            "score": 7.0,
+            "tier": 2,
+            "category": "hälsa",
+            "sentiment": "neutral",
+            "summary": "En misstänkt skottlossning har skett vid Sätra centrum i Gävle, uppger polisen. – Flera smällar har hörts och en skadad person har anträffats, säger polisens presstalesperson Magnus Jansson Klarin.",
+            "gaia_synthesis": "",
+            "published_at": "Fri, 10 Jul 2026 22:43:52 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "politik-1905e877-2026-07-11",
+            "title": "Katja Nyberg hoppar av – ställer inte upp i valet för Ambition Sverige",
+            "location": {
+                "city": "Sverige",
+                "country": "Sverige",
+                "lat": 59.33,
+                "lon": 18.07,
+                "precision": "country",
+                "bbox": [
+                    17.07,
+                    58.33,
+                    19.07,
+                    60.33
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/lokalt/sormland/katja-nyberg-hoppar-av-staller-inte-upp-i-valet-for-ambition-sverige"
+                }
+            ],
+            "source_count": 1,
+            "score": 7.0,
+            "tier": 2,
+            "category": "politik",
+            "sentiment": "neutral",
+            "summary": "Katja Nyberg vill inte längre ställa upp i riksdagsvalet för Ambition Sverige. Det framkommer i en handling från Länsstyrelsen i Sörmland.",
+            "gaia_synthesis": "",
+            "published_at": "Fri, 10 Jul 2026 16:36:18 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "politik-b9a2c961-2026-07-11",
+            "title": "Kritiken: Torsboda säljs för billigt till Google – smultronställe för exploatörer",
+            "location": {
+                "city": "Google",
+                "country": "",
+                "lat": 42.35092,
+                "lon": -71.0783603,
+                "precision": "city",
+                "bbox": [
+                    -71.0784103,
+                    42.35087,
+                    -71.0783103,
+                    42.35097
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/lokalt/vasternorrland/kritiken-torsboda-saljs-for-billigt-till-google-smultronstalle-for-exploatorer"
+                }
+            ],
+            "source_count": 1,
+            "score": 7.0,
+            "tier": 2,
+            "category": "politik",
+            "sentiment": "neutral",
+            "summary": "2,1 miljarder kronor är för lite betalt. Det menar Timråpartiet som kritiserar nuvarande förslag till avtal med techjätten Google i Torsboda. – Det är enorm efterfrågan på mark och el så vi kan begära mer, säger David Forslund (T), oppositionsråd.",
+            "gaia_synthesis": "",
+            "published_at": "Fri, 10 Jul 2026 05:30:08 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "försvar-ffc46081-2026-07-11",
+            "title": "Försvaret vill locka fler civila – startar ny utbildning",
+            "location": {
+                "city": "Global",
+                "country": "Global",
+                "lat": 0.0,
+                "lon": 0.0,
+                "precision": "global",
+                "bbox": null
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9254172"
+                }
+            ],
+            "source_count": 1,
+            "score": 7.0,
+            "tier": 2,
+            "category": "försvar",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-07-11T05:16:28.450408+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-7147405e-2026-07-11",
+            "title": "Kuba drabbat av strömavbrott – igen",
+            "location": {
+                "city": "Global",
+                "country": "Global",
+                "lat": 0.0,
+                "lon": 0.0,
+                "precision": "global",
+                "bbox": null
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/kuba-drabbat-av-stromavbrott-igen"
+                },
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/kuba-drabbat-av-stromavbrott-igen"
+                }
+            ],
+            "source_count": 2,
+            "score": 6.5,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Kuba drabbades på fredagen av sitt andra landsomfattande strömavbrott på fem dagar, enligt landets statliga elbolag.",
+            "gaia_synthesis": "",
+            "published_at": "Sat, 11 Jul 2026 03:23:34 +0200",
+            "multi_source_verified": true,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-6f63613f-2026-07-11",
+            "title": "Kidnappade skolbarn och lärare räddade i Nigeria",
+            "location": {
+                "city": "Nigeria",
+                "country": "Nigeria",
+                "lat": 9.07,
+                "lon": 7.39,
+                "precision": "country",
+                "bbox": [
+                    6.39,
+                    8.07,
+                    8.39,
+                    10.07
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/kidnappade-skolbarn-och-larare-raddade-i-nigeria"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "positive",
+            "summary": "Omkring 50 skolbarn och skolpersonal har räddats i delstaten Oyo i sydvästra Nigeria, uppger nigerianska säkerhetsstyrkor på fredagen.",
+            "gaia_synthesis": "",
+            "published_at": "Fri, 10 Jul 2026 22:44:04 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-b932a261-2026-07-11",
+            "title": "Volkswagen i kris – Kina kan köpa fabriker",
+            "location": {
+                "city": "Tyskland",
+                "country": "Tyskland",
+                "lat": 52.52,
+                "lon": 13.4,
+                "precision": "country",
+                "bbox": [
+                    12.4,
+                    51.52,
+                    14.4,
+                    53.52
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/volkswagen-i-kris-kina-kan-kopa-fabriker"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "negative",
+            "summary": "Det är tuffa tider för tyska Volkswagen – konkurrensen från Kina och elbilar hotar fordonsjätten. 120 000 jobb kan vara i fara och hälften av modellerna kan försvinna. – De tyska tillverkarna sitter fast i gamla strukturer, säger motorjournalisten Håkan Matson.",
+            "gaia_synthesis": "",
+            "published_at": "Fri, 10 Jul 2026 22:34:40 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-f048228b-2026-07-11",
+            "title": "Extremvärmen tillbaka i Europa – det här kan vi vänta oss",
+            "location": {
+                "city": "Europa",
+                "country": "Europa",
+                "lat": 54.526,
+                "lon": 15.2551,
+                "precision": "region",
+                "bbox": [
+                    -25.0,
+                    35.0,
+                    45.0,
+                    70.0
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/extremvarme-och-brander-sa-drabbas-sydeuropa"
                 }
             ],
             "source_count": 1,
@@ -751,15 +689,622 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "Flera personer har skadats på en gymnasieskola i tyska Schongau, uppger tysk polis. En 16-årig misstänkt gärningsman är gripen.",
+            "summary": "Den tredje värmeböljan på sex veckor har dragit in i Europa och Spanien härjas just nu av den dödligaste skogsbranden på två decennier. Även på andra håll ligger temperaturerna på rekordnivåer.",
             "gaia_synthesis": "",
-            "published_at": "Wed, 08 Jul 2026 14:13:21 +0200",
+            "published_at": "Fri, 10 Jul 2026 16:08:24 +0200",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-bf13f238-2026-07-09",
-            "title": "Lättare att få studentbostad i höst: ”Blivit bättre”",
+            "id": "samhälle-4e6ff2ae-2026-07-11",
+            "title": "”Count Binface” – soptunnan utmanar Farage i fyllnadsvalet",
+            "location": {
+                "city": "Farage",
+                "country": "",
+                "lat": 13.5559357,
+                "lon": 7.5066997,
+                "precision": "city",
+                "bbox": [
+                    7.5066497,
+                    13.5558857,
+                    7.5067497,
+                    13.5559857
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/count-binface-soptunnan-utmanar-farage-i-fyllnadsvalet"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "I samband med Nigel Farages avhopp som parlamentsledamot utlyses ett fyllnadsval – där han själv ställer upp. Nu ser ”Count Binface” – en komiker i utklädd till soptunna – ut att bli den enda utmanaren, efter att fyra partier valt att avstå. – Det är mycket som står på spel för Farage, säger James Savage, grundare av tidningen The Local.",
+            "gaia_synthesis": "",
+            "published_at": "Fri, 10 Jul 2026 12:03:56 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-7005e710-2026-07-11",
+            "title": "Fler danskar, norrmän och finländare köper svenska aktier",
+            "location": {
+                "city": "Sverige",
+                "country": "Sverige",
+                "lat": 59.33,
+                "lon": 18.07,
+                "precision": "country",
+                "bbox": [
+                    17.07,
+                    58.33,
+                    19.07,
+                    60.33
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9227531"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-07-11T05:16:28.450408+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-04169c99-2026-07-11",
+            "title": "Prins Harry träffar kung Charles – första gången på fyra år",
+            "location": {
+                "city": "Harry",
+                "country": "",
+                "lat": -15.9163645,
+                "lon": 35.0244331,
+                "precision": "city",
+                "bbox": [
+                    35.0044331,
+                    -15.9363645,
+                    35.0444331,
+                    -15.8963645
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9255254"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-07-11T05:16:28.450408+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-93444223-2026-07-11",
+            "title": "Minst tolv döda i den spanska branden – landssorg utlyst",
+            "location": {
+                "city": "Spanien",
+                "country": "Spanien",
+                "lat": 40.42,
+                "lon": -3.7,
+                "precision": "country",
+                "bbox": [
+                    -4.7,
+                    39.42,
+                    -2.7,
+                    41.42
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9255241"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "negative",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-07-11T05:16:28.450408+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-7f7e0b25-2026-07-11",
+            "title": "Forskaren om Haaland: ”Beredd att göra det lilla extra”",
+            "location": {
+                "city": "Haaland",
+                "country": "",
+                "lat": 61.1642581,
+                "lon": 5.933473,
+                "precision": "city",
+                "bbox": [
+                    5.923473,
+                    61.1542581,
+                    5.943473,
+                    61.1742581
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9255197"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-07-11T05:16:28.450408+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-45a70703-2026-07-11",
+            "title": "Tiotusentals flyr Sydafrika efter våldsamma protester",
+            "location": {
+                "city": "Sydafrika",
+                "country": "",
+                "lat": -28.8166236,
+                "lon": 24.991639,
+                "precision": "city",
+                "bbox": [
+                    16.3335213,
+                    -47.1788335,
+                    38.2898954,
+                    -22.1250301
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9255204"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-07-11T05:16:28.450408+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-b998d816-2026-07-11",
+            "title": "Få Lex Maria-anmälningar inom specialiserad demenssjukvård",
+            "location": {
+                "city": "Lex",
+                "country": "",
+                "lat": 37.3703899,
+                "lon": -81.8003918,
+                "precision": "city",
+                "bbox": [
+                    -81.8203918,
+                    37.3503899,
+                    -81.7803918,
+                    37.3903899
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9254869"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-07-11T05:16:28.450408+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-083e211e-2026-07-11",
+            "title": "Bad Bunny lockar fans världen över: ”Påminner om hemma”",
+            "location": {
+                "city": "Bunny",
+                "country": "",
+                "lat": 52.8606394,
+                "lon": -1.1353704,
+                "precision": "city",
+                "bbox": [
+                    -1.1677128,
+                    52.847175,
+                    -1.1043413,
+                    52.8760572
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9255043"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-07-11T05:16:28.450408+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-320567f1-2026-07-11",
+            "title": "Dödligaste branden som drabbat Spanien på över två decennier",
+            "location": {
+                "city": "Spanien",
+                "country": "Spanien",
+                "lat": 40.42,
+                "lon": -3.7,
+                "precision": "country",
+                "bbox": [
+                    -4.7,
+                    39.42,
+                    -2.7,
+                    41.42
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9254918"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-07-11T05:16:28.450408+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-14479430-2026-07-11",
+            "title": "Brand stoppade tåg mellan Karlskrona och Hässleholm",
+            "location": {
+                "city": "Karlskrona",
+                "country": "",
+                "lat": 56.1621073,
+                "lon": 15.5866422,
+                "precision": "city",
+                "bbox": [
+                    15.4266422,
+                    56.0021073,
+                    15.7466422,
+                    56.3221073
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/lokalt/blekinge/brand-stoppar-tag-mellan-karlskrona-och-hassleholm"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Under fredagskvällen stoppades tågtrafiken mellan Karlskrona och Hässleholm. Orsaken var en brand i närheten av spårområdet.",
+            "gaia_synthesis": "",
+            "published_at": "Fri, 10 Jul 2026 18:39:10 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-78ef6c41-2026-07-11",
+            "title": "Här får Sean sitt antagningsbesked: ”Måste ringa pappa”",
+            "location": {
+                "city": "Sean",
+                "country": "",
+                "lat": 26.8550719,
+                "lon": -99.2550002,
+                "precision": "city",
+                "bbox": [
+                    -99.255728,
+                    26.8541918,
+                    -99.2542724,
+                    26.8559519
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/inrikes/har-far-sean-sitt-antagningsbesked-maste-ringa-pappa"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Läkarprogrammet på Karolinska Institutet (KI) är en av landets mest konkurrensutsatta utbildningar. 20-åriga Sean Zhang är en av dem som sökt utbildningen. – Jag är typ inte redo, jag ska inte ljuga, säger han när han ska öppna sitt antagningsbesked.",
+            "gaia_synthesis": "",
+            "published_at": "Fri, 10 Jul 2026 15:48:21 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-613bf913-2026-07-11",
+            "title": "Efter fjällräddningarna på Kebnekaise – fjällchefen räknar med fler: ”Högsäsong”",
+            "location": {
+                "city": "Kebnekaise",
+                "country": "",
+                "lat": 67.9000837,
+                "lon": 18.447799,
+                "precision": "city",
+                "bbox": [
+                    18.3815473,
+                    67.8842844,
+                    18.5201073,
+                    67.902494
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/lokalt/norrbotten/fjallchefen-raknar-med-manga-raddningar-pa-kebnekaise-i-sommar"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Fjällräddningen har fått rycka ut tre dagar i rad för att hämta vandrare på Kebnekaise. Och fler utryckningar är att vänta. – Vi har just gått in i högsäsong och det märks, säger Marit Sarri, STF.",
+            "gaia_synthesis": "",
+            "published_at": "Fri, 10 Jul 2026 15:42:40 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-5d3e3e1d-2026-07-11",
+            "title": "Kö till drop in-vigsel i Luleå – prästerna fick jobba i skift",
+            "location": {
+                "city": "Luleå",
+                "country": "Sverige",
+                "lat": 65.5848,
+                "lon": 22.1547,
+                "precision": "city",
+                "bbox": [
+                    22.054699999999997,
+                    65.4848,
+                    22.2547,
+                    65.6848
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/lokalt/norrbotten/ko-till-drop-in-vigsel-i-lulea-prasten-en-rolig-arbetsdag"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Drop in-vigseln i Luleå lockade många par redan före öppning. Präst Yvonne Nordqvist berättar om en arbetsdag fylld av glädje och kärlek.",
+            "gaia_synthesis": "",
+            "published_at": "Fri, 10 Jul 2026 14:24:36 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-0c82c10a-2026-07-11",
+            "title": "Par från Mattmar vann årets Näcken i bäcken – se hur det såg ut vid årets tävling",
+            "location": {
+                "city": "Mattmar",
+                "country": "",
+                "lat": 63.3041219,
+                "lon": 13.8300929,
+                "precision": "city",
+                "bbox": [
+                    13.8100929,
+                    63.2841219,
+                    13.8500929,
+                    63.3241219
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/lokalt/jamtland/par-fran-mattmar-vann-arets-nacken-i-backen-se-hur-det-sag-ut-vid-arets-tavling"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Årets upplaga av Näcken i bäcken bjöd – förutom traditionsenligt fiolspel – även japanska koto och sång med motorsåg. Vinnare av juryns stora pris gick efter en lång överläggning till Asuka och Jonas Staf från Mattmar. – Det var jättekul och lite oväntat faktiskt, säger Asuka Staf.",
+            "gaia_synthesis": "",
+            "published_at": "Fri, 10 Jul 2026 14:11:00 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-b6f48f2d-2026-07-11",
+            "title": "Hotfull konfrontation vid gård – Polisen utreder grovt vapenbrott",
+            "location": {
+                "city": "Linköping",
+                "country": "Sverige",
+                "lat": 58.4108,
+                "lon": 15.6214,
+                "precision": "city",
+                "bbox": [
+                    15.5214,
+                    58.3108,
+                    15.7214,
+                    58.5108
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/lokalt/ost/hotfull-konfrontation-vid-gard-polisen-utreder-grovt-vapenbrott"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Under natten mot fredag avlossades ett vapenliknande föremål i Björkfors söder om Linköping. Polisen utreder nu grovt vapenbrott och olaga hot efter händelsen.",
+            "gaia_synthesis": "",
+            "published_at": "Fri, 10 Jul 2026 09:44:56 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-853922b8-2026-07-11",
+            "title": "Efter Pricerunnerdomen: ”Lönsamt för Google att bryta mot lagen”",
+            "location": {
+                "city": "Usa",
+                "country": "Usa",
+                "lat": 38.91,
+                "lon": -77.04,
+                "precision": "country",
+                "bbox": [
+                    -78.04,
+                    37.91,
+                    -76.04,
+                    39.91
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/inrikes/efter-pricerunnerdomen-lonsamt-for-google-att-bryta-mot-lagen"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Förutom svenska Pricerunner har ytterligare en handfull europeiska techföretag krävt Google på skadestånd. Men de som fått rätt i domstol har ibland fått så lite som 14 procent av sitt anspråk. – Företag som konkurrerar med Google vill inte vänta tjugo år för en struntsumma, säger Fiona Scott Morton, professor vid amerikanska Yale University till SVT.",
+            "gaia_synthesis": "",
+            "published_at": "Fri, 10 Jul 2026 09:44:45 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-b5bdc36b-2026-07-11",
+            "title": "Tredje fjällräddningen på Kebnekaise på tre dygn",
+            "location": {
+                "city": "Kebnekaise",
+                "country": "",
+                "lat": 67.9000837,
+                "lon": 18.447799,
+                "precision": "city",
+                "bbox": [
+                    18.3815473,
+                    67.8842844,
+                    18.5201073,
+                    67.902494
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/lokalt/norrbotten/tredje-fjallraddningen-pa-kebnekaise-pa-tre-dygn"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "En man fick hjälp ner från Kebnekaise till Nikkaluokta efter en knäskada. Det var fjällräddningens tredje insats på fjället på lika många dygn.",
+            "gaia_synthesis": "",
+            "published_at": "Fri, 10 Jul 2026 07:39:33 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-940da248-2026-07-11",
+            "title": "10 juli: Nattens nyheter",
+            "location": {
+                "city": "Global",
+                "country": "Global",
+                "lat": 0.0,
+                "lon": 0.0,
+                "precision": "global",
+                "bbox": null
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/10-juli-nattens-nyheter-kaw9b0"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "Fri, 10 Jul 2026 05:46:36 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "politik-72538ae1-2026-07-11",
+            "title": "Få Ivo-anmälningar utreds – sjukvårdsministern bekymrad",
             "location": {
                 "city": "Global",
                 "country": "Global",
@@ -772,7 +1317,65 @@
                 {
                     "name": "SR Ekot",
                     "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9252968"
+                    "url": "https://www.sverigesradio.se/artikel/9255140"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "politik",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-07-11T05:16:28.450408+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "hälsa-673e2296-2026-07-11",
+            "title": "Man påkörd vid däckbyte – förd till sjukhus",
+            "location": {
+                "city": "Global",
+                "country": "Global",
+                "lat": 0.0,
+                "lon": 0.0,
+                "precision": "global",
+                "bbox": null
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/lokalt/stockholm/man-pakord-vid-dackbyte-ford-till-sjukhus"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "hälsa",
+            "sentiment": "neutral",
+            "summary": "En man i 55-årsåldern har förts till sjukhus med ambulanshelikopter efter att ha blivit påkörd när han stod och bytte däck på sin bil på E18.",
+            "gaia_synthesis": "",
+            "published_at": "Fri, 10 Jul 2026 20:24:33 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-bec89fea-2026-07-11",
+            "title": "Svenskarnas fondsparande slår rekord: ”Högst andel i världen”",
+            "location": {
+                "city": "Global",
+                "country": "Global",
+                "lat": 0.0,
+                "lon": 0.0,
+                "precision": "global",
+                "bbox": null
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9255113"
                 }
             ],
             "source_count": 1,
@@ -782,13 +1385,13 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-09T06:09:33.495589+02:00",
+            "published_at": "2026-07-11T05:16:28.450408+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-9a2a2fdf-2026-07-09",
-            "title": "SVT-experten Jonas Eriksson: ”Därför får de bästa fördelar i VM”",
+            "id": "samhälle-96f67a46-2026-07-11",
+            "title": "Facebooks ägare hotas återigen av miljardböter",
             "location": {
                 "city": "Global",
                 "country": "Global",
@@ -801,7 +1404,7 @@
                 {
                     "name": "SR Ekot",
                     "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9253595"
+                    "url": "https://www.sverigesradio.se/artikel/9255184"
                 }
             ],
             "source_count": 1,
@@ -811,13 +1414,13 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-09T06:09:33.495589+02:00",
+            "published_at": "2026-07-11T05:16:28.450408+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-ad6fb869-2026-07-09",
-            "title": "Myrenberg: Zelenskyj lättad efter löftet om luftvärn",
+            "id": "samhälle-280b7570-2026-07-11",
+            "title": "Färre kom in på högskolan: ”Har med ekonomi att göra”",
             "location": {
                 "city": "Global",
                 "country": "Global",
@@ -830,7 +1433,7 @@
                 {
                     "name": "SR Ekot",
                     "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9253727"
+                    "url": "https://www.sverigesradio.se/artikel/9255147"
                 }
             ],
             "source_count": 1,
@@ -840,13 +1443,13 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-09T06:09:33.495589+02:00",
+            "published_at": "2026-07-11T05:16:28.450408+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-c5eda624-2026-07-09",
-            "title": "Fler än en av tio gymnasieelever fick CSN-stödet indraget",
+            "id": "samhälle-e9525ae9-2026-07-11",
+            "title": "Efter Natomötet: Kreml drar sig för att kritisera Trump",
             "location": {
                 "city": "Global",
                 "country": "Global",
@@ -859,7 +1462,7 @@
                 {
                     "name": "SR Ekot",
                     "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9253652"
+                    "url": "https://www.sverigesradio.se/artikel/9254841"
                 }
             ],
             "source_count": 1,
@@ -869,13 +1472,13 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-09T06:09:33.495589+02:00",
+            "published_at": "2026-07-11T05:16:28.450408+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-0a1b3e79-2026-07-09",
-            "title": "Billigare flygbränsle öppnar för billigare flygbiljetter",
+            "id": "brott-3420a545-2026-07-11",
+            "title": "Karolinska måste lämna ut uppgifter om papperslös",
             "location": {
                 "city": "Global",
                 "country": "Global",
@@ -886,9 +1489,67 @@
             },
             "sources": [
                 {
-                    "name": "SR Ekot",
+                    "name": "SVT Nyheter",
                     "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9251134"
+                    "url": "https://www.svt.se/nyheter/lokalt/stockholm/karolinska-maste-lamna-ut-uppgifter-om-papperslos"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "brott",
+            "sentiment": "neutral",
+            "summary": "Karolinska universitetssjukhuset måste efter en dom i högsta instans lämna ut en papperslös patients telefonnummer till polisen, rapporterar Läkartidningen.",
+            "gaia_synthesis": "",
+            "published_at": "Fri, 10 Jul 2026 21:00:30 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "brott-be3501b8-2026-07-11",
+            "title": "Sänkt straff för brutal kidnappning av tvååring",
+            "location": {
+                "city": "Global",
+                "country": "Global",
+                "lat": 0.0,
+                "lon": 0.0,
+                "precision": "global",
+                "bbox": null
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/lokalt/jonkoping/sankt-straff-for-brutal-kidnappning-av-tvaaring"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "brott",
+            "sentiment": "neutral",
+            "summary": "Göta hovrätt sänker straffen för det par som tidigare har dömts för att ha kidnappat mannens dotter. Den 25-årige mannen får nu sju års fängelse och hans jämnåriga flickvän tre år.",
+            "gaia_synthesis": "",
+            "published_at": "Fri, 10 Jul 2026 16:53:42 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-6f8731da-2026-07-11",
+            "title": "Folk på stan om familjebråk på semestern: Man får ingen egentid",
+            "location": {
+                "city": "Global",
+                "country": "Global",
+                "lat": 0.0,
+                "lon": 0.0,
+                "precision": "global",
+                "bbox": null
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/uutiset/svenska/folk-pa-stan-om-familjebrak-pa-semestern-man-far-ingen-egentid"
                 }
             ],
             "source_count": 1,
@@ -896,15 +1557,15 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "",
+            "summary": "SVT Uutiset frågade folk i Stockholms innerstad vad som kan leda till bråk på semestern. Bland svaren lyftes allt från irritation på grund av hettan till svårigheten att få till egentid, när man reser med sina nära och kära.",
             "gaia_synthesis": "",
-            "published_at": "2026-07-09T06:09:33.495589+02:00",
+            "published_at": "Fri, 10 Jul 2026 08:43:10 +0200",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "ekonomi-6c6be09c-2026-07-09",
-            "title": "Experten: Detta talar för att inflationen stiger",
+            "id": "samhälle-c17f228f-2026-07-11",
+            "title": "Psykoterapeuten: Spontanitet på semestern kan stärka relationen",
             "location": {
                 "city": "Global",
                 "country": "Global",
@@ -915,38 +1576,9 @@
             },
             "sources": [
                 {
-                    "name": "SR Ekot",
+                    "name": "SVT Nyheter",
                     "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9253409"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "ekonomi",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-07-09T06:09:33.495589+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-e2f814cf-2026-07-09",
-            "title": "Läkare larmar: ”Skrämmande när vi ser bilderna av deras lungor”",
-            "location": {
-                "city": "Global",
-                "country": "Global",
-                "lat": 0.0,
-                "lon": 0.0,
-                "precision": "global",
-                "bbox": null
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9253165"
+                    "url": "https://www.svt.se/nyheter/uutiset/svenska/psykoterapeuten-spontanitet-pa-semestern-kan-starka-relationen"
                 }
             ],
             "source_count": 1,
@@ -954,63 +1586,50 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "",
+            "summary": "Enligt psykoterapeuten Pirita Puukko kan den extra tid man får tillsammans under sommarledigheten lyfta fram underliggande konflikter till ytan. Därför ser hon det som viktigt att man är öppen med sina behov inför en gemensam semester och att man inte stressar under ledigheten. Att ha utrymme för spontanitet är något som hon tror kan stärka en parrelation.",
             "gaia_synthesis": "",
-            "published_at": "2026-07-09T06:09:33.495589+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-419a6894-2026-07-09",
-            "title": "Donald Trump på Natomötet: Vapenvilan är över",
-            "location": {
-                "city": "Global",
-                "country": "Global",
-                "lat": 0.0,
-                "lon": 0.0,
-                "precision": "global",
-                "bbox": null
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9253307"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-07-09T06:09:33.495589+02:00",
+            "published_at": "Fri, 10 Jul 2026 08:42:42 +0200",
             "multi_source_verified": false,
             "has_article": false
         }
     ],
     "relations": [
         {
-            "id": "rel-auto-nato-försvar-78e2467f-2026-07-09-försvar-6f45c012-2026-07-09",
-            "source": "försvar-78e2467f-2026-07-09",
-            "target": "försvar-6f45c012-2026-07-09",
-            "type": "geopolitical_link",
-            "weight": 0.5,
-            "description": "Geopolitisk länk gällande Östersjöregionens och Natos säkerhetsläge."
-        },
-        {
-            "id": "rel-auto-proximity-samhälle-1988ce38-2026-07-09-samhälle-5779be25-2026-07-09",
-            "source": "samhälle-1988ce38-2026-07-09",
-            "target": "samhälle-5779be25-2026-07-09",
+            "id": "rel-auto-proximity-samhälle-9d329485-2026-07-11-samhälle-7005e710-2026-07-11",
+            "source": "samhälle-9d329485-2026-07-11",
+            "target": "samhälle-7005e710-2026-07-11",
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
         },
         {
-            "id": "rel-auto-proximity-samhälle-c4021071-2026-07-09-samhälle-39fb75b4-2026-07-09",
-            "source": "samhälle-c4021071-2026-07-09",
-            "target": "samhälle-39fb75b4-2026-07-09",
+            "id": "rel-auto-proximity-samhälle-39479903-2026-07-11-samhälle-b932a261-2026-07-11",
+            "source": "samhälle-39479903-2026-07-11",
+            "target": "samhälle-b932a261-2026-07-11",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-f048228b-2026-07-11-samhälle-14479430-2026-07-11",
+            "source": "samhälle-f048228b-2026-07-11",
+            "target": "samhälle-14479430-2026-07-11",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-93444223-2026-07-11-samhälle-320567f1-2026-07-11",
+            "source": "samhälle-93444223-2026-07-11",
+            "target": "samhälle-320567f1-2026-07-11",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-613bf913-2026-07-11-samhälle-b5bdc36b-2026-07-11",
+            "source": "samhälle-613bf913-2026-07-11",
+            "target": "samhälle-b5bdc36b-2026-07-11",
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
@@ -1018,21 +1637,23 @@
     ],
     "meta_analysis": {
         "top_themes": [
-            "Reaktioner efter Le Pens besked: ”Oacceptabelt”",
-            "”Le Pen spelar ett högt spel”",
-            "Explosioner på flera håll i Iran: ”Risk att det trappas upp”",
-            "Franska soldater ska förstärka svensk-finsk stridsgrupp"
+            "Brittisk ex-minister Ann Widdecombe misstänkt mördad i sitt hem",
+            "Boende evakueras: ”Vet inte om huset brunnit ner”",
+            "Experten: Så stor är risken för storkrig i Mellanöstern",
+            "Uppgifter om explosioner i Kiev"
         ],
         "geographic_distribution": {
-            "Okänt": 8,
-            "Iran": 5,
-            "Sverige": 2,
-            "Israel": 1,
-            "Global": 10,
-            "Venezuela": 1,
-            "Ukraina": 1,
-            "Usa": 1,
-            "Tyskland": 1
+            "Storbritannien": 2,
+            "Spanien": 3,
+            "Iran": 1,
+            "Okänt": 15,
+            "Ryssland": 1,
+            "Sverige": 7,
+            "Tyskland": 2,
+            "Global": 13,
+            "Nigeria": 1,
+            "Europa": 1,
+            "Usa": 1
         },
         "gaia_daily_brief": "Dagens nyhetsbild domineras av rättsliga processer och dramatiska säkerhetshändelser. I Paris har Marine Le Pen meddelat att hon överklagar en dom om tre års fängelse och valbarhetsförbud vilket hotar hennes presidentkandidatur. I Köpenhamn väcks stark sorg och ilska efter dödsmisshandeln av den svenske polisen Christian Zedig under en VM-matchvisning, där den 30-årige misstänkte visar sig ha en tidigare historik av grovt knivvåld. På Manhattan i New York har en skyskrapa evakuerats akut på grund av en allvarlig rasrisk som skapat lokalt kaos."
     }
