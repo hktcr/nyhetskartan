@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-12T03:17:00.466397+00:00",
+    "generated_at": "2026-07-12T05:11:38.947124+00:00",
     "workflow_version": "2.3",
     "source_info": {
         "swedish_rss": [
@@ -10,8 +10,8 @@
             "NewsData.io"
         ],
         "api_plan": "NewsData.io Active",
-        "total_raw_articles": 66,
-        "deduplicated_count": 57
+        "total_raw_articles": 58,
+        "deduplicated_count": 58
     },
     "news": [
         {
@@ -38,12 +38,39 @@
                 }
             ],
             "source_count": 1,
-            "score": 8.0,
+            "score": 8.5,
             "tier": 1,
             "category": "konflikt",
             "sentiment": "negative",
-            "summary": "",
-            "published_at": "2026-07-12T05:16:24.748765+02:00",
+            "summary": "USA har genomfört en serie riktade luftangrepp mot militära mål i Iran. Angreppen beskrivs som svar på upprepade attacker mot amerikanska intressen i regionen, vilket dramatiskt eskalerar det spända geopolitiska läget.",
+            "published_at": "2026-07-12T07:09:09.585362+02:00",
+            "multi_source_verified": false,
+            "article_generated": true,
+            "has_article": true
+        },
+        {
+            "id": "konflikt-bb818454-2026-07-12",
+            "title": "Attacker mot kristna i Nigeria – SVT på plats i våldets epicentrum",
+            "location": {
+                "city": "Nigeria",
+                "country": "Nigeria",
+                "lat": 9.082,
+                "lon": 8.6753
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/attacker-mot-kristna-i-nigeria-svt-pa-plats-i-valdets-epicentrum"
+                }
+            ],
+            "source_count": 1,
+            "score": 8.5,
+            "tier": 1,
+            "category": "konflikt",
+            "sentiment": "negative",
+            "summary": "En våg av dödligt våld mot kristna byar i Nigeria har lett till hundratals dödsoffer och tvingat tusentals på flykt. SVT:s korrespondent rapporterar från det drabbade Plateau-området där etniska och religiösa konflikter eskalerar.",
+            "published_at": "Sat, 11 Jul 2026 15:30:50 +0200",
             "multi_source_verified": false,
             "article_generated": true,
             "has_article": true
@@ -76,42 +103,8 @@
             "tier": 1,
             "category": "försvar",
             "sentiment": "neutral",
-            "summary": "",
-            "published_at": "2026-07-12T05:16:24.748765+02:00",
-            "multi_source_verified": false,
-            "article_generated": true,
-            "has_article": true
-        },
-        {
-            "id": "konflikt-bb818454-2026-07-12",
-            "title": "Attacker mot kristna i Nigeria – SVT på plats i våldets epicentrum",
-            "location": {
-                "city": "Usa",
-                "country": "Usa",
-                "lat": 38.91,
-                "lon": -77.04,
-                "precision": "country",
-                "bbox": [
-                    -78.04,
-                    37.91,
-                    -76.04,
-                    39.91
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/attacker-mot-kristna-i-nigeria-svt-pa-plats-i-valdets-epicentrum"
-                }
-            ],
-            "source_count": 1,
-            "score": 8.0,
-            "tier": 1,
-            "category": "konflikt",
-            "sentiment": "negative",
-            "summary": "Nigeria har kallats det farligaste landet i världen för kristna. Detta efter en våg av våld, som bland annat lett till ingripande av USA. Handlar det om folkmord, som vissa kristna organisationer hävdar?",
-            "published_at": "Sat, 11 Jul 2026 15:30:50 +0200",
+            "summary": "Försvarsmakten har ett akut behov av it-personal för att hantera digitala hot och stödja den militära upprustningen. Bristen på personal hotar att fördröja implementeringen av nya försvarssystem och cybersäkerhetsåtgärder.",
+            "published_at": "2026-07-12T07:09:09.585362+02:00",
             "multi_source_verified": false,
             "article_generated": true,
             "has_article": true
@@ -145,11 +138,11 @@
                 }
             ],
             "source_count": 2,
-            "score": 7.5,
+            "score": 8.0,
             "tier": 1,
-            "category": "samhälle",
+            "category": "brott",
             "sentiment": "negative",
-            "summary": "Två personer har dödats och minst fem personer skadats i en skottlossning vid en festival i Toronto i Kanada, rapporterar flera kanadensiska medier.",
+            "summary": "Två personer har skjutits till döds och fem skadats under en salsafestival i Toronto, Kanada. Händelsen har skakat staden och väckt ny debatt om illegala vapen och gängvåld i kanadensiska storstäder.",
             "published_at": "Sun, 12 Jul 2026 03:39:51 +0200",
             "multi_source_verified": true,
             "article_generated": true,
@@ -184,15 +177,47 @@
                 }
             ],
             "source_count": 2,
-            "score": 7.5,
+            "score": 8.0,
             "tier": 1,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "USA:s regering har betalat ut tre miljoner dollar, motsvarande omkring 29 miljoner kronor, i ersättning till amerikansk personal som drabbats av det mystiska ”Havannasyndromet”.",
+            "summary": "Amerikanska diplomater och spioner som drabbats av det så kallade ”Havannasyndromet” – mystiska neurologiska symptom – beviljas miljonersättningar av USA:s regering. Beslutet bekräftar statens ansvar trots fortsatta oklarheter om symptomens faktiska orsak.",
             "published_at": "Sat, 11 Jul 2026 19:41:06 +0200",
             "multi_source_verified": true,
             "article_generated": true,
             "has_article": true
+        },
+        {
+            "id": "samhälle-13d3c63f-2026-07-12",
+            "title": "Albaner marscherar mot Trumpresort",
+            "location": {
+                "city": "Tirana",
+                "country": "Albanien",
+                "lat": 41.3275,
+                "lon": 19.8187
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/albaner-marscherar-mot-trumpresort"
+                },
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/albaner-marscherar-mot-trumpresort"
+                }
+            ],
+            "source_count": 2,
+            "score": 7.5,
+            "tier": 1,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Tusentals demonstranter har marscherat i Albaniens huvudstad Tirana mot en planerad lyxresort på ön Sazan. Projektet, som har starka kopplingar till Donald Trumps familj via svärsonen Jared Kushner, kritiseras för miljöförstöring och misstänkt politisk korruption.",
+            "published_at": "Sun, 12 Jul 2026 01:36:48 +0200",
+            "multi_source_verified": true,
+            "has_article": true,
+            "article_generated": true
         },
         {
             "id": "hälsa-c51cfd00-2026-07-12",
@@ -224,7 +249,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-12T05:16:24.748765+02:00",
+            "published_at": "2026-07-12T07:09:09.585362+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -331,37 +356,105 @@
             "has_article": false
         },
         {
-            "id": "samhälle-13d3c63f-2026-07-12",
-            "title": "Albaner marscherar mot Trumpresort",
+            "id": "försvar-95ef251e-2026-07-12",
+            "title": "Kim Jong-un condemns military corruption at rare high-level meeting",
             "location": {
-                "city": "Global",
-                "country": "Global",
-                "lat": 0.0,
-                "lon": 0.0,
-                "precision": "global",
-                "bbox": null
+                "city": "Sydkorea",
+                "country": "Sydkorea",
+                "lat": 37.55,
+                "lon": 126.99,
+                "precision": "country",
+                "bbox": [
+                    125.99,
+                    36.55,
+                    127.99,
+                    38.55
+                ]
             },
             "sources": [
                 {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/albaner-marscherar-mot-trumpresort"
-                },
+                    "name": "National Herald",
+                    "type": "commercial",
+                    "url": "https://www.nationalheraldindia.com/international/kim-jong-un-condemns-military-corruption-at-rare-high-level-meeting"
+                }
+            ],
+            "source_count": 1,
+            "score": 7.0,
+            "tier": 2,
+            "category": "försvar",
+            "sentiment": "neutral",
+            "summary": "North Korean leader Kim Jong-un has denounced corruption within the country's military during a rare joint meeting of senior leaders from the ruling party, government and armed forces, state media reported on Saturday.",
+            "gaia_synthesis": "",
+            "published_at": "2026-07-11 17:08:58",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "hälsa-e5529363-2026-07-12",
+            "title": "Oroande TBE-siffror i Västmanland: ”Väsentligt fler fall”",
+            "location": {
+                "city": "Västmanland",
+                "country": "",
+                "lat": 59.6965564,
+                "lon": 15.6237045,
+                "precision": "city",
+                "bbox": [
+                    14.3317824,
+                    59.1979186,
+                    16.9659078,
+                    60.1950931
+                ]
+            },
+            "sources": [
                 {
                     "name": "SVT Nyheter",
                     "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/albaner-marscherar-mot-trumpresort"
+                    "url": "https://www.svt.se/nyheter/lokalt/vastmanland/oroande-tbe-siffror-i-vastmanland-vasentligt-fler-fall"
                 }
             ],
-            "source_count": 2,
-            "score": 6.5,
+            "source_count": 1,
+            "score": 7.0,
+            "tier": 2,
+            "category": "hälsa",
+            "sentiment": "neutral",
+            "summary": "I juni rapporterades sex fall av TBE in i Västmanland. Det är en siffra som är klart högre än normalt för den här tiden på året. – Det är väsentligt fler fall i juni det här året än i juni förra året, säger smittskyddsläkaren Daniel Heimer.",
+            "gaia_synthesis": "",
+            "published_at": "Sun, 12 Jul 2026 05:30:07 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-63ec6f48-2026-07-12",
+            "title": "Trots förlusten mot England – norrmännen stolta över insatsen",
+            "location": {
+                "city": "England",
+                "country": "",
+                "lat": 52.5310214,
+                "lon": -1.2649062,
+                "precision": "city",
+                "bbox": [
+                    -6.7047494,
+                    49.674,
+                    2.0919117,
+                    55.917
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9255475"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "Tusentals albaner tog sig på lördagen ut på gatorna i huvudstaden Tirana för att demonstrera mot planerna på att bygga en lyxresort, med starka kopplingar till familjen Trump, på ön Sazan vid Albaniens kust.",
+            "summary": "",
             "gaia_synthesis": "",
-            "published_at": "Sun, 12 Jul 2026 01:36:48 +0200",
-            "multi_source_verified": true,
+            "published_at": "2026-07-12T07:09:09.585362+02:00",
+            "multi_source_verified": false,
             "has_article": false
         },
         {
@@ -394,7 +487,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-12T05:16:24.748765+02:00",
+            "published_at": "2026-07-12T07:09:09.585362+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -428,7 +521,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-12T05:16:24.748765+02:00",
+            "published_at": "2026-07-12T07:09:09.585362+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -462,7 +555,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-12T05:16:24.748765+02:00",
+            "published_at": "2026-07-12T07:09:09.585362+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -496,7 +589,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-12T05:16:24.748765+02:00",
+            "published_at": "2026-07-12T07:09:09.585362+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -530,7 +623,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-12T05:16:24.748765+02:00",
+            "published_at": "2026-07-12T07:09:09.585362+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -564,7 +657,7 @@
             "sentiment": "negative",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-12T05:16:24.748765+02:00",
+            "published_at": "2026-07-12T07:09:09.585362+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -598,7 +691,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-12T05:16:24.748765+02:00",
+            "published_at": "2026-07-12T07:09:09.585362+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -632,75 +725,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-12T05:16:24.748765+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-007cc993-2026-07-12",
-            "title": "Landsomfattande strömavbrott på Kuba – fjärde i år",
-            "location": {
-                "city": "Kuba",
-                "country": "",
-                "lat": 23.0131338,
-                "lon": -80.8328748,
-                "precision": "city",
-                "bbox": [
-                    -85.1679702,
-                    19.6275294,
-                    -73.9190004,
-                    23.4816972
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9255316"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-07-12T05:16:24.748765+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-d9f7e0e7-2026-07-12",
-            "title": "Trump hotar att ”ödelägga” Iran om landet försöker döda honom",
-            "location": {
-                "city": "Iran",
-                "country": "Iran",
-                "lat": 35.69,
-                "lon": 51.39,
-                "precision": "country",
-                "bbox": [
-                    50.39,
-                    34.69,
-                    52.39,
-                    36.69
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9255289"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "negative",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-07-12T05:16:24.748765+02:00",
+            "published_at": "2026-07-12T07:09:09.585362+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -943,70 +968,70 @@
             "has_article": false
         },
         {
-            "id": "politik-b5b92b2d-2026-07-12",
-            "title": "Govt warns don't drink and drive ahead of Englands World Cup clash",
+            "id": "samhälle-80ebb801-2026-07-12",
+            "title": "Många fritidshus ägs av boende i samma län – familjen överger stan för sommarstället i Södertälje",
             "location": {
-                "city": "United Kingdom",
-                "country": "United Kingdom",
-                "lat": 51.51,
-                "lon": -0.13,
-                "precision": "country",
+                "city": "Södertälje",
+                "country": "",
+                "lat": 59.1964289,
+                "lon": 17.6271663,
+                "precision": "city",
                 "bbox": [
-                    -1.13,
-                    50.51,
-                    0.87,
-                    52.51
+                    17.4671663,
+                    59.0364289,
+                    17.7871663,
+                    59.3564289
                 ]
             },
             "sources": [
                 {
-                    "name": "Stratford Observer",
-                    "type": "commercial",
-                    "url": "https://stratfordobserver.co.uk/news/govt-warns-dont-drink-and-drive-ahead-of-englands-world-cup-clash-62828/"
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/lokalt/sodertalje/manga-fritidshus-ags-av-boende-i-samma-lan-familjen-overger-stan-for-fritidshus-i-sodertalje"
                 }
             ],
             "source_count": 1,
             "score": 6.0,
             "tier": 2,
-            "category": "politik",
+            "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "The Minister for Local Transport Lilian Greenwood, also warns of the dangers of drink driving during the World Cup.",
+            "summary": "Till vardags bor tvåbarnspappan Magnus Wall i en lägenhet i Gubbängen. Men så fort sommarlovet börjar så flyttar familjen ut till ett enkelt fritidshus med utedass i Södertälje. Ny statistik från SCB visar att över hälften av fritidshusen i landet ägs av boende i samma län – och att nästan vart åttonde fritidshus ägs av stockholmare.",
             "gaia_synthesis": "",
-            "published_at": "2026-07-11 15:16:00",
+            "published_at": "Sun, 12 Jul 2026 05:30:07 +0200",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "politik-fa1f83f9-2026-07-12",
-            "title": "New Zealand PM Christopher Luxon Praises India's Economic Growth and Calls for Deeper Business Ties",
+            "id": "samhälle-591a33cf-2026-07-12",
+            "title": "Giftig sprängört vid Göta kanal i Söderköping: ”Jättefarligt”",
             "location": {
-                "city": "India",
-                "country": "India",
-                "lat": 28.61,
-                "lon": 77.21,
-                "precision": "country",
+                "city": "Göta",
+                "country": "",
+                "lat": 58.1080405,
+                "lon": 12.1497805,
+                "precision": "city",
                 "bbox": [
-                    76.21,
-                    27.61,
-                    78.21,
-                    29.61
+                    12.1297805,
+                    58.0880405,
+                    12.1697805,
+                    58.1280405
                 ]
             },
             "sources": [
                 {
-                    "name": "Gyanhigyan",
-                    "type": "commercial",
-                    "url": "https://gyanhigyan.com/business-finance/new-zealand-pm-christopher-luxon-praises-indias-economic/cid18970756.htm"
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/lokalt/ost/giftig-sprangort-vid-gota-kanal-i-soderkoping"
                 }
             ],
             "source_count": 1,
             "score": 6.0,
             "tier": 2,
-            "category": "politik",
+            "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "New Zealand Prime Minister Christopher Luxon recently praised India's impressive economic transformation during an event with Indian Prime Minister Narendra Modi. Luxon emphasized the need for deeper business ties between the two nations, highlighting sectors like food, tourism, and technology for potential collaboration. He noted the significant progress India has made under Modi's leadership, lifting millions out of poverty and expanding the middle class. Modi, in turn, invited New Zealand bus",
+            "summary": "Det ser ut som en vanlig grön växt vid vattenkanten – men sprängört kan i värsta fall vara dödlig. Vid Göta kanal, där många barnfamiljer och hundägare passerar varje dag, växer den bara några steg från stigen.",
             "gaia_synthesis": "",
-            "published_at": "2026-07-11 15:15:53",
+            "published_at": "Sun, 12 Jul 2026 05:30:07 +0200",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1249,264 +1274,322 @@
             "has_article": false
         },
         {
-            "id": "brott-a2843c11-2026-07-12",
-            "title": "En död i motorcykelolycka – två misstänks för brott",
+            "id": "politik-4aa49a1a-2026-07-12",
+            "title": "Inför valet: Så vill riksdagspartierna korta vårdköerna",
             "location": {
-                "city": "Malmö",
-                "country": "Sverige",
-                "lat": 55.605,
-                "lon": 13.0038,
-                "precision": "city",
-                "bbox": [
-                    12.9038,
-                    55.504999999999995,
-                    13.1038,
-                    55.705
-                ]
+                "city": "Global",
+                "country": "Global",
+                "lat": 0.0,
+                "lon": 0.0,
+                "precision": "global",
+                "bbox": null
             },
             "sources": [
                 {
-                    "name": "SVT Nyheter",
+                    "name": "SR Ekot",
                     "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/lokalt/skane/en-dod-i-motorcykelolycka"
+                    "url": "https://www.sverigesradio.se/artikel/9252710"
                 }
             ],
             "source_count": 1,
             "score": 6.0,
             "tier": 2,
-            "category": "brott",
+            "category": "politik",
             "sentiment": "neutral",
-            "summary": "En motorcyklist har omkommit i en olycka på E6 mellan Malmö och Vellinge på fredagskvällen. Två bilar var också inblandade i olyckan. Båda bilförarna misstänks för brott.",
+            "summary": "",
             "gaia_synthesis": "",
-            "published_at": "Sat, 11 Jul 2026 05:32:15 +0200",
+            "published_at": "2026-07-12T07:09:09.585362+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-8dc60f3b-2026-07-12",
-            "title": "240 volontärer bygger festivalen i Mimerlaven: ”Otrolig gemenskap”",
+            "id": "samhälle-88f5a8fe-2026-07-12",
+            "title": "12 juli: Nattens nyheter",
             "location": {
-                "city": "Mimerlaven",
-                "country": "",
-                "lat": 60.0675392,
-                "lon": 15.9382066,
-                "precision": "city",
-                "bbox": [
-                    15.9360488,
-                    60.0664623,
-                    15.9398706,
-                    60.0683703
-                ]
+                "city": "Global",
+                "country": "Global",
+                "lat": 0.0,
+                "lon": 0.0,
+                "precision": "global",
+                "bbox": null
             },
             "sources": [
                 {
-                    "name": "SVT Nyheter",
+                    "name": "SVT Utrikes",
                     "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/lokalt/vastmanland/240-volontarer-bygger-festivalen-i-mimerlaven-otrolig-gemenskap"
+                    "url": "https://www.svt.se/nyheter/utrikes/12-juli-nattens-nyheter-ed390l"
                 }
             ],
             "source_count": 1,
             "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "Den vanligtvis öde Mimerlaven har väckts till liv när hundratals volontärer och technoentusiaster samlas för en experimentiell musikfestival. – Det är en otrolig gemenskap, det är absolut därför jag kommer tillbaka varje år, säger Josefin Högberg, barchef.",
-            "gaia_synthesis": "",
-            "published_at": "Sat, 11 Jul 2026 05:30:03 +0200",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-cf6e6603-2026-07-12",
-            "title": "Jan Johansson från Fyrås äter sig igenom fotbolls-VM",
-            "location": {
-                "city": "Fyrås",
-                "country": "",
-                "lat": 63.5240858,
-                "lon": 15.3594417,
-                "precision": "city",
-                "bbox": [
-                    15.3394417,
-                    63.5040858,
-                    15.3794417,
-                    63.5440858
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/lokalt/jamtland/jan-johansson-fran-fyras-ater-sig-igenom-fotbolls-vm"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "Kvartsfinalerna i fotbolls-VM är igång. Inför slutspelsrundan träffade SVT Jan Johansson som varje dag under VM lagar mat baserad på de länder som spelar – eller åkt ur. – De flesta länder imponerar, säger Jan Johansson.",
-            "gaia_synthesis": "",
-            "published_at": "Sat, 11 Jul 2026 05:30:03 +0200",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-c50470b7-2026-07-12",
-            "title": "Over 677,000 Apply to Uzbekistan Universities",
-            "location": {
-                "city": "Apply",
-                "country": "",
-                "lat": 32.5364541,
-                "lon": 35.8666787,
-                "precision": "city",
-                "bbox": [
-                    35.8666287,
-                    32.5364041,
-                    35.8667287,
-                    32.5365041
-                ]
-            },
-            "sources": [
-                {
-                    "name": "Uzdaily",
-                    "type": "commercial",
-                    "url": "https://www.uzdaily.uz/en/over-677000-apply-to-uzbekistan-universities/"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "More than 677,000 applicants registered for admission to Uzbekistan's higher and vocational education institutions for the 2026/2027 academic year.",
-            "gaia_synthesis": "",
-            "published_at": "2026-07-11 15:16:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-106c36ac-2026-07-12",
-            "title": "Tributes paid after man dies falling from east Belfast bonfire",
-            "location": {
-                "city": "Belfast",
-                "country": "Storbritannien",
-                "lat": 54.5973,
-                "lon": -5.9301,
-                "precision": "city",
-                "bbox": [
-                    -6.03,
-                    54.55,
-                    -5.83,
-                    54.65
-                ]
-            },
-            "sources": [
-                {
-                    "name": "Belfast Telegraph",
-                    "type": "commercial",
-                    "url": "https://www.belfasttelegraph.co.uk/area/east-belfast/news/tributes-paid-after-man-dies-falling-from-east-belfast-bonfire/a/158597702.html"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "Community mourns Warren 'AKA' Lyttle after fatal Belfast bonfire fall",
-            "gaia_synthesis": "",
-            "published_at": "2026-07-11 15:16:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-c092fbe6-2026-07-12",
-            "title": "Daughter of man who died after east Belfast bonfire fall pays tribute to dad she ‘wouldn’t change for the world’",
-            "location": {
-                "city": "Belfast",
-                "country": "Storbritannien",
-                "lat": 54.5973,
-                "lon": -5.9301,
-                "precision": "city",
-                "bbox": [
-                    -6.03,
-                    54.55,
-                    -5.83,
-                    54.65
-                ]
-            },
-            "sources": [
-                {
-                    "name": "Belfast Telegraph",
-                    "type": "commercial",
-                    "url": "https://www.belfasttelegraph.co.uk/area/east-belfast/news/daughter-of-man-who-died-after-east-belfast-bonfire-fall-pays-tribute-to-dad-she-wouldnt-change-for-the-world/a/158597702.html"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-11 15:16:00",
+            "published_at": "Sun, 12 Jul 2026 05:51:07 +0200",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-12227886-2026-07-12",
-            "title": "Brunswick Power Shuffle: Council Boss Nick Hanek Snags City Manager Job",
+            "id": "samhälle-fd44f519-2026-07-12",
+            "title": "Disney Reveals Teaser for New THE NIGHTMARE BEFORE CHRISTMAS Sequel Novel",
             "location": {
-                "city": "Power",
+                "city": "Teaser",
                 "country": "",
-                "lat": 42.6769078,
-                "lon": -112.8869775,
+                "lat": 38.9043757,
+                "lon": -106.9505746,
                 "precision": "city",
                 "bbox": [
-                    -113.243781,
-                    42.327384,
-                    -112.379641,
-                    43.110946
+                    -106.9532615,
+                    38.9039693,
+                    -106.948379,
+                    38.90536
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Geektyrant",
+                    "type": "commercial",
+                    "url": "https://geektyrant.com/news/disney-reveals-teaser-for-new-the-nightmare-before-christmas-sequel-novel"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Disney isn't finished exploring the strange and wonderful world of The Nightmare Before Christmas . More than three decades after the stop-motion classic first introduced audiences to Halloween Town, Jack Skellington, Sally, and a cast of unforgettable characters, the story is continuing with a brand-new sequel novel that arrives next week. Originally brought to life through the imagination of Tim Burton and realized on screen by Henry Selick and his incredibly talented team, The Nightmare Befor",
+            "gaia_synthesis": "",
+            "published_at": "2026-07-11 17:09:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-52e2b6e3-2026-07-12",
+            "title": "A Knight Of The Seven Kingdoms Star Dexter Sol Ansell Shares Hilarious Reaction To Emmy Nods",
+            "location": {
+                "city": "Knight",
+                "country": "",
+                "lat": 46.2852916,
+                "lon": -90.3625046,
+                "precision": "city",
+                "bbox": [
+                    -90.4264323,
+                    46.1540186,
+                    -90.2985406,
+                    46.414459
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Comicbookmovie.com",
+                    "type": "commercial",
+                    "url": "https://comicbookmovie.com/tv/hbo/game-of-thrones/a-knight-of-the-seven-kingdoms-star-dexter-sol-ansell-shares-hilarious-reaction-to-emmy-nods-a228752"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Meeting a certain Spider-Man: Brand New Day star was the first thing on Dexter Sol Ansell's mind after learning that A Knight of the Seven Kingdoms had earned nine Emmy nominations.",
+            "gaia_synthesis": "",
+            "published_at": "2026-07-11 17:09:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "ekonomi-2fac3296-2026-07-12",
+            "title": "Wall Street gets small boost from SK hynix debut",
+            "location": {
+                "city": "New York",
+                "country": "USA",
+                "lat": 40.7128,
+                "lon": -74.006,
+                "precision": "city",
+                "bbox": [
+                    -74.106,
+                    40.6128,
+                    -73.906,
+                    40.8128
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Jordan Times",
+                    "type": "commercial",
+                    "url": "https://jordantimes.com/news/business/wall-street-gets-small-boost-from-sk-hynix-debut"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "ekonomi",
+            "sentiment": "neutral",
+            "summary": "NEW YORK — Global stock markets rose slightly on Friday as investors digested a wave of corporate announcements, while the Nasdaq failed to get a major ...",
+            "gaia_synthesis": "",
+            "published_at": "2026-07-11 17:09:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-16dbaae0-2026-07-12",
+            "title": "CDSL is approaching a decision zone.",
+            "location": {
+                "city": "India",
+                "country": "India",
+                "lat": 28.61,
+                "lon": 77.21,
+                "precision": "country",
+                "bbox": [
+                    76.21,
+                    27.61,
+                    78.21,
+                    29.61
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Tradingview",
+                    "type": "commercial",
+                    "url": "https://in.tradingview.com/chart/CDSL/Lw1WDiB6-CDSL-is-approaching-a-decision-zone/"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "🚨 CDSL is approaching a decision zone. 📈 Rounding Bottom Formation ✅ 📊 Volume picking up ✅ 🎯 Breakout level around ₹1,450 in focus. The biggest moves often start when most people are still waiting for confirmation. What's your target if this breakout sustains? 👇 🔹 ₹1,600 🔹 ₹1,800 🔹 ₹2,000+ 💬 Drop your view. 🔖 Bookmark this tweet—we'll revisit this chart after the breakout. 🚨 Disclaimer: I am not SEBI registered. This post is for educational purposes only and is not a buy/sell recommendation. #CD",
+            "gaia_synthesis": "",
+            "published_at": "2026-07-11 17:08:59",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-a29636e8-2026-07-12",
+            "title": "Guntur-born S Janaki won 12 Nandi awards in Telugu cinema",
+            "location": {
+                "city": "India",
+                "country": "India",
+                "lat": 28.61,
+                "lon": 77.21,
+                "precision": "country",
+                "bbox": [
+                    76.21,
+                    27.61,
+                    78.21,
+                    29.61
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Deccan Herald",
+                    "type": "commercial",
+                    "url": "https://www.deccanherald.com/india/andhra-pradesh/guntur-born-s-janaki-won-12-nandi-awards-in-telugu-cinema-4070608"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "S Janaki Demise: Veteran playback singer S Janaki, the Nightingale of South India, passes away in Mysuru. She won 12 Nandi awards in Telugu cinema.",
+            "gaia_synthesis": "",
+            "published_at": "2026-07-11 17:08:58",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-9906fd31-2026-07-12",
+            "title": "2 women found dead in Bucktown ID'd; police investigating",
+            "location": {
+                "city": "Bucktown",
+                "country": "",
+                "lat": 40.1747599,
+                "lon": -75.6625203,
+                "precision": "city",
+                "bbox": [
+                    -75.6825203,
+                    40.1547599,
+                    -75.6425203,
+                    40.1947599
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Abc7 Chicago",
+                    "type": "commercial",
+                    "url": "https://abc7chicago.com/post/death-investigation-underway-shirley-miller-colon-taina-lopez-rios-found-dead-leavitt-street-bucktown-chicago-police/19486613/"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "A death investigation is underway after two women were found dead on the city's Northwest Side on Friday afternoon, Chicago police said.",
+            "gaia_synthesis": "",
+            "published_at": "2026-07-11 17:08:58",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "brott-86eb728d-2026-07-12",
+            "title": "Chicago Plot To ‘Take Witnesses Off The Board’ Ends In Federal Conviction",
+            "location": {
+                "city": "Plot",
+                "country": "",
+                "lat": 47.9524252,
+                "lon": 29.1615587,
+                "precision": "city",
+                "bbox": [
+                    29.0840737,
+                    47.8828368,
+                    29.2006376,
+                    47.9937782
                 ]
             },
             "sources": [
                 {
                     "name": "Hoodline",
                     "type": "commercial",
-                    "url": "https://hoodline.com/2026/07/brunswick-power-shuffle-council-boss-nick-hanek-snags-city-manager-job/"
+                    "url": "https://hoodline.com/2026/07/chicago-plot-to-take-witnesses-off-the-board-ends-in-federal-conviction/"
                 }
             ],
             "source_count": 1,
             "score": 5.0,
             "tier": 2,
-            "category": "samhälle",
+            "category": "brott",
             "sentiment": "neutral",
-            "summary": "Council President Nick Hanek will replace Carl DeForest as Brunswick city manager; Hanek plans to resign his council seat in April and begin the job in May.",
+            "summary": "Christopher Yates convicted of plotting to kill two witnesses in his cousin's murder trial; sentencing set for Oct. 28.",
             "gaia_synthesis": "",
-            "published_at": "2026-07-11 15:16:00",
+            "published_at": "2026-07-11 17:08:51",
             "multi_source_verified": false,
             "has_article": false
         },
         {
-            "id": "samhälle-908041c8-2026-07-12",
-            "title": "What makes the Sultanate of Oman the Gulf's geopolitical exception?",
+            "id": "samhälle-080ac3e0-2026-07-12",
+            "title": "Mumbai: Viral Video Shows Passenger, TC Clashing Over Marathi on AC Local Train",
             "location": {
-                "city": "France",
-                "country": "France",
-                "lat": 48.86,
-                "lon": 2.35,
+                "city": "India",
+                "country": "India",
+                "lat": 28.61,
+                "lon": 77.21,
                 "precision": "country",
                 "bbox": [
-                    1.35,
-                    47.86,
-                    3.35,
-                    49.86
+                    76.21,
+                    27.61,
+                    78.21,
+                    29.61
                 ]
             },
             "sources": [
                 {
-                    "name": "Rfi",
+                    "name": "Latestly",
                     "type": "commercial",
-                    "url": "https://www.rfi.fr/en/international/20260711-what-makes-the-sultanate-of-oman-the-gulf-s-geopolitical-exception"
+                    "url": "https://www.latestly.com/india/news/mumbai-viral-video-shows-passenger-tc-clashing-over-marathi-on-ac-local-train-7512873.html"
                 }
             ],
             "source_count": 1,
@@ -1514,111 +1597,9 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "Removed from the theatrics of petrodollar politics seen across the rest of the Gulf, the Sultanate of Oman's famed discretion and diplomacy have made it an indispensable intermediary in the region.",
+            "summary": "A passenger and a ticket checker were involved in a heated Hindi-versus-Marathi language dispute aboard a Mumbai local train, with the incident captured on video and shared on social media. Railway authorities have launched an investigation and said appropriate action will be taken after the inquiry. The incident comes months after another language-related case in Maharashtra drew public attention.",
             "gaia_synthesis": "",
-            "published_at": "2026-07-11 15:15:59",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-5250bec0-2026-07-12",
-            "title": "Major Dundee and Stirling bus operator launches legal action against the Scottish Government",
-            "location": {
-                "city": "United Kingdom",
-                "country": "United Kingdom",
-                "lat": 51.51,
-                "lon": -0.13,
-                "precision": "country",
-                "bbox": [
-                    -1.13,
-                    50.51,
-                    0.87,
-                    52.51
-                ]
-            },
-            "sources": [
-                {
-                    "name": "The Courier",
-                    "type": "commercial",
-                    "url": "https://www.thecourier.co.uk/fp/business-environment/transport/5536173/dundee-stirling-bus-operator-legal-action-scottish-government/"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "McGill's missed out on funding for zero emission buses earlier this year.",
-            "gaia_synthesis": "",
-            "published_at": "2026-07-11 15:15:59",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-b38ab0ce-2026-07-12",
-            "title": "Metaplanet to Research Bitcoin Collateral for Round-the-Clock Bond Settlement",
-            "location": {
-                "city": "Tokyo",
-                "country": "",
-                "lat": 35.6762,
-                "lon": 139.6503,
-                "precision": "city",
-                "bbox": [
-                    139.5503,
-                    35.5762,
-                    139.75029999999998,
-                    35.7762
-                ]
-            },
-            "sources": [
-                {
-                    "name": "Bitcoin News",
-                    "type": "commercial",
-                    "url": "https://news.bitcoin.com/metaplanet-to-research-bitcoin-collateral-for-round-the-clock-bond-settlement/"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "Metaplanet Inc. is moving past simple bitcoin accumulation and into product design. The Tokyo-listed company, often called Asia’s Strategy, announced on July 10, 2026, that it will study bitcoin-backed digital credit products with three partners. The goal is to use bitcoin as collateral for tokenized instruments, including digital corporate bonds, settled through a yen stablecoin [...]",
-            "gaia_synthesis": "",
-            "published_at": "2026-07-11 15:15:58",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-47ad5ec2-2026-07-12",
-            "title": "South Africa midfielder Jayden Adams dies aged 25 weeks after World Cup appearance",
-            "location": {
-                "city": "South Africa",
-                "country": "South Africa",
-                "lat": -33.92,
-                "lon": 18.42,
-                "precision": "country",
-                "bbox": [
-                    17.42,
-                    -34.92,
-                    19.42,
-                    -32.92
-                ]
-            },
-            "sources": [
-                {
-                    "name": "Indulgexpress",
-                    "type": "commercial",
-                    "url": "https://www.indulgexpress.com/entertainment/sports-entertainment/2026/Jul/11/south-africa-midfielder-jayden-adams-dies-aged-25-weeks-after-world-cup-appearance"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "The Mamelodi Sundowns player had recently represented his country at the FIFA World Cup.",
-            "gaia_synthesis": "",
-            "published_at": "2026-07-11 15:15:56",
+            "published_at": "2026-07-11 17:08:50",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1647,7 +1628,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-12T05:16:24.748765+02:00",
+            "published_at": "2026-07-12T07:09:09.585362+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1676,7 +1657,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-12T05:16:24.748765+02:00",
+            "published_at": "2026-07-12T07:09:09.585362+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1705,7 +1686,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-12T05:16:24.748765+02:00",
+            "published_at": "2026-07-12T07:09:09.585362+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1734,7 +1715,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-12T05:16:24.748765+02:00",
+            "published_at": "2026-07-12T07:09:09.585362+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1763,7 +1744,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-12T05:16:24.748765+02:00",
+            "published_at": "2026-07-12T07:09:09.585362+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1792,7 +1773,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-12T05:16:24.748765+02:00",
+            "published_at": "2026-07-12T07:09:09.585362+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1821,7 +1802,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-12T05:16:24.748765+02:00",
+            "published_at": "2026-07-12T07:09:09.585362+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1911,6 +1892,35 @@
             "published_at": "Sat, 11 Jul 2026 12:37:08 +0200",
             "multi_source_verified": false,
             "has_article": false
+        },
+        {
+            "id": "samhälle-5cfc87c5-2026-07-12",
+            "title": "Six suffer injuries during early morning shooting in Anderson",
+            "location": {
+                "city": "Global",
+                "country": "Global",
+                "lat": 0.0,
+                "lon": 0.0,
+                "precision": "global",
+                "bbox": null
+            },
+            "sources": [
+                {
+                    "name": "Herald Bulletin",
+                    "type": "commercial",
+                    "url": "https://www.heraldbulletin.com/news/six-suffer-injuries-during-early-morning-shooting-in-anderson/article_a2d4a6fa-617c-459b-834a-92b43c948e31.html"
+                }
+            ],
+            "source_count": 1,
+            "score": 4.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "negative",
+            "summary": "ANDERSON — Six people suffered gunshot wounds early Saturday morning during an altercation near Nichol and Madison avenues.",
+            "gaia_synthesis": "",
+            "published_at": "2026-07-11 17:09:00",
+            "multi_source_verified": false,
+            "has_article": false
         }
     ],
     "relations": [
@@ -1926,6 +1936,14 @@
             "id": "rel-auto-proximity-samhälle-1d159e6a-2026-07-12-samhälle-d55833a7-2026-07-12",
             "source": "samhälle-1d159e6a-2026-07-12",
             "target": "samhälle-d55833a7-2026-07-12",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-343f1a22-2026-07-12-samhälle-80ebb801-2026-07-12",
+            "source": "samhälle-343f1a22-2026-07-12",
+            "target": "samhälle-80ebb801-2026-07-12",
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
@@ -1947,14 +1965,6 @@
             "description": "Regional koppling inom kategorin samhälle."
         },
         {
-            "id": "rel-auto-proximity-samhälle-3f6e3555-2026-07-12-samhälle-908041c8-2026-07-12",
-            "source": "samhälle-3f6e3555-2026-07-12",
-            "target": "samhälle-908041c8-2026-07-12",
-            "type": "thematic_link",
-            "weight": 0.5,
-            "description": "Regional koppling inom kategorin samhälle."
-        },
-        {
             "id": "rel-auto-proximity-samhälle-1d8f7163-2026-07-12-samhälle-fd7d4e5f-2026-07-12",
             "source": "samhälle-1d8f7163-2026-07-12",
             "target": "samhälle-fd7d4e5f-2026-07-12",
@@ -1963,9 +1973,25 @@
             "description": "Regional koppling inom kategorin samhälle."
         },
         {
-            "id": "rel-auto-proximity-samhälle-c4e87d5b-2026-07-12-samhälle-908041c8-2026-07-12",
-            "source": "samhälle-c4e87d5b-2026-07-12",
-            "target": "samhälle-908041c8-2026-07-12",
+            "id": "rel-auto-proximity-samhälle-a6074db9-2026-07-12-samhälle-9906fd31-2026-07-12",
+            "source": "samhälle-a6074db9-2026-07-12",
+            "target": "samhälle-9906fd31-2026-07-12",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-80ebb801-2026-07-12-samhälle-fe27fcc6-2026-07-12",
+            "source": "samhälle-80ebb801-2026-07-12",
+            "target": "samhälle-fe27fcc6-2026-07-12",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-591a33cf-2026-07-12-samhälle-d63fcb72-2026-07-12",
+            "source": "samhälle-591a33cf-2026-07-12",
+            "target": "samhälle-d63fcb72-2026-07-12",
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
@@ -1979,17 +2005,25 @@
             "description": "Regional koppling inom kategorin samhälle."
         },
         {
-            "id": "rel-auto-proximity-brott-9f8d188c-2026-07-12-brott-a2843c11-2026-07-12",
-            "source": "brott-9f8d188c-2026-07-12",
-            "target": "brott-a2843c11-2026-07-12",
+            "id": "rel-auto-proximity-samhälle-16dbaae0-2026-07-12-samhälle-a29636e8-2026-07-12",
+            "source": "samhälle-16dbaae0-2026-07-12",
+            "target": "samhälle-a29636e8-2026-07-12",
             "type": "thematic_link",
             "weight": 0.5,
-            "description": "Regional koppling inom kategorin brott."
+            "description": "Regional koppling inom kategorin samhälle."
         },
         {
-            "id": "rel-auto-proximity-samhälle-106c36ac-2026-07-12-samhälle-c092fbe6-2026-07-12",
-            "source": "samhälle-106c36ac-2026-07-12",
-            "target": "samhälle-c092fbe6-2026-07-12",
+            "id": "rel-auto-proximity-samhälle-16dbaae0-2026-07-12-samhälle-080ac3e0-2026-07-12",
+            "source": "samhälle-16dbaae0-2026-07-12",
+            "target": "samhälle-080ac3e0-2026-07-12",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-a29636e8-2026-07-12-samhälle-080ac3e0-2026-07-12",
+            "source": "samhälle-a29636e8-2026-07-12",
+            "target": "samhälle-080ac3e0-2026-07-12",
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
@@ -1997,30 +2031,30 @@
     ],
     "meta_analysis": {
         "top_themes": [
-            "Apple stämmer OpenAI för stöld av affärshemligheter",
-            "Svenskt gängvåld exporteras till Irland – misstänkt beställningsmord avslöjat",
-            "Brittisk ex-minister Ann Widdecombe misstänkt mördad i sitt hem",
-            "Ukraina inrättar specialförband för asymmetriska operationer i Ryssland"
+            "USA: Genomför attacker mot Iran",
+            "Attacker mot kristna i Nigeria – SVT på plats i våldets epicentrum",
+            "Brist på it-personal inom Försvarsmakten: ”Behöver skynda”",
+            "Två dödade i skjutning vid festival i Kanada"
         ],
         "geographic_distribution": {
-            "Iran": 2,
-            "Okänt": 20,
-            "Usa": 3,
+            "Iran": 1,
+            "Nigeria": 1,
+            "Okänt": 22,
             "Kanada": 1,
-            "Storbritannien": 3,
-            "USA": 2,
-            "Global": 11,
+            "Usa": 2,
+            "Albanien": 1,
+            "Storbritannien": 1,
+            "USA": 3,
+            "Sydkorea": 1,
             "Kina": 2,
             "Turkiet": 1,
-            "Sverige": 3,
+            "Sverige": 2,
             "Frankrike": 2,
             "Europa": 1,
             "Venezuela": 1,
-            "United Kingdom": 2,
-            "India": 1,
-            "France": 1,
-            "South Africa": 1
+            "Global": 13,
+            "India": 3
         },
-        "gaia_daily_brief": "Det senaste dygnet präglas av strategisk asymmetrisk krigföring, rättsliga konflikter och dramatiska internationella händelser. I teknikvärlden har Apple stämt OpenAI för stöld av affärshemligheter och skyddad källkod. I Storbritannien utreds den brittiske före detta politikern Ann Widdecombes död som mord efter att hon hittats död i sitt hem. En svensk misstänkt gängmedlem har dött i en bilolycka på Irland, på väg mot ett planerat beställningsmord. Samtidigt fortsätter kriget i Ukraina med nya ryska luftangrepp mot Kiev som skadat sex personer, alltmedan Ukraina formellt inrättar ett nytt specialförband för sabotageaktioner inne i Ryssland. I södra Spanien rasar en svår skogsbrand som tvingat fram omfattande evakueringar, och i Mellanöstern väcker nya incidenter oro för eskalering. På hemmaplan ställs en 16-åring inför rätta för förra årets explosion vid ett bostadshus i Norrköping."
+        "gaia_daily_brief": "Dagens nyhetsbild domineras av rättsliga processer och dramatiska säkerhetshändelser. I Paris har Marine Le Pen meddelat att hon överklagar en dom om tre års fängelse och valbarhetsförbud vilket hotar hennes presidentkandidatur. I Köpenhamn väcks stark sorg och ilska efter dödsmisshandeln av den svenske polisen Christian Zedig under en VM-matchvisning, där den 30-årige misstänkte visar sig ha en tidigare historik av grovt knivvåld. På Manhattan i New York har en skyskrapa evakuerats akut på grund av en allvarlig rasrisk som skapat lokalt kaos."
     }
 }
