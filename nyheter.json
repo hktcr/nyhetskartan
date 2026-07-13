@@ -1,5 +1,5 @@
 {
-    "generated_at": "2026-07-13T03:58:35.880124+00:00",
+    "generated_at": "2026-07-13T05:43:59.337638+00:00",
     "workflow_version": "2.3",
     "source_info": {
         "swedish_rss": [
@@ -10,8 +10,8 @@
             "NewsData.io"
         ],
         "api_plan": "NewsData.io Active",
-        "total_raw_articles": 51,
-        "deduplicated_count": 43
+        "total_raw_articles": 55,
+        "deduplicated_count": 55
     },
     "news": [
         {
@@ -43,260 +43,12 @@
                 }
             ],
             "source_count": 2,
-            "score": 9.5,
+            "score": 9.0,
             "tier": 1,
             "category": "konflikt",
             "sentiment": "negative",
-            "summary": "Efter iranska angrepp mot handelsfartyg i Hormuzsundet tidigare i veckan svarade USA med 170 attacker mot Iran. Detta enligt USA:s centralkommando. SVT har verifierat bilder och videor som visar explosioner och brinnande småbåtar i Iran.",
+            "summary": "USA:s centralkommando uppger att man genomfört 170 anfall mot iranska militära mål som svar på landets angrepp mot handelsfartyg. SVT har verifierat bildmaterial som visar omfattande förstörelse av småbåtar, kontrolltorn och en strategisk tågbro i Iran.",
             "published_at": "Sun, 12 Jul 2026 10:45:09 +0200",
-            "multi_source_verified": true,
-            "article_generated": true,
-            "has_article": true
-        },
-        {
-            "id": "konflikt-81e69a2a-2026-07-13",
-            "title": "Uppgifter: Nya attacker mot Iran nära Hormuzsundet",
-            "location": {
-                "city": "Hormuzsundet",
-                "country": "Internationellt",
-                "lat": 26.6,
-                "lon": 56.25,
-                "precision": "region",
-                "bbox": [
-                    55.8,
-                    26.0,
-                    56.7,
-                    27.2
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9255605"
-                }
-            ],
-            "source_count": 1,
-            "score": 8.5,
-            "tier": 1,
-            "category": "konflikt",
-            "sentiment": "negative",
-            "summary": "USA har genomfört en serie riktade luftangrepp mot militära mål i Iran. Angreppen beskrivs som svar på upprepade attacker mot amerikanska intressen i regionen, vilket dramatiskt eskalerar det spända geopolitiska läget.",
-            "published_at": "2026-07-13T05:42:58.672760+02:00",
-            "multi_source_verified": false,
-            "article_generated": true,
-            "has_article": true
-        },
-        {
-            "id": "försvar-396d8c7d-2026-07-13",
-            "title": "Snabbspår ger Hemvärnet nya soldater",
-            "location": {
-                "city": "Hemvärnet",
-                "country": "",
-                "lat": 56.6991188,
-                "lon": 16.3286138,
-                "precision": "city",
-                "bbox": [
-                    16.3277593,
-                    56.6984822,
-                    16.3294178,
-                    56.6998923
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9253433"
-                }
-            ],
-            "source_count": 1,
-            "score": 8.0,
-            "tier": 1,
-            "category": "försvar",
-            "sentiment": "neutral",
-            "summary": "",
-            "published_at": "2026-07-13T05:42:58.672760+02:00",
-            "multi_source_verified": false,
-            "article_generated": true,
-            "has_article": true
-        },
-        {
-            "id": "konflikt-069d638c-2026-07-13",
-            "title": "Guterres till USA och Iran: Upphör med attackerna",
-            "location": {
-                "city": "Iran",
-                "country": "Iran",
-                "lat": 35.69,
-                "lon": 51.39,
-                "precision": "country",
-                "bbox": [
-                    50.39,
-                    34.69,
-                    52.39,
-                    36.69
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9255655"
-                }
-            ],
-            "source_count": 1,
-            "score": 8.0,
-            "tier": 1,
-            "category": "konflikt",
-            "sentiment": "negative",
-            "summary": "",
-            "published_at": "2026-07-13T05:42:58.672760+02:00",
-            "multi_source_verified": false,
-            "article_generated": true,
-            "has_article": true
-        },
-        {
-            "id": "konflikt-3716e3b1-2026-07-13",
-            "title": "Iran stänger Hormuzsundet – USA svarar med nya attacker",
-            "location": {
-                "city": "Hormuzsundet",
-                "country": "Internationellt",
-                "lat": 26.6,
-                "lon": 56.25,
-                "precision": "region",
-                "bbox": [
-                    55.8,
-                    26.0,
-                    56.7,
-                    27.2
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/iran-stanger-hormuzsundet-usa-svarar-med-nya-attacker"
-                }
-            ],
-            "source_count": 1,
-            "score": 8.0,
-            "tier": 1,
-            "category": "konflikt",
-            "sentiment": "negative",
-            "summary": "Ett fartyg i Hormuzsundet ska ha träffats av varningsskott i natt. Samtidigt meddelade Iranska revolutionsgardet att man stänger sundet ”tills vidare”. USA har svarat med en ny våg attacker mot 140 mål, enligt amerikansk militär.",
-            "published_at": "Sun, 12 Jul 2026 07:12:42 +0200",
-            "multi_source_verified": false,
-            "article_generated": true,
-            "has_article": true
-        },
-        {
-            "id": "konflikt-a8033660-2026-07-13",
-            "title": "Osynliga bomben som kan slå ut samhället – utan att döda",
-            "location": {
-                "city": "Sverige",
-                "country": "Sverige",
-                "lat": 59.33,
-                "lon": 18.07,
-                "precision": "country",
-                "bbox": [
-                    17.07,
-                    58.33,
-                    19.07,
-                    60.33
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/inrikes/osynliga-bomben-som-kan-sla-ut-samhallet-utan-att-doda"
-                }
-            ],
-            "source_count": 1,
-            "score": 8.0,
-            "tier": 1,
-            "category": "konflikt",
-            "sentiment": "negative",
-            "summary": "En elektromagnetisk bomb, EMP, kan på en mikrosekund lamslå ett helt samhälle – utan att döda en enda människa. Enligt Myndigheten för civilt försvar har Sverige knappt något skydd, men nu testar Försvarsmakten alltmer materiel i en hemlig anläggning som SVT besökt.",
-            "published_at": "Sun, 12 Jul 2026 21:53:59 +0200",
-            "multi_source_verified": false,
-            "article_generated": true,
-            "has_article": true
-        },
-        {
-            "id": "samhälle-875010a8-2026-07-13",
-            "title": "Amerikanske senatorn Lindsey Graham är död",
-            "location": {
-                "city": "Usa",
-                "country": "Usa",
-                "lat": 38.91,
-                "lon": -77.04,
-                "precision": "country",
-                "bbox": [
-                    -78.04,
-                    37.91,
-                    -76.04,
-                    39.91
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9255497"
-                },
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/amerikanske-senatorn-lindsey-graham-ar-dod"
-                }
-            ],
-            "source_count": 2,
-            "score": 7.5,
-            "tier": 1,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "published_at": "2026-07-13T05:42:58.672760+02:00",
-            "multi_source_verified": true,
-            "article_generated": true,
-            "has_article": true
-        },
-        {
-            "id": "samhälle-f1943ed7-2026-07-13",
-            "title": "Brand rasar i Frankrike – stora trafikstörningar",
-            "location": {
-                "city": "Paris",
-                "country": "Frankrike",
-                "lat": 48.8566,
-                "lon": 2.3522,
-                "precision": "city",
-                "bbox": [
-                    2.2521999999999998,
-                    48.7566,
-                    2.4522,
-                    48.9566
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SVT Utrikes",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/storbrand-rasar-i-frankrike-stora-trafikstorningar"
-                },
-                {
-                    "name": "SVT Nyheter",
-                    "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/storbrand-rasar-i-frankrike-stora-trafikstorningar"
-                }
-            ],
-            "source_count": 2,
-            "score": 7.5,
-            "tier": 1,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "En stor brand rasar i Fontainebleu-skogen söder om Paris. Två brandflyg har skickats till området för att förhindra spridningen.",
-            "published_at": "Mon, 13 Jul 2026 01:25:23 +0200",
             "multi_source_verified": true,
             "article_generated": true,
             "has_article": true
@@ -330,12 +82,158 @@
                 }
             ],
             "source_count": 2,
-            "score": 7.5,
+            "score": 8.5,
             "tier": 1,
             "category": "samhälle",
             "sentiment": "negative",
-            "summary": "Minst 27 personer har dött efter att en brand brutit ut på en pub i Bangkok. Flera skadade har förts till sjukhus. 63 personer är skadade varav 22 är i ett kritiskt tillstånd, uppger Bangkoks guvernör.",
+            "summary": "Minst 27 personer har omkommit och 63 skadats efter en kraftig brand på en pub i Thailands huvudstad Bangkok. Brandskyddet vid lokalen granskas nu kritiskt av myndigheterna efter rapporter om blockerade nödutgångar.",
             "published_at": "Sun, 12 Jul 2026 21:22:08 +0200",
+            "multi_source_verified": true,
+            "article_generated": true,
+            "has_article": true
+        },
+        {
+            "id": "konflikt-81e69a2a-2026-07-13",
+            "title": "Uppgifter: Nya attacker mot Iran nära Hormuzsundet",
+            "location": {
+                "city": "Hormuzsundet",
+                "country": "Internationellt",
+                "lat": 26.6,
+                "lon": 56.25,
+                "precision": "region",
+                "bbox": [
+                    55.8,
+                    26.0,
+                    56.7,
+                    27.2
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9255605"
+                }
+            ],
+            "source_count": 1,
+            "score": 8.5,
+            "tier": 1,
+            "category": "konflikt",
+            "sentiment": "negative",
+            "summary": "USA har genomfört en serie riktade luftangrepp mot militära mål i Iran. Angreppen beskrivs som svar på upprepade attacker mot amerikanska intressen i regionen, vilket dramatiskt eskalerar det spända geopolitiska läget.",
+            "published_at": "2026-07-13T07:20:57.514944+02:00",
+            "multi_source_verified": false,
+            "article_generated": true,
+            "has_article": true
+        },
+        {
+            "id": "samhälle-fa252c3c-2026-07-13",
+            "title": "Experten om Hormuzsundet: Inget Iran släpper taget om",
+            "location": {
+                "city": "Hormuzsundet",
+                "country": "Internationellt",
+                "lat": 26.6,
+                "lon": 56.25,
+                "precision": "region",
+                "bbox": [
+                    55.8,
+                    26.0,
+                    56.7,
+                    27.2
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/experten-om-hormuzsundet-inget-iran-slapper-taget-om"
+                },
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/experten-om-hormuzsundet-inget-iran-slapper-taget-om"
+                }
+            ],
+            "source_count": 2,
+            "score": 8.2,
+            "tier": 1,
+            "category": "diplomati",
+            "sentiment": "neutral",
+            "summary": "Mellanösternexpert Alexander Atarodi betonar att Iran betraktar kontrollen över Hormuzsundet som ett av sina viktigaste geopolitiska verktyg. Efter den senaste tidens upptrappning har landets militära återhållsamhet minskat avsevärt.",
+            "published_at": "Sun, 12 Jul 2026 16:18:22 +0200",
+            "multi_source_verified": true,
+            "article_generated": true,
+            "has_article": true
+        },
+        {
+            "id": "konflikt-9fc5d1c8-2026-07-13",
+            "title": "Nya attacker mellan USA och Iran: ”Har trappats upp ytterligare”",
+            "location": {
+                "city": "Iran",
+                "country": "Iran",
+                "lat": 35.69,
+                "lon": 51.39,
+                "precision": "country",
+                "bbox": [
+                    50.39,
+                    34.69,
+                    52.39,
+                    36.69
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9255664"
+                }
+            ],
+            "source_count": 1,
+            "score": 8.2,
+            "tier": 1,
+            "category": "konflikt",
+            "sentiment": "negative",
+            "summary": "Militära attacker har återigen utväxlats mellan amerikanska och iranska styrkor, vilket har trappat upp konflikten ytterligare. Båda sidor uppger att de agerar i självförsvar under det kritiska läget i Hormuzsundet.",
+            "published_at": "2026-07-13T07:20:57.514944+02:00",
+            "multi_source_verified": false,
+            "article_generated": true,
+            "has_article": true
+        },
+        {
+            "id": "samhälle-f1943ed7-2026-07-13",
+            "title": "Brand rasar i Frankrike – stora trafikstörningar",
+            "location": {
+                "city": "Paris",
+                "country": "Frankrike",
+                "lat": 48.8566,
+                "lon": 2.3522,
+                "precision": "city",
+                "bbox": [
+                    2.2521999999999998,
+                    48.7566,
+                    2.4522,
+                    48.9566
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/storbrand-rasar-i-frankrike-stora-trafikstorningar"
+                },
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/storbrand-rasar-i-frankrike-stora-trafikstorningar"
+                }
+            ],
+            "source_count": 2,
+            "score": 8.0,
+            "tier": 1,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "En skogsbrand rasar i Fontainebleau-skogen söder om Paris, vilket har orsakat omfattande trafikstörningar på både tåg- och vägnätet. Brandflyg och hundratals brandmän har satts in för att begränsa spridningen under svåra väderförhållanden.",
+            "published_at": "Mon, 13 Jul 2026 01:25:23 +0200",
             "multi_source_verified": true,
             "article_generated": true,
             "has_article": true
@@ -369,54 +267,185 @@
                 }
             ],
             "source_count": 2,
-            "score": 7.5,
+            "score": 8.0,
             "tier": 1,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "I franska kommunen Ille-sur-Têt har närmare 6 000 evakuerade nu fått återvända hem. Skogsbranden, som rasade i området i veckan, har satt djupa spår – och för vissa finns inget hem att återvända till. – Vi var väldigt rädda för att förlora vårt hus, säger Patrick som bor i staden till SVT.",
+            "summary": "Efter att en extrem skogsbrand härjat i Ille-sur-Têt i södra Frankrike har de 6 000 evakuerade invånarna nu fått klartecken att återvända hem. Branden har orsakat enorma materiella skador och satt djupa spår i lokalsamhället.",
             "published_at": "Sun, 12 Jul 2026 17:20:35 +0200",
             "multi_source_verified": true,
             "article_generated": true,
             "has_article": true
         },
         {
-            "id": "samhälle-fa252c3c-2026-07-13",
-            "title": "Experten om Hormuzsundet: Inget Iran släpper taget om",
+            "id": "försvar-396d8c7d-2026-07-13",
+            "title": "Snabbspår ger Hemvärnet nya soldater",
             "location": {
-                "city": "Hormuzsundet",
-                "country": "Internationellt",
-                "lat": 26.6,
-                "lon": 56.25,
-                "precision": "region",
+                "city": "Hemvärnet",
+                "country": "",
+                "lat": 56.6991188,
+                "lon": 16.3286138,
+                "precision": "city",
                 "bbox": [
-                    55.8,
-                    26.0,
-                    56.7,
-                    27.2
+                    16.3277593,
+                    56.6984822,
+                    16.3294178,
+                    56.6998923
                 ]
             },
             "sources": [
                 {
-                    "name": "SVT Utrikes",
+                    "name": "SR Ekot",
                     "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/experten-om-hormuzsundet-inget-iran-slapper-taget-om"
-                },
+                    "url": "https://www.sverigesradio.se/artikel/9253433"
+                }
+            ],
+            "source_count": 1,
+            "score": 8.0,
+            "tier": 1,
+            "category": "försvar",
+            "sentiment": "neutral",
+            "summary": "Ett nytt snabbspår för utbildning ska ge Hemvärnet fler soldater snabbare. Satsningen är en del av Försvarsmaktens arbete med att stärka det nationerna försvaret under det rådande säkerhetsläget.",
+            "published_at": "2026-07-13T07:20:57.514944+02:00",
+            "multi_source_verified": false,
+            "article_generated": true,
+            "has_article": true
+        },
+        {
+            "id": "konflikt-069d638c-2026-07-13",
+            "title": "Guterres till USA och Iran: Upphör med attackerna",
+            "location": {
+                "city": "Iran",
+                "country": "Iran",
+                "lat": 35.69,
+                "lon": 51.39,
+                "precision": "country",
+                "bbox": [
+                    50.39,
+                    34.69,
+                    52.39,
+                    36.69
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9255655"
+                }
+            ],
+            "source_count": 1,
+            "score": 8.0,
+            "tier": 1,
+            "category": "diplomati",
+            "sentiment": "negative",
+            "summary": "FN:s generalsekreterare António Guterres riktar en skarp uppmaning till USA och Iran att omedelbart upphöra med sina militära angrepp och visa maximal återhållsamhet för att undvika ett storskaligt krig.",
+            "published_at": "2026-07-13T07:20:57.514944+02:00",
+            "multi_source_verified": false,
+            "article_generated": true,
+            "has_article": true
+        },
+        {
+            "id": "konflikt-a8033660-2026-07-13",
+            "title": "Osynliga bomben som kan slå ut samhället – utan att döda",
+            "location": {
+                "city": "Sverige",
+                "country": "Sverige",
+                "lat": 59.33,
+                "lon": 18.07,
+                "precision": "country",
+                "bbox": [
+                    17.07,
+                    58.33,
+                    19.07,
+                    60.33
+                ]
+            },
+            "sources": [
                 {
                     "name": "SVT Nyheter",
                     "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/experten-om-hormuzsundet-inget-iran-slapper-taget-om"
+                    "url": "https://www.svt.se/nyheter/inrikes/osynliga-bomben-som-kan-sla-ut-samhallet-utan-att-doda"
                 }
             ],
-            "source_count": 2,
-            "score": 7.5,
+            "source_count": 1,
+            "score": 8.0,
             "tier": 1,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "Hormuzsundet är en av huvudfrågorna i överenskommelsen med USA. Samtidigt har kriget fått Iran att inse den strategiska fördelen med att kunna kontrollera sundet. – Irans återhållsamhet har försvunnit, säger Mellanösternexpert Alexander Atarodi.",
-            "published_at": "Sun, 12 Jul 2026 16:18:22 +0200",
-            "multi_source_verified": true,
+            "category": "försvar",
+            "sentiment": "negative",
+            "summary": "En elektromagnetisk bomb (EMP) kan på en mikrosekund lamslå ett helt samhälle genom att förstöra all elektronik. Enligt Myndigheten för civilt försvar har Sverige knappt något skydd, men nu testar Försvarsmakten alltmer materiel i en hemlig anläggning.",
+            "published_at": "Sun, 12 Jul 2026 21:53:59 +0200",
+            "multi_source_verified": false,
             "article_generated": true,
             "has_article": true
+        },
+        {
+            "id": "miljö-6c5369a8-2026-07-13",
+            "title": "Minst 50 döda i översvämningar i Bangladesh",
+            "location": {
+                "city": "Bangladesh",
+                "country": "",
+                "lat": 24.4769288,
+                "lon": 90.2934413,
+                "precision": "city",
+                "bbox": [
+                    88.007915,
+                    20.3679092,
+                    92.680196,
+                    26.6358859
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9255614"
+                }
+            ],
+            "source_count": 1,
+            "score": 7.0,
+            "tier": 2,
+            "category": "miljö",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-07-13T07:20:57.514944+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "konflikt-db2b3e00-2026-07-13",
+            "title": "Russian drone strikes fuel truck at gas station in Sloviansk",
+            "location": {
+                "city": "Ryssland",
+                "country": "Ryssland",
+                "lat": 55.76,
+                "lon": 37.62,
+                "precision": "country",
+                "bbox": [
+                    36.62,
+                    54.76,
+                    38.62,
+                    56.76
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Ukrinform",
+                    "type": "commercial",
+                    "url": "https://www.ukrinform.net/rubric-ato/4143520-russian-drone-strikes-fuel-truck-at-gas-station-in-sloviansk.html"
+                }
+            ],
+            "source_count": 1,
+            "score": 7.0,
+            "tier": 2,
+            "category": "konflikt",
+            "sentiment": "neutral",
+            "summary": "A Russian FPV drone struck a truck transporting flammable liquids at a gas station in Sloviansk, Donetsk region, on Saturday afternoon.",
+            "gaia_synthesis": "",
+            "published_at": "2026-07-12 17:20:00",
+            "multi_source_verified": false,
+            "has_article": false
         },
         {
             "id": "samhälle-7e769fcc-2026-07-13",
@@ -453,6 +482,40 @@
             "has_article": false
         },
         {
+            "id": "samhälle-25c71f81-2026-07-13",
+            "title": "Krogbrand i Bangkok – lågorna slukade minst 27 personer",
+            "location": {
+                "city": "Bangkok",
+                "country": "",
+                "lat": 13.7524938,
+                "lon": 100.4935089,
+                "precision": "city",
+                "bbox": [
+                    100.3278772,
+                    13.2191019,
+                    100.9386039,
+                    13.9551693
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9255670"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-07-13T07:20:57.514944+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
             "id": "samhälle-e33b4a11-2026-07-13",
             "title": "Storbritannien satsar miljarder mot antisemitism",
             "location": {
@@ -482,7 +545,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-13T05:42:58.672760+02:00",
+            "published_at": "2026-07-13T07:20:57.514944+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -516,7 +579,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-13T05:42:58.672760+02:00",
+            "published_at": "2026-07-13T07:20:57.514944+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -550,7 +613,7 @@
             "sentiment": "negative",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-13T05:42:58.672760+02:00",
+            "published_at": "2026-07-13T07:20:57.514944+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -584,7 +647,7 @@
             "sentiment": "negative",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-13T05:42:58.672760+02:00",
+            "published_at": "2026-07-13T07:20:57.514944+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -618,41 +681,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-13T05:42:58.672760+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-5901d8c6-2026-07-13",
-            "title": "Hundratals svenska resenärer strandade på Kreta efter flygstrul",
-            "location": {
-                "city": "Sverige",
-                "country": "Sverige",
-                "lat": 59.33,
-                "lon": 18.07,
-                "precision": "country",
-                "bbox": [
-                    17.07,
-                    58.33,
-                    19.07,
-                    60.33
-                ]
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9255509"
-                }
-            ],
-            "source_count": 1,
-            "score": 6.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-07-13T05:42:58.672760+02:00",
+            "published_at": "2026-07-13T07:20:57.514944+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -793,8 +822,42 @@
             "has_article": false
         },
         {
-            "id": "samhälle-c33c56de-2026-07-13",
-            "title": "Nytt gripande för brittiskt politikermord",
+            "id": "samhälle-875010a8-2026-07-13",
+            "title": "Amerikanske senatorn Lindsey Graham är död",
+            "location": {
+                "city": "Usa",
+                "country": "Usa",
+                "lat": 38.91,
+                "lon": -77.04,
+                "precision": "country",
+                "bbox": [
+                    -78.04,
+                    37.91,
+                    -76.04,
+                    39.91
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Utrikes",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/utrikes/amerikanske-senatorn-lindsey-graham-ar-dod"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Den Trump-trogne republikanske senatorn Lindsey Graham avled på lördagskvällen efter ett hastigt insjuknande, meddelar hans stab i ett uttalande på X. Han blev 71 år gammal.",
+            "gaia_synthesis": "",
+            "published_at": "Sun, 12 Jul 2026 08:25:19 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "hälsa-d6f79035-2026-07-13",
+            "title": "Met Office on how long heatwave will continue in UK - Liverpool Echo",
             "location": {
                 "city": "Storbritannien",
                 "country": "Storbritannien",
@@ -810,9 +873,43 @@
             },
             "sources": [
                 {
-                    "name": "SVT Utrikes",
+                    "name": "Google News",
+                    "type": "commercial",
+                    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTWtRNWUyT18tb1J6VXVoaXd1Ui1Qby1UdDBhc0tveU1Icmo2V2tLWEgweEN6VTlSUFg0VG1Vek9qdXN0bS1xcDAwV1dHV3U5WlR3SVZxenp2UWNsNWxlNFdYVnZNQlowVzNqMDh1c0lVRDMxTnpKRS1aTDk5emk3dFJ4RkZqNlZib01PaHAwUjdvUQ?oc=5"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "hälsa",
+            "sentiment": "neutral",
+            "summary": "Met Office on how long heatwave will continue in UK Liverpool Echo 'Exceptional' wildfire risk for parts of UK as heat health alerts issued BBC Heatwave conditions in England and Wales to continue into next week, says Met Office The Guardian UKHSA updates heat health alerts across England GOV.UK When will this UK heatwave end and how hot will it get? The Independent",
+            "gaia_synthesis": "",
+            "published_at": "2026-07-12 17:20:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-cacfb503-2026-07-13",
+            "title": "Skadan och landslaget har fått Gustav Lundgren att tänka om: ”Tiden är knapp”",
+            "location": {
+                "city": "Gustav",
+                "country": "",
+                "lat": 45.831687,
+                "lon": 13.6124473,
+                "precision": "city",
+                "bbox": [
+                    13.6123973,
+                    45.831637,
+                    13.6124973,
+                    45.831737
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
                     "type": "public_service",
-                    "url": "https://www.svt.se/nyheter/utrikes/nytt-gripande-for-brittiskt-politikermord"
+                    "url": "https://www.svt.se/sport/fotboll/skadan-och-landslaget-har-fatt-gustav-lundgren-att-tanka-om-tiden-ar-knapp"
                 }
             ],
             "source_count": 1,
@@ -820,9 +917,43 @@
             "tier": 2,
             "category": "samhälle",
             "sentiment": "neutral",
-            "summary": "Polisen i Storbritannien har gripit en 28-årig man misstänkt för mordet på högerpolitikern Ann Widdecombe, rapporterar BBC.",
+            "summary": "Tidigare har Gustav Lundgren varit tydlig med att han inte är intresserad av ett utlandsäventyr. Men en svängig vår med både landslagsgenombrott och en avsliten hälsena har fått 31-åringen att tänka om. – Man kanske kommer ångra sig om man inte gör det, säger han till SVT Sport.",
             "gaia_synthesis": "",
-            "published_at": "Sun, 12 Jul 2026 07:17:57 +0200",
+            "published_at": "Mon, 13 Jul 2026 06:45:17 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-e253e1db-2026-07-13",
+            "title": "Blender, Donnez eller PH:s – de vann årets Guldklaven",
+            "location": {
+                "city": "Donnez",
+                "country": "",
+                "lat": 50.448028,
+                "lon": 3.4181068,
+                "precision": "city",
+                "bbox": [
+                    3.4175095,
+                    50.4478521,
+                    3.4186889,
+                    50.4482451
+                ]
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/lokalt/dalarna/blender-donnez-eller-phs-de-vann-arets-guldklaven"
+                }
+            ],
+            "source_count": 1,
+            "score": 6.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Guldklaven är dansbandens Grammysgala. På söndagskvällen prisades dansband och arrangörer från nord till syd under galan i Malung.",
+            "gaia_synthesis": "",
+            "published_at": "Mon, 13 Jul 2026 06:19:04 +0200",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1089,7 +1220,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-13T05:42:58.672760+02:00",
+            "published_at": "2026-07-13T07:20:57.514944+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1123,6 +1254,273 @@
             "has_article": false
         },
         {
+            "id": "samhälle-14f6ada3-2026-07-13",
+            "title": "Report Estupinan targeted by Aston Villa as Milan seek sale",
+            "location": {
+                "city": "Estupinan",
+                "country": "",
+                "lat": -32.941026,
+                "lon": -68.8510464,
+                "precision": "city",
+                "bbox": [
+                    -68.8512741,
+                    -32.942335,
+                    -68.8508187,
+                    -32.9397169
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Yahoo! News",
+                    "type": "commercial",
+                    "url": "https://sports.yahoo.com/articles/report-estupinan-targeted-aston-villa-172000674.html"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Pervis Estupinan is on the market for Milan and transfer pundit Matteo Moretto claims that Aston Villa have asked for his availability.The left-back was considered one of the less successful investmen...",
+            "gaia_synthesis": "",
+            "published_at": "2026-07-12 17:20:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-751b50b9-2026-07-13",
+            "title": "Massive Layoffs at Rogers May Create a Canadian “News Desert” - VOCM",
+            "location": {
+                "city": "Kanada",
+                "country": "Kanada",
+                "lat": 45.42,
+                "lon": -75.7,
+                "precision": "country",
+                "bbox": [
+                    -76.7,
+                    44.42,
+                    -74.7,
+                    46.42
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Google News",
+                    "type": "commercial",
+                    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUlVQYXV3V21lNW82S0x2aGl2UVE1ai1HVXNYXzlsY01WeG9hVmpKRl9KS2syRHQ2XzdqSnBrQndpZzZvX2Y4UmQwa0JINV9lbnRDb0RpVjhUVE1GajBuNEdhaWFRLVp4OTU5aFhxY0s3M2t4Y0htT01ENVdWeE1hVklKcnRjdW13SGV3QW9yb0xMZw?oc=5"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Massive Layoffs at Rogers May Create a Canadian “News Desert” VOCM Rogers shutters six local radio stations Global News Letters to The Sun: Rogers didn’t just cancel a radio station. They silenced Vancouver sports fans Vancouver Sun 'Sad, angry and betrayed': Reactions pour in after Kitchener's 570 NewsRadio taken off air CBC Rogers cuts morning hosts at Victoria radio station Times Colonist",
+            "gaia_synthesis": "",
+            "published_at": "2026-07-12 17:20:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-377e503f-2026-07-13",
+            "title": "Major UK building society issues mortgage warning for millions",
+            "location": {
+                "city": "Storbritannien",
+                "country": "Storbritannien",
+                "lat": 51.51,
+                "lon": -0.13,
+                "precision": "country",
+                "bbox": [
+                    -1.13,
+                    50.51,
+                    0.87,
+                    52.51
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Birmingham Live",
+                    "type": "commercial",
+                    "url": "https://www.birminghammail.co.uk/news/cost-of-living/major-uk-building-society-issues-34260936"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Mutual’s latest report, ‘No way home? Restoring Britain’s Housing Ladder’, found 88% of UK adults believe homeownership is important.",
+            "gaia_synthesis": "",
+            "published_at": "2026-07-12 17:20:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "brott-58a98a2f-2026-07-13",
+            "title": "Where is ITV's The Dark filmed as crime drama debuts tonight",
+            "location": {
+                "city": "United Kingdom",
+                "country": "United Kingdom",
+                "lat": 51.51,
+                "lon": -0.13,
+                "precision": "country",
+                "bbox": [
+                    -1.13,
+                    50.51,
+                    0.87,
+                    52.51
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Wales Online",
+                    "type": "commercial",
+                    "url": "https://www.walesonline.co.uk/lifestyle/tv/itvs-dark-filmed-crime-drama-34267701"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "brott",
+            "sentiment": "neutral",
+            "summary": "The Dark is a new ITV crime drama inspired by a best-selling serial killer crime novel.",
+            "gaia_synthesis": "",
+            "published_at": "2026-07-12 17:20:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-f6955505-2026-07-13",
+            "title": "La Cueva standout Dylan Blomker selected in MLB draft",
+            "location": {
+                "city": "Cueva",
+                "country": "",
+                "lat": 14.5058933,
+                "lon": 121.458444,
+                "precision": "city",
+                "bbox": [
+                    121.438444,
+                    14.4858933,
+                    121.478444,
+                    14.5258933
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Koat Action News Seven",
+                    "type": "commercial",
+                    "url": "https://www.koat.com/article/la-cueva-standout-dylan-blomker-selected-in-mlb-draft/71909848"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Blomker was selected by the Chicago Cubs in the fifth round of the Major League Baseball draft.",
+            "gaia_synthesis": "",
+            "published_at": "2026-07-12 17:20:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-e6afef3f-2026-07-13",
+            "title": "Homer student to attend New York Institute of Technology",
+            "location": {
+                "city": "New York",
+                "country": "USA",
+                "lat": 40.7128,
+                "lon": -74.006,
+                "precision": "city",
+                "bbox": [
+                    -74.106,
+                    40.6128,
+                    -73.906,
+                    40.8128
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Mainstreetnews.com",
+                    "type": "commercial",
+                    "url": "https://www.mainstreetnews.com/banks/school/homer-student-to-attend-new-york-institute-of-technology/article_2af03688-66e6-499c-8c9b-70fc7d6b041a.html"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "Tiana Roger of Homer will be attending the New York Institute of Technology for the fall 2026 semester.",
+            "gaia_synthesis": "",
+            "published_at": "2026-07-12 17:20:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-a0d81c82-2026-07-13",
+            "title": "Vermont's McCarthy picked in second round of MLB Draft by Atlanta Braves",
+            "location": {
+                "city": "Draft",
+                "country": "",
+                "lat": 54.5311293,
+                "lon": 9.0423464,
+                "precision": "city",
+                "bbox": [
+                    9.0223464,
+                    54.5111293,
+                    9.0623464,
+                    54.5511293
+                ]
+            },
+            "sources": [
+                {
+                    "name": "Reformer.com",
+                    "type": "commercial",
+                    "url": "https://www.reformer.com/sports/vermonts-mccarthy-picked-in-second-round-of-mlb-draft-by-atlanta-braves/article_15b0fd79-38cd-4a16-80da-1b75c58779d9.html"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "CHESTER — History has been made. Kaiden McCarthy, a hard-throwing right-handed pitcher from Chester and graduate of Vermont Academy in Saxtons River, was selected by the Atlanta Braves in the second round (48th overall) of the Major League Baseball draft...",
+            "gaia_synthesis": "",
+            "published_at": "2026-07-12 17:20:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
+            "id": "samhälle-0ae72518-2026-07-13",
+            "title": "Våldsutsatta mammor får skydd – men barn kan få stanna hos pappan",
+            "location": {
+                "city": "Global",
+                "country": "Global",
+                "lat": 0.0,
+                "lon": 0.0,
+                "precision": "global",
+                "bbox": null
+            },
+            "sources": [
+                {
+                    "name": "SR Ekot",
+                    "type": "public_service",
+                    "url": "https://www.sverigesradio.se/artikel/9248612"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "",
+            "gaia_synthesis": "",
+            "published_at": "2026-07-13T07:20:57.514944+02:00",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
             "id": "samhälle-a397c7da-2026-07-13",
             "title": "Nu införs kritiserade lagen: ”Öppnar för ett angiverisamhälle”",
             "location": {
@@ -1147,7 +1545,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-13T05:42:58.672760+02:00",
+            "published_at": "2026-07-13T07:20:57.514944+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1176,7 +1574,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-13T05:42:58.672760+02:00",
+            "published_at": "2026-07-13T07:20:57.514944+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1205,7 +1603,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-13T05:42:58.672760+02:00",
+            "published_at": "2026-07-13T07:20:57.514944+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1234,7 +1632,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-13T05:42:58.672760+02:00",
+            "published_at": "2026-07-13T07:20:57.514944+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1263,7 +1661,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-13T05:42:58.672760+02:00",
+            "published_at": "2026-07-13T07:20:57.514944+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1292,7 +1690,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-13T05:42:58.672760+02:00",
+            "published_at": "2026-07-13T07:20:57.514944+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1321,65 +1719,7 @@
             "sentiment": "neutral",
             "summary": "",
             "gaia_synthesis": "",
-            "published_at": "2026-07-13T05:42:58.672760+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-290ee366-2026-07-13",
-            "title": "Natochefens förhållningssätt till Trump vållar debatt",
-            "location": {
-                "city": "Global",
-                "country": "Global",
-                "lat": 0.0,
-                "lon": 0.0,
-                "precision": "global",
-                "bbox": null
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9254920"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-07-13T05:42:58.672760+02:00",
-            "multi_source_verified": false,
-            "has_article": false
-        },
-        {
-            "id": "samhälle-e526d076-2026-07-13",
-            "title": "Högtryck på väg in – SMHI varnar för skogsbränder",
-            "location": {
-                "city": "Global",
-                "country": "Global",
-                "lat": 0.0,
-                "lon": 0.0,
-                "precision": "global",
-                "bbox": null
-            },
-            "sources": [
-                {
-                    "name": "SR Ekot",
-                    "type": "public_service",
-                    "url": "https://www.sverigesradio.se/artikel/9255533"
-                }
-            ],
-            "source_count": 1,
-            "score": 5.0,
-            "tier": 2,
-            "category": "samhälle",
-            "sentiment": "neutral",
-            "summary": "",
-            "gaia_synthesis": "",
-            "published_at": "2026-07-13T05:42:58.672760+02:00",
+            "published_at": "2026-07-13T07:20:57.514944+02:00",
             "multi_source_verified": false,
             "has_article": false
         },
@@ -1413,6 +1753,35 @@
             "has_article": false
         },
         {
+            "id": "samhälle-f115dd40-2026-07-13",
+            "title": "SMHI varnar för höga temperaturer i veckan",
+            "location": {
+                "city": "Global",
+                "country": "Global",
+                "lat": 0.0,
+                "lon": 0.0,
+                "precision": "global",
+                "bbox": null
+            },
+            "sources": [
+                {
+                    "name": "SVT Nyheter",
+                    "type": "public_service",
+                    "url": "https://www.svt.se/nyheter/lokalt/jonkoping/smhi-varnar-for-hoga-temperaturer-cl74wy"
+                }
+            ],
+            "source_count": 1,
+            "score": 5.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "SMHI varnar för att höga temperaturer de kommande dagarna kan orsaka hälsoproblem för människor i riskgrupp. Också risken för skogsbrand bedöms som extra stor.",
+            "gaia_synthesis": "",
+            "published_at": "Mon, 13 Jul 2026 07:01:23 +0200",
+            "multi_source_verified": false,
+            "has_article": false
+        },
+        {
             "id": "samhälle-ed5d3b16-2026-07-13",
             "title": "Efter prissänkningen på månadskort: Oro för  ersättningen till kollektivtrafiken",
             "location": {
@@ -1440,13 +1809,42 @@
             "published_at": "Mon, 13 Jul 2026 05:30:09 +0200",
             "multi_source_verified": false,
             "has_article": false
+        },
+        {
+            "id": "samhälle-b662562b-2026-07-13",
+            "title": "Who will win?",
+            "location": {
+                "city": "Global",
+                "country": "Global",
+                "lat": 0.0,
+                "lon": 0.0,
+                "precision": "global",
+                "bbox": null
+            },
+            "sources": [
+                {
+                    "name": "Henryherald",
+                    "type": "commercial",
+                    "url": "https://www.henryherald.com/news/who-will-win/article_f9f0d98c-e287-4b1e-9627-15fe2df9763d.html"
+                }
+            ],
+            "source_count": 1,
+            "score": 4.0,
+            "tier": 2,
+            "category": "samhälle",
+            "sentiment": "neutral",
+            "summary": "The winner of tonight’s Quaker State 400 at EchoPark Speedway will not only win a trophy but a crate of peaches courtesy of McDonough-based Southern Belle Farms and a limited edition 2026 Harley-Davidson Street Glide \"250 Years of Freedom Edition,\"...",
+            "gaia_synthesis": "",
+            "published_at": "2026-07-12 17:20:00",
+            "multi_source_verified": false,
+            "has_article": false
         }
     ],
     "relations": [
         {
-            "id": "rel-auto-proximity-samhälle-f1943ed7-2026-07-13-samhälle-e5c1ba61-2026-07-13",
-            "source": "samhälle-f1943ed7-2026-07-13",
-            "target": "samhälle-e5c1ba61-2026-07-13",
+            "id": "rel-auto-proximity-samhälle-85c73bb2-2026-07-13-samhälle-25c71f81-2026-07-13",
+            "source": "samhälle-85c73bb2-2026-07-13",
+            "target": "samhälle-25c71f81-2026-07-13",
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
@@ -1460,17 +1858,25 @@
             "description": "Regional koppling inom kategorin samhälle."
         },
         {
-            "id": "rel-auto-proximity-samhälle-e33b4a11-2026-07-13-samhälle-c33c56de-2026-07-13",
-            "source": "samhälle-e33b4a11-2026-07-13",
-            "target": "samhälle-c33c56de-2026-07-13",
+            "id": "rel-auto-proximity-samhälle-f1943ed7-2026-07-13-samhälle-e5c1ba61-2026-07-13",
+            "source": "samhälle-f1943ed7-2026-07-13",
+            "target": "samhälle-e5c1ba61-2026-07-13",
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
         },
         {
-            "id": "rel-auto-proximity-samhälle-a8afa465-2026-07-13-samhälle-5901d8c6-2026-07-13",
-            "source": "samhälle-a8afa465-2026-07-13",
-            "target": "samhälle-5901d8c6-2026-07-13",
+            "id": "rel-auto-proximity-samhälle-25c71f81-2026-07-13-samhälle-62465ed0-2026-07-13",
+            "source": "samhälle-25c71f81-2026-07-13",
+            "target": "samhälle-62465ed0-2026-07-13",
+            "type": "thematic_link",
+            "weight": 0.5,
+            "description": "Regional koppling inom kategorin samhälle."
+        },
+        {
+            "id": "rel-auto-proximity-samhälle-e33b4a11-2026-07-13-samhälle-377e503f-2026-07-13",
+            "source": "samhälle-e33b4a11-2026-07-13",
+            "target": "samhälle-377e503f-2026-07-13",
             "type": "thematic_link",
             "weight": 0.5,
             "description": "Regional koppling inom kategorin samhälle."
@@ -1478,14 +1884,6 @@
         {
             "id": "rel-auto-proximity-samhälle-a8afa465-2026-07-13-samhälle-29673010-2026-07-13",
             "source": "samhälle-a8afa465-2026-07-13",
-            "target": "samhälle-29673010-2026-07-13",
-            "type": "thematic_link",
-            "weight": 0.5,
-            "description": "Regional koppling inom kategorin samhälle."
-        },
-        {
-            "id": "rel-auto-proximity-samhälle-5901d8c6-2026-07-13-samhälle-29673010-2026-07-13",
-            "source": "samhälle-5901d8c6-2026-07-13",
             "target": "samhälle-29673010-2026-07-13",
             "type": "thematic_link",
             "weight": 0.5,
@@ -1503,22 +1901,26 @@
     "meta_analysis": {
         "top_themes": [
             "Småbåtar, kontrolltorn och tågbro: Detta är USA:s attacker i Iran",
+            "Många döda efter brand på pub i Bangkok",
             "Uppgifter: Nya attacker mot Iran nära Hormuzsundet",
-            "Snabbspår ger Hemvärnet nya soldater",
-            "Guterres till USA och Iran: Upphör med attackerna"
+            "Experten om Hormuzsundet: Inget Iran släpper taget om"
         ],
         "geographic_distribution": {
-            "Internationellt": 4,
-            "Okänt": 9,
-            "Iran": 1,
-            "Sverige": 7,
-            "Usa": 1,
+            "Internationellt": 3,
+            "Okänt": 16,
+            "Iran": 2,
             "Frankrike": 2,
-            "Global": 14,
-            "Storbritannien": 2,
+            "Sverige": 6,
+            "Ryssland": 1,
+            "Global": 15,
+            "Storbritannien": 3,
             "Spanien": 1,
             "Israel": 1,
-            "Venezuela": 1
+            "Venezuela": 1,
+            "Usa": 1,
+            "Kanada": 1,
+            "United Kingdom": 1,
+            "USA": 1
         },
         "gaia_daily_brief": "Dagens nyhetsbild domineras av rättsliga processer och dramatiska säkerhetshändelser. I Paris har Marine Le Pen meddelat att hon överklagar en dom om tre års fängelse och valbarhetsförbud vilket hotar hennes presidentkandidatur. I Köpenhamn väcks stark sorg och ilska efter dödsmisshandeln av den svenske polisen Christian Zedig under en VM-matchvisning, där den 30-årige misstänkte visar sig ha en tidigare historik av grovt knivvåld. På Manhattan i New York har en skyskrapa evakuerats akut på grund av en allvarlig rasrisk som skapat lokalt kaos."
     }
